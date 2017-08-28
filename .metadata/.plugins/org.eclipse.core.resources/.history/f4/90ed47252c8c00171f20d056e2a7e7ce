@@ -1,0 +1,16 @@
+import java.util.Scanner;
+
+//Jonathan Ko
+//lab 3
+public class Calories {
+	public static void main (String []args){
+		String foodName;
+		double carbCalories, protienCalories, fatCalories;
+		double gramCarb, gramProtien, gramfat;
+		double totalCalories, fatPct;
+		Scanner input = new Scanner(System.in);
+		System.out.print("Enter food name: ");
+		
+	}
+
+}

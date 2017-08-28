@@ -1,0 +1,36 @@
+import java.util.Scanner;
+
+//Jonathan Ko
+//lab 3
+public class Calories {
+	public static void main (String []args){
+		//Declare all variables
+		String foodName;
+		double carbCalories, protienCalories, fatCalories;
+		double gramCarb, gramProtien, gramFat;
+		double totalCalories, fatPct,fatPctDec;
+		//read inputs
+		Scanner input = new Scanner(System.in);
+		System.out.print("Enter food name: ");
+		foodName = input.nextLine();
+		System.out.print("Enter carb grams: ");
+		gramCarb = Double.parseDouble(input.nextLine());
+		System.out.print("Enter protien grams: ");
+		gramProtien = Double.parseDouble(input.nextLine());
+		System.out.print("Enter fat grams: ");
+		gramFat = Double.parseDouble(input.nextLine());
+		//calculate calories
+		carbCalories=gramCarb*4;
+		protienCalories=gramProtien*4;
+		fatCalories=gramFat*9;
+		//calculate total
+		totalCalories=carbCalories+protienCalories+fatCalories;
+		//calculate fat%
+		fatPctDec=fatCalories/totalCalories;
+		fatPct= fatPctDec*100;
+		//display
+		System.out.println("Calories in "+foodName+": "+totalCalories);
+		System.out.println("Fat percentage: "+ fatPct);
+	}
+
+}
