@@ -1,0 +1,6 @@
+
+public class dialouge {
+	public static void main (String[]args){
+		System.out.println("I KNOW ALL THIS !!!");
+	}
+}
