@@ -1,8 +1,0 @@
-
-public class dialouge {
-	public class main void (String[]args){
-		System.out.println("This is boring!");
-		
-	}
-
-}
