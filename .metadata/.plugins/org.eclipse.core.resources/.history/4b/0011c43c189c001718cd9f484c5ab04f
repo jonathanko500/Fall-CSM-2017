@@ -1,0 +1,49 @@
+import java.util.Scanner;
+//problem 1
+public class Disketts 
+{//start class
+	public static void main(String[] args) 
+	{//start main
+		// declare variables
+		int disks;
+		double total,rate;
+		String centValue;
+		//read variable
+		Scanner input=new Scanner(System.in);
+		System.out.println("Welcome to Diskettes R Us");
+		System.out.println("Order 25 or more and save!");
+		System.out.print("How many diskettes do you want to buy? ");
+		disks=Integer.parseInt(input.nextLine());
+		//calculate total
+		if(disks<25)
+		{
+			rate=0.5;
+			total=disks*rate;
+		}
+		else
+		{
+			rate=0.3;
+			total=disks*rate;
+		}
+		//display output
+		centValue=String.format(" disketts at $%.2f",rate);
+		System.out.println(disks+centValue+" each");
+		System.out.printf("Your total is $%.2f",total);
+		}//end main
+}//end class
+
+
+/*
+ * 
+ * 
+ * 
+ * 
+ * 
+ * 
+ * 
+ * 
+ * 
+ * 
+ * 
+ */
+*/
