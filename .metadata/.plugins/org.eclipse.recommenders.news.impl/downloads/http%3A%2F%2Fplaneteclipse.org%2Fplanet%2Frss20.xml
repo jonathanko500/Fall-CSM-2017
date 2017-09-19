@@ -8,6 +8,163 @@
 	<description>Planet Eclipse - http://planeteclipse.org/planet/</description>
 
 <item>
+	<title>Kichwa Coders: The Future of Developer Tools for IoT, ThingMonk 2017</title>
+	<guid isPermaLink="false">http://kichwacoders.com/?p=3018</guid>
+	<link>https://kichwacoders.com/2017/09/19/the-future-of-developer-tools-for-iot-thingmonk-2017/</link>
+	<description>&lt;p&gt;&lt;a href=&quot;http://thingmonk.com/&quot; rel=&quot;noopener&quot; target=&quot;_blank&quot;&gt;ThingMonk&lt;/a&gt; is an annual London conference that brings together the people building and shaping the Internet of Things. This year I spoke at the conference on ‘The Future of Developer Tools for IoT’. This talk looks at emerging and future trends in the developer tools space. Check out the slides and feedback from the audience, as well as reference links at the end. Plus thanks to Marcel Bruch &amp;amp; &lt;a href=&quot;https://www.codetrails.com/&quot; rel=&quot;noopener&quot; target=&quot;_blank&quot;&gt;Codetrails&lt;/a&gt; for input on AI tools. Be sure to share your thoughts on how you see developer tools shaping up to scale for building the Internet of Things.&lt;/p&gt;
+&lt;div class=&quot;embed-speakerdeck&quot;&gt;&lt;/div&gt;
+&lt;p&gt;&lt;span id=&quot;more-3018&quot;&gt;&lt;/span&gt;&lt;/p&gt;
+&lt;div class=&quot;embed-twitter&quot;&gt;
+&lt;blockquote class=&quot;twitter-tweet&quot;&gt;
+&lt;p dir=&quot;ltr&quot; lang=&quot;en&quot;&gt;Always great to listen to &lt;a href=&quot;https://twitter.com/tracymiranda&quot;&gt;@tracymiranda&lt;/a&gt; share her vision of IoT Developer tools. &lt;a href=&quot;https://t.co/hxIFDNyl28&quot;&gt;pic.twitter.com/hxIFDNyl28&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;— Ian Skerrett (@IanSkerrett) &lt;a href=&quot;https://twitter.com/IanSkerrett/status/907930911773208576&quot;&gt;September 13, 2017&lt;/a&gt;&lt;/p&gt;&lt;/blockquote&gt;
+&lt;p&gt;&lt;/p&gt;&lt;/div&gt;
+&lt;div class=&quot;embed-twitter&quot;&gt;
+&lt;blockquote class=&quot;twitter-tweet&quot;&gt;
+&lt;p dir=&quot;ltr&quot; lang=&quot;en&quot;&gt;&lt;a href=&quot;https://twitter.com/hashtag/thingmonk?src=hash&quot;&gt;#thingmonk&lt;/a&gt; regular &lt;a href=&quot;https://twitter.com/tracymiranda&quot;&gt;@tracymiranda&lt;/a&gt; on the &quot;Oh, this is great. … Shit, how am I going to debug this.&quot; moment in &lt;a href=&quot;https://twitter.com/hashtag/IoT?src=hash&quot;&gt;#IoT&lt;/a&gt;. Real talk. &lt;a href=&quot;https://t.co/nQxahZ9rrq&quot;&gt;pic.twitter.com/nQxahZ9rrq&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;— Dr. Boris Adryan (@BorisAdryan) &lt;a href=&quot;https://twitter.com/BorisAdryan/status/907931175850856450&quot;&gt;September 13, 2017&lt;/a&gt;&lt;/p&gt;&lt;/blockquote&gt;
+&lt;p&gt;&lt;/p&gt;&lt;/div&gt;
+&lt;div class=&quot;embed-twitter&quot;&gt;
+&lt;blockquote class=&quot;twitter-tweet&quot;&gt;
+&lt;p dir=&quot;ltr&quot; lang=&quot;en&quot;&gt;Fragmentation in &lt;a href=&quot;https://twitter.com/hashtag/IoT?src=hash&quot;&gt;#IoT&lt;/a&gt; doesn't stop at Devices. Programming language variability makes Dev tools/IDE hard to keep up &lt;a href=&quot;https://twitter.com/tracymiranda&quot;&gt;@tracymiranda&lt;/a&gt; &lt;a href=&quot;https://twitter.com/hashtag/ThingMonk?src=hash&quot;&gt;#ThingMonk&lt;/a&gt; &lt;a href=&quot;https://t.co/Y1e3GymjyA&quot;&gt;pic.twitter.com/Y1e3GymjyA&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;— Sarah Cooper (@SMC_on_IoT) &lt;a href=&quot;https://twitter.com/SMC_on_IoT/status/907933049937113089&quot;&gt;September 13, 2017&lt;/a&gt;&lt;/p&gt;&lt;/blockquote&gt;
+&lt;p&gt;&lt;/p&gt;&lt;/div&gt;
+&lt;div class=&quot;embed-twitter&quot;&gt;
+&lt;blockquote class=&quot;twitter-tweet&quot;&gt;
+&lt;p dir=&quot;ltr&quot; lang=&quot;en&quot;&gt;It's &lt;a href=&quot;https://twitter.com/tracymiranda&quot;&gt;@tracymiranda&lt;/a&gt; talking the IDE spectrum and risking angering the Vi &amp;amp; Emacs gods &lt;a href=&quot;https://twitter.com/hashtag/thingmonk?src=hash&quot;&gt;#thingmonk&lt;/a&gt; &lt;a href=&quot;https://t.co/tRNp0Pc2ub&quot;&gt;pic.twitter.com/tRNp0Pc2ub&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;— Ant Stanley &lt;img alt=&quot;🐶&quot; class=&quot;wp-smiley&quot; src=&quot;https://s0.wp.com/wp-content/mu-plugins/wpcom-smileys/twemoji/2/72x72/1f436.png&quot; style=&quot;height: 1em;&quot; /&gt; (@IamStan) &lt;a href=&quot;https://twitter.com/IamStan/status/907932934069420032&quot;&gt;September 13, 2017&lt;/a&gt;&lt;/p&gt;&lt;/blockquote&gt;
+&lt;p&gt;&lt;/p&gt;&lt;/div&gt;
+&lt;div class=&quot;embed-twitter&quot;&gt;
+&lt;blockquote class=&quot;twitter-tweet&quot;&gt;
+&lt;p dir=&quot;ltr&quot; lang=&quot;en&quot;&gt;&quot;Embedded tools aren't really known for their usability&quot; The truth! &lt;a href=&quot;https://twitter.com/tracymiranda&quot;&gt;@tracymiranda&lt;/a&gt; &lt;a href=&quot;https://twitter.com/hashtag/thingmonk?src=hash&quot;&gt;#thingmonk&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;— Omer Kilic (@OmerK) &lt;a href=&quot;https://twitter.com/OmerK/status/907932301568434176&quot;&gt;September 13, 2017&lt;/a&gt;&lt;/p&gt;&lt;/blockquote&gt;
+&lt;p&gt;&lt;/p&gt;&lt;/div&gt;
+&lt;div class=&quot;embed-twitter&quot;&gt;
+&lt;blockquote class=&quot;twitter-tweet&quot;&gt;
+&lt;p dir=&quot;ltr&quot; lang=&quot;en&quot;&gt;Visual Tools required to make &lt;a href=&quot;https://twitter.com/hashtag/IoT?src=hash&quot;&gt;#IoT&lt;/a&gt; accessible, but delivering code at scale is still unreachable &lt;a href=&quot;https://twitter.com/tracymiranda&quot;&gt;@tracymiranda&lt;/a&gt; &lt;a href=&quot;https://twitter.com/hashtag/ThingMonk?src=hash&quot;&gt;#ThingMonk&lt;/a&gt; &lt;a href=&quot;https://t.co/qFKrHFh8U9&quot;&gt;pic.twitter.com/qFKrHFh8U9&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;— Sarah Cooper (@SMC_on_IoT) &lt;a href=&quot;https://twitter.com/SMC_on_IoT/status/907934150686109696&quot;&gt;September 13, 2017&lt;/a&gt;&lt;/p&gt;&lt;/blockquote&gt;
+&lt;p&gt;&lt;/p&gt;&lt;/div&gt;
+&lt;div class=&quot;embed-twitter&quot;&gt;
+&lt;blockquote class=&quot;twitter-tweet&quot;&gt;
+&lt;p dir=&quot;ltr&quot; lang=&quot;en&quot;&gt;Great to see LSP being mentioned by &lt;a href=&quot;https://twitter.com/tracymiranda&quot;&gt;@tracymiranda&lt;/a&gt; &lt;a href=&quot;https://twitter.com/hashtag/iot?src=hash&quot;&gt;#iot&lt;/a&gt; &lt;a href=&quot;https://t.co/zPLGPrpdBm&quot;&gt;pic.twitter.com/zPLGPrpdBm&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;— thingmonk (@thingmonk) &lt;a href=&quot;https://twitter.com/thingmonk/status/907934932885962753&quot;&gt;September 13, 2017&lt;/a&gt;&lt;/p&gt;&lt;/blockquote&gt;
+&lt;p&gt;&lt;/p&gt;&lt;/div&gt;
+&lt;div class=&quot;embed-twitter&quot;&gt;
+&lt;blockquote class=&quot;twitter-tweet&quot;&gt;
+&lt;p dir=&quot;ltr&quot; lang=&quot;en&quot;&gt;&lt;a href=&quot;https://twitter.com/hashtag/ai?src=hash&quot;&gt;#ai&lt;/a&gt; tools to reduce security bugs in software… but no one wants to use them. Interesting &lt;a href=&quot;https://twitter.com/hashtag/security?src=hash&quot;&gt;#security&lt;/a&gt; problem at &lt;a href=&quot;https://twitter.com/hashtag/thingmonk?src=hash&quot;&gt;#thingmonk&lt;/a&gt; &lt;a href=&quot;https://t.co/poZ6lvKkgv&quot;&gt;pic.twitter.com/poZ6lvKkgv&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;— Joe Pindar (@joepindar) &lt;a href=&quot;https://twitter.com/joepindar/status/907934741835513858&quot;&gt;September 13, 2017&lt;/a&gt;&lt;/p&gt;&lt;/blockquote&gt;
+&lt;p&gt;&lt;/p&gt;&lt;/div&gt;
+&lt;h2&gt;Reference Links&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;Eclipse IoT Developer Survey Slides-&lt;a href=&quot;https://www.slideshare.net/IanSkerrett/iot-developer-survey-2017&quot; rel=&quot;noopener&quot; target=&quot;_blank&quot;&gt; https://www.slideshare.net/IanSkerrett/iot-developer-survey-2017&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&quot;https://drive.google.com/file/d/0B4wohKJVD2qGT1NvX0MyeFpjUUE/view&quot; rel=&quot;noopener&quot; target=&quot;_blank&quot;&gt;Eclipse IoT Developer Survey raw dat&lt;/a&gt;a&lt;/li&gt;
+&lt;li&gt;Eclipse Java IDE twitter – @eclipsejavaide&lt;/li&gt;
+&lt;li&gt;&lt;a href=&quot;http://www.eclipse.org/cdt/&quot; rel=&quot;nofollow&quot;&gt;http://www.eclipse.org/cdt/&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;AI powered bug detection from CodeTrails – https://www.codetrails.com/developer-assistance-tools/&lt;/li&gt;
+&lt;li&gt;AI dev tools – https://www.linkedin.com/in/marcelbruch/detail/recent-activity/posts/&lt;/li&gt;
+&lt;li&gt;LSP Protocol Implementations – https://github.com/Microsoft/language-server-protocol/wiki/Protocol-Implementations&lt;/li&gt;
+&lt;li&gt;Debug Protocol – https://code.visualstudio.com/docs/extensions/example-debuggers&lt;/li&gt;
+&lt;li&gt;Atom IDE – http://blog.atom.io/2017/09/12/announcing-atom-ide.html&lt;/li&gt;
+&lt;li&gt;Code editor in Skype https://www.producthunt.com/posts/interviews-on-skype&lt;/li&gt;
+&lt;li&gt;&lt;a href=&quot;http://www.eclipse.org/che&quot; rel=&quot;nofollow&quot;&gt;http://www.eclipse.org/che&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&quot;http://www.eclipse.org/xtext&quot; rel=&quot;nofollow&quot;&gt;http://www.eclipse.org/xtext&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&quot;http://www.crossminer.org/&quot; rel=&quot;nofollow&quot;&gt;http://www.crossminer.org/&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;microbit.org/code/&lt;/li&gt;
+&lt;/ul&gt;&lt;br /&gt;  &lt;a href=&quot;http://feeds.wordpress.com/1.0/gocomments/kichwacoders.wordpress.com/3018/&quot; rel=&quot;nofollow&quot;&gt;&lt;img alt=&quot;&quot; border=&quot;0&quot; src=&quot;http://feeds.wordpress.com/1.0/comments/kichwacoders.wordpress.com/3018/&quot; /&gt;&lt;/a&gt; &lt;img alt=&quot;&quot; border=&quot;0&quot; height=&quot;1&quot; src=&quot;https://pixel.wp.com/b.gif?host=kichwacoders.com&amp;amp;blog=68353182&amp;amp;post=3018&amp;amp;subd=kichwacoders&amp;amp;ref=&amp;amp;feed=1&quot; width=&quot;1&quot; /&gt;</description>
+	<pubDate>Tue, 19 Sep 2017 16:07:44 +0000</pubDate>
+</item>
+<item>
+	<title>Cedric Brun: North America, here we come!</title>
+	<guid isPermaLink="false">http://cedric.brun.io/obeo/north-america-here-we-come</guid>
+	<link>http://cedric.brun.io/obeo/north-america-here-we-come/</link>
+	<description>&lt;p&gt;Industries are relying either on ad hoc or rigid tools for systems engineering. Either the tool is built “in-house” and grow organically or it is bought to one of the big software vendors and then the company have to adapt its practices and teams to use it. Such software vendors might use every opportunity to lock in their users, in both cases the tool longevity is quite uncertain.&lt;/p&gt;
+
+&lt;p&gt;In the last 11 years, Obeo went from a 3-to-50 persons company and from an unknown organization to one of the largest contributor to the Eclipse Modeling technologies leading individual projects (Sirius, Acceleo, EMF Compare) up to worldwide awareness.&lt;/p&gt;
+
+&lt;figure&gt;
+    &lt;a href=&quot;http://cedric.brun.io/images/blog/banner_obeo_team_v2.0.png&quot;&gt;&lt;img src=&quot;http://cedric.brun.io/images/blog/banner_obeo_team_v2.0-small.png&quot; /&gt;&lt;/a&gt;    
+    We Are Obeo!
+&lt;/figure&gt;
+
+&lt;p&gt;&lt;strong&gt;We’ve been challenging this status quo since day one.&lt;/strong&gt; What if there could be a solution which would be adaptable yet built on strong methodological and technical foundations, open-source, available to all, and with an open governance.  A software that anybody can download and use without going through a registration, a tool built from the trenches, polished and tested under many environments, a project which future can be oriented by the organizations using it through their direct involvement?&lt;/p&gt;
+
+&lt;p&gt;&lt;br /&gt;
+&lt;br /&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&quot;http://cedric.brun.io/images/blog/acceleo2-modules.png&quot;&gt;&lt;img src=&quot;http://cedric.brun.io/images/blog/acceleo2-modules-small.png&quot; style=&quot;float: right;&quot; /&gt;&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;Our first open-source software was Acceleo and aimed at empowering developers by helping them write code generators. For the 2.0 release in 2007 we managed to ship dozen of code generators built by contributors. From C# to Php or Python; the community provided off-the-shelf tools able to compete with the solutions on the market. In many ways this contributed to Obeo’s growth, which itself contributed to our capacity to contribute to Open-Source.&lt;/p&gt;
+
+&lt;p&gt;&lt;br /&gt;&lt;/p&gt;
+
+&lt;p&gt;I felt ecstatic at this success even though that was at a very humble scale.&lt;/p&gt;
+
+&lt;p&gt;&lt;br /&gt;
+&lt;br /&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&quot;http://cedric.brun.io/images/blog/flow-designer.png&quot;&gt;&lt;img src=&quot;http://cedric.brun.io/images/blog/flow-designer-small.png&quot; style=&quot;float: right;&quot; /&gt;&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;Fast forward 5 years later, Sirius: the outcome of our collaboration with Thales; is released as an open-source technology. Technology to swiftly build graphical design tools for any domain, tools which empower users. Now hundreds of graphical modelers are hosted on github, some of it experiments, others full fledged products.&lt;/p&gt;
+
+&lt;p&gt;I’m filled with curiosity regarding all these uses of Sirius, each domain can get so interesting I would love to get involved with every single one.&lt;/p&gt;
+
+&lt;p&gt;&lt;br /&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&quot;http://cedric.brun.io/images/blog/capella-archi.png&quot;&gt;&lt;img src=&quot;http://cedric.brun.io/images/blog/capella-archi-small.png&quot; style=&quot;float: right;&quot; /&gt;&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;Once Sirius was open-source, it then became possible for the systems engineering tool Thales had built for years to be publicly released and have a life outside of the organization. This tool is Capella and got pretty popular, especially in the last few months. It is the perfect instance of a tool which is built on strong foundations, ready to use yet adaptable.&lt;/p&gt;
+
+&lt;p&gt;&lt;br /&gt;
+&lt;br /&gt;&lt;/p&gt;
+
+&lt;p&gt;It has been built by Thales: a worldwide recognized leader in building the most challenging critical systems and rely on the “Arcadia” engineering method (ARCHITECTURE ANALYSIS &amp;amp; DESIGN INTEGRATED APPROACH). It is available to all and has an open governance through the Capella Industry Consortium.&lt;/p&gt;
+
+&lt;p&gt;&lt;br /&gt;&lt;/p&gt;
+
+&lt;p&gt;This gives me optimism as strong and open systems engineering tools might be closer than one would think.&lt;/p&gt;
+
+&lt;p&gt;&lt;br /&gt;
+&lt;br /&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;We always envisioned Obeo to be a worldwide company&lt;/strong&gt;. Open-source made us recognizable and we worked with many countries in Europe and North America. This also made us highly aware that being physically on the continent was important to reach the market there.&lt;/p&gt;
+
+&lt;p&gt;Engineering is of importance across the globe, but North America is for sure a central place in regard to aeronautics, space, transportation and industrial systems.&lt;/p&gt;
+
+&lt;p&gt;We are taking the next step toward a future built on top of open tools by opening a subsidiary in Vancouver, Canada, to develop the business around modeling technologies including Capella.  I’m incredibly excited by this prospect, we’ve been preparing this for quite a few months and I am thrilled to publicly share our plans.&lt;/p&gt;
+
+&lt;figure&gt;
+    &lt;a href=&quot;http://cedric.brun.io/images/blog/obeo-go-west.png&quot;&gt;&lt;img src=&quot;http://cedric.brun.io/images/blog/obeo-go-west-small.png&quot; /&gt;&lt;/a&gt;    
+    Go West!
+&lt;/figure&gt;
+
+&lt;p&gt;&lt;strong&gt;&lt;a href=&quot;https://www.linkedin.com/in/lacrampe/&quot;&gt;Stephane&lt;/a&gt; will open and manage the subsidiary in Vancouver.&lt;/strong&gt; He will move there with his family, most likely near the end of 2017 and start the activity there.&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;I am stepping into the role of CEO which he had before.&lt;/strong&gt; He did such a great job in shaping Obeo as it is now that I can only be very humble in front of the task awaiting me, the fact that I’m tackling it with an amazing team gives me a lot of comfort.&lt;/p&gt;
+
+&lt;p&gt;As VP and sales director &lt;strong&gt;&lt;a href=&quot;https://www.linkedin.com/in/etiennejuliot/&quot;&gt;Etienne&lt;/a&gt; will also focus on international business and structure the development starting in Europe and Asia.&lt;/strong&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;br /&gt;&lt;/p&gt;
+
+&lt;p&gt;That’s not all, &lt;strong&gt;&lt;a href=&quot;https://www.linkedin.com/in/m%C3%A9lanie-bats-bb9a192b/&quot;&gt;Mélanie&lt;/a&gt; is stepping into my shoes as CTO&lt;/strong&gt;, if you are in the Eclipse community I’m certain you met her and came to appreciate her work! In the last few months she has taken my responsibilities in Eclipse (and more as she even holds the position of chair of the planning council, congrats!). She is now also responsible for the R&amp;amp;D, products, roadmaps, the corresponding team at Obeo and the processes and practices within the organization.&lt;/p&gt;
+
+&lt;p&gt;&lt;br /&gt;&lt;/p&gt;
+
+&lt;p&gt;We’ll pursue our commitment in enabling open and efficient tools, you can join the ranks in many ways, by evaluating and trying tools such as Capella, by promoting open solutions, by pioneering such tools in your domain of expertise or even support us to start the activity in North America. &lt;strong&gt;You could get the benefit of innovative products transforming the way your team is drafting, designing and simulating, just like Thales did!&lt;/strong&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;br /&gt;&lt;/p&gt;
+
+&lt;p&gt;Obeo goes international and brings open modeling technologies and systems engineering tools in North America! With this evolution my mission changes and I face exciting challenges, I’ll undertake with the wonderful talents forming the company. I’m enthusiastic about the future we’ll contribute to building, a future filled with tools supporting many domains based on open technology!&lt;/p&gt;
+
+&lt;hr /&gt;
+
+&lt;p&gt;Learn more about this news through &lt;a href=&quot;http://melb.enix.org/2017/09/19/zero-to-cto/&quot;&gt;Mélanie’s blog post&lt;/a&gt; and &lt;a href=&quot;https://blog.obeo.fr/en/post/obeo-goes-west&quot;&gt;Obeo’s summary&lt;/a&gt;&lt;/p&gt;
+
+
+    &lt;p&gt;&lt;a href=&quot;http://cedric.brun.io/obeo/north-america-here-we-come/&quot;&gt;North America, here we come!&lt;/a&gt; was originally published by Cédric Brun at &lt;a href=&quot;http://cedric.brun.io&quot;&gt;&lt;s&gt;CTO&lt;/s&gt; CEO @ Obeo&amp;lt;/a&amp;gt; on September 19, 2017.&amp;lt;/p&amp;gt;&lt;/a&gt;&lt;/p&gt;</description>
+	<pubDate>Tue, 19 Sep 2017 00:00:00 +0000</pubDate>
+	<author>cedric.brun@obeo.fr (Cédric Brun)</author>
+</item>
+<item>
 	<title>EclipseCon Europe 2017: Why you and your manager should say yes! to EclipseCon Europe</title>
 	<guid isPermaLink="false">https://www.eclipsecon.org/europe2017/3130 at https://www.eclipsecon.org/europe2017</guid>
 	<link>https://www.eclipsecon.org/europe2017/news/why-you-and-your-manager-should-say-yes-eclipsecon-europe</link>
@@ -20,6 +177,13 @@
 	5. Extend your network.&lt;/p&gt;
 &lt;/div&gt;&lt;/div&gt;&lt;/div&gt;&lt;div class=&quot;field field-name-field-news-image field-type-image field-label-hidden&quot;&gt;&lt;div class=&quot;field-items&quot;&gt;&lt;div class=&quot;field-item even&quot;&gt;&lt;a href=&quot;https://www.eclipsecon.org/europe2017/news/why-you-and-your-manager-should-say-yes-eclipsecon-europe&quot;&gt;&lt;img alt=&quot;&quot; class=&quot;img-responsive block-center&quot; height=&quot;250&quot; src=&quot;https://www.eclipsecon.org/europe2017/sites/default/files/styles/solstice_news_-_default_-_thumbnail/public/news/ece%202017%20130%20x%20130%20going.png?itok=xtxIddqr&quot; width=&quot;250&quot; /&gt;&lt;/a&gt;&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;</description>
 	<pubDate>Mon, 18 Sep 2017 14:49:59 +0000</pubDate>
+</item>
+<item>
+	<title>InfoQ Eclipse feed: Oracle Chooses Eclipse Foundation as New Home for Java EE</title>
+	<guid isPermaLink="true">http://www.infoq.com/news/2017/09/JavaEEtoEclipse?utm_campaign=infoq_content&amp;utm_source=infoq&amp;utm_medium=feed&amp;utm_term=Eclipse</guid>
+	<link>http://www.infoq.com/news/2017/09/JavaEEtoEclipse?utm_campaign=infoq_content&amp;utm_source=infoq&amp;utm_medium=feed&amp;utm_term=Eclipse</link>
+	<description>&lt;img src=&quot;http://www.infoq.com/styles/i/logo_bigger.jpg&quot; /&gt;&lt;p&gt;Oracle has announced that they have chosen the Eclipse Foundation as the new custodians of  Java EE technologies. The move has been welcomed by Red Hat, IBM and others in the community. It is uncertain if after this move the platform can retain its current name of Java EE.&lt;/p&gt; &lt;i&gt;By Tim Hodkinson&lt;/i&gt;</description>
+	<pubDate>Sun, 17 Sep 2017 19:11:00 +0000</pubDate>
 </item>
 <item>
 	<title>EclipseCon Europe 2017: Jigsaw arriving - and now what?</title>
@@ -264,50 +428,6 @@ by Stephan Hermann&lt;/h4&gt;
 &lt;p&gt;With our background of being consultants for several years, having seen a lot of projects, some years ago we started collecting what is called &quot;bloomers&quot; in literature. Those were the kind of programming misconceptions that made us laugh and cry at the same time.&lt;/p&gt;
 &lt;/div&gt;&lt;/div&gt;&lt;/div&gt;&lt;div class=&quot;field field-name-field-news-image field-type-image field-label-hidden&quot;&gt;&lt;div class=&quot;field-items&quot;&gt;&lt;div class=&quot;field-item even&quot;&gt;&lt;a href=&quot;https://www.eclipsecon.org/europe2017/news/league-extraordinary-antipattern&quot;&gt;&lt;img alt=&quot;&quot; class=&quot;img-responsive block-center&quot; height=&quot;250&quot; src=&quot;https://www.eclipsecon.org/europe2017/sites/default/files/styles/solstice_news_-_default_-_thumbnail/public/news/Capt%20Static%20360x360.png?itok=Y28fkTrY&quot; width=&quot;250&quot; /&gt;&lt;/a&gt;&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;</description>
 	<pubDate>Wed, 06 Sep 2017 14:04:32 +0000</pubDate>
-</item>
-<item>
-	<title>Maximilian and Jonas: Mountain Office for one week: Our OpenSource Week August 2017</title>
-	<guid isPermaLink="false">https://eclipsesource.com/?p=35424</guid>
-	<link>https://eclipsesource.com/blogs/2017/09/06/mountain-office-for-one-week-our-opensource-week-august-2017/</link>
-	<description>&lt;p&gt;&lt;b&gt;&lt;/b&gt;&lt;span style=&quot;font-weight: 400;&quot;&gt;At EclipseSource, we are continuously developing open source software as committers and contributors for projects at Eclipse.org (e.g. &lt;/span&gt;&lt;a href=&quot;http://emfforms.org/&quot;&gt;&lt;span style=&quot;font-weight: 400;&quot;&gt;EMF Forms&lt;/span&gt;&lt;/a&gt;&lt;span style=&quot;font-weight: 400;&quot;&gt;) or on GitHub (e.g. &lt;/span&gt;&lt;a href=&quot;http://jsonforms.io&quot;&gt;&lt;span style=&quot;font-weight: 400;&quot;&gt;JSON Forms&lt;/span&gt;&lt;/a&gt;&lt;span style=&quot;font-weight: 400;&quot;&gt;). In fact, contributing to open source projects and in turn making them ready for professional use is our core business. Therefore, much of the work completed in these projects is driven by our customers requirements and provides direct value in adopters projects.&lt;/span&gt;&lt;/p&gt;
-&lt;p&gt;&lt;span style=&quot;font-weight: 400;&quot;&gt;Once a year, however, we fully retreat for one week from any customer work. All subsidiaries meet at an offsite location to fully focus on topics related to open source projects. This week is appropriately called “Open Source Week”. It allows us to drive innovation, invent new technology and place the seed for future open source frameworks. Last but not least, for a globally distributed company like us, it is also a great social event for all employees.&lt;/span&gt;&lt;/p&gt;
-&lt;p&gt;&lt;span style=&quot;font-weight: 400;&quot;&gt;Like last year, our open source week once again took place in the mountains, this time in&lt;/span&gt;&lt;span style=&quot;font-weight: 400;&quot;&gt; Schönau/Berchtesgaden. The pictures below gives you an impression about this great event, a mixture of work and obviously also a lot of fun. &lt;/span&gt;&lt;/p&gt;
-&lt;p&gt;&lt;img alt=&quot;&quot; class=&quot;alignnone wp-image-35435 &quot; height=&quot;680&quot; src=&quot;https://eclipsesource.com/wp-content/uploads/2017/09/Copy-of-Photo-Collage-–-Untitled-Design.jpg&quot; width=&quot;850&quot; /&gt;&lt;/p&gt;
-&lt;p&gt;&lt;span style=&quot;font-weight: 400;&quot;&gt;The weather was hot and sunny almost all week. The view from the hotel terrace wasn’t too bad &lt;img alt=&quot;😉&quot; class=&quot;wp-smiley&quot; src=&quot;https://s.w.org/images/core/emoji/2.2.1/72x72/1f609.png&quot; style=&quot;height: 1em;&quot; /&gt; &lt;/span&gt;&lt;/p&gt;
-&lt;p&gt;&lt;img alt=&quot;&quot; class=&quot;alignnone wp-image-35430 &quot; height=&quot;634&quot; src=&quot;https://eclipsesource.com/wp-content/uploads/2017/09/image-20170801_084444-EFFECTS-1024x768.jpg&quot; width=&quot;845&quot; /&gt;&lt;/p&gt;
-&lt;p&gt;&lt;span style=&quot;font-weight: 400;&quot;&gt;On these very hot days we made short trips in the surroundings: A walk to the beautiful Königsee including a refreshing jump into the lake on Tuesday afternoon, and a little hike to the Hugo-Beck-House with a great view above the Berchtesgadner mountains on Wednesday.&lt;/span&gt;&lt;/p&gt;
-&lt;p&gt;&lt;img alt=&quot;&quot; class=&quot;alignnone wp-image-35437 &quot; height=&quot;637&quot; src=&quot;https://eclipsesource.com/wp-content/uploads/2017/09/Untitled-design-1.jpg&quot; width=&quot;796&quot; /&gt;&lt;/p&gt;
-&lt;p&gt;Every day was a bit different – this was our Tuesday. We usually did excursions in the afternoon and worked in the evening to take advantage of the sunny weather.&lt;/p&gt;
-&lt;p&gt;&lt;img alt=&quot;&quot; class=&quot;alignnone wp-image-35429 &quot; height=&quot;437&quot; src=&quot;https://eclipsesource.com/wp-content/uploads/2017/09/IMG_20170804_152456-1.jpg&quot; width=&quot;328&quot; /&gt;&lt;/p&gt;
-&lt;p&gt;&lt;span style=&quot;font-weight: 400;&quot;&gt;Wednesday night we also had a special company dinner outside at the lake …&lt;/span&gt;&lt;/p&gt;
-&lt;p&gt;&lt;img alt=&quot;&quot; class=&quot;alignnone wp-image-35435 size-full&quot; height=&quot;756&quot; src=&quot;https://eclipsesource.com/wp-content/uploads/2017/09/Copy-of-Photo-Collage-–-Untitled-Design.jpg&quot; width=&quot;945&quot; /&gt;&lt;/p&gt;
-&lt;p&gt;&lt;span style=&quot;font-weight: 400;&quot;&gt;Besides Open Source topics, we also train our employees in other important topics, e.g. a short intro into first aid by our first aid helper and employee Eugen. &lt;/span&gt;&lt;/p&gt;
-&lt;p&gt;&lt;img alt=&quot;&quot; class=&quot;alignnone wp-image-35426 &quot; height=&quot;553&quot; src=&quot;https://eclipsesource.com/wp-content/uploads/2017/09/20170802_175610-1-1024x768.jpg&quot; width=&quot;737&quot; /&gt;&lt;/p&gt;
-&lt;p&gt;&lt;span style=&quot;font-weight: 400;&quot;&gt;On the last day, each team presented its results.&lt;/span&gt;&lt;/p&gt;
-&lt;p&gt;&lt;img alt=&quot;&quot; class=&quot;alignnone wp-image-35427 &quot; height=&quot;552&quot; src=&quot;https://eclipsesource.com/wp-content/uploads/2017/09/IMG_20170804_120557-1-1024x768.jpg&quot; width=&quot;736&quot; /&gt;&lt;/p&gt;
-&lt;p&gt;&lt;span style=&quot;font-weight: 400;&quot;&gt;Then it was time to say goodbye and everybody made their way back home to Vienna, Munich and Paris!&lt;/span&gt;&lt;span style=&quot;font-weight: 400;&quot;&gt;&lt;br /&gt;
-&lt;/span&gt;&lt;span style=&quot;font-weight: 400;&quot;&gt;&lt;br /&gt;
-&lt;/span&gt;&lt;strong&gt;Cheers to a great week and team-work!&lt;/strong&gt;&lt;/p&gt;
-&lt;p&gt;&lt;img alt=&quot;&quot; class=&quot;alignleft wp-image-35428 &quot; height=&quot;550&quot; src=&quot;https://eclipsesource.com/wp-content/uploads/2017/09/20170802_225438_dt-1-1024x766.jpg&quot; width=&quot;735&quot; /&gt;&lt;/p&gt;
-&lt;p&gt; &lt;/p&gt;</description>
-	<pubDate>Wed, 06 Sep 2017 13:31:50 +0000</pubDate>
-</item>
-<item>
-	<title>EclipseCon Europe 2017: Tutorial: What every Eclipse developer should know about Angular</title>
-	<guid isPermaLink="false">https://www.eclipsecon.org/europe2017/3095 at https://www.eclipsecon.org/europe2017</guid>
-	<link>https://www.eclipsecon.org/europe2017/news/tutorial-what-every-eclipse-developer-should-know-about-angular</link>
-	<description>&lt;div class=&quot;field field-name-body field-type-text-with-summary field-label-hidden&quot;&gt;&lt;div class=&quot;field-items&quot;&gt;&lt;div class=&quot;field-item even&quot;&gt;&lt;p&gt;by Maximilian Koegel and Edgar Mueller&lt;/p&gt;
-&lt;p&gt;&lt;em&gt;Interested in Angular? Maximilian Koegel and Edgar Mueller tell us more about their   &lt;a href=&quot;https://www.eclipsecon.org/europe2017/session/what-every-eclipse-developer-should-know-about-angular&quot;&gt;tutorial&lt;/a&gt; .&lt;/em&gt;&lt;/p&gt;
-&lt;p&gt;Many business applications nowadays have at least some web UI parts using server-side rendered, static HTML. With the latest dynamic HTML Javascript frameworks like React, Vue.js, or Ember.js, there is a continuous trend to implement these web front-ends as “single page” applications. While there is a lot of diversity in the JavaScript world, one framework that has become especially popular for business applications, is Angular.&lt;/p&gt;
-&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;&lt;div class=&quot;field field-name-field-news-image field-type-image field-label-hidden&quot;&gt;&lt;div class=&quot;field-items&quot;&gt;&lt;div class=&quot;field-item even&quot;&gt;&lt;a href=&quot;https://www.eclipsecon.org/europe2017/news/tutorial-what-every-eclipse-developer-should-know-about-angular&quot;&gt;&lt;img alt=&quot;&quot; class=&quot;img-responsive block-center&quot; height=&quot;250&quot; src=&quot;https://www.eclipsecon.org/europe2017/sites/default/files/styles/solstice_news_-_default_-_thumbnail/public/news/AngularExample.png?itok=JGHAp9Gc&quot; width=&quot;250&quot; /&gt;&lt;/a&gt;&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;</description>
-	<pubDate>Wed, 06 Sep 2017 11:25:24 +0000</pubDate>
-</item>
-<item>
-	<title>EclipseCon Europe 2017: Sponsor Testimonial: The Itemis EclipseCon Team</title>
-	<guid isPermaLink="false">https://www.eclipsecon.org/europe2017/3097 at https://www.eclipsecon.org/europe2017</guid>
-	<link>https://www.eclipsecon.org/europe2017/news/sponsor-testimonial-itemis-eclipsecon-team</link>
-	<description>&lt;div class=&quot;field field-name-body field-type-text-with-summary field-label-hidden&quot;&gt;&lt;div class=&quot;field-items&quot;&gt;&lt;div class=&quot;field-item even&quot;&gt;...For more than a decade we haven’t missed a single conference. The networking opportunities are just outstanding and it’s always a great chance to get an early view on the new and upcoming trends in the Eclipse ecosystem... Also this year, itemis presents a wide range of Eclipse related, deep technical content. Amongst others, our topics cover Eclipse Modelling technology, Systems Engineering in the Automotive Industry and Machine Learning, ..&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;&lt;div class=&quot;field field-name-field-news-image field-type-image field-label-hidden&quot;&gt;&lt;div class=&quot;field-items&quot;&gt;&lt;div class=&quot;field-item even&quot;&gt;&lt;a href=&quot;https://www.eclipsecon.org/europe2017/news/sponsor-testimonial-itemis-eclipsecon-team&quot;&gt;&lt;img alt=&quot;&quot; class=&quot;img-responsive block-center&quot; height=&quot;250&quot; src=&quot;https://www.eclipsecon.org/europe2017/sites/default/files/styles/solstice_news_-_default_-_thumbnail/public/news/ItemisTeam.jpg?itok=TpcVbJsd&quot; width=&quot;250&quot; /&gt;&lt;/a&gt;&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;</description>
-	<pubDate>Wed, 06 Sep 2017 06:55:00 +0000</pubDate>
 </item>
 
 </channel>
