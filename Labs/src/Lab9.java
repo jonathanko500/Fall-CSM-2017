@@ -23,7 +23,6 @@ public final class Lab9
 		switch (choice)
 		{
 		case "A":	rate=40;
-					
 		break;
 		case "C":	rate=15;
 		break;
