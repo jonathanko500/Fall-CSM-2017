@@ -8,6 +8,159 @@
 	<description>Planet Eclipse - http://planeteclipse.org/planet/</description>
 
 <item>
+	<title>Eclipse Announcements: Eclipse Newsletter - Eclipse MicroProfile</title>
+	<guid isPermaLink="true">http://feedproxy.google.com/~r/eclipse/fnews/~3/fB4slImX2c8/</guid>
+	<link>http://feedproxy.google.com/~r/eclipse/fnews/~3/fB4slImX2c8/</link>
+	<description>In the September issue of the Eclipse Newsletter, discover everything you need to know about Eclipse MicroProfile.&lt;img alt=&quot;&quot; height=&quot;1&quot; src=&quot;http://feeds.feedburner.com/~r/eclipse/fnews/~4/fB4slImX2c8&quot; width=&quot;1&quot; /&gt;</description>
+	<pubDate>Wed, 20 Sep 2017 14:45:49 +0000</pubDate>
+</item>
+<item>
+	<title>JBoss Tools Team: JBoss Tools 4.5.1.AM2 for Eclipse Oxygen.1</title>
+	<guid isPermaLink="true">https://tools.jboss.org/blog/4.5.1.am2-for-oxygen.1.html</guid>
+	<link>https://tools.jboss.org/blog/4.5.1.am2-for-oxygen.1.html</link>
+	<description>&lt;div&gt;&lt;div id=&quot;preamble&quot;&gt;
+      &lt;div class=&quot;sectionbody&quot;&gt;
+      &lt;div class=&quot;paragraph&quot;&gt;
+      &lt;p&gt;Happy to announce 4.5.1.AM2 (Developer Milestone 2) build for Eclipse Oxygen.1.&lt;/p&gt;
+      &lt;/div&gt;
+      &lt;div class=&quot;paragraph&quot;&gt;
+      &lt;p&gt;Downloads available at &lt;a href=&quot;https://tools.jboss.org/downloads/jbosstools/oxygen/4.5.1.AM2.html&quot;&gt;JBoss Tools 4.5.1 AM2&lt;/a&gt;.&lt;/p&gt;
+      &lt;/div&gt;
+      &lt;/div&gt;
+      &lt;/div&gt;
+      &lt;div class=&quot;sect1&quot;&gt;
+      &lt;h2 id=&quot;what-is-new&quot;&gt;&lt;a class=&quot;anchor&quot; href=&quot;http://tools.jboss.org/blog/news.atom#what-is-new&quot;&gt;&lt;/a&gt;What is New?&lt;/h2&gt;
+      &lt;div class=&quot;sectionbody&quot;&gt;
+      &lt;div class=&quot;paragraph&quot;&gt;
+      &lt;p&gt;Full info is at &lt;a href=&quot;https://tools.jboss.org/documentation/whatsnew/jbosstools/4.5.0.AM2.html&quot;&gt;this page&lt;/a&gt;. Some highlights are below.&lt;/p&gt;
+      &lt;/div&gt;
+      &lt;div class=&quot;sect2&quot;&gt;
+      &lt;h3 id=&quot;openshift-3&quot;&gt;&lt;a class=&quot;anchor&quot; href=&quot;http://tools.jboss.org/blog/news.atom#openshift-3&quot;&gt;&lt;/a&gt;OpenShift 3&lt;/h3&gt;
+      &lt;div class=&quot;sect3&quot;&gt;
+      &lt;h4 id=&quot;new-command-to-tune-resource-limits&quot;&gt;&lt;a class=&quot;anchor&quot; href=&quot;http://tools.jboss.org/blog/news.atom#new-command-to-tune-resource-limits&quot;&gt;&lt;/a&gt;New command to tune resource limits&lt;/h4&gt;
+      &lt;div class=&quot;paragraph&quot;&gt;
+      &lt;p&gt;A new command has been added to tune resource limits (CPU, memory) on an OpenShift deployment.
+      It’s available for a Service, a DeploymentConfig, a ReplicationController or a Pod.&lt;/p&gt;
+      &lt;/div&gt;
+      &lt;div class=&quot;paragraph&quot;&gt;
+      &lt;p&gt;To activate it, go the the OpenShift explorer, select the OpenShift resource, right click and select &lt;code&gt;Edit resource limits&lt;/code&gt;.
+      The following dialog will show up:&lt;/p&gt;
+      &lt;/div&gt;
+      &lt;div class=&quot;imageblock&quot;&gt;
+      &lt;div class=&quot;content&quot;&gt;
+      &lt;img alt=&quot;edit resource limits&quot; src=&quot;https://tools.jboss.org/documentation/whatsnew/openshift/images/edit-resource-limits.png&quot; width=&quot;600&quot; /&gt;
+      &lt;/div&gt;
+      &lt;/div&gt;
+      &lt;div class=&quot;paragraph&quot;&gt;
+      &lt;p&gt;After you changed the resource limits for this deployment, it will be updated and new pods will be spawned (not for ReplicationController)&lt;/p&gt;
+      &lt;/div&gt;
+      &lt;div class=&quot;imageblock&quot;&gt;
+      &lt;div class=&quot;content&quot;&gt;
+      &lt;img alt=&quot;edit resource limits1&quot; src=&quot;https://tools.jboss.org/documentation/whatsnew/openshift/images/edit-resource-limits1.png&quot; width=&quot;600&quot; /&gt;
+      &lt;/div&gt;
+      &lt;/div&gt;
+      &lt;/div&gt;
+      &lt;div class=&quot;sect3&quot;&gt;
+      &lt;h4 id=&quot;discover-docker-registry-url-for-openshift-connections&quot;&gt;&lt;a class=&quot;anchor&quot; href=&quot;http://tools.jboss.org/blog/news.atom#discover-docker-registry-url-for-openshift-connections&quot;&gt;&lt;/a&gt;Discover Docker registry URL for OpenShift connections&lt;/h4&gt;
+      &lt;div class=&quot;paragraph&quot;&gt;
+      &lt;p&gt;When an OpenShift connection is created, the Docker registry URL is empty. When the CDK is started through the CDK server adapter, an OpenShift
+      connection is created or updated if a matching OpenShift connection is found. But what if you have several OpenShift connections, the remaining ones
+      will be left with the empty URL.&lt;/p&gt;
+      &lt;/div&gt;
+      &lt;div class=&quot;paragraph&quot;&gt;
+      &lt;p&gt;You can find the matching Docker registry URL when editing the OpenShift connection through the &lt;code&gt;Discover&lt;/code&gt; button:&lt;/p&gt;
+      &lt;/div&gt;
+      &lt;div class=&quot;imageblock&quot;&gt;
+      &lt;div class=&quot;content&quot;&gt;
+      &lt;img alt=&quot;edit connection discover&quot; src=&quot;https://tools.jboss.org/documentation/whatsnew/openshift/images/edit-connection-discover.png&quot; width=&quot;600&quot; /&gt;
+      &lt;/div&gt;
+      &lt;/div&gt;
+      &lt;div class=&quot;paragraph&quot;&gt;
+      &lt;p&gt;Click on the &lt;code&gt;Discover&lt;/code&gt; button and the Docker registry URL will be filled if a matching started CDK server adapter is found:&lt;/p&gt;
+      &lt;/div&gt;
+      &lt;div class=&quot;imageblock&quot;&gt;
+      &lt;div class=&quot;content&quot;&gt;
+      &lt;img alt=&quot;edit connection discover1&quot; src=&quot;https://tools.jboss.org/documentation/whatsnew/openshift/images/edit-connection-discover1.png&quot; width=&quot;600&quot; /&gt;
+      &lt;/div&gt;
+      &lt;/div&gt;
+      &lt;/div&gt;
+      &lt;/div&gt;
+      &lt;div class=&quot;sect2&quot;&gt;
+      &lt;h3 id=&quot;cdi-tools&quot;&gt;&lt;a class=&quot;anchor&quot; href=&quot;http://tools.jboss.org/blog/news.atom#cdi-tools&quot;&gt;&lt;/a&gt;CDI Tools&lt;/h3&gt;
+      &lt;div class=&quot;sect3&quot;&gt;
+      &lt;h4 id=&quot;cdi-2-0&quot;&gt;&lt;a class=&quot;anchor&quot; href=&quot;http://tools.jboss.org/blog/news.atom#cdi-2-0&quot;&gt;&lt;/a&gt;CDI 2.0&lt;/h4&gt;
+      &lt;div class=&quot;paragraph&quot;&gt;
+      &lt;p&gt;CDI Tools now support CDI 2.0 projects. If your CDI project (with enabled CDI support) has CDI 2.0 jars in its classpath, CDI Tools will recognize it as CDI 2.0 project automatically.
+      There is no need to use any special settings to distinguish CDI 1.0 or CDI 1.1 from CDI 2.0 in CDI Tools.&lt;/p&gt;
+      &lt;/div&gt;
+      &lt;div class=&quot;paragraph&quot;&gt;
+      &lt;p&gt;The new javax.enterprise.event.ObservesAsync is now being validated according to the CDI specifications.&lt;/p&gt;
+      &lt;/div&gt;
+      &lt;/div&gt;
+      &lt;/div&gt;
+      &lt;div class=&quot;sect2&quot;&gt;
+      &lt;h3 id=&quot;fuse-tooling&quot;&gt;&lt;a class=&quot;anchor&quot; href=&quot;http://tools.jboss.org/blog/news.atom#fuse-tooling&quot;&gt;&lt;/a&gt;Fuse Tooling&lt;/h3&gt;
+      &lt;div class=&quot;sect3&quot;&gt;
+      &lt;h4 id=&quot;apache-karaf-4-x-server-adapter&quot;&gt;&lt;a class=&quot;anchor&quot; href=&quot;http://tools.jboss.org/blog/news.atom#apache-karaf-4-x-server-adapter&quot;&gt;&lt;/a&gt;Apache Karaf 4.x Server Adapter&lt;/h4&gt;
+      &lt;div class=&quot;paragraph&quot;&gt;
+      &lt;p&gt;We are happy to announce the addition of new Apache Karaf server adapters. You can now download and install Apache Karaf 4.0 and 4.1 from within your development environment.&lt;/p&gt;
+      &lt;/div&gt;
+      &lt;div class=&quot;imageblock&quot;&gt;
+      &lt;div class=&quot;content&quot;&gt;
+      &lt;img alt=&quot;Apache Karaf 4x Server Adapters&quot; src=&quot;https://tools.jboss.org/documentation/whatsnew/fusetools/images/karaf4xadapters.png&quot; /&gt;
+      &lt;/div&gt;
+      &lt;/div&gt;
+      &lt;/div&gt;
+      &lt;div class=&quot;sect3&quot;&gt;
+      &lt;h4 id=&quot;switch-apache-camel-version&quot;&gt;&lt;a class=&quot;anchor&quot; href=&quot;http://tools.jboss.org/blog/news.atom#switch-apache-camel-version&quot;&gt;&lt;/a&gt;Switch Apache Camel Version&lt;/h4&gt;
+      &lt;div class=&quot;paragraph&quot;&gt;
+      &lt;p&gt;You can now change the Apache Camel version used in your project. To do that you invoke the context menu of the project in the project explorer and navigate into the &lt;code&gt;Configure&lt;/code&gt; menu. There you will find the menu entry called &lt;code&gt;Change Camel Version&lt;/code&gt; which
+      will guide you through this process.&lt;/p&gt;
+      &lt;/div&gt;
+      &lt;div class=&quot;imageblock&quot;&gt;
+      &lt;div class=&quot;content&quot;&gt;
+      &lt;img alt=&quot;Switch Camel Version&quot; src=&quot;https://tools.jboss.org/documentation/whatsnew/fusetools/images/switchcamelversion.png&quot; /&gt;
+      &lt;/div&gt;
+      &lt;/div&gt;
+      &lt;/div&gt;
+      &lt;div class=&quot;sect3&quot;&gt;
+      &lt;h4 id=&quot;improved-validation&quot;&gt;&lt;a class=&quot;anchor&quot; href=&quot;http://tools.jboss.org/blog/news.atom#improved-validation&quot;&gt;&lt;/a&gt;Improved Validation&lt;/h4&gt;
+      &lt;div class=&quot;paragraph&quot;&gt;
+      &lt;p&gt;The validation in the editor has been improved to find containers which lack mandatory child elements. (for instance a Choice without a child element)&lt;/p&gt;
+      &lt;/div&gt;
+      &lt;div class=&quot;imageblock&quot;&gt;
+      &lt;div class=&quot;content&quot;&gt;
+      &lt;img alt=&quot;Improved validation&quot; src=&quot;https://tools.jboss.org/documentation/whatsnew/fusetools/images/containerchildvalidation.png&quot; /&gt;
+      &lt;/div&gt;
+      &lt;/div&gt;
+      &lt;div class=&quot;paragraph&quot;&gt;
+      &lt;p&gt;Enjoy!&lt;/p&gt;
+      &lt;/div&gt;
+      &lt;div class=&quot;paragraph&quot;&gt;
+      &lt;p&gt;Jeff Maury&lt;/p&gt;
+      &lt;/div&gt;
+      &lt;/div&gt;
+      &lt;/div&gt;
+      &lt;/div&gt;
+      &lt;/div&gt;&lt;/div&gt;</description>
+	<pubDate>Wed, 20 Sep 2017 07:02:47 +0000</pubDate>
+</item>
+<item>
+	<title>Chris Aniszczyk: Top 6 Public Cloud Providers in CNCF</title>
+	<guid isPermaLink="false">http://aniszczyk.org/?p=4151</guid>
+	<link>http://aniszczyk.org/2017/09/19/top-6-public-cloud-providers-in-cncf/</link>
+	<description>&lt;p&gt;Last week, I had the pleasure of &lt;a href=&quot;https://www.oracle.com/corporate/pressrelease/oracle-joins-cncf-091317.html&quot;&gt;welcoming Oracle&lt;/a&gt; into the &lt;a href=&quot;https://cncf.io&quot;&gt;Cloud Native Computing Foundation&lt;/a&gt; (CNCF). This now marks the &lt;a href=&quot;https://www.gartner.com/doc/reprints?id=1-2G2O5FC&amp;amp;ct=150519&quot;&gt;top 6 leading public cloud providers in the world&lt;/a&gt; are now part of the CNCF:&lt;/p&gt;
+&lt;blockquote class=&quot;twitter-tweet&quot;&gt;
+&lt;p dir=&quot;ltr&quot; lang=&quot;en&quot;&gt;still amazing to have the top 6 public cloud providers (&quot;leaders and visionaries&quot;) part of the &lt;a href=&quot;https://twitter.com/CloudNativeFdn&quot;&gt;@CloudNativeFdn&lt;/a&gt; now! &lt;a href=&quot;https://t.co/1MoRG6fpaR&quot;&gt;https://t.co/1MoRG6fpaR&lt;/a&gt; &lt;a href=&quot;https://t.co/Vv0BVm6C9U&quot;&gt;pic.twitter.com/Vv0BVm6C9U&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;— Chris Aniszczyk (@cra) &lt;a href=&quot;https://twitter.com/cra/status/910255668816252928&quot;&gt;September 19, 2017&lt;/a&gt;&lt;/p&gt;&lt;/blockquote&gt;
+&lt;p&gt;&lt;/p&gt;
+&lt;p&gt;This also marks for the first time in the history of our industry that these leading cloud providers are working together in the same open source focused foundation to move the state of the art infrastructure forward.&lt;/p&gt;
+&lt;p&gt;Also last week I had the opportunity to bring in &lt;a href=&quot;https://www.linuxfoundation.org/blog/lyft-and-uber-on-stage-together-at-open-source-summit-in-l-a/&quot;&gt;two new high quality cloud native projects into CNCF&lt;/a&gt;. &lt;a href=&quot;https://www.cncf.io/blog/2017/09/13/cncf-hosts-envoy/&quot;&gt;Envoy&lt;/a&gt; is a high-performance open source edge and service proxy that makes the network transparent to applications. &lt;a href=&quot;https://www.cncf.io/blog/2017/09/13/cncf-hosts-jaeger/&quot;&gt;Jaeger&lt;/a&gt; is an open source distributed tracing system inspired by Google Dapper paper and OpenZipkin community. It can be used for tracing microservice-based architectures. Uber began deploying Jaeger internally in 2015. It is now integrated into thousands of microservices and recording thousands of traces every second.&lt;/p&gt;
+&lt;p&gt; &lt;/p&gt;
+&lt;p&gt;Anyways, this is one of the reasons I enjoy working in open source today, bringing together diverse (and even competing) companies to build a better world by collaborating in the open!&lt;/p&gt;</description>
+	<pubDate>Tue, 19 Sep 2017 22:07:52 +0000</pubDate>
+</item>
+<item>
 	<title>Kichwa Coders: The Future of Developer Tools for IoT, ThingMonk 2017</title>
 	<guid isPermaLink="false">http://kichwacoders.com/?p=3018</guid>
 	<link>https://kichwacoders.com/2017/09/19/the-future-of-developer-tools-for-iot-thingmonk-2017/</link>
@@ -72,6 +225,61 @@
 &lt;li&gt;microbit.org/code/&lt;/li&gt;
 &lt;/ul&gt;&lt;br /&gt;  &lt;a href=&quot;http://feeds.wordpress.com/1.0/gocomments/kichwacoders.wordpress.com/3018/&quot; rel=&quot;nofollow&quot;&gt;&lt;img alt=&quot;&quot; border=&quot;0&quot; src=&quot;http://feeds.wordpress.com/1.0/comments/kichwacoders.wordpress.com/3018/&quot; /&gt;&lt;/a&gt; &lt;img alt=&quot;&quot; border=&quot;0&quot; height=&quot;1&quot; src=&quot;https://pixel.wp.com/b.gif?host=kichwacoders.com&amp;amp;blog=68353182&amp;amp;post=3018&amp;amp;subd=kichwacoders&amp;amp;ref=&amp;amp;feed=1&quot; width=&quot;1&quot; /&gt;</description>
 	<pubDate>Tue, 19 Sep 2017 16:07:44 +0000</pubDate>
+</item>
+<item>
+	<title>Melanie Bats: Zero to CTO</title>
+	<guid isPermaLink="true">http://melb.enix.org/2017/09/19/zero-to-cto/</guid>
+	<link>http://melb.enix.org/2017/09/19/zero-to-cto/</link>
+	<description>&lt;p&gt;&lt;img alt=&quot;Hercules&quot; src=&quot;http://melb.enix.org/img/zero-to-cto/Hercules-small.png&quot; title=&quot;Hercules&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;em&gt;Disclaimer: First, you should know that I am a girl born in the 80’s and so I grew up watching (and watching and re-watching…) Disney’s movies, and I am still used to watch them when new ones are released. So I am sorry for you: no doubt, at the end of this article you will have many annoying songs running in your head. 
+But all those girls made what I am today and it is only justice to them to ear once more time what they have to say ;)&lt;/em&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;img alt=&quot;Ariel&quot; src=&quot;http://melb.enix.org/img/zero-to-cto/Ariel-small.png?raw=true&quot; title=&quot;Ariel&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;Seven years ago I joined the &lt;a href=&quot;https://www.obeo.fr/&quot;&gt;Obeo&lt;/a&gt; company. At that time, it was a small frenchies’ company making open source modeling tools. I was a free software activist but at that point even though I was using lots of free software, I never had the bravery to contribute by my own on my free time. When I was thinking about Obeo, I just wanted to be &lt;a href=&quot;https://youtu.be/SXKlJuO07eM&quot;&gt;part of that world&lt;/a&gt;.&lt;/p&gt;
+
+&lt;p&gt;&lt;img alt=&quot;Elsa&quot; src=&quot;http://melb.enix.org/img/zero-to-cto/Elsa-small.jpg&quot; title=&quot;Elsa&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;At some point as my technical skills could fit their needs, I decided to &lt;a href=&quot;https://youtu.be/L0MK7qz13bU&quot;&gt;let it go&lt;/a&gt; and send them my resume.&lt;/p&gt;
+
+&lt;p&gt;&lt;img alt=&quot;Jasmine&quot; src=&quot;http://melb.enix.org/img/zero-to-cto/Jasmine-small.jpeg&quot; title=&quot;Jasmine&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;And know what? They recruited me! It was both amazing and scary. It was like a dazzling place, a &lt;a href=&quot;https://www.youtube.com/watch?v=-kl4hJ4j48s&quot;&gt;whole new world&lt;/a&gt; to discover.&lt;/p&gt;
+
+&lt;p&gt;&lt;img alt=&quot;Moana&quot; src=&quot;http://melb.enix.org/img/zero-to-cto/Moana-small.png&quot; title=&quot;Moana&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;Year after year, I got the chance to work and learn from the talented Obeo’s experts about Eclipse &amp;amp; modeling stuff. They shared their high technical skills &amp;amp; knowledge with me and I loved this atmosphere of constant research of improvements and innovations. I learned so much! 
+Working at Obeo opened me the doors of the open source community through the Eclipse community. I had the opportunity to participate to many conferences, giving talks and sharing my knowledge in turn. I could not say &lt;a href=&quot;https://youtu.be/cPAbx5kgCJo&quot;&gt;how far I would go&lt;/a&gt; but I was on the open source community road…&lt;/p&gt;
+
+&lt;p&gt;&lt;img alt=&quot;Rapunzel&quot; src=&quot;http://melb.enix.org/img/zero-to-cto/Rapunzel-small.jpg&quot; title=&quot;Rapunzel&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&quot;https://youtu.be/wbVlGESh9Mc&quot;&gt;I’ve got a dream&lt;/a&gt;… Be part of the open source world! Day after day it became true. First, two years ago I became committer on the Eclipse &lt;a href=&quot;https://eclipse.org/sirius/&quot;&gt;Sirius&lt;/a&gt; &amp;amp; &lt;a href=&quot;https://eclipse.org/eef/&quot;&gt;EEF&lt;/a&gt; projects, and this year, since one month, I am the &lt;a href=&quot;https://wiki.eclipse.org/Planning_Council&quot;&gt;Eclipse Planning Council&lt;/a&gt; chair.
+I am really proud of working on free software and particularly on the Sirius technology. I feel even happier when this framework is used to create other impressive open source tools such as &lt;a href=&quot;https://www.polarsys.org/capella/&quot;&gt;Capella&lt;/a&gt;, a graphical modeler for Model Based System Engineering.&lt;/p&gt;
+
+&lt;p&gt;&lt;img alt=&quot;Mulan&quot; src=&quot;http://melb.enix.org/img/zero-to-cto/Mulan-small.jpg&quot; title=&quot;Mulan&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;A few months ago, Obeo’s management announced me that we will open a new subsidiary in Vancouver, Canada! This was an awesome news. Our current CEO &lt;a href=&quot;https://twitter.com/slacrampe&quot;&gt;Stéphane Lacrampe&lt;/a&gt; would move overseas to manage the new entity. This will allow us to be physically present on the new continent, making our international expansion easier and faster. &lt;a href=&quot;https://twitter.com/bruncedric&quot;&gt;Cédric Brun&lt;/a&gt; our CTO will replace Stéphane as CEO.
+And they offered me to become the new Obeo’s CTO. I am at the same time proud and really excited by the many challenges this new position brings! I will do my best!&lt;/p&gt;
+
+&lt;p&gt;&lt;img alt=&quot;Marry Poppins&quot; src=&quot;http://melb.enix.org/img/zero-to-cto/MarryPoppins-small.png&quot; title=&quot;Marry Poppins&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;So being Obeo’s CTO is my new game from now. This means for me lots of fun ahead, this is my new spoonful of sugar!&lt;/p&gt;
+
+&lt;p&gt;&lt;i&gt;“In every job that must be done &lt;br /&gt;
+There is an element of fun &lt;br /&gt;
+You find the fun and snap! &lt;br /&gt;
+The job’s a game &lt;br /&gt;
+And every task you undertake &lt;br /&gt;
+Becomes a piece of cake“ &lt;br /&gt;
+Mary Poppins &lt;br /&gt;&lt;/i&gt;&lt;/p&gt;
+
+&lt;p&gt;Thanks open source community, Eclipse Foundation and Obeo for giving me this opportunity!&lt;/p&gt;
+
+&lt;p&gt;&lt;img alt=&quot;Go west&quot; src=&quot;http://melb.enix.org/img/zero-to-cto/obeo_north_america_en.png&quot; title=&quot;Go west&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;Have a look also at &lt;a href=&quot;http://cedric.brun.io/obeo/north-america-here-we-come/&quot;&gt;Cédric’s blog post&lt;/a&gt; and &lt;a href=&quot;https://blog.obeo.fr/en/post/obeo-goes-west&quot;&gt;Obeo’s summary&lt;/a&gt;.&lt;/p&gt;</description>
+	<pubDate>Tue, 19 Sep 2017 12:00:00 +0000</pubDate>
 </item>
 <item>
 	<title>Cedric Brun: North America, here we come!</title>
@@ -362,72 +570,6 @@ by Stephan Hermann&lt;/h4&gt;
 &lt;/p&gt;&lt;p&gt;Making Java binaries available directly from OpenJDK is going to free the Java platform for developers. Getting these directly from the platform owner, and (more importantly) having them be identical to the commercial binaries is a radical step forward. OpenJDK-based binaries will be exactly on par with, and equivalent to, the commercial ones. Although almost all of the Java &lt;em&gt;source code&lt;/em&gt; has been open source at OpenJDK for many years, the subtle differences in content, performance, and reliability have prevented mainstream adoption of OpenJDK &lt;em&gt;binaries&lt;/em&gt; by enterprises and industrials.&lt;/p&gt;
 &lt;p&gt;A little over a decade ago, Sun Microsystems started the process of open sourcing Java. It seems that Oracle is finally finishing the job. Good for them.&lt;/p&gt;&lt;br /&gt;Filed under: &lt;a href=&quot;https://mmilinkov.wordpress.com/category/foundation/&quot;&gt;Foundation&lt;/a&gt;  &lt;a href=&quot;http://feeds.wordpress.com/1.0/gocomments/mmilinkov.wordpress.com/1265/&quot; rel=&quot;nofollow&quot;&gt;&lt;img alt=&quot;&quot; border=&quot;0&quot; src=&quot;http://feeds.wordpress.com/1.0/comments/mmilinkov.wordpress.com/1265/&quot; /&gt;&lt;/a&gt; &lt;img alt=&quot;&quot; border=&quot;0&quot; height=&quot;1&quot; src=&quot;https://pixel.wp.com/b.gif?host=mmilinkov.wordpress.com&amp;amp;blog=19461799&amp;amp;post=1265&amp;amp;subd=mmilinkov&amp;amp;ref=&amp;amp;feed=1&quot; width=&quot;1&quot; /&gt;</description>
 	<pubDate>Thu, 07 Sep 2017 20:45:14 +0000</pubDate>
-</item>
-<item>
-	<title>PapyrusUML: Official Papyrus-RT Press Release</title>
-	<guid isPermaLink="false">http://papyrusuml.wordpress.com/?p=857</guid>
-	<link>https://papyrusuml.wordpress.com/2017/09/07/papyrus-rt-press-release/</link>
-	<description>&lt;p&gt;&lt;img alt=&quot;papyrusrt256&quot; class=&quot; size-full wp-image-913 alignright&quot; src=&quot;https://papyrusuml.files.wordpress.com/2017/09/papyrusrt256.png?w=604&quot; /&gt;Well, you can’t be more official than a press release from the Papyrus Industry Consortium! I know &lt;a href=&quot;https://papyrusuml.wordpress.com/2017/07/21/papyrus-for-real-time-is-born/&quot;&gt;I already mentioned this release&lt;/a&gt;, but this is more official!&lt;/p&gt;
-&lt;p&gt;This is what happened today for Papyrus for Real Time (Papyrus-RT) v1.0!&lt;/p&gt;
-&lt;p&gt;You can see the press release for a limited time on the &lt;a href=&quot;https://www.eclipse.org/home/index.php&quot; rel=&quot;noopener&quot; target=&quot;_blank&quot;&gt;main Eclipse page&lt;/a&gt; and on the &lt;a href=&quot;https://www.eclipse.org/org/press-release/&quot; rel=&quot;noopener&quot; target=&quot;_blank&quot;&gt;Eclipse Foundation Press Releases page&lt;/a&gt;, or on &lt;a href=&quot;https://www.eclipse.org/org/press-release/20170907papyrus.php&quot; rel=&quot;noopener&quot; target=&quot;_blank&quot;&gt;its own page&lt;/a&gt;!&lt;/p&gt;
-&lt;p&gt;And two of my minions were nice enoug to provide nice quotes about my real time variant. A special thank you goes out toJean-Michel and Bran!&lt;/p&gt;
-&lt;h3&gt;&lt;/h3&gt;
-&lt;h3&gt;Interested in trying out a free Domain-Specific, model-driven tool for embedded systems? &lt;a href=&quot;https://www.eclipse.org/papyrus-rt/content/download.php&quot; rel=&quot;noopener&quot; target=&quot;_blank&quot;&gt;Give Papyrus-RT a try!&lt;/a&gt;&lt;/h3&gt;&lt;br /&gt;Filed under: &lt;a href=&quot;https://papyrusuml.wordpress.com/category/papyrus-ic/&quot;&gt;Papyrus IC&lt;/a&gt;, &lt;a href=&quot;https://papyrusuml.wordpress.com/category/papyrus-rt/&quot;&gt;Papyrus-RT&lt;/a&gt;, &lt;a href=&quot;https://papyrusuml.wordpress.com/category/uml-rt/&quot;&gt;UML-RT&lt;/a&gt;, &lt;a href=&quot;https://papyrusuml.wordpress.com/category/uncategorized/&quot;&gt;Uncategorized&lt;/a&gt; Tagged: &lt;a href=&quot;https://papyrusuml.wordpress.com/tag/dsml-2/&quot;&gt;dsml&lt;/a&gt;, &lt;a href=&quot;https://papyrusuml.wordpress.com/tag/embedded/&quot;&gt;embedded&lt;/a&gt;, &lt;a href=&quot;https://papyrusuml.wordpress.com/tag/mbse/&quot;&gt;MBSE&lt;/a&gt;, &lt;a href=&quot;https://papyrusuml.wordpress.com/tag/open-source/&quot;&gt;open-source&lt;/a&gt; &lt;a href=&quot;http://feeds.wordpress.com/1.0/gocomments/papyrusuml.wordpress.com/857/&quot; rel=&quot;nofollow&quot;&gt;&lt;img alt=&quot;&quot; border=&quot;0&quot; src=&quot;http://feeds.wordpress.com/1.0/comments/papyrusuml.wordpress.com/857/&quot; /&gt;&lt;/a&gt; &lt;a href=&quot;http://feeds.wordpress.com/1.0/godelicious/papyrusuml.wordpress.com/857/&quot; rel=&quot;nofollow&quot;&gt;&lt;img alt=&quot;&quot; border=&quot;0&quot; src=&quot;http://feeds.wordpress.com/1.0/delicious/papyrusuml.wordpress.com/857/&quot; /&gt;&lt;/a&gt; &lt;a href=&quot;http://feeds.wordpress.com/1.0/gofacebook/papyrusuml.wordpress.com/857/&quot; rel=&quot;nofollow&quot;&gt;&lt;img alt=&quot;&quot; border=&quot;0&quot; src=&quot;http://feeds.wordpress.com/1.0/facebook/papyrusuml.wordpress.com/857/&quot; /&gt;&lt;/a&gt; &lt;a href=&quot;http://feeds.wordpress.com/1.0/gotwitter/papyrusuml.wordpress.com/857/&quot; rel=&quot;nofollow&quot;&gt;&lt;img alt=&quot;&quot; border=&quot;0&quot; src=&quot;http://feeds.wordpress.com/1.0/twitter/papyrusuml.wordpress.com/857/&quot; /&gt;&lt;/a&gt; &lt;a href=&quot;http://feeds.wordpress.com/1.0/gostumble/papyrusuml.wordpress.com/857/&quot; rel=&quot;nofollow&quot;&gt;&lt;img alt=&quot;&quot; border=&quot;0&quot; src=&quot;http://feeds.wordpress.com/1.0/stumble/papyrusuml.wordpress.com/857/&quot; /&gt;&lt;/a&gt; &lt;a href=&quot;http://feeds.wordpress.com/1.0/godigg/papyrusuml.wordpress.com/857/&quot; rel=&quot;nofollow&quot;&gt;&lt;img alt=&quot;&quot; border=&quot;0&quot; src=&quot;http://feeds.wordpress.com/1.0/digg/papyrusuml.wordpress.com/857/&quot; /&gt;&lt;/a&gt; &lt;a href=&quot;http://feeds.wordpress.com/1.0/goreddit/papyrusuml.wordpress.com/857/&quot; rel=&quot;nofollow&quot;&gt;&lt;img alt=&quot;&quot; border=&quot;0&quot; src=&quot;http://feeds.wordpress.com/1.0/reddit/papyrusuml.wordpress.com/857/&quot; /&gt;&lt;/a&gt; &lt;img alt=&quot;&quot; border=&quot;0&quot; height=&quot;1&quot; src=&quot;https://pixel.wp.com/b.gif?host=papyrusuml.wordpress.com&amp;amp;blog=72365150&amp;amp;post=857&amp;amp;subd=papyrusuml&amp;amp;ref=&amp;amp;feed=1&quot; width=&quot;1&quot; /&gt;</description>
-	<pubDate>Thu, 07 Sep 2017 14:05:16 +0000</pubDate>
-</item>
-<item>
-	<title>Eclipse Announcements: First Release of Eclipse Papyrus for Real Time: Modeling Tool for UML-RT</title>
-	<guid isPermaLink="true">http://feedproxy.google.com/~r/eclipse/fnews/~3/lyOydqlgi5s/20170907papyrus.php</guid>
-	<link>http://feedproxy.google.com/~r/eclipse/fnews/~3/lyOydqlgi5s/20170907papyrus.php</link>
-	<description>The Papyrus Industry Consortium, an Eclipse Foundation Working Group, is pleased to announce the release of Eclipse Papyrus for Real Time v1.0 (Papyrus-RT) a fully open source modeling tool intended for teams working on the design and implementation of embedded reactive systems.&lt;img alt=&quot;&quot; height=&quot;1&quot; src=&quot;http://feeds.feedburner.com/~r/eclipse/fnews/~4/lyOydqlgi5s&quot; width=&quot;1&quot; /&gt;</description>
-	<pubDate>Thu, 07 Sep 2017 13:28:50 +0000</pubDate>
-</item>
-<item>
-	<title>Paolo Patierno: EnMasse and Eclipse Hono ? Messaging and IoT ? I have some events for you !</title>
-	<guid isPermaLink="false">http://paolopatierno.wordpress.com/?p=5364</guid>
-	<link>https://paolopatierno.wordpress.com/2017/09/06/enmasse-and-eclipse-hono-messaging-and-iot-i-have-some-events-for-you/</link>
-	<description>&lt;p&gt; &lt;/p&gt;
-&lt;p&gt;&lt;img alt=&quot;events&quot; class=&quot; size-full wp-image-5420 aligncenter&quot; src=&quot;https://paolopatierno.files.wordpress.com/2017/09/events.png?w=620&quot; /&gt;&lt;/p&gt;
-&lt;p style=&quot;text-align: justify;&quot;&gt;Do you want to learn more about the &lt;a href=&quot;http://enmasse.io/&quot; rel=&quot;noopener&quot; target=&quot;_blank&quot;&gt;EnMasse&lt;/a&gt; project ?&lt;/p&gt;
-&lt;p style=&quot;text-align: justify;&quot;&gt;Do you want to learn the same for the &lt;a href=&quot;https://www.eclipse.org/hono/&quot; rel=&quot;noopener&quot; target=&quot;_blank&quot;&gt;Eclipse Hono &lt;/a&gt;project ?&lt;/p&gt;
-&lt;p style=&quot;text-align: justify;&quot;&gt;Do you want to know more about their relationship and how they simplify the development and deployment of messaging and IoT solutions ?&lt;/p&gt;
-&lt;p style=&quot;text-align: justify;&quot;&gt;Well … in the coming weeks my agenda will be packed of events about them. Let’s see !&lt;/p&gt;
-&lt;h1&gt;Eclipse Day Milan 2017&lt;/h1&gt;
-&lt;p style=&quot;text-align: justify;&quot;&gt;On &lt;strong&gt;September 22nd&lt;/strong&gt; there will be the &lt;a href=&quot;https://eclipsedaymilano.com&quot; rel=&quot;noopener&quot; target=&quot;_blank&quot;&gt;Eclipse Day Milan 2017&lt;/a&gt; and I’ll be there with the &lt;strong&gt;“Eclipse Hono : Connect. Command. Control.” &lt;/strong&gt;&lt;a href=&quot;https://eclipsedaymilano.com/2017/06/30/eclipse-hono-connect-command-control/&quot; rel=&quot;noopener&quot; target=&quot;_blank&quot;&gt;session&lt;/a&gt;. What will you see there ?&lt;/p&gt;
-&lt;blockquote&gt;
-&lt;p style=&quot;text-align: justify;&quot;&gt;The open source counterpart to closed and proprietary IoT solutions is called Hono ! Born out of the collaboration of big companies, including Red Hat and Bosch both members of the Eclipse Foundation, Hono is an open source framework which aims to add features, such as device management and authentication, on top of an highly scalable messaging infrastructure in order to guarantee secured data exchange between devices and cloud applications. Using its APIs, devices can send data (telemetry and event) and can be controlled remotely (command/control). During this session we will see the “bricks” that make its architecture, the exposed APIs and the integration with other solutions.&lt;/p&gt;
-&lt;/blockquote&gt;
-&lt;p style=&quot;text-align: justify;&quot;&gt;There will be a lot of other great sessions focused on the Eclipse Foundation ecosystem so I think that it will be a really awesome event !&lt;/p&gt;
-&lt;h1 style=&quot;text-align: justify;&quot;&gt;Eclipse IoT Virtual meetup&lt;/h1&gt;
-&lt;p style=&quot;text-align: justify;&quot;&gt;The Eclipse Foundation hosts a lot of virtual meetups on IoT projects which are part of the foundation itself. Of course, Eclipse Hono is one of them !&lt;/p&gt;
-&lt;p style=&quot;text-align: justify;&quot;&gt;On &lt;strong&gt;October 11st&lt;/strong&gt;, I and Kai Hudalla (from Bosch Software Innovations) will have this &lt;a href=&quot;https://www.meetup.com/Virtual-IoT/events/242190258/&quot; rel=&quot;noopener&quot; target=&quot;_blank&quot;&gt;meetup&lt;/a&gt;. We hope to reach a really huge “online” audience in order to show how Hono is a really powerful platform for connecting and control IoT devices at scale.&lt;/p&gt;
-&lt;p&gt;It will be simpler for you to be there … just take a seat at home !&lt;/p&gt;
-&lt;h1&gt;JavaSI&lt;/h1&gt;
-&lt;p style=&quot;text-align: justify;&quot;&gt;On &lt;strong&gt;October 16th – 17th&lt;/strong&gt; there will be the &lt;a href=&quot;http://www.sioug.si/index.php/javasi-2017/program/vsebine-javasi&quot; rel=&quot;noopener&quot; target=&quot;_blank&quot;&gt;JavaSI&lt;/a&gt; conference organized by &lt;a href=&quot;http://www.sioug.si/&quot; rel=&quot;noopener&quot; target=&quot;_blank&quot;&gt;SIOUG&lt;/a&gt;.&lt;/p&gt;
-&lt;p style=&quot;text-align: justify;&quot;&gt;I and my awesome team mate &lt;a href=&quot;https://twitter.com/lulf&quot; rel=&quot;noopener&quot; target=&quot;_blank&quot;&gt;Ulf Lilleengen&lt;/a&gt; will be there with a session and a workshop.&lt;/p&gt;
-&lt;p style=&quot;text-align: justify;&quot;&gt;First of all the&lt;strong&gt; “EnMasse : open sourcing the messaging and IoT” &lt;/strong&gt;session as an introduction to the workshop.&lt;/p&gt;
-&lt;blockquote&gt;
-&lt;p style=&quot;text-align: justify;&quot;&gt;Out there there are a lot of “closed” source products for developing messaging and IoT based solutions. What if you want to have more control on your platform ? EnMasse is the answer!&lt;/p&gt;
-&lt;p style=&quot;text-align: justify;&quot;&gt;It’s a totally “open” source messaging-as-a-service platform which can be deployed on-premise, in the cloud or even in an hybrid scenario. At the same time it aims to be highly scalable in terms of throughput and the number of connections, based on standard protocols like AMQP 1.0 and MQTT and provides different patterns for messages exchange. Its nature makes EnMasse a great solution for IoT deployments in order to handle millions of connected devices for ingesting telemetry data and controlling them.&lt;/p&gt;
-&lt;/blockquote&gt;
-&lt;p style=&quot;text-align: justify;&quot;&gt;Then the &lt;strong&gt;“EnMasse – messaging and IoT in your hands”&lt;/strong&gt; workshop speaking about the EnMasse project and how it’s really great for building messaging and IoT solutions.&lt;/p&gt;
-&lt;blockquote&gt;
-&lt;p style=&quot;text-align: justify;&quot;&gt;Interested in messaging and IoT ? Kubernetes and OpenShift? In this workshop, we will dive into EnMasse, an open source Messaging-as-a-Service platform, built on top of Kubernetes and OpenShift. You will setup OpenShift or Kubernetes, deploy EnMasse, and build an end-2-end solution with edge devices, messaging, and analytics.&lt;/p&gt;
-&lt;p style=&quot;text-align: justify;&quot;&gt;You will learn basic Kubernetes and OpenShift concepts as we go, and learn how you can use EnMasse to implement different messaging patterns in your application.&lt;/p&gt;
-&lt;/blockquote&gt;
-&lt;p&gt;During this workshop you will touch messaging and IoT stuff with your hands !&lt;/p&gt;&lt;br /&gt;  &lt;a href=&quot;http://feeds.wordpress.com/1.0/gocomments/paolopatierno.wordpress.com/5364/&quot; rel=&quot;nofollow&quot;&gt;&lt;img alt=&quot;&quot; border=&quot;0&quot; src=&quot;http://feeds.wordpress.com/1.0/comments/paolopatierno.wordpress.com/5364/&quot; /&gt;&lt;/a&gt; &lt;img alt=&quot;&quot; border=&quot;0&quot; height=&quot;1&quot; src=&quot;https://pixel.wp.com/b.gif?host=paolopatierno.wordpress.com&amp;amp;blog=15467422&amp;amp;post=5364&amp;amp;subd=paolopatierno&amp;amp;ref=&amp;amp;feed=1&quot; width=&quot;1&quot; /&gt;</description>
-	<pubDate>Wed, 06 Sep 2017 16:22:35 +0000</pubDate>
-</item>
-<item>
-	<title>EclipseCon Europe 2017: The League of Extraordinary Antipattern</title>
-	<guid isPermaLink="false">https://www.eclipsecon.org/europe2017/3093 at https://www.eclipsecon.org/europe2017</guid>
-	<link>https://www.eclipsecon.org/europe2017/news/league-extraordinary-antipattern</link>
-	<description>&lt;div class=&quot;field field-name-body field-type-text-with-summary field-label-hidden&quot;&gt;&lt;div class=&quot;field-items&quot;&gt;&lt;div class=&quot;field-item even&quot;&gt;&lt;h4&gt;
-	by Dirk Fauth&lt;/h4&gt;
-&lt;p&gt;&lt;em&gt;Read more about Dirk's talk co-presented with Stefan Schlott, &lt;a href=&quot;https://www.eclipsecon.org/europe2017/session/league-extraordinary-antipattern&quot;&gt;The League of Extraordinary Antipattern&lt;/a&gt;.&lt;/em&gt;&lt;/p&gt;
-&lt;p&gt;With our background of being consultants for several years, having seen a lot of projects, some years ago we started collecting what is called &quot;bloomers&quot; in literature. Those were the kind of programming misconceptions that made us laugh and cry at the same time.&lt;/p&gt;
-&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;&lt;div class=&quot;field field-name-field-news-image field-type-image field-label-hidden&quot;&gt;&lt;div class=&quot;field-items&quot;&gt;&lt;div class=&quot;field-item even&quot;&gt;&lt;a href=&quot;https://www.eclipsecon.org/europe2017/news/league-extraordinary-antipattern&quot;&gt;&lt;img alt=&quot;&quot; class=&quot;img-responsive block-center&quot; height=&quot;250&quot; src=&quot;https://www.eclipsecon.org/europe2017/sites/default/files/styles/solstice_news_-_default_-_thumbnail/public/news/Capt%20Static%20360x360.png?itok=Y28fkTrY&quot; width=&quot;250&quot; /&gt;&lt;/a&gt;&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;</description>
-	<pubDate>Wed, 06 Sep 2017 14:04:32 +0000</pubDate>
 </item>
 
 </channel>

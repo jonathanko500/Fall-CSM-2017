@@ -5,7 +5,7 @@ public class sevice
 	public static void main(String[] args) 
 	{//start main
 		// declare variable
-		double salary, service, sales,serviceBonus,serviceBonusPay;
+		double salary, service, sales,serviceBonus;
 		double salesBonus,total;
 		//String totalSalary,totalService,totalBonus,totalPay;
 		//read inputs
@@ -38,13 +38,11 @@ public class sevice
 		{
 			salesBonus=sales*0.03;
 		}
-		//calculate service bonus pay
-		serviceBonusPay=service*serviceBonus;
 		//calcutlate total
-		total=salary+serviceBonusPay+salesBonus;
+		total=salary+serviceBonus+salesBonus;
 		//display outputs
 		System.out.printf("Base pay         $% .2f%n",salary);
-		System.out.printf("Service bonus    $  %.2f%n", serviceBonusPay);
+		System.out.printf("Service bonus    $  %.2f%n", serviceBonus);
 		System.out.printf("Sales bonus      $ %.2f%n", salesBonus);
 		System.out.printf("Total pay        $ %.2f%n",total);
 		System.out.println("Programmed by Jonathan Ko");
@@ -56,18 +54,18 @@ public class sevice
  *Enter years of service:  2
  *Enter monthly sales:  6000
  *Base pay         $ 700.00
- *Service bonus    $  20.00
+ *Service bonus    $  10.00
  *Sales bonus      $ 180.00
- *Total pay        $ 900.00
+ *Total pay        $ 890.00
  *Programmed by Jonathan Ko
  * 
  * Enter monthly base salary:  800
  * Enter years of service:  7
  * Enter monthly sales:  10000
  * Base pay         $ 800.00
- * Service bonus    $  140.00
+ * Service bonus    $  20.00
  * Sales bonus      $ 600.00
- * Total pay        $ 1540.00
+ * Total pay        $ 1420.00
  * Programmed by Jonathan Ko
  * 
  * test 3
@@ -75,8 +73,8 @@ public class sevice
  * Enter years of service:  3
  * Enter monthly sales:  3000
  * Base pay         $ 500.00
- * Service bonus    $  30.00
+ * Service bonus    $  10.00
  * Sales bonus      $ 0.00
- * Total pay        $ 530.00
+ * Total pay        $ 510.00
  * Programmed by Jonathan Ko 
 */
