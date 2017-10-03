@@ -6,6 +6,121 @@
     <language>en</language>
      <atom:link href="http://marketplace.eclipse.org/rss.xml" rel="self" type="application/rss+xml" />
       <item>
+    <title>Matros DMS </title>
+    <link>http://marketplace.eclipse.org/content/matros-dms</link>
+    <description>&lt;div class=&quot;field field-name-field-resource-image field-type-image field-label-hidden&quot;&gt;&lt;div class=&quot;field-items&quot;&gt;&lt;div class=&quot;field-item even&quot;&gt;&lt;img class=&quot;img-responsive&quot; src=&quot;http://marketplace.eclipse.org/sites/default/files/default_images/default_2.png&quot; width=&quot;110&quot; height=&quot;80&quot; alt=&quot;&quot; /&gt;&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;&lt;div class=&quot;field field-name-shared-date-created field-type-text field-label-inline clearfix&quot;&gt;&lt;div class=&quot;field-label&quot;&gt;Date Created:&amp;nbsp;&lt;/div&gt;&lt;div class=&quot;field-items&quot;&gt;&lt;div class=&quot;field-item even&quot;&gt;Tue, 2017-10-03 04:48&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;&lt;div class=&quot;field field-name-shared-date-updated field-type-text field-label-inline clearfix&quot;&gt;&lt;div class=&quot;field-label&quot;&gt;Date Updated:&amp;nbsp;&lt;/div&gt;&lt;div class=&quot;field-items&quot;&gt;&lt;div class=&quot;field-item even&quot;&gt;Tue, 2017-10-03 08:28&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;&lt;div class=&quot;field field-name-shared-submitted-by field-type-text field-label-inline clearfix&quot;&gt;&lt;div class=&quot;field-label&quot;&gt;Submitted by:&amp;nbsp;&lt;/div&gt;&lt;div class=&quot;field-items&quot;&gt;&lt;div class=&quot;field-item even&quot;&gt;&lt;a href=&quot;/user/mschwehla/listings&quot; title=&quot;martin schwehla&quot;&gt;martin schwehla&lt;/a&gt;&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;&lt;!-- google_ad_section_start --&gt;&lt;div class=&quot;field field-name-body field-type-text-with-summary field-label-hidden&quot;&gt;&lt;div class=&quot;field-items&quot;&gt;&lt;div class=&quot;field-item even&quot;&gt;&lt;h2&gt;
+	Document Management System (DMS) based on Graph Theory and Eclipse Rich Client (RCP)&lt;/h2&gt;
+&lt;h2&gt;
+	The idea&lt;/h2&gt;
+&lt;p&gt;in the real world you deal with entities like car, family members, dealers and companies.&lt;/p&gt;
+&lt;h2&gt;
+	Why not rebuild this network in your DMS ?&lt;/h2&gt;
+&lt;p&gt;Every business-paper has two partners, the issuer and the reciever, and an entity that is subject of the paper. The paper itself have a type like invoice, contract and so on&lt;/p&gt;
+&lt;p&gt;example: Your Car&lt;/p&gt;
+&lt;p&gt;* Reciever:    Mister Smith&lt;br /&gt;
+	* Issuer:      CarSeller PETE&lt;br /&gt;
+	* Object:      BMW XDrive&lt;/p&gt;
+&lt;p&gt;Type of Paper:   first contract, later bills and so on. you have a timeline with your object &#039;BMW XDrive&#039; and want to see&lt;br /&gt;
+	all papers for it.&lt;/p&gt;
+&lt;p&gt;So you take the tags (you, Mr. Smith) and CarSeller PETE, the BMW and save this constellation to a new context (a virual folder).&lt;br /&gt;
+	In this context you can save your documents.&lt;/p&gt;
+&lt;p&gt;Your documents (e.g. pdf-files) can applied with metadata (bill, $1000 or taxrelevance for 2017) you can define yourself&lt;/p&gt;
+&lt;p&gt;When you need a timeline of all documents for your bmw just klick on it in the application and you have the complete timeline!&lt;/p&gt;
+&lt;p&gt;Same for the carseller PETE and so on&lt;/p&gt;
+&lt;p&gt;You can define also a hierarcy in the tags&lt;/p&gt;
+&lt;p&gt;# reseller  -&amp;gt; amazon, ebay&lt;/p&gt;
+&lt;p&gt;you can query for reseller an all contexts (and therefore all documents) are listed for amazon and ebay&lt;/p&gt;
+&lt;p&gt;You deal with object of your daily live and therefore you will find them quick and intuitive.&lt;/p&gt;
+&lt;h2&gt;
+	One important note:&lt;/h2&gt;
+&lt;p&gt;Of course you shall never destroy your letters physically, keep them on a save place&lt;/p&gt;
+&lt;p&gt;In this dms you just need to decide if you want to keep the original or destroy it after scanning.&lt;/p&gt;
+&lt;p&gt;All originals get a new number and you can place it on top of a stack. You find your documents in the DMS, get the number, go to the stack and get them. simple as that!&lt;/p&gt;
+&lt;p&gt;---&lt;/p&gt;
+&lt;h3&gt;
+	 Security is one big concern when you scan your personal documents&lt;/h3&gt;
+&lt;p&gt;Thats why this DMS is not build as Online/Cloud/Webservice.&lt;/p&gt;
+&lt;ul&gt;&lt;li&gt;
+		 I want my scans on my computer only&lt;/li&gt;
+&lt;li&gt;
+		 I want my papers crypted with standardsoftware i decide for me (like 7zip)&lt;/li&gt;
+&lt;li&gt;
+		 I want to open them in 20 years without this software&lt;/li&gt;
+&lt;/ul&gt;&lt;h3&gt;
+	 This DMS respects this requirements&lt;/h3&gt;
+&lt;ul&gt;&lt;li&gt;
+		all documents are stored i a singe folder for easy backup&lt;/li&gt;
+&lt;li&gt;
+		all documents are encrypted with your favorite crypting software (like 7zip)&lt;/li&gt;
+&lt;li&gt;
+		source on github, no vendor-lockin&lt;/li&gt;
+&lt;li&gt;
+		easy export of your documents&lt;/li&gt;
+&lt;li&gt;
+		you own all your passwords and accounts, no secrets for the advanced users&lt;/li&gt;
+&lt;/ul&gt;&lt;h3&gt;
+	Source: using Eclipse E4 / Tycho / Eclipse Oxygen&lt;/h3&gt;
+&lt;h3&gt;
+	Discussion and Tickets&lt;/h3&gt;
+&lt;h3&gt;
+	&lt;a href=&quot;https://sourceforge.net/projects/matrosdms/&quot; rel=&quot;nofollow&quot;&gt;https://sourceforge.net/projects/matrosdms/&lt;/a&gt;&lt;/h3&gt;
+&lt;p&gt; &lt;/p&gt;&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;&lt;!-- google_ad_section_end --&gt;</description>
+     <pubDate>Tue, 03 Oct 2017 08:48:36 +0000</pubDate>
+ <dc:creator>mschwehla</dc:creator>
+ <guid isPermaLink="false">3686768 at http://marketplace.eclipse.org</guid>
+ <comments>http://marketplace.eclipse.org/content/matros-dms#comments</comments>
+  </item>
+  <item>
+    <title>jSparrow - Automatical Java Code Improvement</title>
+    <link>http://marketplace.eclipse.org/content/jsparrow-automatical-java-code-improvement</link>
+    <description>&lt;div class=&quot;field field-name-field-resource-image field-type-image field-label-hidden&quot;&gt;&lt;div class=&quot;field-items&quot;&gt;&lt;div class=&quot;field-item even&quot;&gt;&lt;img class=&quot;img-responsive&quot; src=&quot;http://marketplace.eclipse.org/sites/default/files/jSparrow_Fluegel_110x80.jpg&quot; width=&quot;110&quot; height=&quot;77&quot; alt=&quot;&quot; /&gt;&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;&lt;div class=&quot;field field-name-shared-date-created field-type-text field-label-inline clearfix&quot;&gt;&lt;div class=&quot;field-label&quot;&gt;Date Created:&amp;nbsp;&lt;/div&gt;&lt;div class=&quot;field-items&quot;&gt;&lt;div class=&quot;field-item even&quot;&gt;Tue, 2017-06-20 11:34&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;&lt;div class=&quot;field field-name-shared-date-updated field-type-text field-label-inline clearfix&quot;&gt;&lt;div class=&quot;field-label&quot;&gt;Date Updated:&amp;nbsp;&lt;/div&gt;&lt;div class=&quot;field-items&quot;&gt;&lt;div class=&quot;field-item even&quot;&gt;Tue, 2017-10-03 06:27&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;&lt;a href=&quot;/search/content/%22Splendit%20IT-Consulting%20GmbH%22&quot;&gt;Splendit IT-Consulting GmbH&lt;/a&gt;&lt;div class=&quot;field field-name-shared-submitted-by field-type-text field-label-inline clearfix&quot;&gt;&lt;div class=&quot;field-label&quot;&gt;Submitted by:&amp;nbsp;&lt;/div&gt;&lt;div class=&quot;field-items&quot;&gt;&lt;div class=&quot;field-item even&quot;&gt;&lt;a href=&quot;/user/mprehofer/listings&quot; title=&quot;Michaela Prehofer&quot;&gt;Michaela Prehofer&lt;/a&gt;&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;&lt;!-- google_ad_section_start --&gt;&lt;div class=&quot;field field-name-body field-type-text-with-summary field-label-hidden&quot;&gt;&lt;div class=&quot;field-items&quot;&gt;&lt;div class=&quot;field-item even&quot;&gt;&lt;p&gt;jSparrow is an automated Eclipse PlugIn, which finds and replaces different kinds of threats in Java software systems with a rule based approach.&lt;br /&gt;
+	It applies coding conventions, removes code smells, improves readability and helps the upgrade process to newer Java versions.&lt;/p&gt;
+&lt;p&gt;	The usage of  jSparrow´s full version allows you to save a lot of valuable time, while offering the option of automatically upgrading to the latest version of Java within minutes in a safe way.&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;set standards&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;jSparrow redefines the way companies can set programming standards and improve the legacy code.  jSparrow has a big range of rules to support standards.&lt;/p&gt;
+&lt;p&gt;	&lt;em&gt;ArithmeticAssignment – BracketsToControl – &lt;strong&gt;CodeFormatter&lt;/strong&gt; – FieldNameConvention – MultiVariableDeclarationLine – &lt;strong&gt;OrganiseImports &lt;/strong&gt;– RearrangeClassMembers – StringConcatToPlus – StringLiteralEqualityCheck – StringUtils – &lt;strong&gt;SystemOutToLogging&lt;/strong&gt;&lt;/em&gt;&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;code smells&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;Removal of potential bugs and code smells is one of the main purposes of jSparrow. jSparrow is very efficient in disposing of these threats with its rules.  &lt;/p&gt;
+&lt;p&gt;	&lt;em&gt;&lt;strong&gt;InefficientConstructor &lt;/strong&gt;– MultiVariableDeclarationLine – &lt;strong&gt;OverrideAnnotation &lt;/strong&gt;– PrimitiveBoxedForString – RemoveNewStringConstructor – RemoveToStringOnString – SerialVersionUid – StringFormatLineSeparator – StringLiteralEqualityCheck – SystemOutToLogging&lt;/em&gt;&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;modernization &lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;Being up to date with the latest Java standards is requiring a lot of software maintenance work. jSparrow upgrades old code-artifacts to new state-of-the-art programming practices.&lt;/p&gt;
+&lt;p&gt;	&lt;em&gt;CollectionRemoveAll – DiamondRule – &lt;strong&gt;ForEachToLambda &lt;/strong&gt;– &lt;strong&gt;ForToForEach &lt;/strong&gt;– FunctionalInterface – LambdaToMethodReference – MultiCatch – StatementLambdaToExpression – SystemOutToLogging – &lt;strong&gt;TryWithResource &lt;/strong&gt;– WhileToForEach&lt;/em&gt;&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;OUR RELEASE POLICY IS AS FOLLOWS:&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Two major releases&lt;/strong&gt; per year&lt;/p&gt;
+&lt;p&gt;    21st June – Midsummer Release&lt;br /&gt;
+	    21st December – Release of the longest night&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Monthly Rule releases&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;If we developed new rules, they will be released on the 21st of each month - (if the 21st isn’t an Austrian working day- the release will be postponed one month)&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Weekly Bugfix &lt;/strong&gt;releases&lt;/p&gt;
+&lt;p&gt;Bugfixes will be released each Tuesday&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Hotfix Releases &lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;Hotfix Releases can be deployed any time (hopefully not necessary)&lt;/p&gt;&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;&lt;!-- google_ad_section_end --&gt;</description>
+     <pubDate>Tue, 20 Jun 2017 15:34:11 +0000</pubDate>
+ <dc:creator>mprehofer</dc:creator>
+ <guid isPermaLink="false">3503691 at http://marketplace.eclipse.org</guid>
+ <comments>http://marketplace.eclipse.org/content/jsparrow-automatical-java-code-improvement#comments</comments>
+  </item>
+  <item>
+    <title>Cupid</title>
+    <link>http://marketplace.eclipse.org/content/cupid</link>
+    <description>&lt;div class=&quot;field field-name-field-resource-image field-type-image field-label-hidden&quot;&gt;&lt;div class=&quot;field-items&quot;&gt;&lt;div class=&quot;field-item even&quot;&gt;&lt;img class=&quot;img-responsive&quot; src=&quot;http://marketplace.eclipse.org/sites/default/files/logo_cupid.png&quot; width=&quot;110&quot; height=&quot;50&quot; alt=&quot;&quot; /&gt;&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;&lt;div class=&quot;field field-name-shared-date-created field-type-text field-label-inline clearfix&quot;&gt;&lt;div class=&quot;field-label&quot;&gt;Date Created:&amp;nbsp;&lt;/div&gt;&lt;div class=&quot;field-items&quot;&gt;&lt;div class=&quot;field-item even&quot;&gt;Wed, 2015-11-11 22:56&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;&lt;div class=&quot;field field-name-shared-date-updated field-type-text field-label-inline clearfix&quot;&gt;&lt;div class=&quot;field-label&quot;&gt;Date Updated:&amp;nbsp;&lt;/div&gt;&lt;div class=&quot;field-items&quot;&gt;&lt;div class=&quot;field-item even&quot;&gt;Mon, 2017-10-02 15:06&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;&lt;a href=&quot;/search/content/%22NOAA%20Environmental%20Software%20Infrastructure%20and%20Interoperability%22&quot;&gt;NOAA Environmental Software Infrastructure and Interoperability&lt;/a&gt;&lt;div class=&quot;field field-name-shared-submitted-by field-type-text field-label-inline clearfix&quot;&gt;&lt;div class=&quot;field-label&quot;&gt;Submitted by:&amp;nbsp;&lt;/div&gt;&lt;div class=&quot;field-items&quot;&gt;&lt;div class=&quot;field-item even&quot;&gt;&lt;a href=&quot;/user/rdunlapmqd/listings&quot; title=&quot;Rocky Dunlap&quot;&gt;Rocky Dunlap&lt;/a&gt;&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;&lt;!-- google_ad_section_start --&gt;&lt;div class=&quot;field field-name-body field-type-text-with-summary field-label-hidden&quot;&gt;&lt;div class=&quot;field-items&quot;&gt;&lt;div class=&quot;field-item even&quot;&gt;&lt;p&gt;Cupid is a development and training environment for models that use the &lt;a href=&quot;https://www.earthsystemcog.org/projects/esmf/&quot; rel=&quot;nofollow&quot;&gt;Earth System Modeling Framework (ESMF)&lt;/a&gt; and &lt;a href=&quot;https://www.earthsystemcog.org/projects/nuopc/&quot; rel=&quot;nofollow&quot;&gt;National Unified Operational Capability (NUOPC) Layer&lt;/a&gt; infrastructure. Key features:&lt;/p&gt;
+&lt;ul&gt;&lt;li&gt;
+		Analyze models coupled with NUOPC and create an outline of the model architecture &lt;/li&gt;
+&lt;li&gt;
+		Show the components in the application, their initialize, run, and finalize phases, and their NUOPC compliance status&lt;/li&gt;
+&lt;li&gt;
+		Present the outline side-by-side with code editor&lt;/li&gt;
+&lt;li&gt;
+		Provide contextual guidance to the developer while NUOPC code is being edited&lt;/li&gt;
+&lt;li&gt;
+		Generate code needed for NUOPC compliance automatically&lt;/li&gt;
+&lt;/ul&gt;&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;&lt;!-- google_ad_section_end --&gt;</description>
+     <pubDate>Thu, 12 Nov 2015 03:56:16 +0000</pubDate>
+ <dc:creator>rdunlapmqd</dc:creator>
+ <guid isPermaLink="false">2604393 at http://marketplace.eclipse.org</guid>
+ <comments>http://marketplace.eclipse.org/content/cupid#comments</comments>
+  </item>
+  <item>
     <title>Scala IDE</title>
     <link>http://marketplace.eclipse.org/content/scala-ide</link>
     <description>&lt;div class=&quot;field field-name-field-resource-image field-type-image field-label-hidden&quot;&gt;&lt;div class=&quot;field-items&quot;&gt;&lt;div class=&quot;field-item even&quot;&gt;&lt;img class=&quot;img-responsive&quot; src=&quot;http://marketplace.eclipse.org/sites/default/files/logo-for-assembla.png&quot; width=&quot;110&quot; height=&quot;80&quot; alt=&quot;&quot; /&gt;&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;&lt;div class=&quot;field field-name-shared-date-created field-type-text field-label-inline clearfix&quot;&gt;&lt;div class=&quot;field-label&quot;&gt;Date Created:&amp;nbsp;&lt;/div&gt;&lt;div class=&quot;field-items&quot;&gt;&lt;div class=&quot;field-item even&quot;&gt;Thu, 2007-03-15 10:09&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;&lt;div class=&quot;field field-name-shared-date-updated field-type-text field-label-inline clearfix&quot;&gt;&lt;div class=&quot;field-label&quot;&gt;Date Updated:&amp;nbsp;&lt;/div&gt;&lt;div class=&quot;field-items&quot;&gt;&lt;div class=&quot;field-item even&quot;&gt;Mon, 2017-10-02 08:48&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;&lt;a href=&quot;/search/content/%22scala-ide.org%22&quot;&gt;scala-ide.org&lt;/a&gt;&lt;div class=&quot;field field-name-shared-submitted-by field-type-text field-label-inline clearfix&quot;&gt;&lt;div class=&quot;field-label&quot;&gt;Submitted by:&amp;nbsp;&lt;/div&gt;&lt;div class=&quot;field-items&quot;&gt;&lt;div class=&quot;field-item even&quot;&gt;&lt;a href=&quot;/user/seclipse/listings&quot; title=&quot;Scala IDE for Eclipse&quot;&gt;Scala IDE for Eclipse&lt;/a&gt;&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;&lt;!-- google_ad_section_start --&gt;&lt;div class=&quot;field field-name-body field-type-text-with-summary field-label-hidden&quot;&gt;&lt;div class=&quot;field-items&quot;&gt;&lt;div class=&quot;field-item even&quot;&gt;&lt;p&gt;The Scala IDE for Eclipse is centered around seamless integration with the Eclipse Java tools, providing many of the features Eclipse users have come to expect including,&lt;/p&gt;
@@ -548,35 +663,6 @@
  <dc:creator>tnikolaos</dc:creator>
  <guid isPermaLink="false">593 at http://marketplace.eclipse.org</guid>
  <comments>http://marketplace.eclipse.org/content/jdeodorant#comments</comments>
-  </item>
-  <item>
-    <title>AutoRefactor</title>
-    <link>http://marketplace.eclipse.org/content/autorefactor</link>
-    <description>&lt;div class=&quot;field field-name-field-resource-image field-type-image field-label-hidden&quot;&gt;&lt;div class=&quot;field-items&quot;&gt;&lt;div class=&quot;field-item even&quot;&gt;&lt;img class=&quot;img-responsive&quot; src=&quot;http://marketplace.eclipse.org/sites/default/files/default_images/default_2.png&quot; width=&quot;110&quot; height=&quot;80&quot; alt=&quot;&quot; /&gt;&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;&lt;div class=&quot;field field-name-shared-date-created field-type-text field-label-inline clearfix&quot;&gt;&lt;div class=&quot;field-label&quot;&gt;Date Created:&amp;nbsp;&lt;/div&gt;&lt;div class=&quot;field-items&quot;&gt;&lt;div class=&quot;field-item even&quot;&gt;Tue, 2015-03-24 10:08&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;&lt;div class=&quot;field field-name-shared-date-updated field-type-text field-label-inline clearfix&quot;&gt;&lt;div class=&quot;field-label&quot;&gt;Date Updated:&amp;nbsp;&lt;/div&gt;&lt;div class=&quot;field-items&quot;&gt;&lt;div class=&quot;field-item even&quot;&gt;Fri, 2017-09-29 16:27&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;&lt;div class=&quot;field field-name-shared-submitted-by field-type-text field-label-inline clearfix&quot;&gt;&lt;div class=&quot;field-label&quot;&gt;Submitted by:&amp;nbsp;&lt;/div&gt;&lt;div class=&quot;field-items&quot;&gt;&lt;div class=&quot;field-item even&quot;&gt;&lt;a href=&quot;/user/mmisingname3um/listings&quot; title=&quot;Jean-Noel Rouvignac&quot;&gt;Jean-Noel Rouvignac&lt;/a&gt;&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;&lt;!-- google_ad_section_start --&gt;&lt;div class=&quot;field field-name-body field-type-text-with-summary field-label-hidden&quot;&gt;&lt;div class=&quot;field-items&quot;&gt;&lt;div class=&quot;field-item even&quot;&gt;&lt;p&gt;AutoRefactor is an Eclipse plugin to automatically refactor Java code bases. The aim is to fix language/API usage in order to deliver smaller, more maintainable and more expressive code bases.&lt;/p&gt;&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;&lt;!-- google_ad_section_end --&gt;</description>
-     <pubDate>Tue, 24 Mar 2015 14:08:40 +0000</pubDate>
- <dc:creator>mmisingname3um</dc:creator>
- <guid isPermaLink="false">2254782 at http://marketplace.eclipse.org</guid>
- <comments>http://marketplace.eclipse.org/content/autorefactor#comments</comments>
-  </item>
-  <item>
-    <title>IBM WebSphere Application Server Liberty Developer Tools Beta</title>
-    <link>http://marketplace.eclipse.org/content/ibm-websphere-application-server-liberty-developer-tools-beta</link>
-    <description>&lt;div class=&quot;field field-name-field-resource-image field-type-image field-label-hidden&quot;&gt;&lt;div class=&quot;field-items&quot;&gt;&lt;div class=&quot;field-item even&quot;&gt;&lt;img class=&quot;img-responsive&quot; src=&quot;http://marketplace.eclipse.org/sites/default/files/wdt-was-lp-500.png&quot; width=&quot;80&quot; height=&quot;80&quot; alt=&quot;&quot; /&gt;&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;&lt;div class=&quot;field field-name-shared-date-created field-type-text field-label-inline clearfix&quot;&gt;&lt;div class=&quot;field-label&quot;&gt;Date Created:&amp;nbsp;&lt;/div&gt;&lt;div class=&quot;field-items&quot;&gt;&lt;div class=&quot;field-item even&quot;&gt;Thu, 2013-10-31 15:13&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;&lt;div class=&quot;field field-name-shared-date-updated field-type-text field-label-inline clearfix&quot;&gt;&lt;div class=&quot;field-label&quot;&gt;Date Updated:&amp;nbsp;&lt;/div&gt;&lt;div class=&quot;field-items&quot;&gt;&lt;div class=&quot;field-item even&quot;&gt;Fri, 2017-09-29 11:01&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;&lt;a href=&quot;/search/content/%22IBM%22&quot;&gt;IBM&lt;/a&gt;&lt;div class=&quot;field field-name-shared-submitted-by field-type-text field-label-inline clearfix&quot;&gt;&lt;div class=&quot;field-label&quot;&gt;Submitted by:&amp;nbsp;&lt;/div&gt;&lt;div class=&quot;field-items&quot;&gt;&lt;div class=&quot;field-item even&quot;&gt;&lt;a href=&quot;/user/canderson/listings&quot; title=&quot;Carl Anderson&quot;&gt;Carl Anderson&lt;/a&gt;&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;&lt;!-- google_ad_section_start --&gt;&lt;div class=&quot;field field-name-body field-type-text-with-summary field-label-hidden&quot;&gt;&lt;div class=&quot;field-items&quot;&gt;&lt;div class=&quot;field-item even&quot;&gt;&lt;p&gt;*Beta* An eclipse 4.x IDE for building and deploying Java EE, OSGi and Web 2.0 applications to WebSphere Application Server Liberty v9 Beta with Java EE 7. For more information about installing and downloading the tools, including archived versions of the tools for older versions of eclipse, see &lt;a href=&quot;https://developer.ibm.com/wasdev/docs/websphere-developer-tools-releases/&quot; rel=&quot;nofollow&quot;&gt;WebSphere Application Server Developer Tools Releases&lt;/a&gt;&lt;/p&gt;&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;&lt;!-- google_ad_section_end --&gt;</description>
-     <pubDate>Thu, 31 Oct 2013 19:13:37 +0000</pubDate>
- <dc:creator>canderson</dc:creator>
- <guid isPermaLink="false">1280744 at http://marketplace.eclipse.org</guid>
- <comments>http://marketplace.eclipse.org/content/ibm-websphere-application-server-liberty-developer-tools-beta#comments</comments>
-  </item>
-  <item>
-    <title>impulse CANbus Extension</title>
-    <link>http://marketplace.eclipse.org/content/impulse-canbus-extension</link>
-    <description>&lt;div class=&quot;field field-name-field-resource-image field-type-image field-label-hidden&quot;&gt;&lt;div class=&quot;field-items&quot;&gt;&lt;div class=&quot;field-item even&quot;&gt;&lt;img class=&quot;img-responsive&quot; src=&quot;http://marketplace.eclipse.org/sites/default/files/impulse110_80_7.png&quot; width=&quot;110&quot; height=&quot;80&quot; alt=&quot;&quot; /&gt;&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;&lt;div class=&quot;field field-name-shared-date-created field-type-text field-label-inline clearfix&quot;&gt;&lt;div class=&quot;field-label&quot;&gt;Date Created:&amp;nbsp;&lt;/div&gt;&lt;div class=&quot;field-items&quot;&gt;&lt;div class=&quot;field-item even&quot;&gt;Fri, 2017-09-29 06:09&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;&lt;div class=&quot;field field-name-shared-date-updated field-type-text field-label-inline clearfix&quot;&gt;&lt;div class=&quot;field-label&quot;&gt;Date Updated:&amp;nbsp;&lt;/div&gt;&lt;div class=&quot;field-items&quot;&gt;&lt;div class=&quot;field-item even&quot;&gt;Fri, 2017-09-29 08:36&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;&lt;a href=&quot;/search/content/%22toem%20GmbH%22&quot;&gt;toem GmbH&lt;/a&gt;&lt;div class=&quot;field field-name-shared-submitted-by field-type-text field-label-inline clearfix&quot;&gt;&lt;div class=&quot;field-label&quot;&gt;Submitted by:&amp;nbsp;&lt;/div&gt;&lt;div class=&quot;field-items&quot;&gt;&lt;div class=&quot;field-item even&quot;&gt;&lt;a href=&quot;/user/thaberm7n/listings&quot; title=&quot;Thomas Haber&quot;&gt;Thomas Haber&lt;/a&gt;&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;&lt;!-- google_ad_section_start --&gt;&lt;div class=&quot;field field-name-body field-type-text-with-summary field-label-hidden&quot;&gt;&lt;div class=&quot;field-items&quot;&gt;&lt;div class=&quot;field-item even&quot;&gt;&lt;p&gt;A Controller Area Network (CAN bus) is a robust vehicle bus standard designed to allow microcontrollers and devices to communicate with each other in applications without a host computer.&lt;/p&gt;
-&lt;p&gt;The &lt;a href=&quot;http://toem.de/index.php/projects/impulse-opcua&quot; rel=&quot;nofollow&quot;&gt;CANBus extension&lt;/a&gt; enables the reading and writing of messages from several CAN bus adapters as well as the extraction and tracing of message contents such as bits, integer and text. CAN-Bus symbols can be imported from symbol files.&lt;/p&gt;
-&lt;p&gt;&lt;a href=&quot;http://toem.de/index.php/projects/impulse&quot; rel=&quot;nofollow&quot;&gt;impulse&lt;/a&gt; is a powerful waveform viewer and analyser tool, helping engineers to comfortably understand and debug complex semiconductor and multi-core software systems.&lt;/p&gt;&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;&lt;!-- google_ad_section_end --&gt;</description>
-     <pubDate>Fri, 29 Sep 2017 10:09:46 +0000</pubDate>
- <dc:creator>thaberm7n</dc:creator>
- <guid isPermaLink="false">3681355 at http://marketplace.eclipse.org</guid>
- <comments>http://marketplace.eclipse.org/content/impulse-canbus-extension#comments</comments>
   </item>
   </channel>
 </rss>

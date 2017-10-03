@@ -1,0 +1,22 @@
+import java.util.Scanner;
+
+public class notation 
+{//start class
+
+	public static void main(String[] args)
+	{//start main
+		//declare input
+		int numb;
+		//read input
+		Scanner input= new Scanner(System.in);
+		System.out.println("Enter a positive integer: ");
+		numb=Integer.parseInt(input.nextLine());
+		while (numb<1)
+		{
+			System.out.print("Must be greater than 2, re-enter: ");
+			numb=Integer.parseInt(input.nextLine());
+		}
+		System.out.println(numb);
+	}
+
+}
