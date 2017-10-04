@@ -6,6 +6,104 @@
     <language>en</language>
      <atom:link href="http://marketplace.eclipse.org/rss.xml" rel="self" type="application/rss+xml" />
       <item>
+    <title>SAP Hybris Commerce Development Tools for Eclipse</title>
+    <link>http://marketplace.eclipse.org/content/sap-hybris-commerce-development-tools-eclipse</link>
+    <description>&lt;div class=&quot;field field-name-field-resource-image field-type-image field-label-hidden&quot;&gt;&lt;div class=&quot;field-items&quot;&gt;&lt;div class=&quot;field-item even&quot;&gt;&lt;img class=&quot;img-responsive&quot; src=&quot;http://marketplace.eclipse.org/sites/default/files/saphybris-logo.png&quot; width=&quot;110&quot; height=&quot;31&quot; alt=&quot;&quot; /&gt;&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;&lt;div class=&quot;field field-name-shared-date-created field-type-text field-label-inline clearfix&quot;&gt;&lt;div class=&quot;field-label&quot;&gt;Date Created:&amp;nbsp;&lt;/div&gt;&lt;div class=&quot;field-items&quot;&gt;&lt;div class=&quot;field-item even&quot;&gt;Tue, 2017-07-25 15:04&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;&lt;div class=&quot;field field-name-shared-date-updated field-type-text field-label-inline clearfix&quot;&gt;&lt;div class=&quot;field-label&quot;&gt;Date Updated:&amp;nbsp;&lt;/div&gt;&lt;div class=&quot;field-items&quot;&gt;&lt;div class=&quot;field-item even&quot;&gt;Tue, 2017-10-03 17:06&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;&lt;a href=&quot;/search/content/%22SAP%20Hybris%22&quot;&gt;SAP Hybris&lt;/a&gt;&lt;div class=&quot;field field-name-shared-submitted-by field-type-text field-label-inline clearfix&quot;&gt;&lt;div class=&quot;field-label&quot;&gt;Submitted by:&amp;nbsp;&lt;/div&gt;&lt;div class=&quot;field-items&quot;&gt;&lt;div class=&quot;field-item even&quot;&gt;&lt;a href=&quot;/user/bdobbs6r0/listings&quot; title=&quot;Brendan Dobbs&quot;&gt;Brendan Dobbs&lt;/a&gt;&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;&lt;!-- google_ad_section_start --&gt;&lt;div class=&quot;field field-name-body field-type-text-with-summary field-label-hidden&quot;&gt;&lt;div class=&quot;field-items&quot;&gt;&lt;div class=&quot;field-item even&quot;&gt;&lt;p&gt;Development toolkit for developing with SAP Hybris Commerce. This plugin is open source and also sponsored by SAP.&lt;/p&gt;
+&lt;p&gt;Features include:&lt;/p&gt;
+&lt;ul&gt;&lt;li&gt;
+		Import platform into workspace&lt;/li&gt;
+&lt;li&gt;
+		Synchronize extensions with the Hybris Commerce Suite platform including synchronizing libraries and classpaths managed in the platform&lt;/li&gt;
+&lt;li&gt;
+		Configure the runtime JVM with optimal settings to run JUnit tests&lt;/li&gt;
+&lt;li&gt;
+		Add the JDBC driver to the classpath (required to be able to run JUnit tests)&lt;/li&gt;
+&lt;li&gt;
+		Actions to build the platform, ensuring projects are refreshed after the platform has generated files&lt;/li&gt;
+&lt;li&gt;
+		Impex editor with type ahead and formatting functionality&lt;/li&gt;
+&lt;li&gt;
+		Create working sets from localextensions.xml&lt;/li&gt;
+&lt;li&gt;
+		Disable unnecessary extension modules&lt;/li&gt;
+&lt;li&gt;
+		Classpath resolution for JUnit integration tests&lt;/li&gt;
+&lt;li&gt;
+		ImpEx importer&lt;/li&gt;
+&lt;li&gt;
+		Optimization of Tomcat startup time&lt;/li&gt;
+&lt;/ul&gt;&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;&lt;!-- google_ad_section_end --&gt;</description>
+     <pubDate>Tue, 25 Jul 2017 19:04:22 +0000</pubDate>
+ <dc:creator>bdobbs6r0</dc:creator>
+ <guid isPermaLink="false">3565771 at http://marketplace.eclipse.org</guid>
+ <comments>http://marketplace.eclipse.org/content/sap-hybris-commerce-development-tools-eclipse#comments</comments>
+  </item>
+  <item>
+    <title>Bndtools</title>
+    <link>http://marketplace.eclipse.org/content/bndtools</link>
+    <description>&lt;div class=&quot;field field-name-field-resource-image field-type-image field-label-hidden&quot;&gt;&lt;div class=&quot;field-items&quot;&gt;&lt;div class=&quot;field-item even&quot;&gt;&lt;img class=&quot;img-responsive&quot; src=&quot;http://marketplace.eclipse.org/sites/default/files/bndtools-logo-text-110x80_0.png&quot; width=&quot;110&quot; height=&quot;80&quot; alt=&quot;&quot; /&gt;&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;&lt;div class=&quot;field field-name-shared-date-created field-type-text field-label-inline clearfix&quot;&gt;&lt;div class=&quot;field-label&quot;&gt;Date Created:&amp;nbsp;&lt;/div&gt;&lt;div class=&quot;field-items&quot;&gt;&lt;div class=&quot;field-item even&quot;&gt;Tue, 2010-05-18 23:11&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;&lt;div class=&quot;field field-name-shared-date-updated field-type-text field-label-inline clearfix&quot;&gt;&lt;div class=&quot;field-label&quot;&gt;Date Updated:&amp;nbsp;&lt;/div&gt;&lt;div class=&quot;field-items&quot;&gt;&lt;div class=&quot;field-item even&quot;&gt;Tue, 2017-10-03 14:26&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;&lt;a href=&quot;/search/content/%22Neil%20Bartlett%20and%20others%22&quot;&gt;Neil Bartlett and others&lt;/a&gt;&lt;div class=&quot;field field-name-shared-submitted-by field-type-text field-label-inline clearfix&quot;&gt;&lt;div class=&quot;field-label&quot;&gt;Submitted by:&amp;nbsp;&lt;/div&gt;&lt;div class=&quot;field-items&quot;&gt;&lt;div class=&quot;field-item even&quot;&gt;&lt;a href=&quot;/user/nbartlett/listings&quot; title=&quot;Neil Bartlett&quot;&gt;Neil Bartlett&lt;/a&gt;&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;&lt;!-- google_ad_section_start --&gt;&lt;div class=&quot;field field-name-body field-type-text-with-summary field-label-hidden&quot;&gt;&lt;div class=&quot;field-items&quot;&gt;&lt;div class=&quot;field-item even&quot;&gt;Bndtools: the Development Environment for OSGi Bundles and Applications
+&lt;h2&gt;
+	What is Bndtools?&lt;/h2&gt;
+&lt;p&gt;Bndtools is an Eclipse based development environment that significantly simplifies the development of OSGi Bundles and application. It provides all the features one can expect from a popular IDE. On top these formidable shoulders it adds thousands of functions to simplify the development of OSGi and help create more resilient bundles. For this, it is based on bnd, a library that is used in the majority of OSGi builds to make the bundles more robust. Since bnd is used by the OSGi Alliance to build some of the reference implementations and all test suites, it is guaranteed to support every latest OSGi feature and beyond.&lt;/p&gt;
+&lt;h2&gt;
+	Coding in Bndtools&lt;/h2&gt;
+&lt;p&gt;Coding in Bndtools is highly interactive. Often you code bundles in a life environment. Any changes you make in the workspace are immediately build into bundles and then deployed to active framework that is either on your local machine or remotely. Sometimes you will forget that you have not restarted the framework for days or that you test code unnecessarily on a remote machine.&lt;/p&gt;
+&lt;p&gt;Related projects are grouped in a workspace. This simplifies the development of cohesive components by sharing information without forcing that information to become public. I.e. a workspace is a module that consists of bundles. In Bndtools you don’t write a Manifest file, you write a bnd file. This is a property file that supports all kinds of conveniences over the Manifest writing like they do in PDE. You can use wildcards when applicable and a powerful macro language makes it very easy to only define facts in one place to avoid redundant information. It is also possible to create manifest headers through annotations. For all important headers there are very useful defaults like for example the Bundle Symbolic Name (which is the project name). For most bundle projects, the actual information in the bnd file is quite small and does not change often.&lt;/p&gt;
+&lt;p&gt;The state of the art of OSGi is to use declarative services with their standardized annotations. Bndtools has wizards for DS components and reports and misuse of the annotations at the place where they happen. Since Bndtools always builds after any change, the feedback is direct.&lt;/p&gt;
+&lt;p&gt;There are several editors provided with Bndtools. The bnd editor provides completion of instructions and tooltips on headers and instructions. It is directly integrated with the error reporting. The JAR editor shows the contents of a JAR and can print an overview of the OSGi relevant details of a JAR.&lt;/p&gt;
+&lt;p&gt;Bndtools has a flexible model for Workspace templates and Project templates. Workspace templates can come from a remote repository, for example from your organization. A wizard allows a workspace template to update an existing workspace or create a new workspace. The project templates can come from repositories and use a powerful templating language (Moustache). This makes it easy to add organization specific project templates.&lt;/p&gt;
+&lt;h2&gt;
+	Versioning Bndtools&lt;/h2&gt;
+&lt;p&gt;In a component system versioning is unavoidable, systems that do not version their packages will be very hard to evolve over time. Bndtools supports semantic package versions using the OSGi annotations for package versions and consumer/producer types in the package folder. By placing all the information in the package folder, close to where the changes happen, makes it easy to maintain proper versions. When the manifest is calculated by bnd all this information is taken into account, verified, and then used to generate the OSGi headers using OSGi’s definition of _semantic versioning_. With Bndtools, package versions are natural, hardly require work, and mistakes are caught before they percolate through the system. If you violate the rules of semantic versioning, for example you add a method to an interface without bumping the version, then Bndtools can tell you that you just broke backward compatibility. If you work with other people then you have to be careful when you change API! Even experienced users tend to forget in their rush to pay attention to this backward compatibility. Fortunately, Bndtools can continuously check your new bundle against the previously released version. If bnd detects any incompatible changes (without the appropriate version change) then it will balk and point out where to fix it: either the version or the line that caused the incompatibility. This alone could be a reason to switch to Bndtools.&lt;/p&gt;
+&lt;h2&gt;
+	Build Support in Bndtools&lt;/h2&gt;
+&lt;p&gt;Bndtools is the user interface on top of bnd, where bnd is the headless build library that provides a build model. This library is used in Gradle, Maven, Ant, SBT, and other build tools. Over time it has been expanded with lots of functions to make builds easier.&lt;/p&gt;
+&lt;p&gt;First, bnd is a pull model. Instead of taking the contents of a project bnd makes you define what packages are part of the bundle. These packages can come from your project but also from other projects or other JARs. This provides a lot of leeway in designing the packaging of a bundle. You can also specify what resources should be included and at what path. Overall the bnd file has much more flexibility than most other build environments to package a bundle.&lt;/p&gt;
+&lt;p&gt;The bnd files can use a very powerful macro language. The macros can be used to define facts in one place and use it in different places. However, built in macros provide access to the current operation like the actual exported packages, the imports, the time. You can also access the file system or OS commands. For example, the macros can be used to add a number of JAR files in a local directory to the Bundle-ClassPath.&lt;/p&gt;
+&lt;p&gt;Dependencies in bnd come from repositories. In Bndtools the repositories can be viewed and edited. Currently, bnd supports repositories for OSGi XML files with Capabilities &amp;amp; Requirements, Maven, simple file repositories, and others. It is quite easy to add additional repositories to bnd.&lt;/p&gt;
+&lt;p&gt;Bndtools provides extensive support to collaborate with maven projects. Bundles can be created with a POM file inside in the same way Maven does. The contents of this POM is derived from the manifest headers. With the Maven Bnd Repository that is included there is full maven repository support. It integrates with Nexus, Artifactory, and the local machine based repository. It supports snapshots and releases. Bndtools dependencies can come from Maven repositories and can be released to them as well. Try it out, in contrast to m2e Bndtools is much more interactive.&lt;/p&gt;
+&lt;h2&gt;
+	Assembly with Bndtools&lt;/h2&gt;
+&lt;p&gt;OSGi is a reusable component system. One stage in the development of an application is therefore to &lt;em&gt;assemble&lt;/em&gt; a set of components and configure them. Bndtools supports assembly with a resolver that can create the list of bundles needed to satisfy a set of initial requirements. Instead of discovering more and more dependencies by dragging in a new dependency, in Bndtools you can just drag the XRay bundle to the initial requirements list and then the resolver will include Web Console, an Http Server, DS, and all other required bundles. This tool can be an enormous time saver because it can be really hard to create a consistent set of bundles that actually works when deployed.&lt;/p&gt;
+&lt;h2&gt;
+	Debugging in Bndtools&lt;/h2&gt;
+&lt;p&gt;In Bndtools when you debug or launch an application your code sees an environment that is identical to the runtime of the application when it runs standalone, unlike PDE. This avoids the Heisenbugs that only occur in runtime. It also has the effect that your code becomes much more robust because any errors in handling the OSGi dynamics will be found quickly because you can develop so interactively. Bndtools uses the hot deployment mechanisms of OSGi to deploy updated bundles from the workspace in the framework seamlessly. Bndtools has almost the feeling of a dynamic language with REPL (Read, Eval, Print, Loop). For people used to PDE or even normal Java development this is jaw-dropping. Try it, developing bundles is fun with Bndtools. Debugging applications can happen locally on your machine but it can also happen on a remote, potentially much smaller like a Raspberry Pi, machine. Both local and remote are completely interactive.&lt;/p&gt;
+&lt;h2&gt;
+	Verification in Bndtools&lt;/h2&gt;
+&lt;p&gt;Every Bundle made with bnd is verified as much as possible. Many errors are directly reported in the source code at the proper place. The bnd library is continuously expanded to diagnose problems and warn about them.&lt;/p&gt;
+&lt;h2&gt;
+	Testing with Bndtools&lt;/h2&gt;
+&lt;p&gt;Bndtools supports proper JUnit testing with the standard Eclipse GUI. However, bnd also supports testing in a life OSGi framework. This bnd test framework is fully integrated with the Eclipse JUnit GUI; it is hard to see the difference.&lt;/p&gt;
+&lt;h2&gt;
+	Continuous Integration with Bndtools&lt;/h2&gt;
+&lt;p&gt;Any Bndtools workspace can also be built with Gradle because bnd also provides an excellent Gradle plugin that guarantees the same output that Eclipse generates from the same bnd files. This Gradle plugin can also be used standalone for classic Gradle projects.&lt;/p&gt;
+&lt;h2&gt;
+	Getting started with Bndtools via OSGi enRoute&lt;/h2&gt;
+&lt;p&gt;The OSGi Alliance has invested in making it easier to get started with OSGi. Work done in extending Bndtools/bnd is one part of this effort. You can find documentation, tutorials, examples, application notes and a forum on the &lt;a href=&quot;//enroute.osgi.org”&quot; rel=&quot;nofollow&quot;&gt;OSGi enRoute site&lt;/a&gt;.&lt;/p&gt;
+&lt;h2&gt;
+	Contributing to Bndtools&lt;/h2&gt;
+&lt;p&gt;Bndtools and bnd are fully build with Bndtools. You can find the Git repositories on &lt;a href=&quot;//github.com/bndtools”&quot; rel=&quot;nofollow&quot;&gt;Github&lt;/a&gt;. Any feedback can be reported there and we welcome PRs.&lt;/p&gt;
+
+	What is new in Bndtools 3.3.0?
+&lt;ul&gt;&lt;li&gt;
+		Task Progress / Non-blocking UI&lt;/li&gt;
+&lt;li&gt;
+		Bnd Workspace Improvements&lt;/li&gt;
+&lt;li&gt;
+		Standalone support — for launching OSGi apps without a bnd workspace&lt;/li&gt;
+&lt;li&gt;
+		Improved integration with Eclipse debugger&lt;/li&gt;
+&lt;li&gt;
+		Repositories View Improvements&lt;/li&gt;
+&lt;li&gt;
+		Lots of smaller improvements&lt;/li&gt;
+&lt;/ul&gt;&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;&lt;!-- google_ad_section_end --&gt;</description>
+     <pubDate>Wed, 19 May 2010 03:11:17 +0000</pubDate>
+ <dc:creator>nbartlett</dc:creator>
+ <guid isPermaLink="false">1220 at http://marketplace.eclipse.org</guid>
+ <comments>http://marketplace.eclipse.org/content/bndtools#comments</comments>
+  </item>
+  <item>
     <title>Matros DMS </title>
     <link>http://marketplace.eclipse.org/content/matros-dms</link>
     <description>&lt;div class=&quot;field field-name-field-resource-image field-type-image field-label-hidden&quot;&gt;&lt;div class=&quot;field-items&quot;&gt;&lt;div class=&quot;field-item even&quot;&gt;&lt;img class=&quot;img-responsive&quot; src=&quot;http://marketplace.eclipse.org/sites/default/files/default_images/default_2.png&quot; width=&quot;110&quot; height=&quot;80&quot; alt=&quot;&quot; /&gt;&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;&lt;div class=&quot;field field-name-shared-date-created field-type-text field-label-inline clearfix&quot;&gt;&lt;div class=&quot;field-label&quot;&gt;Date Created:&amp;nbsp;&lt;/div&gt;&lt;div class=&quot;field-items&quot;&gt;&lt;div class=&quot;field-item even&quot;&gt;Tue, 2017-10-03 04:48&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;&lt;div class=&quot;field field-name-shared-date-updated field-type-text field-label-inline clearfix&quot;&gt;&lt;div class=&quot;field-label&quot;&gt;Date Updated:&amp;nbsp;&lt;/div&gt;&lt;div class=&quot;field-items&quot;&gt;&lt;div class=&quot;field-item even&quot;&gt;Tue, 2017-10-03 08:28&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;&lt;div class=&quot;field field-name-shared-submitted-by field-type-text field-label-inline clearfix&quot;&gt;&lt;div class=&quot;field-label&quot;&gt;Submitted by:&amp;nbsp;&lt;/div&gt;&lt;div class=&quot;field-items&quot;&gt;&lt;div class=&quot;field-item even&quot;&gt;&lt;a href=&quot;/user/mschwehla/listings&quot; title=&quot;martin schwehla&quot;&gt;martin schwehla&lt;/a&gt;&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;&lt;!-- google_ad_section_start --&gt;&lt;div class=&quot;field field-name-body field-type-text-with-summary field-label-hidden&quot;&gt;&lt;div class=&quot;field-items&quot;&gt;&lt;div class=&quot;field-item even&quot;&gt;&lt;h2&gt;
@@ -434,235 +532,6 @@
  <dc:creator>tepsteinccr</dc:creator>
  <guid isPermaLink="false">3138718 at http://marketplace.eclipse.org</guid>
  <comments>http://marketplace.eclipse.org/content/reprezen-api-studio#comments</comments>
-  </item>
-  <item>
-    <title>KaiZen OpenAPI Editor</title>
-    <link>http://marketplace.eclipse.org/content/kaizen-openapi-editor</link>
-    <description>&lt;div class=&quot;field field-name-field-resource-image field-type-image field-label-hidden&quot;&gt;&lt;div class=&quot;field-items&quot;&gt;&lt;div class=&quot;field-item even&quot;&gt;&lt;img class=&quot;img-responsive&quot; src=&quot;http://marketplace.eclipse.org/sites/default/files/KaiZen%20Symbol%20%28v2%29.png&quot; width=&quot;80&quot; height=&quot;80&quot; alt=&quot;&quot; /&gt;&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;&lt;div class=&quot;field field-name-shared-date-created field-type-text field-label-inline clearfix&quot;&gt;&lt;div class=&quot;field-label&quot;&gt;Date Created:&amp;nbsp;&lt;/div&gt;&lt;div class=&quot;field-items&quot;&gt;&lt;div class=&quot;field-item even&quot;&gt;Sat, 2017-05-06 00:51&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;&lt;div class=&quot;field field-name-shared-date-updated field-type-text field-label-inline clearfix&quot;&gt;&lt;div class=&quot;field-label&quot;&gt;Date Updated:&amp;nbsp;&lt;/div&gt;&lt;div class=&quot;field-items&quot;&gt;&lt;div class=&quot;field-item even&quot;&gt;Sat, 2017-09-30 00:30&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;&lt;a href=&quot;/search/content/%22RepreZen%22&quot;&gt;RepreZen&lt;/a&gt;&lt;div class=&quot;field field-name-shared-submitted-by field-type-text field-label-inline clearfix&quot;&gt;&lt;div class=&quot;field-label&quot;&gt;Submitted by:&amp;nbsp;&lt;/div&gt;&lt;div class=&quot;field-items&quot;&gt;&lt;div class=&quot;field-item even&quot;&gt;&lt;a href=&quot;/user/tepsteinccr/listings&quot; title=&quot;Ted Epstein&quot;&gt;Ted Epstein&lt;/a&gt;&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;&lt;!-- google_ad_section_start --&gt;&lt;div class=&quot;field field-name-body field-type-text-with-summary field-label-hidden&quot;&gt;&lt;div class=&quot;field-items&quot;&gt;&lt;div class=&quot;field-item even&quot;&gt;&lt;p&gt;&lt;strong&gt;NOW WITH COMPLETE SUPPORT FOR OPEN API 3.0 final spec, full compatibility with Eclipse Oxygen &amp;amp; Neon releases. &lt;/strong&gt;&lt;/p&gt;
-&lt;p&gt;&lt;a href=&quot;https://github.com/RepreZen/KaiZen-OpenAPI-Editor&quot; rel=&quot;nofollow&quot;&gt;KaiZen OpenAPI Editor&lt;/a&gt; is RepreZen&#039;s open source, Eclipse-based editor for the industry-standard &lt;a href=&quot;http://openapis.org/&quot; rel=&quot;nofollow&quot;&gt;OpenAPI Specification&lt;/a&gt; language, based on Swagger.  This is the same full-featured editor (formerly known as SwagEdit) that powers Swagger-OpenAPI in the popular &lt;a href=&quot;https://marketplace.eclipse.org/content/reprezen-api-studio&quot; rel=&quot;nofollow&quot;&gt;RepreZen API Studio&lt;/a&gt; solution.&lt;/p&gt;
-&lt;h2&gt;
-	Swagger-OpenAPI Zen In Your Eclipse IDE&lt;/h2&gt;
-&lt;p&gt;Features Include:&lt;/p&gt;
-&lt;ul&gt;&lt;li&gt;
-		&lt;strong&gt;FULLY COMPATIBLE with OpenAPI 3.0.0&lt;/strong&gt;, the &lt;a href=&quot;http://github.com/OAI/OpenAPI-Specification/blob/master/versions/3.0.0.md&quot; target=&quot;_blank&quot; rel=&quot;nofollow&quot;&gt;newest version&lt;/a&gt; of the industry-standard API description language. Here&#039;s how you can &lt;a href=&quot;http://github.com/RepreZen/KaiZen-OpenAPI-Editor/blob/master/OPEN_API_V3_SUPPORT.md&quot; target=&quot;_blank&quot; rel=&quot;nofollow&quot;&gt;get started with KaiZen and OpenAPI 3.0&lt;/a&gt;.&lt;br /&gt;
-		 &lt;/li&gt;
-&lt;li&gt;
-		&lt;strong&gt;Full OpenAPI 2.0 (Swagger) compatibility&lt;/strong&gt;.&lt;br /&gt;
-		 &lt;/li&gt;
-&lt;li&gt;
-		&lt;strong&gt;Syntax highlighting&lt;/strong&gt; with configurable colors&lt;br /&gt;
-		 &lt;/li&gt;
-&lt;li&gt;
-		&lt;strong&gt;Content assist&lt;/strong&gt; with custom templates. Scope cycling makes it easy to insert references to definitions anywhere in the current file, project or workspace.&lt;br /&gt;
-		 &lt;/li&gt;
-&lt;li&gt;
-		&lt;strong&gt;Real-time validation&lt;/strong&gt;&lt;br /&gt;
-		 &lt;/li&gt;
-&lt;li&gt;
-		&lt;strong&gt;Multi-file support&lt;/strong&gt; with scope-cycling code assist on $ref properties&lt;br /&gt;
-		 &lt;/li&gt;
-&lt;li&gt;
-		&lt;strong&gt;Outline view&lt;/strong&gt;&lt;br /&gt;
-		 &lt;/li&gt;
-&lt;li&gt;
-		&lt;strong&gt;Quick Outline navigation&lt;/strong&gt; with scope cycling, to navigate anywhere within the current file, project or workspace.&lt;br /&gt;
-		 &lt;/li&gt;
-&lt;li&gt;
-		&lt;strong&gt;Hyperlink navigation&lt;/strong&gt; through $ref properties&lt;/li&gt;
-&lt;/ul&gt;&lt;p&gt;Requires Eclipse Mars.2 release or later.&lt;/p&gt;
-&lt;h2&gt;
-	Resources&lt;/h2&gt;
-&lt;h4&gt;
-	KaiZen OpenAPI Editor on GitHub&lt;/h4&gt;
-&lt;ul&gt;&lt;li&gt;
-		&lt;a href=&quot;https://github.com/RepreZen/KaiZen-OpenAPI-Editor&quot; target=&quot;_blank&quot; rel=&quot;nofollow&quot;&gt;Project Page on GitHub&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;
-		&lt;a href=&quot;https://github.com/RepreZen/KaiZen-OpenAPI-Editor/blob/master/GETTING_STARTED.md&quot; target=&quot;_blank&quot; rel=&quot;nofollow&quot;&gt;Getting Started Guide&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;
-		&lt;a href=&quot;https://github.com/RepreZen/KaiZen-OpenAPI-Editor/blob/master/TROUBLESHOOTING.md&quot; target=&quot;_blank&quot; rel=&quot;nofollow&quot;&gt;Troubleshooting Guide&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;
-		&lt;a href=&quot;https://github.com/RepreZen/KaiZen-OpenAPI-Editor/blob/master/DEVELOPERS_GUIDE.md&quot; target=&quot;_blank&quot; rel=&quot;nofollow&quot;&gt;Developer&#039;s Guide&lt;/a&gt;&lt;/li&gt;
-&lt;/ul&gt;&lt;h4&gt;
-	OpenAPI Specifications&lt;/h4&gt;
-&lt;ul&gt;&lt;li&gt;
-		&lt;a href=&quot;https://github.com/OAI/OpenAPI-Specification/blob/master/versions/2.0.md&quot; target=&quot;_blank&quot; rel=&quot;nofollow&quot;&gt;Swagger-OpenAPI 2.0 Specification&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;
-		&lt;a href=&quot;https://github.com/OAI/OpenAPI-Specification/blob/master/versions/3.0.0.md&quot; target=&quot;_blank&quot; rel=&quot;nofollow&quot;&gt;OpenAPI 3.0.0 Specification&lt;/a&gt;&lt;/li&gt;
-&lt;/ul&gt;&lt;h4&gt;
-	Other Links&lt;/h4&gt;
-&lt;ul&gt;&lt;li&gt;
-		RepreZen Blog:&lt;br /&gt;&lt;a href=&quot;https://www.reprezen.com/blog/introducing-kaizen-openapi-editor-the-open-source-eclipse-editor-for-oas-v2-and-v3&quot; rel=&quot;nofollow&quot;&gt;Introducing KaiZen OpenAPI Editor: the open source Eclipse editor for OAS 2.0 &amp;amp; 3.0&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;
-		InfoQ:&lt;br /&gt;&lt;a href=&quot;https://www.infoq.com/news/2017/06/reprezen-kaizen&quot; target=&quot;_blank&quot; rel=&quot;nofollow&quot;&gt;RepreZen Releases KaiZen Open-Source Editor and Parser for Open API 3.0&lt;/a&gt;&lt;/li&gt;
-&lt;/ul&gt;&lt;p&gt; &lt;/p&gt;&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;&lt;!-- google_ad_section_end --&gt;</description>
-     <pubDate>Sat, 06 May 2017 04:51:50 +0000</pubDate>
- <dc:creator>tepsteinccr</dc:creator>
- <guid isPermaLink="false">3429028 at http://marketplace.eclipse.org</guid>
- <comments>http://marketplace.eclipse.org/content/kaizen-openapi-editor#comments</comments>
-  </item>
-  <item>
-    <title>JDeodorant</title>
-    <link>http://marketplace.eclipse.org/content/jdeodorant</link>
-    <description>&lt;div class=&quot;field field-name-field-resource-image field-type-image field-label-hidden&quot;&gt;&lt;div class=&quot;field-items&quot;&gt;&lt;div class=&quot;field-item even&quot;&gt;&lt;img class=&quot;img-responsive&quot; src=&quot;http://marketplace.eclipse.org/sites/default/files/LogoF_profile_280x210_0.png&quot; width=&quot;107&quot; height=&quot;80&quot; alt=&quot;&quot; /&gt;&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;&lt;div class=&quot;field field-name-shared-date-created field-type-text field-label-inline clearfix&quot;&gt;&lt;div class=&quot;field-label&quot;&gt;Date Created:&amp;nbsp;&lt;/div&gt;&lt;div class=&quot;field-items&quot;&gt;&lt;div class=&quot;field-item even&quot;&gt;Wed, 2007-11-28 10:33&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;&lt;div class=&quot;field field-name-shared-date-updated field-type-text field-label-inline clearfix&quot;&gt;&lt;div class=&quot;field-label&quot;&gt;Date Updated:&amp;nbsp;&lt;/div&gt;&lt;div class=&quot;field-items&quot;&gt;&lt;div class=&quot;field-item even&quot;&gt;Fri, 2017-09-29 21:25&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;&lt;a href=&quot;/search/content/%22Department%20of%20Computer%20Science%20%26%20Software%20Engineering%2C%20Concordia%20University%22&quot;&gt;Department of Computer Science &amp;amp; Software Engineering, Concordia University&lt;/a&gt;&lt;div class=&quot;field field-name-shared-submitted-by field-type-text field-label-inline clearfix&quot;&gt;&lt;div class=&quot;field-label&quot;&gt;Submitted by:&amp;nbsp;&lt;/div&gt;&lt;div class=&quot;field-items&quot;&gt;&lt;div class=&quot;field-item even&quot;&gt;&lt;a href=&quot;/user/tnikolaos/listings&quot; title=&quot;Nikolaos Tsantalis&quot;&gt;Nikolaos Tsantalis&lt;/a&gt;&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;&lt;!-- google_ad_section_start --&gt;&lt;div class=&quot;field field-name-body field-type-text-with-summary field-label-hidden&quot;&gt;&lt;div class=&quot;field-items&quot;&gt;&lt;div class=&quot;field-item even&quot;&gt;&lt;p&gt;JDeodorant is an Eclipse plug-in that identifies design problems in software, known as bad smells, and resolves them by applying appropriate refactorings.&lt;/p&gt;
-&lt;p&gt;JDeodorant employs a variety of novel methods and techniques in order to identify code smells and suggest the appropriate refactorings that resolve them. For the moment, the tool identifies five kinds of bad smells, namely &lt;strong&gt;Feature Envy&lt;/strong&gt;, &lt;strong&gt;Type Checking&lt;/strong&gt;, &lt;strong&gt;Long Method&lt;/strong&gt;, &lt;strong&gt;God Class&lt;/strong&gt; and &lt;strong&gt;Duplicated Code&lt;/strong&gt;.&lt;/p&gt;
-&lt;p&gt;Feature Envy problems are resolved by appropriate &lt;em&gt;Move Method&lt;/em&gt; refactorings. Type Checking problems are resolved by appropriate &lt;em&gt;Replace Conditional with Polymorphism&lt;/em&gt; and &lt;em&gt;Replace Type code with State/Strategy&lt;/em&gt; refactorings. Long Method problems are resolved by appropriate &lt;em&gt;Extract Method&lt;/em&gt; refactorings. God Class problems are resolved by appropriate &lt;em&gt;Extract Class&lt;/em&gt; refactorings. Duplicated Code problems are resolved by appropriate &lt;em&gt;Extract Clone&lt;/em&gt; refactorings.&lt;/p&gt;
-&lt;p&gt;The tool is the outcome of the research performed in the &lt;a href=&quot;http://users.encs.concordia.ca/~nikolaos/&quot; target=&quot;_blank&quot; rel=&quot;nofollow&quot;&gt;Software Refactoring Lab&lt;/a&gt; Department of Computer Science and Software Engineering, Concordia University, Canada and the &lt;a href=&quot;http://se.uom.gr/&quot; target=&quot;_blank&quot; rel=&quot;nofollow&quot;&gt;Software Engineering Group&lt;/a&gt; at the Department of Applied Informatics, University of Macedonia, Thessaloniki, Greece.&lt;/p&gt;
-&lt;p&gt;JDeodorant encompasses a number of innovative features:&lt;/p&gt;
-&lt;ul&gt;&lt;li&gt;
-		Transformation of expert knowledge to fully automated processes&lt;/li&gt;
-&lt;li&gt;
-		Pre-Evaluation of the effect for each suggested solution&lt;/li&gt;
-&lt;li&gt;
-		User guidance in comprehending the design problems&lt;/li&gt;
-&lt;li&gt;
-		User friendliness (one-click approach in improving design quality)&lt;/li&gt;
-&lt;/ul&gt;&lt;p&gt;&lt;a href=&quot;http://www.youtube.com/channel/UCp-NaYVqKOERLreXxwCgWzg&quot; target=&quot;_blank&quot; rel=&quot;nofollow&quot;&gt;JDeodorant YouTube Channel&lt;/a&gt; &lt;a href=&quot;http://www.youtube.com/watch?v=_WPtgG6JwJ8&quot; target=&quot;_blank&quot; rel=&quot;nofollow&quot;&gt;Refactoring of the Clones - Teaser Trailer&lt;/a&gt; &lt;a href=&quot;http://www.youtube.com/watch?v=LtH8uF0epV0&quot; target=&quot;_blank&quot; rel=&quot;nofollow&quot;&gt;Code Smell Visualization Demo&lt;/a&gt;&lt;/p&gt;
-&lt;p&gt;&lt;strong&gt;Latest features:&lt;/strong&gt;&lt;/p&gt;
-&lt;ul&gt;&lt;li&gt;
-		[11/11/2016] Bug fixes and improvements: - Extract Class Refactoring implementation tested with &lt;strong&gt;1475 refactorings&lt;/strong&gt; applied in JFreeChart-1.0.19 and &lt;strong&gt;1149 refactorings&lt;/strong&gt; applied in JFreeChart-1.0.10 - Move Method Refactoring implementation tested with &lt;strong&gt;99 refactorings&lt;/strong&gt; applied in JFreeChart-1.0.19 and &lt;strong&gt;65 refactorings&lt;/strong&gt; applied in JFreeChart-1.0.10 - Extract Class and Move Method candidate refactorings are no longer virtually applied. &lt;strong&gt;This makes the detection of refactoring opportunities much faster&lt;/strong&gt;. - Redundant Extract Method refactoring opportunities are no longer reported by eliminating identical slices expanding in different blocks.&lt;/li&gt;
-&lt;li&gt;
-		[12/09/2016] Bug fixes and improvements in the Move Method Refactoring implementation.&lt;/li&gt;
-&lt;li&gt;
-		[29/08/2016] Bug fixes and improvements in the Clone Refactoring feature.&lt;/li&gt;
-&lt;li&gt;
-		[14/06/2016] Proper creation of incoming control dependence for Try statements without resources.&lt;/li&gt;
-&lt;li&gt;
-		[11/06/2016] Bug fixes and improvements: - Fixed the check for unprocessed methods in call graph analysis. - Fixed an infinite loop in call graph analysis. - TypeSearchRequestor excludes anonymous types from the results when searching for subclass types.&lt;/li&gt;
-&lt;li&gt;
-		[09/06/2016] Bug fixes and improvements: - Improved the detection of method declarations with a type parameter from method invocations. - Fixed a common bug in Extract Class and Move Method refactorings related to Enums. - Refactored the common logic for finding topics to class TopicFinder. - Added a right-click pop-up menu to show the code smell visualization on user demand. - Added a check box for the filtering of clone groups based on the Java files currently opened in the editor.&lt;/li&gt;
-&lt;li&gt;
-		[06/04/2016] Extended method call analysis to class instance creations and constructor invocations.&lt;/li&gt;
-&lt;li&gt;
-		[22/02/2016] Fixed all the bugs reported for &lt;strong&gt;Type-Checking&lt;/strong&gt; related refactorings in the paper by Francesca Arcelli Fontana, Marco Mangiacavalli, Domenico Pochiero, and Marco Zanoni titled &lt;strong&gt;On experimenting refactoring tools to remove code smells&lt;/strong&gt;. Special thanks to Marco Mangiacavalli for the detailed report he prepared.&lt;/li&gt;
-&lt;li&gt;
-		[11/02/2016] Fixed all the bugs reported for &lt;strong&gt;Extract Method Refactoring&lt;/strong&gt; in the paper by Francesca Arcelli Fontana, Marco Mangiacavalli, Domenico Pochiero, and Marco Zanoni titled &lt;strong&gt;On experimenting refactoring tools to remove code smells&lt;/strong&gt;. Special thanks to Marco Mangiacavalli for the detailed report he prepared.&lt;/li&gt;
-&lt;li&gt;
-		[01/02/2016] Improved the performance of method call analyzer. If the type of the reference through which a polymorphic method is called can be statically determined, then only the overriding implementation of the subclass type corresponding to the reference type is analyzed.&lt;/li&gt;
-&lt;li&gt;
-		[21/01/2016] - Improved the views for Feature Envy, God Class, Long Method, Type-Checking by allowing the user to apply refactoring opportunities on the currently examined project, even if the user has selected another project in between. The active project is always the last project on which a detection of code smells has been performed. - If the user has opened multiple code smell views, and each one of them contains refactoring opportunities for a different project, then a change to one of the projects will disable the &quot;Apply Refactoring&quot; button only for the code smell view corresponding to the changed project.&lt;/li&gt;
-&lt;li&gt;
-		[15/01/2016] The Extract Method refactoring opportunities in which the statement declaring the variable criterion is nested in a deeper level compared to the level in which the extracted method invocation will be placed (i.e., the level in which the first statement of the slice is nested) are automatically excluded from being reported.&lt;/li&gt;
-&lt;li&gt;
-		[08/01/2016] - The project is always being built before getting parsed. AST parsing takes place only if there are no compilation errors. - Files generated by Parser generators are automatically skipped from the analysis for refactoring opportunities. Currently, JavaCC, ANTLR, JFlex, and CUP generators are supported.&lt;/li&gt;
-&lt;li&gt;
-		[29/12/2015] Fixed all the bugs reported for &lt;strong&gt;Extract Class Refactoring&lt;/strong&gt; in the paper by Francesca Arcelli Fontana, Marco Mangiacavalli, Domenico Pochiero, and Marco Zanoni titled &lt;strong&gt;On experimenting refactoring tools to remove code smells&lt;/strong&gt;. Special thanks to Marco Mangiacavalli for the detailed report he prepared.&lt;/li&gt;
-&lt;li&gt;
-		[14/12/2015] Improved the handling of block nested within control statements in the generation of the Program Dependence Graph.&lt;/li&gt;
-&lt;li&gt;
-		[12/12/2015] Improved the clone statement mapping process to prevent the mapping of statements being nested in the same level, but belonging to different basic blocks.&lt;/li&gt;
-&lt;li&gt;
-		[06/12/2015] Methods belonging to test classes are no longer reported as refactoring opportunities for Feature Envy. Fixed a bug occurring when the user is switching between the Duplicated Code view containing imported clones belonging to project X and the Refactoring of duplicated methods selected in the Package Explorer belonging to project Y.&lt;/li&gt;
-&lt;li&gt;
-		[23/11/2015] The repeated clone groups and class-level clones are no longer stored in memory.&lt;/li&gt;
-&lt;li&gt;
-		[20/11/2015] The Duplicated Code view is updated after a refactoring or any other source code edit to highlight the eliminated, edited, and shifted clones. In this way the user does not have to import new clone detection results after the application of a clone refactoring.&lt;/li&gt;
-&lt;li&gt;
-		[03/11/2015] The import of clone detection results has become faster by disabling the resolution of bindings when configuring the JDT ASTParser.&lt;/li&gt;
-&lt;li&gt;
-		[27/10/2015] Fixed NullPointerException taking place when the default constructor is called, but no such constructor declaration exists in the actual source code.&lt;/li&gt;
-&lt;li&gt;
-		[20/10/2015] Bug fix in the parser for CCFinder clone detection results file.&lt;/li&gt;
-&lt;li&gt;
-		[17/10/2015] Added a &lt;strong&gt;Clone Import Wizard&lt;/strong&gt; supporting the import of clones from 5 popular clone detection tools, namely CCFinder, ConQAT, Deckard, NiCad, and CloneDR. To use this feature go to Bad Smells -&amp;gt; Duplicated Code. This will open the &quot;Duplicated Code&quot; view for displaying the imported clone groups. Next, select a Java project from the Package Explorer, and click on the &quot;Import Clones&quot; button of the view.&lt;/li&gt;
-&lt;li&gt;
-		[19/09/2015] Tons of bug fixes in Extract Clone Refactoring.&lt;/li&gt;
-&lt;li&gt;
-		[20/08/2015] - Updated the detection of type-check elimination opportunities to support state variables having java.lang.String as type. - Fixed the case where the classes of the inheritance hierarchy belong to the same CompilationUnit with the code performing the Runtime Type Identification (bug reported by jasyn). - Tons of bug fixes in Extract Clone Refactoring.&lt;/li&gt;
-&lt;li&gt;
-		[28/05/2015] The files containing the clones are opened in the editor before refactoring to avoid problems in the Undo history when applying successive Extract Clone refactorings.&lt;/li&gt;
-&lt;li&gt;
-		[22/05/2015] Several bug fixes in Extract Clone Refactoring.&lt;/li&gt;
-&lt;li&gt;
-		[07/05/2015] Fixed the refactoring of an if/else matched with a conditional expression (ternary operator).&lt;/li&gt;
-&lt;li&gt;
-		[30/04/2015] - Excluded interfaces Serializable, Runnable, and Comparable from the list of accepted common super types. - Improved the matching of variable declaration statements with assignment statements.&lt;/li&gt;
-&lt;li&gt;
-		[22/04/2015] Extended method commonSuperType() in class ASTNodeMatcher to find also the common superInterface of two types (if there is no common superclass).&lt;/li&gt;
-&lt;li&gt;
-		[16/04/2015] Improved precondition for the parameterization of differences to ignore incoming dependencies from advanced matched nodes.&lt;/li&gt;
-&lt;li&gt;
-		[26/03/2015] &lt;strong&gt;The first stable version of the Control Structure Variant Clone Visualization and Refactoring feature is released&lt;/strong&gt;.&lt;/li&gt;
-&lt;li&gt;
-		[24/12/2014] - Fixed Extract Class Refactoring to make the extracted class implement the Serializable interface, if the source class implements the Serializable interface and at least one extracted field is non-transient. - Fixed the extraction of thrown exceptions in PDG nodes. Class Instance Creations throwing exceptions are also taken into account in addition to method invocations. - Added support for checking whether a method with the same name already exists in a class when performing an Extract Method Refactoring. - Fixed a bug related to the handling of Synchronized blocks during the generation of the PDG.&lt;/li&gt;
-&lt;li&gt;
-		[25/10/2014] - The updating of the model is no longer performed asynchronously. This bug caused model inconsistencies when detecting refactoring opportunities in the new code elements introduced by a previously applied refactoring. - Added vertical scrolling to the Slice Profile table. - Added support for collecting comments (i.e., line, block, and javadoc comments) - Fixed the refactoring of clones already containing parameters with argN names (where N is an integer starting from 0) - Fixed a bug in the Extract Method Refactoring mechanics&lt;/li&gt;
-&lt;li&gt;
-		[21/09/2014] Updated the slice-profile view to display all local variables declared inside the body of the examined method. Added an option that enables only the variables with a scope covering the entire method body.&lt;/li&gt;
-&lt;li&gt;
-		[10/09/2014] Fixed the refactoring of clones with additionally matched statements coming from the advanced matching of control predicate statements.&lt;/li&gt;
-&lt;li&gt;
-		[06/09/2014] Added support for the advanced matching of a VariableDeclaration statement having an initializer with a VariableDeclaration statement not having an initializer + an Assignment statement initializing the declared variable. See &lt;strong&gt;screenshots&lt;/strong&gt; for details.&lt;/li&gt;
-&lt;li&gt;
-		[30/08/2014] Several fixes in Extract Clone Refactoring. - Updated the search scope for sub-types using SearchEngine.createStrictHierarchyScope() introduced in JDT 3.6 This update improved significantly the performance of the search for sub-types. - Added support for the &lt;strong&gt;advanced matching&lt;/strong&gt; of different loop structures and if statements with expressions using the ternary operator. This feature was developed by &lt;strong&gt;Zackary Valenta&lt;/strong&gt; as part of his NSERC USRA project.&lt;/li&gt;
-&lt;li&gt;
-		[20/07/2014] &lt;strong&gt;The first stable version of the Software Clone Visualization and Refactoring feature is released&lt;/strong&gt;.&lt;/li&gt;
-&lt;li&gt;
-		[06/04/2014] - Added support for Synchronized and Labeled statements in Extract Clone refactoring. - Added support for pulling up additional duplicated methods called from the original clones in Extract Clone refactoring.&lt;/li&gt;
-&lt;li&gt;
-		[29/03/2014] Fixed the matching of method invocations with method declarations having &lt;strong&gt;varargs&lt;/strong&gt; parameters. - Added analysis support for &lt;strong&gt;Enum&lt;/strong&gt; types. - Added analysis support for &lt;strong&gt;Labeled&lt;/strong&gt; and &lt;strong&gt;Synchronized&lt;/strong&gt; statements.&lt;/li&gt;
-&lt;li&gt;
-		[22/02/2014] Clone Visualization bug fixes: a) fixed the matching of InfixExpressions, b) fixed a bug in the highlighting of differences for SimpleTypes.&lt;/li&gt;
-&lt;li&gt;
-		[21/12/2013] Improved the matching of method invocations with method declarations to address the cases where &#039;type parameter names&#039; are replaced with actual types in the method calls.&lt;/li&gt;
-&lt;li&gt;
-		[14/12/2013] - Improved the user interface of Extract Clone Refactoring, so that it presents multiple refactoring opportunities from a pair of methods in the same Wizard page (using a combo for allowing the user to select among the different refactoring opportunities). - Added initial support for the mapping of if/else statements with expression statements containing a conditional expression (i.e., the ternary operator &lt;strong&gt;condition ? true : false&lt;/strong&gt;).&lt;/li&gt;
-&lt;li&gt;
-		[13/10/2013] - Fixed the handling of additional methods moved along with source method in Move Method Refactoring. - Fixed the processing of if statements within the body of do-while loops in the construction of control flow graphs.&lt;/li&gt;
-&lt;li&gt;
-		[06/10/2013] &lt;strong&gt;New Clone Visualization and Refactoring&lt;/strong&gt; (Beta) support. To use the new feature select two methods in the Package Explorer (holding the Ctrl key), right-click on one of the methods, and select &quot;Refactor Duplicated Code...&quot; - All inner types are parsed regardless of their nesting level. - Method calls with varargs are properly handled in method call analysis. - Program Dependence Graph generation has been enhanced with a caching mechanism for internal method calls.&lt;/li&gt;
-&lt;li&gt;
-		[02/09/2013] &lt;strong&gt;New Code Smell Package Map Explorer for Feature Envy and God Class!!&lt;/strong&gt; This new visualization allows to explore the detected code smells at system level and discover relationships and dependencies between code smells. The visualization was developed by &lt;strong&gt;Kimberly Dextras-Romagnino&lt;/strong&gt; as part of her NSERC USRA project.&lt;/li&gt;
-&lt;li&gt;
-		[02/07/2013] Code Smell Visualizations have been enhanced with &lt;strong&gt;auto scrollbar adjustment&lt;/strong&gt; and &lt;strong&gt;zoom support&lt;/strong&gt; (from the View menu options or by scrolling the mouse wheel).&lt;/li&gt;
-&lt;li&gt;
-		[21/06/2013] The binding returned from SimpleName expressions should be checked for NullPointer. Many thanks to &lt;strong&gt;Wei Wu&lt;/strong&gt; (École Polytechnique de Montréal) for reporting the problem.&lt;/li&gt;
-&lt;li&gt;
-		[13/06/2013] &lt;strong&gt;New Code Smell Visualizations for Feature Envy and God Class!!&lt;/strong&gt; Whenever you double-click on a refactoring suggestion a View will open displaying a visualization for the corresponding code smell instance. The visualizations were developed by &lt;strong&gt;Kimberly Dextras-Romagnino&lt;/strong&gt; as part of her NSERC USRA project.&lt;/li&gt;
-&lt;li&gt;
-		[28/02/2013] Fixed a bug in the construction of control flow graphs. Many thanks to &lt;strong&gt;Danny Verloop&lt;/strong&gt; (TU Delft) for reporting the problem.&lt;/li&gt;
-&lt;li&gt;
-		[06/11/2012] JDeodorant was updated to support &lt;strong&gt;Union Types&lt;/strong&gt; introduced in Java 7. Union types are mainly used in the new &lt;strong&gt;Multicatch&lt;/strong&gt; feature.&lt;/li&gt;
-&lt;li&gt;
-		[04/11/2012] JDeodorant was updated to support the &lt;strong&gt;Java Language Specification 4&lt;/strong&gt; (Java 7). This affected the construction of Control Flow and Program Dependence graphs, since try statements may declare resources in JLS 4. More details can be found at the &lt;a href=&quot;http://users.encs.concordia.ca/~nikolaos/jdeodorant/index.php?option=com_content&amp;amp;view=article&amp;amp;id=71&quot; target=&quot;_blank&quot; rel=&quot;nofollow&quot;&gt;JDeodorant ChangeLog&lt;/a&gt;.&lt;/li&gt;
-&lt;li&gt;
-		[26/10/2012] Alias analysis in the detection of Extract Method refactoring opportunities (Long method code smell) caused in some cases an infinite recursion. The new implementation of alias analysis improves significantly the performance. This is an &lt;strong&gt;important&lt;/strong&gt; update.&lt;/li&gt;
-&lt;li&gt;
-		[09/10/2012] The exclusion of classes containing method with @Test annotations from the analysis may cause NullPointer exceptions (such a case was found in JUnit). As a result, test methods are not excluded from the analysis.&lt;/li&gt;
-&lt;li&gt;
-		[28/02/2012] Created a Standalone version of JDeodorant for the detection of refactoring opportunities from Eclipse applications. The results of Type Checking bad smell are now reported in a tree view and are grouped per inheritance hierarchy or named constants.&lt;/li&gt;
-&lt;li&gt;
-		[16/11/2011] Added a new precondition for Move Method refactoring. The variable (parameter or field of target class type) through which the moved method will be invoked must not be assigned within the body of the candidate method to be moved.&lt;/li&gt;
-&lt;li&gt;
-		[04/09/2011] Fixed the unnecessary importing of nested types in all implemented refactorings.&lt;/li&gt;
-&lt;li&gt;
-		[22/04/2011] Several improvements in the identification process and presentation of Extract Class refactoring opportunities. The application of the Extract Class Refactoring has been improved to handle the extraction of static members and the proper initialization of final fields in the extracted class when they are initialized inside constructors. More details can be found at the &lt;a href=&quot;http://users.encs.concordia.ca/~nikolaos/jdeodorant/index.php?option=com_content&amp;amp;view=article&amp;amp;id=71&quot; target=&quot;_blank&quot; rel=&quot;nofollow&quot;&gt;JDeodorant ChangeLog&lt;/a&gt;.&lt;/li&gt;
-&lt;li&gt;
-		[15/03/2011] Added a user option in the input pages of the Move Method and Extract Class refactorings allowing to keep delegates to the public moved methods.&lt;/li&gt;
-&lt;li&gt;
-		[12/03/2011] Extract Class Refactoring has been implemented from scratch and several bugs have been fixed. Added user rating support for the identified Extract Class refactoring opportunities.&lt;/li&gt;
-&lt;li&gt;
-		[09/01/2011] Try/catch blocks and throw statements are handled according to the approach proposed by Allen &amp;amp; Horwitz (2003). Added a rule for the preservation of output dependences. M. Allen, and S. Horwitz, &quot;Slicing Java Programs that Throw and Catch Exceptions&quot;, ACM SIGPLAN Workshop on Partial Evaluation and semantics-based Program Manipulation, pp. 44-54, 2003.&lt;/li&gt;
-&lt;li&gt;
-		[25/12/2010] The unlabeled break and continue statements within the body of loops and the break statements within the body of switch statements are handled according to the augmented program dependence graph (APDG) approach proposed by Ball &amp;amp; Horwitz (1993), Kumar &amp;amp; Horwitz (2002). T. Ball, and S. Horwitz, &quot;Slicing Programs with Arbitrary Control Flow&quot;, First International Workshop on Automated and Algorithmic Debugging, pp. 206-222, 1993. S. Kumar, and S. Horwitz, &quot;Better Slicing of Programs with Jumps and Switches&quot;, Fifth International Conference on Fundamental Approaches to Software Engineering, pp. 96-112, 2002.&lt;/li&gt;
-&lt;li&gt;
-		[02/12/2010] Fixed a variety of problems related with the Type checking code smell.&lt;/li&gt;
-&lt;li&gt;
-		[08/11/2010] Added functionality allowing the user to rate each identified refactoring opportunity with a rating ranging from 0 to 5 stars. The ratings provided by the users will help JDeodorant team to improve the ranking mechanism that sorts the identified refactoring opportunities.&lt;/li&gt;
-&lt;li&gt;
-		[27/08/2010] Added support for code smell evolution analysis throughout successive versions of a given Java project. Just select an identified refactoring opportunity from the table view and click on &quot;Evolution Analysis&quot; button. JDeodorant will automatically analyze the evolution of the corresponding code smell in the relevant project versions loaded in the workspace. Eventually, JDeodorant will present a table showing the changes regarding the severity of the code smell among the successive project versions. Watch out the &lt;a href=&quot;http://users.encs.concordia.ca/~nikolaos/jdeodorant/webcasts/FeatureEnvyEvolution/FeatureEnvyEvolution.html&quot; target=&quot;_blank&quot; rel=&quot;nofollow&quot;&gt;screencast&lt;/a&gt; showing the evolution analysis for a Feature Envy code smell.&lt;/li&gt;
-&lt;li&gt;
-		[12/07/2010] Added an Update Site for JDeodorant.&lt;/li&gt;
-&lt;li&gt;
-		[11/07/2010] The tool supports the identification of Extract Class refactoring opportunities for the decomposition of &quot;God&quot; classes. This feature is the outcome of a joint research effort with the &lt;a href=&quot;http://ssrg.cs.ualberta.ca/&quot; target=&quot;_blank&quot; rel=&quot;nofollow&quot;&gt;SSRG Lab&lt;/a&gt; at the Department of Computing Science, University of Alberta.&lt;/li&gt;
-&lt;li&gt;
-		[01/07/2010] The speed of slice computation when constructing unions of slices has been &lt;strong&gt;significantly improved&lt;/strong&gt;.&lt;/li&gt;
-&lt;li&gt;
-		[15/06/2010] A flexible calculator for slice-based cohesion metrics. Just right-click on a method from Package Explorer and click on &quot;Slice-based Cohesion Metrics...&quot; from the menu. The calculator will automatically compute the slices for all the variables which are declared within the body of the selected method and visually present its slice profile. The user can enable/disable any variable from the slice profile. The statements which are common to all enabled slices are highlighted in green color. The slice-based cohesion metrics (&lt;strong&gt;overlap&lt;/strong&gt;, &lt;strong&gt;tightness&lt;/strong&gt;, &lt;strong&gt;coverage&lt;/strong&gt;) are dynamically re-calculated after each modification of the slice profile. See the screenshots for details.&lt;/li&gt;
-&lt;/ul&gt;&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;&lt;!-- google_ad_section_end --&gt;</description>
-     <pubDate>Wed, 28 Nov 2007 15:33:58 +0000</pubDate>
- <dc:creator>tnikolaos</dc:creator>
- <guid isPermaLink="false">593 at http://marketplace.eclipse.org</guid>
- <comments>http://marketplace.eclipse.org/content/jdeodorant#comments</comments>
   </item>
   </channel>
 </rss>

@@ -8,8 +8,23 @@
 	<description>Planet Eclipse - http://planeteclipse.org/planet/</description>
 
 <item>
+	<title>Orion: Announcing Orion 16</title>
+	<guid isPermaLink="false">http://planetorion.org/news/?p=908</guid>
+	<link>http://planetorion.org/news/2017/10/announcing-orion-16/</link>
+	<description>&lt;p&gt;We are pleased to announce the sixteenth release of Orion, “Your IDE in the Cloud”. You can run it now at &lt;a href=&quot;https://orionhub.org/&quot;&gt;OrionHub,&lt;/a&gt; from &lt;a href=&quot;https://www.npmjs.com/package/orion&quot;&gt;NPM&lt;/a&gt; or &lt;a href=&quot;http://download.eclipse.org/orion/drops/R-16.0-201710030941/index.html&quot;&gt;download the server&lt;/a&gt; to run your own instance locally. Once again, thank you to all committers and contributors for your hard work this release. There were 169 bugs and enhancements fixed, across 236 commits from 16 authors!&lt;/p&gt;
+&lt;p&gt;This release was focussed on making compatibility, stability and overall quality improvements to the Node.js server. We also dark launched debugging support directly in Orion – although not completely polished, it is available for the community to try.&lt;/p&gt;</description>
+	<pubDate>Wed, 04 Oct 2017 18:56:20 +0000</pubDate>
+</item>
+<item>
+	<title>Eclipse Announcements: On Naming Eclipse Enterprise for Java (EE4J)</title>
+	<guid isPermaLink="true">http://feedproxy.google.com/~r/eclipse/fnews/~3/81N6T19IgGA/</guid>
+	<link>http://feedproxy.google.com/~r/eclipse/fnews/~3/81N6T19IgGA/</link>
+	<description>What is EE4J? Will it become the brand that replaces Java EE? Read the blog post to find out.&lt;img alt=&quot;&quot; height=&quot;1&quot; src=&quot;http://feeds.feedburner.com/~r/eclipse/fnews/~4/81N6T19IgGA&quot; width=&quot;1&quot; /&gt;</description>
+	<pubDate>Wed, 04 Oct 2017 13:48:00 +0000</pubDate>
+</item>
+<item>
 	<title>EclipseCon Europe 2017: Java at EclipseCon Europe</title>
-	<guid isPermaLink="false">https://www.eclipsecon.org/europe2017/3143 at https://www.eclipsecon.org/europe2017</guid>
+	<guid isPermaLink="false">https://www.eclipsecon.org/europe2017/news/3143 at https://www.eclipsecon.org/europe2017</guid>
 	<link>https://www.eclipsecon.org/europe2017/news/java-eclipsecon-europe</link>
 	<description>&lt;div class=&quot;field field-name-body field-type-text-with-summary field-label-hidden&quot;&gt;&lt;div class=&quot;field-items&quot;&gt;&lt;div class=&quot;field-item even&quot;&gt;&lt;p class=&quot;h4&quot;&gt;by Ian Skerrett&lt;/p&gt;
 &lt;p&gt;Java 9 is finally out the door and Eclipse is ready, with Java 9 support provided by &lt;a href=&quot;https://www.eclipse.org/jdt/&quot; target=&quot;_blank&quot;&gt;the Eclipse JDT project&lt;/a&gt;. EclipseCon Europe talks will bring you up to speed on trends in the Java world and introduce you to the technologies and ecosystem behind them.&lt;/p&gt;
@@ -57,11 +72,234 @@ Subject: [ANN] - CDT project changes Date: Fri, 7 Jun 2002 17:20:34 -040&lt;/p&g
 </item>
 <item>
 	<title>EclipseCon Europe 2017: Sponsor Testimonial: Orange Eclipse OM2M contributors</title>
-	<guid isPermaLink="false">https://www.eclipsecon.org/europe2017/3144 at https://www.eclipsecon.org/europe2017</guid>
+	<guid isPermaLink="false">https://www.eclipsecon.org/europe2017/news/3144 at https://www.eclipsecon.org/europe2017</guid>
 	<link>https://www.eclipsecon.org/europe2017/news/sponsor-testimonial-orange-eclipse-om2m-contributors</link>
 	<description>&lt;div class=&quot;field field-name-body field-type-text-with-summary field-label-hidden&quot;&gt;&lt;div class=&quot;field-items&quot;&gt;&lt;div class=&quot;field-item even&quot;&gt;&lt;p&gt;Orange has contributed for several years to Eclipse projects in Smart Home and OM2M, and it’s a great pleasure to be part of the EclipseCon Europe meeting once again. This year is particularly special for Orange because we are officially joining the Eclipse Foundation. Smart home represents for us the natural extension of our core business, telecommunications, and Eclipse represents to us a wonderful community of both open source developers and partners working together to think and built the future of smart home.&lt;/p&gt;
 &lt;/div&gt;&lt;/div&gt;&lt;/div&gt;&lt;div class=&quot;field field-name-field-news-image field-type-image field-label-hidden&quot;&gt;&lt;div class=&quot;field-items&quot;&gt;&lt;div class=&quot;field-item even&quot;&gt;&lt;a href=&quot;https://www.eclipsecon.org/europe2017/news/sponsor-testimonial-orange-eclipse-om2m-contributors&quot;&gt;&lt;img alt=&quot;&quot; class=&quot;img-responsive block-center&quot; height=&quot;250&quot; src=&quot;https://www.eclipsecon.org/europe2017/sites/default/files/styles/solstice_news_-_default_-_thumbnail/public/news/OM2M.png?itok=P-nbVONe&quot; width=&quot;250&quot; /&gt;&lt;/a&gt;&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;</description>
 	<pubDate>Tue, 03 Oct 2017 10:27:14 +0000</pubDate>
+</item>
+<item>
+	<title>Christopher Guindon: Eclipse Foundation Webdev Report [Q3 2017]</title>
+	<guid isPermaLink="true">https://www.chrisguindon.com/post/q3-2017-eclipse-foundation-webdev-report/</guid>
+	<link>https://www.chrisguindon.com/post/q3-2017-eclipse-foundation-webdev-report/</link>
+	<description>&lt;p&gt;A few months ago, I created a discussion on &lt;a href=&quot;https://bugs.eclipse.org/bugs/show_bug.cgi?id=519264&quot;&gt;Eclipse Bugzila&lt;/a&gt; about creating a new blog for the Eclipse Foundation Webdev team. The idea is to raise awareness about what we are currently working on and hopefully, in return, we will get some feedback from the community.&lt;/p&gt;
+
+&lt;p&gt;I am new to the blogging world and I am really excited to kick off this new challenge with this report.&lt;/p&gt;
+
+&lt;p&gt;My blog posts will be on the following topics:&lt;/p&gt;
+
+&lt;ol&gt;
+&lt;li&gt;Quarterly reports on web developpement at the foundation;&lt;/li&gt;
+&lt;li&gt;Maintenance window calendar;&lt;/li&gt;
+&lt;li&gt;Web developpement tips and tricks for Eclipse projects;&lt;/li&gt;
+&lt;li&gt;Discussion on new features.&lt;/li&gt;
+&lt;/ol&gt;
+
+&lt;p&gt;Here’s a top-level list of items that we worked on in Q3 2017:&lt;/p&gt;
+
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&quot;https://www.chrisguindon.com/post/q3-2017-eclipse-foundation-webdev-report/#api-eclipse-org&quot;&gt;Api.eclipse.org&lt;/a&gt;
+
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&quot;https://www.chrisguindon.com/post/q3-2017-eclipse-foundation-webdev-report/#bug-516914-create-public-documentation-for-api-eclipse-org-rest-api&quot;&gt;Bug 516914 - Create public documentation for api.eclipse.org REST Api&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&quot;https://www.chrisguindon.com/post/q3-2017-eclipse-foundation-webdev-report/#bug-502485-activity-tab-error-reports-from-aeri&quot;&gt;Bug 502485 - Activity tab - Error reports from AERI&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&quot;https://www.chrisguindon.com/post/q3-2017-eclipse-foundation-webdev-report/#eclipse-org&quot;&gt;Eclipse.org&lt;/a&gt;
+
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&quot;https://bugs.eclipse.org/bugs/show_bug.cgi?id=519264&quot;&gt;Bug 519264 - Create an Eclipse Foundation webdev blog&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&quot;https://www.chrisguindon.com/post/q3-2017-eclipse-foundation-webdev-report/#infra-2507-donate-campaign-plan-fall-2017&quot;&gt;Infra 2507 - Donate Campaign Plan - Fall 2017&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&quot;https://www.chrisguindon.com/post/q3-2017-eclipse-foundation-webdev-report/#bug-521084-add-epl-2-0-to-the-website&quot;&gt;Bug 521084 - Add epl-2.0 to the website&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&quot;https://www.chrisguindon.com/post/q3-2017-eclipse-foundation-webdev-report/#bug-261658-status-eclipse-org&quot;&gt;Bug 261658 - status.eclipse.org&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&quot;https://www.chrisguindon.com/post/q3-2017-eclipse-foundation-webdev-report/#marketplace&quot;&gt;Eclipse Marketplace&lt;/a&gt;
+
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&quot;https://www.chrisguindon.com/post/q3-2017-eclipse-foundation-webdev-report/#bug-520850-possible-adware-in-marketplace-plugin-eclipse-class-decompiler&quot;&gt;Bug 520850 - Possible adware in marketplace plugin (Eclipse Class Decompiler)&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&quot;https://www.chrisguindon.com/post/q3-2017-eclipse-foundation-webdev-report/#bug-501861-selecting-a-favorite-on-eclipse-marketplace-is-slow&quot;&gt;Bug 501861 - Selecting a favorite on Eclipse Marketplace is slow&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&quot;https://www.chrisguindon.com/post/q3-2017-eclipse-foundation-webdev-report/#eclipse-project-management-infrastructure-pmi&quot;&gt;Eclipse Project Management Infrastructure (PMI)&lt;/a&gt;
+
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&quot;https://www.chrisguindon.com/post/q3-2017-eclipse-foundation-webdev-report/#bug-519694-remove-solr-on-projects-eclipse-org&quot;&gt;Bug 519694 - Remove solr on projects.eclipse.org&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&quot;https://bugs.eclipse.org/bugs/show_bug.cgi?id=469321&quot;&gt;Bug 469321 - Portal Shutdown plan: Transfer all portal functionality to PMI, website&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&quot;https://www.chrisguindon.com/post/q3-2017-eclipse-foundation-webdev-report/#eclipse-working-groups&quot;&gt;Eclipse Working Groups&lt;/a&gt;
+
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&quot;https://www.chrisguindon.com/post/q3-2017-eclipse-foundation-webdev-report/#bug-520121-need-a-new-conference-website-for-foss4g-na-2018&quot;&gt;Bug 520121 - Need a new conference website for FOSS4G NA 2018&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&quot;https://www.chrisguindon.com/post/q3-2017-eclipse-foundation-webdev-report/#bug-514542-create-initial-website-for-openpass&quot;&gt;Bug 514542 - Create initial website for openPASS&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;hr /&gt;
+
+&lt;h2 id=&quot;api-eclipse-org&quot;&gt;Api.eclipse.org&lt;/h2&gt;
+
+&lt;h3 id=&quot;bug-516914-create-public-documentation-for-api-eclipse-org-rest-api&quot;&gt;Bug 516914 - Create public documentation for api.eclipse.org REST Api&lt;/h3&gt;
+
+&lt;p&gt;&lt;img alt=&quot;Documentation for api.eclipse.org&quot; src=&quot;https://www.chrisguindon.com/images/report-q3/api-eclipse-org.jpg&quot; title=&quot;Documentation for api.eclipse.org&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;The documentation for &lt;a href=&quot;https://api.eclipse.org&quot;&gt;api.eclipse.org&lt;/a&gt; was  all over the place and we needed to &lt;a href=&quot;https://bugs.eclipse.org/bugs/show_bug.cgi?id=516914&quot;&gt;fix&lt;/a&gt; that.&lt;/p&gt;
+
+&lt;p&gt;Some documentation was available on our &lt;a href=&quot;https://wiki.eclipse.org/Eclipse_USS&quot;&gt;wiki page&lt;/a&gt; but most of it was written in our source code and in a Google document. We decided to resolve this issue by converting our GDOC to static HTML.&lt;/p&gt;
+
+&lt;p&gt;After trying out &lt;a href=&quot;https://swagger.io/&quot;&gt;SWAGGER&lt;/a&gt; and &lt;a href=&quot;https://raml.org/&quot;&gt;RAML&lt;/a&gt;, we decided to use &lt;a href=&quot;https://apiblueprint.org/&quot;&gt;API Blueprint&lt;/a&gt; to generate our API docs.&lt;/p&gt;
+
+&lt;p&gt;API Blueprint is a documentation-oriented web API description language. The API Blueprint is essentially a set of semantic assumptions laid on top of the Markdown syntax used to describe a web API. In addition to the regular Markdown syntax, API Blueprint conforms to the GitHub Flavored Markdown syntax.&lt;/p&gt;
+
+&lt;p&gt;If you are interested in this project, our documentation source code is available on &lt;a href=&quot;https://github.com/chrisguindon/eclipse_api&quot;&gt;GitHub&lt;/a&gt;.&lt;/p&gt;
+
+&lt;h3 id=&quot;bug-502485-activity-tab-error-reports-from-aeri&quot;&gt;Bug 502485 - Activity tab - Error reports from AERI&lt;/h3&gt;
+
+&lt;p&gt;&lt;img alt=&quot;Error reports from AERI&quot; src=&quot;https://www.chrisguindon.com/images/report-q3/accounts-eclipse-org-aeri-reports.jpg&quot; title=&quot;Error reports from AERI&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;As of June 2015, with the Eclipse Mars simultaneous release, all Eclipse packages are shipped with the &lt;a href=&quot;https://wiki.eclipse.org/EPP/Logging&quot;&gt;Automated Error Reporting client&lt;/a&gt; (called AERI).&lt;/p&gt;
+
+&lt;p&gt;Ever since AERI became a part of the Eclipse packages, eclipse.org has seen a steady stream of incoming error reports. Eclipse users currently send around 70,000 reports per week. That is a total of 3 million reports in the past 12 months!&lt;/p&gt;
+
+&lt;p&gt;This quarter, we added a new &lt;strong&gt;Error Reports&lt;/strong&gt; tab for each user profile on &lt;a href=&quot;https://accounts.eclipse.org&quot;&gt;accounts.eclipse.org&lt;/a&gt;. This tab allows users to review reports they submitted.&lt;/p&gt;
+
+&lt;p&gt;You can try it out now by &lt;a href=&quot;https://accounts.eclipse.org&quot;&gt;log in&lt;/a&gt; with your Eclipse account.&lt;/p&gt;
+
+&lt;hr /&gt;
+
+&lt;h2 id=&quot;eclipse-org&quot;&gt;Eclipse.org&lt;/h2&gt;
+
+&lt;h3 id=&quot;infra-2507-donate-campaign-plan-fall-2017&quot;&gt;Infra 2507 - Donate Campaign Plan - Fall 2017&lt;/h3&gt;
+
+&lt;p&gt;&lt;img alt=&quot;October Donation Campaign&quot; src=&quot;https://www.chrisguindon.com/images/report-q3/donate.jpg&quot; title=&quot;Eclipse Foundation: October Donation Campaign&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;On September 29, we launched the &lt;a href=&quot;https://ianskerrett.wordpress.com/2017/09/29/annual-donation-campaign-end-user-support-for-the-eclipse-foundation/&quot;&gt;October Donation Campaign&lt;/a&gt;. The goal is to have over 1000 individual donations to the Eclipse Foundation and help support the overall community.&lt;/p&gt;
+
+&lt;p&gt;We implemented a new &lt;a href=&quot;https://www.eclipse.org/donate/&quot;&gt;donation&lt;/a&gt; page that allows donors to give back using their credit card. I expect this to be useful for user’s who can’t or won’t use Paypal or Bitpay.&lt;/p&gt;
+
+&lt;p&gt;We investigated a few options to incorportate credit card donations and we chose &lt;a href=&quot;https://www.stripe.com&quot;&gt;Stripe&lt;/a&gt;. Regarding it’s implementation, we are using the &lt;a href=&quot;https://www.drupal.org/project/stripe&quot;&gt;Drupal Stripe&lt;/a&gt; module with the latest &lt;a href=&quot;https://github.com/stripe/stripe-php&quot;&gt;Stripe PHP API Library&lt;/a&gt;.&lt;/p&gt;
+
+&lt;p&gt;A few days before pushing this to production we noticed that the Drupal Stripe module did not support web proxies. This was a last minute oversight because our testing servers did not require us to use a web proxy to connect to Stripe’s API.&lt;/p&gt;
+
+&lt;p&gt;I created an issue on drupal.org to &lt;a href=&quot;https://www.drupal.org/node/2912208&quot;&gt;enable web proxy support&lt;/a&gt; and I am hoping the contribute a patch to fix this very soon.&lt;/p&gt;
+
+&lt;p&gt;You can help support the overall Eclipse community by &lt;a href=&quot;https://www.eclipse.org/donate/&quot;&gt;donating now&lt;/a&gt; to the Eclipse Foundation.&lt;/p&gt;
+
+&lt;h3 id=&quot;bug-521084-add-epl-2-0-to-the-website&quot;&gt;Bug 521084 - Add epl-2.0 to the website&lt;/h3&gt;
+
+&lt;p&gt;On August 24, The &lt;a href=&quot;https://www.eclipse.org/org/press-release/20170829eplv2.php&quot;&gt;Eclipse Foundation announced&lt;/a&gt; that version 2 of the &lt;a href=&quot;https://www.eclipse.org/legal/epl-2.0/&quot;&gt;Eclipse Public License (EPL v2)&lt;/a&gt; was approved by the Eclipse Foundation Board of Directors and the &lt;a href=&quot;https://opensource.org/&quot;&gt;Open Source Initiative&lt;/a&gt; (OSI).&lt;/p&gt;
+
+&lt;p&gt;I was tasked by &lt;a href=&quot;https://mmilinkov.wordpress.com/2017/04/07/eplv2-a-new-version-of-the-eclipse-public-license/&quot;&gt;Mike Milinkovich&lt;/a&gt; to format the final &lt;a href=&quot;https://www.eclipse.org/org/documents/epl-2.0/EPL-2.0.html&quot;&gt;HTML&lt;/a&gt; and &lt;a href=&quot;https://www.eclipse.org/org/documents/epl-2.0/EPL-2.0.txt&quot;&gt;plain text&lt;/a&gt; document for this new version.&lt;/p&gt;
+
+&lt;p&gt;I was really excited to create these digital documents that will be included in many open source projects in the future.&lt;/p&gt;
+
+&lt;p&gt;For more information, you can visit the Eclipse Foundation &lt;a href=&quot;https://www.eclipse.org/org/press-release/20170829eplv2.php&quot;&gt;press release&lt;/a&gt;.&lt;/p&gt;
+
+&lt;h3 id=&quot;bug-261658-status-eclipse-org&quot;&gt;Bug 261658 - status.eclipse.org&lt;/h3&gt;
+
+&lt;p&gt;&lt;img alt=&quot;status.eclipse.org&quot; src=&quot;https://www.chrisguindon.com/images/report-q3/status-eclipse-org.jpg&quot; title=&quot;Eclipse Foundation: Status page.&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;Denis, our IT Director, built this very nifty &lt;a href=&quot;https://status.eclipse.org&quot;&gt;status page&lt;/a&gt; and by doing so, won the award for closing the oldest &lt;a href=&quot;https://bugs.eclipse.org/bugs/show_bug.cgi?id=261658&quot;&gt;bug&lt;/a&gt; this quarter!&lt;/p&gt;
+
+&lt;p&gt;The status page measures performance of various Eclipse.org services from our monitoring agent in Portland, Oregon (many thanks to &lt;a href=&quot;https://osuosl.org/&quot;&gt;OSU Open Source Lab&lt;/a&gt;).&lt;/p&gt;
+
+&lt;p&gt;If you are experiencing issues with some of our services, please take a look at our &lt;a href=&quot;https://status.eclipse.org&quot;&gt;Service Status&lt;/a&gt; page for more information.&lt;/p&gt;
+
+&lt;hr /&gt;
+
+&lt;h2 id=&quot;marketplace&quot;&gt;Marketplace&lt;/h2&gt;
+
+&lt;h3 id=&quot;bug-520850-possible-adware-in-marketplace-plugin-eclipse-class-decompiler&quot;&gt;Bug 520850 - Possible adware in marketplace plugin (Eclipse Class Decompiler)&lt;/h3&gt;
+
+&lt;p&gt;It was &lt;a href=&quot;https://bugs.eclipse.org/bugs/show_bug.cgi?id=520850&quot;&gt;brought to my attention&lt;/a&gt; that a listing on Eclipse Marketplace, called Eclipse Class Decompiler, contained binary code that could be used for adware and could potentially download files to Eclipse workspaces.&lt;/p&gt;
+
+&lt;p&gt;This issue was initially reported in a blog post from a community member. After a bit of testing with &lt;a href=&quot;https://portswigger.net/burp/freedownload&quot;&gt;Burp Suite Free Edition&lt;/a&gt;, I was able to confirm his findings. It was clear that this plugin included code that was not appropriate for the Eclipse users and community.&lt;/p&gt;
+
+&lt;p&gt;We removed the listing from Eclipse Marketplace and the Eclipse Foundation strongly suggests any Eclipse user to uninstall this plugin from their workspace.&lt;/p&gt;
+
+&lt;p&gt;To remove this plugin, please do the following:&lt;/p&gt;
+
+&lt;ol&gt;
+&lt;li&gt;Go to Help &amp;gt; About Eclipse &amp;gt; Installation Details&lt;/li&gt;
+&lt;li&gt;Select the feature(s) belonging to the entry&lt;/li&gt;
+&lt;li&gt;Press “Uninstall”&lt;/li&gt;
+&lt;li&gt;Follow the wizard&lt;/li&gt;
+&lt;/ol&gt;
+
+&lt;p&gt;If you have any questions, please send an email to &lt;a href=&quot;mailto:emo@eclipse-foundation.org&quot;&gt;EMO&lt;/a&gt;.&lt;/p&gt;
+
+&lt;h3 id=&quot;bug-501861-selecting-a-favorite-on-eclipse-marketplace-is-slow&quot;&gt;Bug 501861 - Selecting a favorite on Eclipse Marketplace is slow&lt;/h3&gt;
+
+&lt;p&gt;Two years ago, we decided to move Eclipse Marketplace Favorites to &lt;a href=&quot;https://api.eclipse.org/#eclipse-uss&quot;&gt;Eclipse USS&lt;/a&gt;. This move allowed the &lt;a href=&quot;https://projects.eclipse.org/projects/technology.packaging.mpc&quot;&gt;Eclipse Marketplace Client (MPC)&lt;/a&gt; to leverage the &lt;a href=&quot;https://projects.eclipse.org/projects/technology.usssdk&quot;&gt;Eclipse User Storage Service SDK&lt;/a&gt; to add/remove user favorites.&lt;/p&gt;
+
+&lt;p&gt;The Eclipse User Storage Service SDK provides an idiomatic Java library for easy use of the USS by Eclipse RCP-based applications. The USS SDK transparently handles the authentication and login capabilities required to use the USS from an Eclipse installation.&lt;/p&gt;
+
+&lt;p&gt;Unfortunately, this move created a &lt;a href=&quot;https://bugs.eclipse.org/bugs/show_bug.cgi?id=501861&quot;&gt;regression&lt;/a&gt; on our website because it required the page to reload each time a favorite was added or removed.&lt;/p&gt;
+
+&lt;p&gt;To speed up this action, our team decided to &lt;a href=&quot;https://bugs.eclipse.org/bugs/show_bug.cgi?id=501933&quot;&gt;enable the implicit grant flow&lt;/a&gt; for the Marketplace API endpoint on &lt;a href=&quot;https://api.eclipse.org&quot;&gt;api.eclipse.org&lt;/a&gt;.&lt;/p&gt;
+
+&lt;p&gt;The implicit grant flow is used to obtain access tokens and is optimized for public clients.  These clients are typically implemented in a browser using a scripting language such as JavaScript.&lt;/p&gt;
+
+&lt;p&gt;This update allowed us to create a &lt;a href=&quot;https://github.com/EclipseFdn/jquery-eclipsefdn-api&quot;&gt;jQuery library&lt;/a&gt; for adding/removing favorites. This new library can add and remove favorites without a page reload each time.&lt;/p&gt;
+
+&lt;p&gt;You can test this new change now on the &lt;a href=&quot;https://marketplace.eclipse.org&quot;&gt;Eclipse Marketplace&lt;/a&gt; website.&lt;/p&gt;
+
+&lt;hr /&gt;
+
+&lt;h2 id=&quot;eclipse-project-management-infrastructure-pmi&quot;&gt;Eclipse Project Management Infrastructure (PMI)&lt;/h2&gt;
+
+&lt;h3 id=&quot;bug-519694-remove-solr-on-projects-eclipse-org&quot;&gt;Bug 519694 - Remove solr on projects.eclipse.org&lt;/h3&gt;
+
+&lt;p&gt;&lt;img alt=&quot;New project search page&quot; src=&quot;https://www.chrisguindon.com/images/report-q3/projects-eclipse-org-solr.jpg&quot; title=&quot;New project search page&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;We’ve been using &lt;a href=&quot;http://lucene.apache.org/solr/&quot;&gt;Apache Solr&lt;/a&gt; for a few years now to run the Eclipse Projects search page. The search result page was very quick to load but our users often reported issues regarding the results.&lt;/p&gt;
+
+&lt;p&gt;Since Solr was a service that the Eclipse IT team needed to maintain, I considered &lt;a href=&quot;https://bugs.eclipse.org/bugs/show_bug.cgi?id=519694&quot;&gt;removing Solr&lt;/a&gt; from projects.eclipse.org and replacing it with a simple Drupal view.&lt;/p&gt;
+
+&lt;p&gt;It didn’t take long before it was obvious that this new page did a better job at meeting the needs of our community.&lt;/p&gt;
+
+&lt;p&gt;This was a win/win for both the Eclipse IT team and our community. We now have a better search results page for our users and the Eclipse IT team can drop the support of Solr instances for this website.&lt;/p&gt;
+
+&lt;p&gt;You can try this new search page now on &lt;a href=&quot;https://projects.eclipse.org&quot;&gt;projects.eclipse.org&lt;/a&gt;.&lt;/p&gt;
+
+&lt;hr /&gt;
+
+&lt;h2 id=&quot;eclipse-working-groups&quot;&gt;Eclipse Working Groups&lt;/h2&gt;
+
+&lt;h3 id=&quot;bug-520121-need-a-new-conference-website-for-foss4g-na-2018&quot;&gt;Bug 520121 - Need a new conference website for FOSS4G NA 2018&lt;/h3&gt;
+
+&lt;p&gt;&lt;img alt=&quot;FOSS4G North America 2018&quot; src=&quot;https://www.chrisguindon.com/images/report-q3/foss4g-2018.jpg&quot; title=&quot;FOSS4G North America 2018&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;This year’s &lt;a href=&quot;https://2018.foss4g-na.org/&quot;&gt;FOSS4G NA conference&lt;/a&gt; is a collaborative effort involving &lt;a href=&quot;http://www.osgeo.org/&quot;&gt;OSGeo&lt;/a&gt; and &lt;a href=&quot;https://www.locationtech.org/&quot;&gt;LocationTech&lt;/a&gt;. The conference provides opportunities for the FOSS4G community to learn, explore, share, and collaborate on the latest ideas and information.&lt;/p&gt;
+
+&lt;p&gt;The conference is next year from May 14 to the 16 in St. Louis.&lt;/p&gt;
+
+&lt;p&gt;The &lt;a href=&quot;https://2018.foss4g-na.org/&quot;&gt;FOSS4G - North America 2018&lt;/a&gt; website is now available and you can follow &lt;a href=&quot;https://twitter.com/foss4gna&quot;&gt;@foss4gna&lt;/a&gt; on twitter or the latest news.&lt;/p&gt;
+
+&lt;h3 id=&quot;bug-514542-create-initial-website-for-openpass&quot;&gt;Bug 514542 - Create initial website for openPASS&lt;/h3&gt;
+
+&lt;p&gt;&lt;img alt=&quot;OpenPASS Working Group&quot; src=&quot;https://www.chrisguindon.com/images/report-q3/openpass.jpg&quot; title=&quot;OpenPASS Working Group&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;The goal of the Eclipse OpenPASS Working Group is to support the development of advanced driver assistance systems (also known as autonomous driving systems) providing tools and adapters for standardized openly-available and vendor-neutral platforms for simulation of traffic scenarios.&lt;/p&gt;
+
+&lt;p&gt;Eric Poirier did a great job at building this new website using Drupal and the Eclipse Solstice look and feel.&lt;/p&gt;
+
+&lt;p&gt;The &lt;a href=&quot;http://openpass.eclipse.org/&quot;&gt;OpenPASS Working Group&lt;/a&gt; website is now available!&lt;/p&gt;
+
+&lt;hr /&gt;
+
+&lt;h2 id=&quot;summary&quot;&gt;Summary&lt;/h2&gt;
+
+&lt;p&gt;I am very proud of the work that my team did this quarter and I am looking forward to new and exciting projects for Q4.&lt;/p&gt;
+
+&lt;p&gt;I am still working on a final list of MBO’s for Q4 2017 but here’s a shortlist of what’s on my radar:&lt;/p&gt;
+
+&lt;ol&gt;
+&lt;li&gt;Migrate our Conference platform to &lt;a href=&quot;https://www.drupal.org/project/cod&quot;&gt;COD 7.x-2.x&lt;/a&gt;.&lt;/li&gt;
+&lt;li&gt;Build a new conference website for Eclipse France 2018.&lt;/li&gt;
+&lt;li&gt;Pursue the work done so far with &lt;a href=&quot;https://bugs.eclipse.org/bugs/show_bug.cgi?id=469321&quot;&gt;Bug 469321&lt;/a&gt; - Portal Shutdown plan: Transfer all portal functionality to PMI, website, etc.&lt;/li&gt;
+&lt;li&gt;&lt;a href=&quot;https://bugs.eclipse.org/bugs/show_bug.cgi?id=421727&quot;&gt;Bug 421727&lt;/a&gt; - Use mysqli extension instead.&lt;/li&gt;
+&lt;li&gt;Archive some EclipseCon websites to static HTML to reduce maintenance.&lt;/li&gt;
+&lt;li&gt;Migrate mailing list subscriptions to accounts.eclipse.org.&lt;/li&gt;
+&lt;/ol&gt;</description>
+	<pubDate>Tue, 03 Oct 2017 00:00:00 +0000</pubDate>
 </item>
 <item>
 	<title>Ian Skerrett: 5 Trends to Watch in the Java Ecosystem</title>
@@ -404,63 +642,13 @@ The plugin also integrates well with other plugins and external tools for which 
 </item>
 <item>
 	<title>EclipseCon Europe 2017: The OSGi IoT Demo updated and extended for 2017</title>
-	<guid isPermaLink="false">https://www.eclipsecon.org/europe2017/3139 at https://www.eclipsecon.org/europe2017</guid>
+	<guid isPermaLink="false">https://www.eclipsecon.org/europe2017/news/3139 at https://www.eclipsecon.org/europe2017</guid>
 	<link>https://www.eclipsecon.org/europe2017/news/osgi-iot-demo-updated-and-extended-2017</link>
 	<description>&lt;div class=&quot;field field-name-body field-type-text-with-summary field-label-hidden&quot;&gt;&lt;div class=&quot;field-items&quot;&gt;&lt;div class=&quot;field-item even&quot;&gt;&lt;h4&gt;
 	by Mike Francis&lt;/h4&gt;
 &lt;p&gt;The OSGi IoT Demo for the OSGi Community Event and EclipseCon 2017 has been updated and extended to deliver another interesting and informative showcase of OSGi in action in IoT. Taking the foundations from the last three years of demos we will be using products from multiple vendors, open source projects and Raspberry PI computers to operate and control LEGO® trains running around a track. For 2017, we add a new and exciting dimension: a robot that will interact with the trains.&lt;/p&gt;
 &lt;/div&gt;&lt;/div&gt;&lt;/div&gt;&lt;div class=&quot;field field-name-field-news-image field-type-image field-label-hidden&quot;&gt;&lt;div class=&quot;field-items&quot;&gt;&lt;div class=&quot;field-item even&quot;&gt;&lt;a href=&quot;https://www.eclipsecon.org/europe2017/news/osgi-iot-demo-updated-and-extended-2017&quot;&gt;&lt;img alt=&quot;&quot; class=&quot;img-responsive block-center&quot; height=&quot;250&quot; src=&quot;https://www.eclipsecon.org/europe2017/sites/default/files/styles/solstice_news_-_default_-_thumbnail/public/news/OSGiDemo2017RobotSq.png?itok=m_0Bru_P&quot; width=&quot;250&quot; /&gt;&lt;/a&gt;&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;</description>
 	<pubDate>Wed, 27 Sep 2017 11:19:11 +0000</pubDate>
-</item>
-<item>
-	<title>Webtools News: WTP 3.9.1 Released!</title>
-	<guid isPermaLink="false">http://www.eclipse.org/webtools/news.php#permalink178</guid>
-	<link>http://eclipse.org/webtools/releases/3.9.1</link>
-	<description>&lt;div&gt;
-      The Web Tools Platform's 3.9.1 Release is now available!  &lt;a href=&quot;https://wiki.eclipse.org/WTP_FAQ#How_do_I_install_WTP.3F&quot;&gt;Installation&lt;/a&gt; and update can be performed using the Oxygen Update Site at
-      &lt;a href=&quot;http://download.eclipse.org/releases/oxygen/&quot;&gt;http://download.eclipse.org/releases/oxygen/&lt;/a&gt;.  Release 3.9.1 &lt;a href=&quot;https://www.eclipse.org/webtools/releases/3.9.1/&quot;&gt;fixes&lt;/a&gt; issues that occur in prior releases or have been reported since 3.9's release.
-      WTP 3.9.1 is featured in the Oxygen.1
-          &lt;a href=&quot;https://www.eclipse.org/downloads/packages/eclipse-ide-java-ee-developers/oxygen1&quot;&gt;Eclipse IDE for Java EE Developers&lt;/a&gt;, with selected portions also included in &lt;a href=&quot;http://www.eclipse.org/downloads/compare.php&quot;&gt;other packages&lt;/a&gt;.  Adopters can download &lt;a href=&quot;http://download.eclipse.org/webtools/downloads/&quot;&gt;the build itself&lt;/a&gt; directly.
-      &lt;/div&gt;&lt;p&gt;&lt;a href=&quot;http://www.eclipse.org/webtools/news.php#permalink178&quot;&gt;More news&lt;/a&gt;&lt;/p&gt;</description>
-	<pubDate>Wed, 27 Sep 2017 10:01:00 +0000</pubDate>
-</item>
-<item>
-	<title>Eclipse Announcements: Eclipse IDE Now Supports Java 9</title>
-	<guid isPermaLink="true">http://feedproxy.google.com/~r/eclipse/fnews/~3/UJKoa-MInJk/</guid>
-	<link>http://feedproxy.google.com/~r/eclipse/fnews/~3/UJKoa-MInJk/</link>
-	<description>Java 9 has been released into the world and support to make your Eclipse IDE ready to build, run, and debug Java 9 applications is available from the Eclipse Marketplace.&lt;img alt=&quot;&quot; height=&quot;1&quot; src=&quot;http://feeds.feedburner.com/~r/eclipse/fnews/~4/UJKoa-MInJk&quot; width=&quot;1&quot; /&gt;</description>
-	<pubDate>Tue, 26 Sep 2017 19:30:00 +0000</pubDate>
-</item>
-<item>
-	<title>Wayne Beaton: Running Eclipse IDE on Java 9</title>
-	<guid isPermaLink="false">http://waynebeaton.wordpress.com/?p=5177</guid>
-	<link>https://waynebeaton.wordpress.com/2017/09/25/running-eclipse-ide-on-java-9/</link>
-	<description>&lt;p&gt;Out of the box, Java 9 makes only a subset of the modules available to applications. If your application makes use of APIs from other modules, you need to configure the JVM to make those modules available. The Eclipse IDE its itself a Java application that uses APIs from modules outside of that default group, so a little extra configuration is needed to make it run on Java 9.&lt;/p&gt;
-&lt;p&gt;In your Eclipse IDE installation directory, you’ll find the eclipse.ini file that your Eclipse IDE uses for configuration information. Add &lt;code&gt;--add-modules=ALL-SYSTEM&lt;/code&gt; after the &lt;code&gt;-vmargs&lt;/code&gt; argument (basically anything that follows the &lt;code&gt;-vmargs&lt;/code&gt; argument is passed to the VM at start up (note that most VMs will barf if you pass in arguments that they don’t know or expect; adding this option when running on a Java 8 JVM will result only in disappointment and frustration).&lt;/p&gt;
-&lt;pre&gt;...
--vm
-/path/to/jdk/bin
-...
--vmargs
---add-modules=ALL-SYSTEM
-...&lt;/pre&gt;
-&lt;p&gt;There’s more information in the &lt;a href=&quot;https://wiki.eclipse.org/Configure_Eclipse_for_Java_9&quot;&gt;Eclipse wiki&lt;/a&gt;.&lt;/p&gt;
-&lt;p&gt;Note that we’re pushing out some updates to make it so that the modification is not required. But that will only apply on future versions of Eclipse IDE (e.g. the Oxygen point releases, Photon, and later). For all older versions of Eclipse IDE, you’ll need to make this configuration change.&lt;/p&gt;
-&lt;p&gt;If you want to learn more about Java 9 support in the Eclipse IDE, including the Java development tools (JDT) and other great features like Eclipse Web Tools, Eclipse Code Recommenders and Eclipse Maven Integration, etc., consider attending &lt;a href=&quot;https://www.eclipsecon.org/europe2017/&quot;&gt;EclipseCon Europe&lt;/a&gt; in Ludwigsburg, Germany from October 24 – 26, 2017.&lt;/p&gt;
-&lt;p&gt;There’s an entire &lt;a href=&quot;https://www.eclipsecon.org/europe2017/session-tracks/java-jdt&quot;&gt;Java and JDT track&lt;/a&gt; that includes the following:&lt;/p&gt;
-&lt;ul&gt;
-&lt;li&gt;&lt;a href=&quot;https://www.eclipsecon.org/europe2017/session/eclipse-and-java%E2%84%A2-9&quot;&gt;Eclipse and Java 9&lt;/a&gt; Dani Megert, Eclipse Java development tools (JDT)&lt;/li&gt;
-&lt;li&gt;&lt;a href=&quot;https://www.eclipsecon.org/europe2017/session/java-se-current-status&quot;&gt;Java SE: Current Status&lt;/a&gt; Donald Smith, Oracle&lt;/li&gt;
-&lt;li&gt;&lt;a href=&quot;https://www.eclipsecon.org/europe2017/session/jdt-embraces-java%E2%84%A2-9-insiders-view&quot;&gt;JDT embraces Java™ 9 – An insiders’ view&lt;/a&gt; Stephan Herrmann, Eclipse Java development tools (JDT)&lt;/li&gt;
-&lt;li&gt;&lt;a href=&quot;https://www.eclipsecon.org/europe2017/session/java-se-9-and-application-server&quot;&gt;Java SE 9 and the Application Server&lt;/a&gt; Kevin Sutter (IBM)&lt;/li&gt;
-&lt;li&gt;&lt;a href=&quot;https://www.eclipsecon.org/europe2017/session/embracing-junit-5-eclipse&quot;&gt;Embracing JUnit 5 with Eclipse&lt;/a&gt; Noopur Gupta (IBM)&lt;/li&gt;
-&lt;li&gt;&lt;a href=&quot;https://www.eclipsecon.org/europe2017/session/java-ee-8-final-now-what&quot;&gt;Java EE 8 Is Final… Now What?&lt;/a&gt; David Delabassée (Oracle)&lt;/li&gt;
-&lt;li&gt;&lt;a href=&quot;https://www.eclipsecon.org/europe2017/session/introducing-openj9-eclipses-new-java-vm-sponsored-ibm&quot;&gt;Introducing OpenJ9 – Eclipse’s new Java VM&lt;/a&gt; Charlie Gracie (IBM)&lt;/li&gt;
-&lt;/ul&gt;
-&lt;p&gt;There will also be BoFs, along with all sorts of opportunities to network and learn.&lt;/p&gt;
-&lt;p&gt;&lt;a href=&quot;http://www.eclipsecon.org/europe2017&quot;&gt;&lt;img alt=&quot;EclipseCon Europe 2017&quot; border=&quot;0&quot; class=&quot; aligncenter&quot; height=&quot;250&quot; src=&quot;https://www.eclipsecon.org/europe2017/sites/default/files/ece_2017_300%20x%20250.png&quot; width=&quot;300&quot; /&gt;&lt;/a&gt;&lt;/p&gt;
-&lt;p&gt;If you want to learn more about the great features available in the Eclipse IDE, follow &lt;a href=&quot;https://twitter.com/EclipseJavaIDE&quot;&gt;@EclipseJavaIDE&lt;/a&gt; on Twitter (&lt;a href=&quot;https://twitter.com/waynebeaton&quot;&gt;follow me&lt;/a&gt; while you’re at it).&lt;/p&gt;&lt;br /&gt;  &lt;a href=&quot;http://feeds.wordpress.com/1.0/gocomments/waynebeaton.wordpress.com/5177/&quot; rel=&quot;nofollow&quot;&gt;&lt;img alt=&quot;&quot; border=&quot;0&quot; src=&quot;http://feeds.wordpress.com/1.0/comments/waynebeaton.wordpress.com/5177/&quot; /&gt;&lt;/a&gt; &lt;img alt=&quot;&quot; border=&quot;0&quot; height=&quot;1&quot; src=&quot;https://pixel.wp.com/b.gif?host=waynebeaton.wordpress.com&amp;amp;blog=19425814&amp;amp;post=5177&amp;amp;subd=waynebeaton&amp;amp;ref=&amp;amp;feed=1&quot; width=&quot;1&quot; /&gt;</description>
-	<pubDate>Mon, 25 Sep 2017 19:11:19 +0000</pubDate>
 </item>
 
 </channel>
