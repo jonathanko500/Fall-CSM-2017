@@ -1,0 +1,58 @@
+import java.util.Scanner;
+//Jonathan Ko
+//assignment 6 problem 1
+public class genderGrade 
+{//start class
+	public static void main(String[] args)
+	{//start main
+		//declare input
+		double gpaM=0,gpaF=0,avgGPAM=0,avgGPAF=0,gpa=0,numAvgF=0,numAvgM=0;
+		int valid=0,countF=0,countM=0,correct=1;
+		String gender;
+		//read input
+		Scanner input = new Scanner(System.in);
+		System.out.print("Enter gender or x to quit: ");
+		gender=input.nextLine();
+		System.out.print("Enter gpa: ");
+		gpa=Double.parseDouble(input.nextLine());
+		while(valid<=0)
+		{
+			switch(gender)
+			{
+			case "F":	
+			case "f":
+				gpaF=gpa;
+				numAvgF+=gpaF;
+				avgGPAF=numAvgF/(double)countF;
+				countF++;
+				break;
+			case "M":
+			case "m":
+				gpaM=gpa;
+				numAvgM+=gpaM;
+				avgGPAM=numAvgM/(double)countF;
+				countM++;
+				break;
+			case "X":
+			case "x":
+				System.out.println("");
+				correct=0;
+				valid=1;
+				break;
+			}
+			//if gender is not x
+			if(correct==1)
+			{
+				System.out.print("Enter gender or x to quit: ");
+				gender=input.nextLine();
+				
+			}
+			System.out.print("Enter gpa: ");
+			gpa=Double.parseDouble(input.nextLine());
+		}
+		System.out.println(numAvgF);
+		System.out.println(countF);
+		//System.out.println("Average Male GPA: "+avgGPAM);
+		System.out.println("Average Female GPA: "+avgGPAF);
+	}//end main
+}//end class
