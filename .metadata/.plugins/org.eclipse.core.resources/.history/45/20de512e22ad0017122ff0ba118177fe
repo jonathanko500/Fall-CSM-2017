@@ -1,0 +1,25 @@
+import java.util.Scanner;
+//Jonathan Ko
+//assignment 6 problem 1
+public class genderGrade 
+{//start class
+	public static void main(String[] args)
+	{//start main
+		//declare input
+		double gpaM=0,gpaF=0,avgGPAM=0,avgGPAF=0,gpa;
+		int valid=0;
+		String gender;
+		//read input
+		Scanner input = new Scanner(System.in);
+		System.out.print("Enter gender or x to quit: ");
+		gender=input.nextLine();
+		gender.toUpperCase();
+		if(valid==0)
+		{
+			while(valid==0)
+			{
+				System.out.print("Enter gpa:");
+			}
+		}
+	}//end main
+}//end class

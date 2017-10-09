@@ -8,6 +8,125 @@
 	<description>Planet Eclipse - http://planeteclipse.org/planet/</description>
 
 <item>
+	<title>typefox.io: YANG-Tools: One Language Server for Four IDEs</title>
+	<guid isPermaLink="false">http://typefox.io/?p=14378</guid>
+	<link>http://typefox.io/yang-tools-one-language-server-for-four-ides</link>
+	<description>&lt;div class=&quot;fusion-fullwidth fullwidth-box nonhundred-percent-fullwidth&quot; style=&quot;background-color: rgba(255,255,255,0); background-position: center center; padding-top: 0px; padding-right: 0px; padding-bottom: 0px; padding-left: 0px;&quot;&gt;&lt;div class=&quot;fusion-builder-row fusion-row &quot;&gt;&lt;div class=&quot;fusion-layout-column fusion_builder_column fusion_builder_column_1_1  fusion-one-full fusion-column-first fusion-column-last 1_1&quot; style=&quot;margin-top: 0px; margin-bottom: 0px;&quot;&gt;
+			&lt;div class=&quot;fusion-column-wrapper&quot;&gt;
+				&lt;p&gt;There is a lot of hype around the &lt;a href=&quot;https://github.com/Microsoft/language-server-protocol&quot;&gt;Language Server Protocol:&lt;/a&gt; It allows language implementors to encapsulate the editor support for their language in a server that can talk to various clients through a JSON-based protocol. While initially designed for Visual Studio Code, lots of other editor clients started supporting it, and lots of language servers for all kind of languages have emerged.&lt;/p&gt;
+&lt;p&gt;In this post we will showcase a single language server for the YANG language, implemented with &lt;a href=&quot;http://www.eclipse.org/Xtext/&quot;&gt;Xtext&lt;/a&gt;, that is attached to three different client frameworks: VSCode, the Theia IDE and Eclipse. As Theia allows for both, a browser-based IDE and an Electron-based rich-client, this yields four different kinds of IDEs. All sources are openly available on Github.&lt;/p&gt;
+&lt;h3&gt;The YANG Language Server&lt;/h3&gt;
+&lt;p&gt;&lt;a href=&quot;http://www.yang-central.org&quot;&gt;YANG&lt;/a&gt; is a data modeling language used to model configuration and state data manipulated by the NETCONF protocol, remote procedure calls, and notifications.&lt;/p&gt;
+&lt;p&gt;In the project &lt;a href=&quot;https://github.com/theia-ide/yang-lsp&quot;&gt;yang-lsp&lt;/a&gt; we implemented a YANG language server using Xtext. As Christian pointed out in a &lt;a href=&quot;http://typefox.io/tutorial-building-a-language-server-for-your-dsl&quot;&gt;previous blogpost&lt;/a&gt;, Xtext can generate an LSP with little effort. Like almost every language, YANG has some pecularites that required to customize services like validation, scoping, and formatting. To improve the user experience, we also tweaked some language server IDE services such as content assist, code lens, symbols and more. Xtext’s dependency injection makes such customizations easy. Nevertheless, the extra effort is something you would like to avoid redoing for every IDE out there using the respective native APIs.&lt;/p&gt;
+&lt;p&gt;The YANG language server is written in &lt;a href=&quot;http://www.eclipse.org/xtend/&quot;&gt;Xtend&lt;/a&gt;, a Java dialect, so you have to run Gradle to build it. A language server is typically run in its own process, so this build also creates some scripts to start the LS. The running server is then connected to the client via standard input/output or a socket.&lt;/p&gt;
+&lt;div class=&quot;wp-caption aligncenter&quot; id=&quot;attachment_14382&quot; style=&quot;width: 776px;&quot;&gt;&lt;img alt=&quot;&quot; class=&quot;wp-image-14382&quot; height=&quot;480&quot; src=&quot;http://typefox.io/wp-content/uploads/2017/10/Screen-Shot-2017-10-06-at-13.51.50-300x188.png&quot; width=&quot;766&quot; /&gt;&lt;p class=&quot;wp-caption-text&quot;&gt;The YANG editor in VSCode&lt;/p&gt;&lt;/div&gt;
+&lt;h3&gt;The VSCode Client&lt;/h3&gt;
+&lt;p&gt;VSCode is an extensible, lightweight, open source IDE from Microsoft. In &lt;a href=&quot;https://github.com/theia-ide/yang-vscode&quot;&gt;yang-vscode&lt;/a&gt;, we implemented an extension for VSCode based on yang-lsp. It mostly consists of&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;an activate method that starts the language server,&lt;/li&gt;
+&lt;li&gt;the configuration for things like syntax highlighting and bracket matching, which in VSCode are always done by the client, and&lt;/li&gt;
+&lt;li&gt;the config files for a VSCode extension.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;See also &lt;a href=&quot;http://typefox.io/building-a-vs-code-extension-with-xtext-and-the-language-server-protocol&quot;&gt;Miro’s blogpost&lt;/a&gt; on VSCode extensions with Xtext for more details.&lt;/p&gt;
+&lt;p&gt;You can install the yang extension directly from &lt;a href=&quot;https://marketplace.visualstudio.com/items?itemName=typefox.yang-vscode&quot;&gt;VSCode’s marketplace&lt;/a&gt;. If you want to build it from the sources, you have to have the yang-lsp project checked out and readily built in a folder next to the yang-vscode repo, as it will be copied during the build.&lt;/p&gt;
+&lt;div class=&quot;wp-caption aligncenter&quot; id=&quot;attachment_14380&quot; style=&quot;width: 776px;&quot;&gt;&lt;img alt=&quot;&quot; class=&quot;wp-image-14380&quot; height=&quot;482&quot; src=&quot;http://typefox.io/wp-content/uploads/2017/10/Screen-Shot-2017-10-06-at-14.00.17-300x189.png&quot; width=&quot;766&quot; /&gt;&lt;p class=&quot;wp-caption-text&quot;&gt;The YANG editor in Theia (browser mode)&lt;/p&gt;&lt;/div&gt;
+&lt;h3&gt;The Theia Client&lt;/h3&gt;
+&lt;p&gt;&lt;a href=&quot;http://typefox.io/theia-one-ide-for-desktop-cloud&quot;&gt;Theia&lt;/a&gt; is a new framework for IDEs that run in the browser or as rich-clients using the same code. It is written in TypeScript, has first class support for the LSP and uses Microsoft’s editor widget Monaco. Theia is not officially released yet, but a beta 1.0 is scheduled for December 2017.&lt;/p&gt;
+&lt;p&gt;The project &lt;a href=&quot;https://github.com/theia-ide/yangster&quot;&gt;yangster&lt;/a&gt; contains the Theia extension for the YANG language. The project is layouted as a mono-repo, containing various npm packages and linking in others as Git submodules. While this setup looks complicated at the first glance, it makes it possible to work on YANG, Theia, and sprotty at the same time. As in the VSCode extension, the yang-lsp will be copied during the build from a adjacent directory.&lt;/p&gt;
+&lt;p&gt;The core package is the theia-yang-extension: It adds the bindings for the YANG specific services to Theia’s DI container, registers context menus, and sets up syntax highlighting for the frontend. It also starts the language server on demand in the backend.&lt;/p&gt;
+&lt;p&gt;The packages yangster-app and yangster-app-electron contain the code to run Theia with the YANG extension as browser app or electron rich-client. Theia comes with a command line tool that will populate these packages with generated code during the build.&lt;/p&gt;
+&lt;div class=&quot;wp-caption aligncenter&quot; id=&quot;attachment_14383&quot; style=&quot;width: 776px;&quot;&gt;&lt;img alt=&quot;&quot; class=&quot;wp-image-14383&quot; height=&quot;476&quot; src=&quot;http://typefox.io/wp-content/uploads/2017/10/Screen-Shot-2017-10-06-at-13.50.13-300x186.png&quot; width=&quot;766&quot; /&gt;&lt;p class=&quot;wp-caption-text&quot;&gt;The YANG editor in Theia (electron mode)&lt;/p&gt;&lt;/div&gt;
+&lt;p&gt;For build instructions please refer to the project’s readme.&lt;/p&gt;
+&lt;h3&gt;The Eclipse Client&lt;/h3&gt;
+&lt;p&gt;Last but not least, we’ve integrated the yang-lsp into Eclipse. We are using the &lt;a href=&quot;https://projects.eclipse.org/projects/technology.lsp4e&quot;&gt;lsp4e&lt;/a&gt; here, which allows a generic Eclipse editor to be backed by a language server. The project &lt;a href=&quot;https://github.com/theia-ide/yang-eclipse&quot;&gt;yang-eclipse&lt;/a&gt; mainly contains a plug-in to adapt to lsp4e, i.e.&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;start the yang-lsp,&lt;/li&gt;
+&lt;li&gt;define syntax highlighting using TextMate syntax, and&lt;/li&gt;
+&lt;li&gt;add some nice icons.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;Note that event though the client is also written in Xtend/Java here, we start the language server using the same mechanisms as above in a separate process.&lt;/p&gt;
+&lt;div class=&quot;wp-caption aligncenter&quot; id=&quot;attachment_14384&quot; style=&quot;width: 776px;&quot;&gt;&lt;img alt=&quot;&quot; class=&quot;wp-image-14384&quot; height=&quot;482&quot; src=&quot;http://typefox.io/wp-content/uploads/2017/10/Screen-Shot-2017-10-06-at-13.46.59-300x189.png&quot; width=&quot;766&quot; /&gt;&lt;p class=&quot;wp-caption-text&quot;&gt;The YANG editor in Eclipse&lt;/p&gt;&lt;/div&gt;
+&lt;p&gt;Xtext can of course generate a native Eclipse editor as well, which would usually have a few more features and a slightly better user experience. We refrained from this approach this time, not only for the sake of demoing an LSP in Eclipse, but also because we would have had to reimplement some IDE features using the native Eclipse APIs and as such have twice as much code to maintain.&lt;/p&gt;
+&lt;h3&gt;And Where Do The Diagrams Come From?&lt;/h3&gt;
+&lt;p&gt;If you have watched the screenshots closely or if you have browsed the code, you may have stumbled across the fancy diagrams. To keep the suspense, we will cover that in a separate blogpost.&lt;/p&gt;
+&lt;h3&gt;tl;dr&lt;/h3&gt;
+&lt;p&gt;In the post you have seen how a single language server implemented in Xtext is adding support for the YANG language to four different IDEs. Only little IDE specific boilerplate is necessary, mainly to start the server and to implement services that are considered client-only by the LSP, like syntax highlighting.&lt;/p&gt;
+&lt;p&gt;We stopped at four IDEs, but there are also LSP bindings for sublime, Emacs, vim and more editors. It should be easy to serve these in the same way.&lt;/p&gt;
+&lt;p&gt;I hope I convinced you that the combination of Xtext with the LSP is a viable way to add language support to more than one IDE.&lt;/p&gt;
+&lt;div class=&quot;fusion-clearfix&quot;&gt;&lt;/div&gt;
+			&lt;/div&gt;
+		&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;</description>
+	<pubDate>Sat, 07 Oct 2017 17:55:17 +0000</pubDate>
+</item>
+<item>
+	<title>PapyrusUML: Papyrus IC at MODELS 2017</title>
+	<guid isPermaLink="false">http://papyrusuml.wordpress.com/?p=941</guid>
+	<link>https://papyrusuml.wordpress.com/2017/10/06/papyrus-ic-at-models-2017/</link>
+	<description>&lt;div&gt;The Papyrus Industry Consortium had a significant presence at the ACM/IEEE 20th International Conference on Model Driven Engineering Languages and Systems (&lt;a href=&quot;https://www.cs.utexas.edu/models2017/home&quot;&gt;MODELS 2017&lt;/a&gt;), held from Sunday, September 17, 2017 through Friday, September 22 in Austin, Texas, U.S.A..&lt;/div&gt;
+&lt;div&gt;&lt;/div&gt;
+&lt;div&gt;&lt;/div&gt;
+&lt;div&gt;The Consortium was a GOLD sponsor of the event and had a booth with posters from several of its members. It also sponsored an event at the Easy Tiger pub near the conference hotel.&lt;/div&gt;
+&lt;div&gt;&lt;/div&gt;
+&lt;div&gt;&lt;/div&gt;
+&lt;div&gt;The conference was a great opportunity to meet many academic and industrial members of the MODELS community, and spread the word about the Papyrus ecosystem and the Papyrus IC. Members and participants of the consortium presented keynotes, conference and workshop papers and tutorials, and organized several workshops.&lt;/div&gt;
+&lt;div&gt;&lt;/div&gt;
+&lt;div&gt;&lt;/div&gt;
+&lt;div&gt;Prof. Juergen Dingel from Queen’s University gave a very well-received keynote of the EXE workshop, titled “UML-RT and Papyrus-RT: Towards an Open-Source MDE Tooling Infrastructure for the Internet of Things.”&lt;/div&gt;
+&lt;div&gt;&lt;/div&gt;
+&lt;div&gt;&lt;/div&gt;
+&lt;div&gt;The two tutorials on Papyrus and Papyrus-RT, “Embedded and reactive systems development with UML-RT and Papyrus-RT” by Nicolas Hili, Juergen Dingel (Queen’s University), Ernesto Posse (Zeligsoft) and “Developing Domain-specific Modeling Tools with Papyrus” by Philip Langer (EclipseSource), Florian Noyrit (CEA) and Rémi Schneckenburger (CEA), where also quite well-received.&lt;/div&gt;
+&lt;div&gt;&lt;/div&gt;
+&lt;div&gt;&lt;/div&gt;
+&lt;div&gt;The &lt;a href=&quot;https://wiki.polarsys.org/Papyrus_IC/Research_Academia&quot;&gt;Papyrus IC Research/Academia&lt;/a&gt; committee has begun planning a Papyrus event for &lt;a href=&quot;http://www.modelsconference.org&quot;&gt;next year’s conference&lt;/a&gt; which will be held in Copenhagen, Denmark. We hope to see you there!&lt;/div&gt;
+&lt;div&gt;&lt;/div&gt;
+&lt;div&gt;&lt;/div&gt;
+&lt;div&gt;&lt;img alt=&quot;Models 2017 PIC Booth-ori enhanced&quot; class=&quot;alignnone size-full wp-image-944&quot; src=&quot;https://papyrusuml.files.wordpress.com/2017/10/models-2017-pic-booth-ori-enhanced.jpeg?w=604&quot; /&gt;&lt;/div&gt;
+&lt;div&gt;(Papyrus IC booth at MODELS 2017 in Austin, Texas, U.S.A.)&lt;/div&gt;
+&lt;div&gt;&lt;/div&gt;
+&lt;div&gt;&lt;/div&gt;&lt;br /&gt;Filed under: &lt;a href=&quot;https://papyrusuml.wordpress.com/category/uncategorized/&quot;&gt;Uncategorized&lt;/a&gt;  &lt;a href=&quot;http://feeds.wordpress.com/1.0/gocomments/papyrusuml.wordpress.com/941/&quot; rel=&quot;nofollow&quot;&gt;&lt;img alt=&quot;&quot; border=&quot;0&quot; src=&quot;http://feeds.wordpress.com/1.0/comments/papyrusuml.wordpress.com/941/&quot; /&gt;&lt;/a&gt; &lt;a href=&quot;http://feeds.wordpress.com/1.0/godelicious/papyrusuml.wordpress.com/941/&quot; rel=&quot;nofollow&quot;&gt;&lt;img alt=&quot;&quot; border=&quot;0&quot; src=&quot;http://feeds.wordpress.com/1.0/delicious/papyrusuml.wordpress.com/941/&quot; /&gt;&lt;/a&gt; &lt;a href=&quot;http://feeds.wordpress.com/1.0/gofacebook/papyrusuml.wordpress.com/941/&quot; rel=&quot;nofollow&quot;&gt;&lt;img alt=&quot;&quot; border=&quot;0&quot; src=&quot;http://feeds.wordpress.com/1.0/facebook/papyrusuml.wordpress.com/941/&quot; /&gt;&lt;/a&gt; &lt;a href=&quot;http://feeds.wordpress.com/1.0/gotwitter/papyrusuml.wordpress.com/941/&quot; rel=&quot;nofollow&quot;&gt;&lt;img alt=&quot;&quot; border=&quot;0&quot; src=&quot;http://feeds.wordpress.com/1.0/twitter/papyrusuml.wordpress.com/941/&quot; /&gt;&lt;/a&gt; &lt;a href=&quot;http://feeds.wordpress.com/1.0/gostumble/papyrusuml.wordpress.com/941/&quot; rel=&quot;nofollow&quot;&gt;&lt;img alt=&quot;&quot; border=&quot;0&quot; src=&quot;http://feeds.wordpress.com/1.0/stumble/papyrusuml.wordpress.com/941/&quot; /&gt;&lt;/a&gt; &lt;a href=&quot;http://feeds.wordpress.com/1.0/godigg/papyrusuml.wordpress.com/941/&quot; rel=&quot;nofollow&quot;&gt;&lt;img alt=&quot;&quot; border=&quot;0&quot; src=&quot;http://feeds.wordpress.com/1.0/digg/papyrusuml.wordpress.com/941/&quot; /&gt;&lt;/a&gt; &lt;a href=&quot;http://feeds.wordpress.com/1.0/goreddit/papyrusuml.wordpress.com/941/&quot; rel=&quot;nofollow&quot;&gt;&lt;img alt=&quot;&quot; border=&quot;0&quot; src=&quot;http://feeds.wordpress.com/1.0/reddit/papyrusuml.wordpress.com/941/&quot; /&gt;&lt;/a&gt; &lt;img alt=&quot;&quot; border=&quot;0&quot; height=&quot;1&quot; src=&quot;https://pixel.wp.com/b.gif?host=papyrusuml.wordpress.com&amp;amp;blog=72365150&amp;amp;post=941&amp;amp;subd=papyrusuml&amp;amp;ref=&amp;amp;feed=1&quot; width=&quot;1&quot; /&gt;</description>
+	<pubDate>Fri, 06 Oct 2017 17:08:56 +0000</pubDate>
+</item>
+<item>
+	<title>Wayne Beaton: Legal Documentation Requirements for Eclipse Projects</title>
+	<guid isPermaLink="false">http://waynebeaton.wordpress.com/?p=5258</guid>
+	<link>https://waynebeaton.wordpress.com/2017/10/06/legal-documentation-requirements-for-eclipse-projects/</link>
+	<description>&lt;p&gt;Late last week, I pushed out an update to our documentation regarding the legal documentation requirements for Eclipse projects that Sharon Corbett and I have been working on over the past quarter. In the process, we moved the guidelines off of the main website and rolled them in to the &lt;a href=&quot;https://www.eclipse.org/projects/handbook/#legaldoc&quot;&gt;Eclipse Project Handbook&lt;/a&gt;. Our primary goal in revising this documentation was to make it more generally applicable to all open source projects and bring us more in line with what the rest of the open source world does.&lt;/p&gt;
+&lt;p&gt;&lt;em&gt;Update&lt;/em&gt; probably isn’t the right word. It’s more accurate to say that we’ve pushed out some general guidelines and that the old/existing documentation becomes instructions for how to apply those general guidelines in the case where your project builds &lt;em&gt;Eclipse Platform Plug-ins and Features&lt;/em&gt;.  In this regard, the existing documentation was very much concerned with the technical aspects of how to provide legal documentation in a manner that they can be presented to the user via the “About Eclipse” dialog (there’s no particular value in changing how all that works).&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;That is, if you’re building Eclipse Platform Plug-ins and Features under the Eclipse Public License (EPL) 1.0, we’re not asking you to change anything. &lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;I’m going to repeat that. &lt;strong&gt;Don’t panic.&lt;/strong&gt; If you’re building Eclipse Platform Plug-ins and Features, just keep doing what you’re doing. If you’re planning to update to the &lt;a href=&quot;https://www.eclipse.org/legal/epl-2.0/&quot;&gt;Eclipse Public License 2.0&lt;/a&gt; (EPL-2.0), we’ll need to talk (more on this later).&lt;/p&gt;
+&lt;p&gt;The gist of it is that in the general case, project teams are required to include &lt;a href=&quot;https://www.eclipse.org/projects/handbook/#legaldoc-license&quot;&gt;license&lt;/a&gt; and &lt;a href=&quot;https://www.eclipse.org/projects/handbook/#legaldoc-notice&quot;&gt;notices&lt;/a&gt; in both their project repositories and in the output form of their project code (generally the result of compiling/building, e.g. JAR files). For consistency across our own projects and the greater community, we’re recommending that these files be named &lt;em&gt;LICENSE&lt;/em&gt; and &lt;em&gt;NOTICE&lt;/em&gt; (with optional extensions). Variations based on technical limitations are acceptable. The license and notice files should be in plain text. The use of a favourite markup language is fine, but not required.&lt;/p&gt;
+&lt;p&gt;There’s a lot more information in the document, so I’ll avoid trying to repeat it here. One thing that you’ll notice is that we’ve tightened up the copyright header text a bit by removing the “All rights reserved”. &lt;em&gt;There’s no need to change any headers that include this statement: &lt;/em&gt;it’s not necessarily wrong to include the statement, it just doesn’t really add any value.&lt;/p&gt;
+&lt;p&gt;You’ll notice that there’s an appendix in the document for projects that are building &lt;a href=&quot;https://www.eclipse.org/projects/handbook/#legaldoc-plugins&quot;&gt;Eclipse Platform Plug-ins and Features under the EPL-2.0&lt;/a&gt;. There’s a few rough edges here that we still need to work out (there a link to an issue in Bugzilla if you want to contribute your thoughts). One thing that we discovered while working on these changes is that basically nobody in the open source community has anything like our &lt;a href=&quot;https://www.eclipse.org/legal/epl/notice.php&quot;&gt;Software User Agreement&lt;/a&gt; (SUA) which is effectively an End User License Agreement (EULA). Since a project that updates to the EPL-2.0 will have to update all of their legal documentation, we figured that we use the opportunity to drop the SUA and instead just use the license text in places that call for a license (AFAICT most third party plug-in providers do this).&lt;/p&gt;
+&lt;p&gt;To make getting the legal documentation right a little easier for project teams, I’ve started working on an &lt;em&gt;experimental&lt;/em&gt; script that uses the information in the Eclipse Foundation database to generate at least some or all of the required documentation.&lt;/p&gt;
+&lt;p&gt;&lt;a href=&quot;https://www.eclipse.org/projects/tools/about.php?id=%5BProjectId%5D&quot; rel=&quot;nofollow&quot;&gt;https://www.eclipse.org/projects/tools/about.php?id=%5BProjectId%5D&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;Take note that this script is experimental and may not be entirely correct (maybe consider using this as a template or a starting point; ultimately it’s up to the project teams to make sure that the notice file is correct). If you do notice something that seems wrong with the data (e.g. wrong license or trademark statement), send a quick note to emo@eclipse.org; if it looks like the rendering is wrong or that there is some technical issue, please open a bug against &lt;a href=&quot;https://bugs.eclipse.org/bugs/enter_bug.cgi?product=Community&amp;amp;component=Process&quot;&gt;Community/Process&lt;/a&gt;.&lt;/p&gt;
+&lt;p&gt;&lt;a href=&quot;http://www.eclipsecon.org/europe2017&quot;&gt;&lt;img alt=&quot;EclipseCon Europe 2017&quot; border=&quot;0&quot; height=&quot;90&quot; src=&quot;https://www.eclipsecon.org/europe2017/sites/default/files/ece_2017_728%20x%2090.png&quot; width=&quot;728&quot; /&gt;&lt;/a&gt;&lt;/p&gt;&lt;br /&gt;  &lt;a href=&quot;http://feeds.wordpress.com/1.0/gocomments/waynebeaton.wordpress.com/5258/&quot; rel=&quot;nofollow&quot;&gt;&lt;img alt=&quot;&quot; border=&quot;0&quot; src=&quot;http://feeds.wordpress.com/1.0/comments/waynebeaton.wordpress.com/5258/&quot; /&gt;&lt;/a&gt; &lt;img alt=&quot;&quot; border=&quot;0&quot; height=&quot;1&quot; src=&quot;https://pixel.wp.com/b.gif?host=waynebeaton.wordpress.com&amp;amp;blog=19425814&amp;amp;post=5258&amp;amp;subd=waynebeaton&amp;amp;ref=&amp;amp;feed=1&quot; width=&quot;1&quot; /&gt;</description>
+	<pubDate>Fri, 06 Oct 2017 16:12:13 +0000</pubDate>
+</item>
+<item>
+	<title>Benjamin Cabe: Hack the Eclipse IoT Open Testbeds at EclipseCon Europe</title>
+	<guid isPermaLink="false">https://blog.benjamin-cabe.com/?p=2935</guid>
+	<link>http://feedproxy.google.com/~r/benjamin-cabe-planet-eclipse/~3/AWvt_e8GX9M/iot-testbeds-hackday-eclipsecon</link>
+	<description>&lt;p&gt;By now you are probably pretty aware that EclipseCon Europe, coming in just a few weeks in Ludwigsburg, Germany, Oct 22-25, will feature &lt;a href=&quot;https://www.eclipsecon.org/europe2017/iot&quot; rel=&quot;noopener&quot; target=&quot;_blank&quot;&gt;&lt;strong&gt;All Things IoT&lt;/strong&gt;&lt;/a&gt;!&lt;/p&gt;
+&lt;p&gt;But wait, there’s more! We will use the opportunity of having a lot of people from the Eclipse IoT community in the same location to spend some time hacking the &lt;a href=&quot;https://iot.eclipse.org/testbeds&quot; rel=&quot;noopener&quot; target=&quot;_blank&quot;&gt;&lt;strong&gt;Open IoT Testbeds&lt;/strong&gt;&lt;/a&gt; on Wednesday, October 24.&lt;/p&gt;
+&lt;h2&gt;“What can I expect from the Testbed Hackday?”&lt;/h2&gt;
+&lt;p&gt;As we will be unveiling a new testbed focusing on Production Performance Management of industrial equipment, and with the Asset Tracking Management testbed well on its way, there will be many people who have been working on these testbeds attending the hack day.&lt;/p&gt;
+&lt;p&gt;They will be available all day to discuss (and experiment live!) how to extend them, and of course ready to show you how they are built.&lt;/p&gt;
+&lt;h2&gt;“Why should I attend?”&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;If your company is creating &lt;strong&gt;IoT products that you would like to integrate&lt;/strong&gt; with the &lt;a href=&quot;https://iot.eclipse.org/testbeds&quot; rel=&quot;noopener&quot; target=&quot;_blank&quot;&gt;existing testbeds&lt;/a&gt;,&lt;/li&gt;
+&lt;li&gt;If you are involved in an Eclipse or Eclipse IoT project and would like to &lt;strong&gt;see how your project can get involved&lt;/strong&gt; complement the solutions already demonstrated in the existing testbeds,&lt;/li&gt;
+&lt;li&gt;You want to experiment with the actual &lt;strong&gt;hardware&lt;/strong&gt; that the testbeds are featuring,&lt;/li&gt;
+&lt;li&gt;You are interested in &lt;strong&gt;starting a new testbed&lt;/strong&gt; and would like to gauge the interest of the community and brainstorm some ideas face-to-face.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;Please let me know if you plan on attending! I think the Open IoT Testbeds are a great opportunity for people and companies to collaborate on real use cases, and to demonstrate by example how open source, complemented by a strong commercial ecosystem, can jump-start the development of IoT solutions.&lt;/p&gt;
+&lt;p&gt;I really think the Open IoT Testbeds are a great opportunity for people and companies to collaborate on real use cases, and to demonstrate by example how open source, complemented by a strong commercial ecosystem, can jump-start the development of IoT solutions. If you share this conviction, you really don’t want to miss the hack day… and all the other days of &lt;a href=&quot;https://www.eclipsecon.org/europe2017&quot; rel=&quot;noopener&quot; target=&quot;_blank&quot;&gt;&lt;strong&gt;EclipseCon Europe&lt;/strong&gt;&lt;/a&gt;!&lt;/p&gt;
+&lt;p&gt;&lt;a href=&quot;http://www.eclipsecon.org/europe2017&quot; rel=&quot;noopener&quot; target=&quot;_blank&quot;&gt;&lt;img alt=&quot;EclipseCon Europe 2017&quot; border=&quot;0&quot; height=&quot;90&quot; src=&quot;https://www.eclipsecon.org/europe2017/sites/default/files/ece_2017_728%20x%2090.png&quot; width=&quot;728&quot; /&gt;&lt;/a&gt;&lt;/p&gt;
+ &lt;p&gt;The post &lt;a href=&quot;https://blog.benjamin-cabe.com/2017/10/06/iot-testbeds-hackday-eclipsecon&quot; rel=&quot;nofollow&quot;&gt;Hack the Eclipse IoT Open Testbeds at EclipseCon Europe&lt;/a&gt; appeared first on &lt;a href=&quot;https://blog.benjamin-cabe.com&quot; rel=&quot;nofollow&quot;&gt;Benjamin Cabé&lt;/a&gt;.&lt;/p&gt;
+&lt;img alt=&quot;&quot; height=&quot;1&quot; src=&quot;http://feeds.feedburner.com/~r/benjamin-cabe-planet-eclipse/~4/AWvt_e8GX9M&quot; width=&quot;1&quot; /&gt;</description>
+	<pubDate>Fri, 06 Oct 2017 15:48:26 +0000</pubDate>
+</item>
+<item>
 	<title>Orion: Announcing Orion 16</title>
 	<guid isPermaLink="false">http://planetorion.org/news/?p=908</guid>
 	<link>http://planetorion.org/news/2017/10/announcing-orion-16/</link>
@@ -449,206 +568,6 @@ Subject: [ANN] - CDT project changes Date: Fri, 7 Jun 2002 17:20:34 -040&lt;/p&g
 &lt;li style=&quot;font-weight: 400;&quot;&gt;&lt;a href=&quot;http://eclipse.org/ecp/emfforms/download.html&quot;&gt;&lt;span style=&quot;font-weight: 400;&quot;&gt;Download EMF Forms&lt;/span&gt;&lt;/a&gt;&lt;/li&gt;
 &lt;/ul&gt;</description>
 	<pubDate>Thu, 28 Sep 2017 12:06:33 +0000</pubDate>
-</item>
-<item>
-	<title>Maximilian and Jonas: EMF Support for Che – Day 6: Adding your own editor</title>
-	<guid isPermaLink="false">https://eclipsesource.com/?p=35566</guid>
-	<link>https://eclipsesource.com/blogs/2017/09/28/emf-support-for-che-day-6-adding-your-own-editor/</link>
-	<description>&lt;p&gt;In this blog series, we share our experiences extending &lt;a href=&quot;http://www.eclipse.org/che/&quot;&gt;Eclipse Che&lt;/a&gt; to add EMF support. The &lt;a href=&quot;https://eclipsesource.com/blogs/2017/02/08/emf-support-for-che-day-0-motivation-and-getting-started/&quot;&gt;first post&lt;/a&gt; covers our goals. In the last post, we have focused on how to extend Che by adding a custom plugin. So far, we have registered a file extension for +.ecore files and can control the editor to be opened for this file type. We still can open a plain text editor for Ecore files.&lt;/p&gt;
-&lt;p&gt;The next step is to add a custom editor to support modeling in Ecore as you are used to in classic Eclipse. The existing editor for EMF is written in SWT, we therefore cannot simply reuse it, as we &lt;a href=&quot;https://eclipsesource.com/blogs/2017/02/23/emf-support-for-che-day-2-generating-code/&quot;&gt;did for the code generation&lt;/a&gt;. So, let’s have a look at the different options to implement a new Ecore editor within Che. As described in the &lt;a href=&quot;https://eclipsesource.com/blogs/2017/02/08/emf-support-for-che-day-0-motivation-and-getting-started/&quot;&gt;first blog post&lt;/a&gt;, our first goal is a form-based editor such as the default Ecore tooling rather than a textual or graphical editor. However, the following considerations are pretty much the same.&lt;/p&gt;
-&lt;p&gt;Che provides a flexible extension mechanism to register editors based on the corresponding file type, as well as a frame (tab) for the same (see &lt;a href=&quot;https://www.eclipse.org/che/docs/assemblies/sdk-code-editors/index.html&quot;&gt;&lt;span&gt;here&lt;/span&gt;&lt;/a&gt;&lt;span&gt; for more details). Therefore, we primarily  need to consider the inner part of our editor, meaning the part showing the actual content of the file.&lt;/span&gt;&lt;br /&gt;
-For this, we have basically three choices:&lt;/p&gt;
-&lt;ol&gt;
-&lt;li&gt;&lt;span&gt;Extend the existing code editor (which is based on Orion)&lt;/span&gt;&lt;/li&gt;
-&lt;li&gt;&lt;span&gt;Write a new Editor using GWT (Che is implemented with GWT)&lt;/span&gt;&lt;/li&gt;
-&lt;li&gt;&lt;span&gt;Embed an existing HTML/JavaScript component&lt;/span&gt;&lt;/li&gt;
-&lt;/ol&gt;
-&lt;p&gt;If you want to modify any text-based artefact, the first option is probably the simplest and best choice. In this case, you would extend the Orion editor with custom syntax highlighting, code completion, etc. Please see &lt;a href=&quot;https://www.eclipse.org/che/docs/assemblies/sdk-code-editors/index.html#code-completion&quot;&gt;&lt;span style=&quot;font-weight: 400;&quot;&gt;here&lt;/span&gt;&lt;/a&gt;&lt;span&gt; for more details. For our Ecore Editor, we are aiming for a form-based solution, so for us, the Orion editor is not really an option.&lt;/span&gt;&lt;/p&gt;
-&lt;p&gt;The second option, using the Google Widget Toolkit, is probably the simplest one if you need to implement an editor from scratch. As you use the same technology as the surrounding application (Che), integration is straight-forward and you can directly use all of the Che APIs. Finally, you can implement your editor in Java (as supported by GWT). However, you need GWT experience and the GWT ecosystem is not as active anymore.&lt;/p&gt;
-&lt;p&gt;The third option is actually the most flexible one. As Che is an HTML/JavaScript application, you could potentially embed any web framework you prefer to create an editor. This gives you access to the very vital ecosystem of HTML/JavaScript frameworks. It also makes your editor independant of Che, such that you can write it once and also use a stand-alone solution or embed it into another web IDE such as Atom or Theia. Further, this option makes your development cycle more efficient. You can first develop a stand-alone component with very short build cycles and easy debugging, and then later, embed it into the framework.&lt;/p&gt;
-&lt;p&gt;As you might have guessed, we have chosen the third option for our Ecore Editor prototype. Before we present the actual editor, let us look more in detail at the way to embed HTML into an existing GWT application (Che). The basic idea is described in &lt;a href=&quot;https://www.eclipse.org/che/docs/assemblies/sdk-embed-htmljs/index.html&quot;&gt;this tutorial&lt;/a&gt;.&lt;/p&gt;
-&lt;p&gt;To embed our own existing HTML/JavaScript component in Che we need to accomplish three tasks:&lt;/p&gt;
-&lt;ul&gt;
-&lt;li&gt;&lt;span&gt;Include our own HTML&lt;/span&gt;&lt;/li&gt;
-&lt;li&gt;&lt;span&gt;Include our own Javascript&lt;/span&gt;&lt;/li&gt;
-&lt;li&gt;&lt;span&gt;Include our own CSS&lt;/span&gt;&lt;/li&gt;
-&lt;/ul&gt;
-&lt;p&gt;Che uses the Model-View-Presenter pattern &lt;a href=&quot;http://www.gwtproject.org/articles/mvp-architecture.html&quot;&gt;recommended by the GWT developers&lt;/a&gt; to implement everything UI related, ranging from simple popups to more complex editors. For embedding HTML in Che you can extend and configure the provided BaseView class. This allows you to register a special &lt;a href=&quot;http://www.gwtproject.org/doc/latest/DevGuideUiBinder.html&quot;&gt;GWT-UI Binder xml file&lt;/a&gt; in which you can specify your own HTML.&lt;/p&gt;
-&lt;p&gt;To embed your Javascript you need to implement a presenter. For editors, Che provides the AbstractEditorPresenter which already includes useful functionality like dirty-state-handling. In your implementation you can call the &lt;a href=&quot;http://www.gwtproject.org/javadoc/latest/com/google/gwt/core/client/ScriptInjector.html&quot;&gt;GWT ScriptInjector&lt;/a&gt; to inject your Javascript files when the editor initializes. Once they are loaded you must call the previously implemented view to show your defined HTML.&lt;/p&gt;
-&lt;p&gt;Usually, you then need to communicate with your Javascript library, for example to provide data coming from Che. For this you can use &lt;a href=&quot;http://www.gwtproject.org/doc/latest/DevGuideCodingBasicsOverlay.html&quot;&gt;GTW Overlays&lt;/a&gt;. Overlays are Java classes representing JavaScript objects. You can use them within your implemented view.&lt;/p&gt;
-&lt;p&gt;You can add your CSS at the same point where you register your plugin extension by adding it to the Che HTML document. However you should make sure to scope your CSS classes so they do not overwrite CSS defined by Che.&lt;/p&gt;
-&lt;p&gt;&lt;img alt=&quot;&quot; class=&quot;alignnone wp-image-35591 size-full&quot; height=&quot;465&quot; src=&quot;https://eclipsesource.com/wp-content/uploads/2017/09/image2.png&quot; width=&quot;797&quot; /&gt;&lt;/p&gt;
-&lt;p&gt;Now you only need to register your editor presenter for an existing or newly defined file type so that the custom HTML/JavaScript component is rendered and that is basically it.&lt;/p&gt;
-&lt;p&gt;The following screenshot shows a simple custom editor which displays statically defined HTML via the BasicView approach described above. Stay tuned for the next blog days where we show how to use the Model-View-Presenter pattern to embed our own, more complex, stand-alone UI component into Che, which will show the contents of an Ecore file.&lt;/p&gt;
-&lt;p&gt;&lt;img alt=&quot;&quot; class=&quot;alignnone wp-image-35593 size-full&quot; height=&quot;401&quot; src=&quot;https://eclipsesource.com/wp-content/uploads/2017/09/image8.png&quot; width=&quot;757&quot; /&gt;&lt;/p&gt;
-&lt;p&gt;If you are interested in learning more about the prototype for EMF support, if you want to contribute or sponsor its further development, or if you want support for creating your own extension for Che, please feel free to &lt;a href=&quot;mailto:munich@eclipsesource.com&quot;&gt;contact us&lt;/a&gt;.&lt;/p&gt;
-&lt;p&gt; &lt;/p&gt;
-&lt;p&gt;List of all available days to date:&lt;/p&gt;
-&lt;ul&gt;
-&lt;li&gt;&lt;a href=&quot;https://eclipsesource.com/blogs/2017/02/08/emf-support-for-che-day-0-motivation-and-getting-started/&quot;&gt;Day 0&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;&lt;a href=&quot;https://eclipsesource.com/blogs/2017/02/14/emf-support-for-che-day-1-run-che-and-import-existing-emf-project/&quot;&gt;Day 1&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;&lt;a href=&quot;https://eclipsesource.com/blogs/2017/02/23/emf-support-for-che-day-2-generating-code/&quot;&gt;Day 2&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;&lt;a href=&quot;https://eclipsesource.com/blogs/2017/03/01/emf-support-for-che-day-3-adding-a-custom-workspace-stack/&quot;&gt;Day 3&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;&lt;a href=&quot;https://eclipsesource.com/blogs/2017/03/15/emf-support-for-che-day-4-building-che/&quot;&gt;Day 4&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;&lt;a href=&quot;https://eclipsesource.com/blogs/2017/07/21/emf-support-for-che-day-5&quot;&gt;Day 5&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;&lt;a href=&quot;https://eclipsesource.com/blogs/2017/09/27/emf-support-for-che-day-6-adding-your-own-editor&quot;&gt;Day 6&lt;/a&gt;&lt;/li&gt;
-&lt;/ul&gt;</description>
-	<pubDate>Thu, 28 Sep 2017 10:40:30 +0000</pubDate>
-</item>
-<item>
-	<title>Michael Spector: Profiling Spark Applications: The Easy Way</title>
-	<guid isPermaLink="false">tag:blogger.com,1999:blog-34385728.post-4362206950328131090</guid>
-	<link>http://spektom.blogspot.com/2017/06/profiling-spark-applications-easy-way.html</link>
-	<description>&lt;div&gt;&lt;br /&gt;&lt;/div&gt;Recently, I thought about some one-click way to profile Spark applications, so it could be easily integrated in any work environment without the need to configure the system.&lt;br /&gt;&lt;br /&gt;&lt;br /&gt;The modern way to report profile statistics about an application (any application, not just Spark or Java application) is generating a single .SVG file called &quot;flame graph&quot;. Since this is a regular vector graphic format, the file can be opened in any browser. Moreover, you can navigate between different stack frames by clicking on them, and even search for a symbol name by clicking on &quot;Search&quot; link.&lt;br /&gt;&lt;br /&gt;&lt;br /&gt;This is how sample flame graph looks like:&lt;br /&gt;&lt;div class=&quot;slate-resizable-image-embed slate-image-embed__resize-full-width&quot; contenteditable=&quot;false&quot;&gt;&lt;ul class=&quot;slate-image-embed__toolbar&quot; style=&quot;background-position: 0px 0px; border: 0px; height: 48px; line-height: 32px; padding: 0px 0px 8px; vertical-align: baseline; width: 744px;&quot;&gt;&lt;li style=&quot;background-position: 0px 0px; border: 0px; display: inline-block; margin: 0px 4px; padding: 0px; vertical-align: baseline;&quot;&gt;&lt;button class=&quot;slate-image-embed-button__resize-left slate-image-embed-button&quot;&gt;&lt;/button&gt;&lt;/li&gt;&lt;li style=&quot;background-position: 0px 0px; border: 0px; display: inline-block; margin: 0px 4px; padding: 0px; vertical-align: baseline;&quot;&gt;&lt;button class=&quot;slate-image-embed-button__resize-middle slate-image-embed-button&quot;&gt;&lt;/button&gt;&lt;/li&gt;&lt;li style=&quot;background-position: 0px 0px; border: 0px; display: inline-block; margin: 0px 4px; padding: 0px; vertical-align: baseline;&quot;&gt;&lt;button class=&quot;slate-image-embed-button__resize-full-width slate-image-embed-button slate-image-embed-button__active&quot;&gt;&lt;/button&gt;&lt;/li&gt;&lt;li style=&quot;background-position: 0px 0px; border: 0px; display: inline-block; margin: 0px 4px; padding: 0px; vertical-align: baseline;&quot;&gt;&lt;button class=&quot;slate-image-embed-button__resize-bleed slate-image-embed-button&quot;&gt;&lt;/button&gt;&lt;/li&gt;&lt;li style=&quot;background-position: 0px 0px; border: 0px; display: inline-block; margin: 0px 4px; padding: 0px; vertical-align: baseline;&quot;&gt;&lt;button class=&quot;slate-image-embed-button__resize-right slate-image-embed-button&quot;&gt;&lt;/button&gt;&lt;/li&gt;&lt;/ul&gt;&lt;img class=&quot;slate-image-embed__resize-full-width&quot; src=&quot;https://media.licdn.com/mpr/mpr/AAEAAQAAAAAAAAt_AAAAJDQ4YTE2NTE3LTc1ZGEtNDk1OC04MTQ0LWNhNWJhMzFlMTI2Mg.png&quot; style=&quot;background-position: 0px 0px; border: 0px; display: inline-block; height: auto; margin: 0px auto; padding: 0px; vertical-align: baseline; width: 744px;&quot; /&gt;&lt;/div&gt;The y-axis shows the stack depth while the x-axis shows time spent in a stack frame.&lt;br /&gt;&lt;br /&gt;In order to generate flame graphs, there are two mandatory processes usually: &lt;br /&gt;&lt;ul&gt;&lt;li&gt;Capture stack traces from a running process, and dump them to disk. &lt;/li&gt;&lt;li&gt;Parse these stack traces, and generate .SVG file. &lt;/li&gt;&lt;/ul&gt;For Java based applications it stack traces can be gathered using commercial features of Oracle JDK (using -XX:+FlightRecorder option). There's an &lt;a href=&quot;https://gist.github.com/kayousterhout/7008a8ebf2babeedc7ce6f8723fd1bf4&quot;&gt;article&lt;/a&gt; that explains how to profile Spark applications using this option.&lt;br /&gt;&lt;br /&gt;In OpenJDK this feature is not available, but luckily there are other options. Once of them is using &lt;a href=&quot;https://github.com/etsy/statsd-jvm-profiler&quot;&gt;statsd JVM profiler&lt;/a&gt; library from &lt;a href=&quot;http://etsy.com/&quot;&gt;Etsy&lt;/a&gt;. This library integrates as agent into JVM, gathers statistics like CPU or memory usage, and send it to &lt;a href=&quot;https://github.com/etsy/statsd&quot;&gt;statsd&lt;/a&gt; server in real time. Apparently, this library supports reporting to InfluxDB &lt;a href=&quot;https://github.com/etsy/statsd-jvm-profiler/blob/master/src/main/java/com/etsy/statsd/profiler/reporter/InfluxDBReporter.java&quot;&gt;as well&lt;/a&gt; .&lt;br /&gt;&lt;br /&gt;&lt;div&gt;Keeping the above in mind, the whole process will look like this:&lt;br /&gt;&lt;ol&gt;&lt;li&gt;Have InfluxDB running on random port.&lt;/li&gt;&lt;li&gt;Start Spark with the statsd profiler Jar in its classpath and with the configuration that tells it to report statistics back to the InfluxDB instance.&lt;/li&gt;&lt;li&gt;After running Spark application, query all the reported metrics from the InfluxDB instance.&lt;/li&gt;&lt;li&gt;Run a script that generates the target report.&lt;/li&gt;&lt;li&gt;Stop the InfluxDB instance.&lt;/li&gt;&lt;li&gt;Store generated .SVG file somewhere, or send it to someone.&lt;/li&gt;&lt;/ol&gt;The following script is a wrapper to ‘spark-submit’ command, which does all that:&lt;/div&gt;&lt;div&gt;&lt;a href=&quot;https://github.com/spektom/spark-flamegraph/blob/master/spark-submit-flamegraph&quot;&gt;https://github.com/spektom/spark-flamegraph/blob/master/spark-submit-flamegraph&lt;/a&gt;&lt;/div&gt;&lt;br /&gt;For the sake of justice, it should be noted that the following utilities must present on your system prior to running the script: perl, python2.7 and pip. Otherwise, the script was used in Amazon EMR environment without any issues. Just use the script instead of usual spark-submit command, and it will profile your application. and create a report:&lt;br /&gt;&lt;div&gt;&lt;br /&gt;&lt;/div&gt;&lt;div&gt;&lt;div&gt;&lt;pre class=&quot;brush:bash&quot;&gt;[hadoop@ip-10-121-4-244 tmp]$ ./spark-submit-flamegraph --name 'etlite' --jars file://$(pwd)/probe-events-1.0.jar etlite_2.11-0.1.0.jar s3://mobility-artifacts/airflow/latest/config/etlite.conf&lt;br /&gt;[2017-06-05T12:34:05] Installing dependencies&lt;br /&gt;[2017-06-05T12:34:09] Starting InfluxDB&lt;br /&gt;[2017-06-05T12:34:10] Executing: spark-submit --jars /home/hadoop/.spark-flamegraph/statsd-jvm-profiler.jar,file:///tmp/probe-events-1.0.jar --conf spark.executor.extraJavaOptions=-javaagent:statsd-jvm-profiler.jar=server=10.121.4.244,port=48081,reporter=InfluxDBReporter,database=profiler,username=profiler,password=profiler,prefix=sparkapp,tagMapping=spark --name etlite etlite_2.11-0.1.0.jar s3://mobility-artifacts/airflow/latest/config/etlite.conf&lt;br /&gt;17/06/05 12:34:11 INFO Main$: Configuration file = 's3://mobility-artifacts/airflow/latest/config/etlite.conf'&lt;br /&gt;17/06/05 12:34:14 INFO S3NativeFileSystem: Opening 's3://mobility-artifacts/airflow/latest/config/etlite.conf' for reading&lt;br /&gt;17/06/05 12:34:15 INFO SparkContext: Running Spark version 2.1.0&lt;br /&gt;&lt;br /&gt;... running Spark application ...&lt;br /&gt;&lt;br /&gt;17/06/05 12:35:17 INFO SparkContext: Successfully stopped SparkContext&lt;br /&gt;17/06/05 12:35:17 INFO ShutdownHookManager: Shutdown hook called&lt;br /&gt;17/06/05 12:35:17 INFO ShutdownHookManager: Deleting directory /mnt/tmp/spark-fa12133c-b605-4a73-814a-2dfd4ed6fdde&lt;br /&gt;&lt;br /&gt;... generating .svg file ...&lt;br /&gt;&lt;br /&gt;[2017-06-05T12:35:25] Created flamegraph: /tmp/flamegraph.svg&lt;br /&gt;&lt;/pre&gt;&lt;/div&gt;&lt;br /&gt;&lt;br /&gt;Integrating this script into Airflow Spark operator is straightforward, especially if your Spark operator is derived from BashOperator. Just make sure the script is available on all Spark Airflow workers, then do the replacement of spark-submit command depending on whether profile=True is passed as the operator argument.&lt;br /&gt;&lt;br /&gt;Post your weird flame graphs in comments! :)&lt;/div&gt;</description>
-	<pubDate>Thu, 28 Sep 2017 04:26:09 +0000</pubDate>
-	<author>noreply@blogger.com (Michael)</author>
-</item>
-<item>
-	<title>vert.x project: An Eclipse Vert.x Gradle Plugin</title>
-	<guid isPermaLink="true">http://vertx.io/blog/an-eclipse-vert-x-gradle-plugin</guid>
-	<link>http://vertx.io/blog/an-eclipse-vert-x-gradle-plugin</link>
-	<description>&lt;article&gt;&lt;p&gt;Eclipse Vert.x is a versatile toolkit, and as such it does not have any strong opinion on the tools that you should be using.&lt;/p&gt;
-&lt;p&gt;Gradle is a popular build tool in the JVM ecosystem, and it is quite easy to use for building Vert.x project as &lt;a href=&quot;https://github.com/vert-x3/vertx-examples/blob/master/gradle-verticles/gradle-verticle/build.gradle&quot;&gt;show in one of the &lt;code&gt;vertx-examples&lt;/code&gt; samples&lt;/a&gt; where a so-called &lt;em&gt;fat Jar&lt;/em&gt; is being produced.&lt;/p&gt;
-&lt;p&gt;The new &lt;a href=&quot;https://plugins.gradle.org/plugin/io.vertx.vertx-plugin&quot;&gt;Vert.x Gradle plugin&lt;/a&gt; offers an &lt;em&gt;opinionated&lt;/em&gt; plugin for building Vert.x applications with Gradle.&lt;/p&gt;
-&lt;p&gt;It automatically applies the following plugins:&lt;/p&gt;
-&lt;ul&gt;
-&lt;li&gt;&lt;code&gt;java&lt;/code&gt; (and sets the source compatibility to Java 8),&lt;/li&gt;
-&lt;li&gt;&lt;code&gt;application&lt;/code&gt; + &lt;code&gt;shadow&lt;/code&gt; to generate fat Jars with all dependencies bundled,&lt;/li&gt;
-&lt;li&gt;&lt;code&gt;nebula-dependency-recommender-plugin&lt;/code&gt; so that you can omit versions from modules from the the Vert.x stack.&lt;/li&gt;
-&lt;/ul&gt;
-&lt;p&gt;The plugin automatically adds &lt;code&gt;io.vertx:vertx-core&lt;/code&gt; as a &lt;code&gt;compile&lt;/code&gt; dependency, so you don’t need to do it.&lt;/p&gt;
-&lt;p&gt;The plugin provides a &lt;code&gt;vertxRun&lt;/code&gt; task that can take advantage of the Vert.x auto-reloading capabilities, so you can just run it then have your code being automatically compiled and reloaded as you make changes.&lt;/p&gt;
-&lt;h2 id=&quot;getting-started&quot;&gt;Getting started&lt;/h2&gt;
-&lt;p&gt;A minimal &lt;code&gt;build.gradle&lt;/code&gt; looks like:&lt;/p&gt;
-&lt;pre&gt;&lt;code class=&quot;hljs groovy&quot;&gt;plugins {
-  id &lt;span class=&quot;hljs-string&quot;&gt;'io.vertx.vertx-plugin'&lt;/span&gt; version &lt;span class=&quot;hljs-string&quot;&gt;'0.0.4'&lt;/span&gt;
-}
-
-repositories {
-  jcenter()
-}
-
-vertx {
-  mainVerticle = &lt;span class=&quot;hljs-string&quot;&gt;'sample.App'&lt;/span&gt;
-}&lt;/code&gt;&lt;/pre&gt;
-
-&lt;p&gt;Provided &lt;code&gt;sample.App&lt;/code&gt; is a Vert.x verticle, then:&lt;/p&gt;
-&lt;ol&gt;
-&lt;li&gt;&lt;code&gt;gradle shadowJar&lt;/code&gt; builds an executable Jar with all dependencies: &lt;code&gt;java -jar build/libs/simple-project-fat.jar&lt;/code&gt;, and&lt;/li&gt;
-&lt;li&gt;&lt;code&gt;gradle vertxRun&lt;/code&gt; starts the application and automatically recompiles (&lt;code&gt;gradle classes&lt;/code&gt;) and reloads the code when any file under &lt;code&gt;src/&lt;/code&gt; is being added, modified or deleted.&lt;/li&gt;
-&lt;/ol&gt;
-&lt;h2 id=&quot;using-with-kotlin-or-groovy-or-&quot;&gt;Using with Kotlin (or Groovy, or…)&lt;/h2&gt;
-&lt;p&gt;The plugin integrates well with plugins that add configurations and tasks triggered by the &lt;code&gt;classes&lt;/code&gt; task.&lt;/p&gt;
-&lt;p&gt;Here is how to use the plugin with Kotlin (replace the version numbers with the latest ones…):&lt;/p&gt;
-&lt;pre&gt;&lt;code class=&quot;hljs groovy&quot;&gt;plugins {
-  id &lt;span class=&quot;hljs-string&quot;&gt;'io.vertx.vertx-plugin'&lt;/span&gt; version &lt;span class=&quot;hljs-string&quot;&gt;'x.y.z'&lt;/span&gt;
-  id &lt;span class=&quot;hljs-string&quot;&gt;'org.jetbrains.kotlin.jvm'&lt;/span&gt; version &lt;span class=&quot;hljs-string&quot;&gt;'a.b.c'&lt;/span&gt;
-}
-
-repositories {
-  jcenter()
-}
-
-dependencies {
-  compile &lt;span class=&quot;hljs-string&quot;&gt;'io.vertx:vertx-lang-kotlin'&lt;/span&gt;
-  compile &lt;span class=&quot;hljs-string&quot;&gt;'org.jetbrains.kotlin:kotlin-stdlib-jre8'&lt;/span&gt;
-}
-
-vertx {
-  mainVerticle = &lt;span class=&quot;hljs-string&quot;&gt;&quot;sample.MainVerticle&quot;&lt;/span&gt;
-}
-
-tasks.withType(org.jetbrains.kotlin.gradle.tasks.KotlinCompile).all {
-  kotlinOptions {
-    jvmTarget = &lt;span class=&quot;hljs-string&quot;&gt;&quot;1.8&quot;&lt;/span&gt;
-  }
-}&lt;/code&gt;&lt;/pre&gt;
-
-&lt;h2 id=&quot;using-with-webpack-or-any-other-custom-task-&quot;&gt;Using with WebPack (or any other custom task)&lt;/h2&gt;
-&lt;p&gt;WebPack is popular to bundle web assets, and there is even &lt;a href=&quot;https://guides.gradle.org/running-webpack-with-gradle/&quot;&gt;a guide for its integration with Gradle&lt;/a&gt;.&lt;/p&gt;
-&lt;p&gt;Mixing the Vert.x Gradle plugin with WebPack is very simple, especially in combination with the &lt;code&gt;com.moowork.node&lt;/code&gt; plugin that integrates Node into Gradle.&lt;/p&gt;
-&lt;p&gt;Suppose we want to mix Vert.x code and JavaScript with Gradle and WebPack.
-We assume a &lt;code&gt;package.json&lt;/code&gt; as:&lt;/p&gt;
-&lt;pre&gt;&lt;code class=&quot;hljs javascript&quot;&gt;{
-  &lt;span class=&quot;hljs-string&quot;&gt;&quot;name&quot;&lt;/span&gt;: &lt;span class=&quot;hljs-string&quot;&gt;&quot;webpack-sample&quot;&lt;/span&gt;,
-  &lt;span class=&quot;hljs-string&quot;&gt;&quot;version&quot;&lt;/span&gt;: &lt;span class=&quot;hljs-string&quot;&gt;&quot;0.0.1&quot;&lt;/span&gt;,
-  &lt;span class=&quot;hljs-string&quot;&gt;&quot;description&quot;&lt;/span&gt;: &lt;span class=&quot;hljs-string&quot;&gt;&quot;A sample with Vert.x, Gradle and Webpack&quot;&lt;/span&gt;,
-  &lt;span class=&quot;hljs-string&quot;&gt;&quot;main&quot;&lt;/span&gt;: &lt;span class=&quot;hljs-string&quot;&gt;&quot;src/main/webapp/index.js&quot;&lt;/span&gt;,
-  &lt;span class=&quot;hljs-string&quot;&gt;&quot;scripts&quot;&lt;/span&gt;: {
-    &lt;span class=&quot;hljs-string&quot;&gt;&quot;test&quot;&lt;/span&gt;: &lt;span class=&quot;hljs-string&quot;&gt;&quot;echo \&quot;Error: no test specified\&quot; &amp;amp;&amp;amp; exit 1&quot;&lt;/span&gt;
-  },
-  &lt;span class=&quot;hljs-string&quot;&gt;&quot;author&quot;&lt;/span&gt;: &lt;span class=&quot;hljs-string&quot;&gt;&quot;&quot;&lt;/span&gt;,
-  &lt;span class=&quot;hljs-string&quot;&gt;&quot;license&quot;&lt;/span&gt;: &lt;span class=&quot;hljs-string&quot;&gt;&quot;ISC&quot;&lt;/span&gt;,
-  &lt;span class=&quot;hljs-string&quot;&gt;&quot;devDependencies&quot;&lt;/span&gt;: {
-    &lt;span class=&quot;hljs-string&quot;&gt;&quot;webpack&quot;&lt;/span&gt;: &lt;span class=&quot;hljs-string&quot;&gt;&quot;^2.7.0&quot;&lt;/span&gt;
-  },
-  &lt;span class=&quot;hljs-string&quot;&gt;&quot;dependencies&quot;&lt;/span&gt;: {
-    &lt;span class=&quot;hljs-string&quot;&gt;&quot;axios&quot;&lt;/span&gt;: &lt;span class=&quot;hljs-string&quot;&gt;&quot;^0.16.2&quot;&lt;/span&gt;
-  }
-}&lt;/code&gt;&lt;/pre&gt;
-
-&lt;p&gt;and &lt;code&gt;webpack.config.js&lt;/code&gt; as:&lt;/p&gt;
-&lt;pre&gt;&lt;code class=&quot;hljs javascript&quot;&gt;&lt;span class=&quot;hljs-built_in&quot;&gt;module&lt;/span&gt;.exports = {
-  entry: &lt;span class=&quot;hljs-string&quot;&gt;'./src/main/webapp/index.js'&lt;/span&gt;,
-  output: {
-    filename: &lt;span class=&quot;hljs-string&quot;&gt;'./build/resources/main/webroot/bundle.js'&lt;/span&gt;
-  }
-}&lt;/code&gt;&lt;/pre&gt;
-
-&lt;p&gt;The &lt;code&gt;build.gradle&lt;/code&gt; file is the following:&lt;/p&gt;
-&lt;pre&gt;&lt;code class=&quot;hljs groovy&quot;&gt;plugins {
-  id &lt;span class=&quot;hljs-string&quot;&gt;'io.vertx.vertx-plugin'&lt;/span&gt; version &lt;span class=&quot;hljs-string&quot;&gt;'0.0.4'&lt;/span&gt;
-  id &lt;span class=&quot;hljs-string&quot;&gt;'com.moowork.node'&lt;/span&gt; version &lt;span class=&quot;hljs-string&quot;&gt;'1.2.0'&lt;/span&gt;
-}
-
-repositories {
-  jcenter()
-}
-
-dependencies {
-  compile &lt;span class=&quot;hljs-string&quot;&gt;&quot;io.vertx:vertx-web&quot;&lt;/span&gt;
-}
-
-vertx {
-  mainVerticle = &lt;span class=&quot;hljs-string&quot;&gt;&quot;sample.MainVerticle&quot;&lt;/span&gt;
-  watch = [&lt;span class=&quot;hljs-string&quot;&gt;&quot;src/**/*&quot;&lt;/span&gt;, &lt;span class=&quot;hljs-string&quot;&gt;&quot;build.gradle&quot;&lt;/span&gt;, &lt;span class=&quot;hljs-string&quot;&gt;&quot;yarn.lock&quot;&lt;/span&gt;]
-  onRedeploy = [&lt;span class=&quot;hljs-string&quot;&gt;&quot;classes&quot;&lt;/span&gt;, &lt;span class=&quot;hljs-string&quot;&gt;&quot;webpack&quot;&lt;/span&gt;]
-}
-
-task webpack(&lt;span class=&quot;hljs-string&quot;&gt;type:&lt;/span&gt; Exec) {
-  inputs.file(&lt;span class=&quot;hljs-string&quot;&gt;&quot;$projectDir/yarn.lock&quot;&lt;/span&gt;)
-  inputs.file(&lt;span class=&quot;hljs-string&quot;&gt;&quot;$projectDir/webpack.config.js&quot;&lt;/span&gt;)
-  inputs.dir(&lt;span class=&quot;hljs-string&quot;&gt;&quot;$projectDir/src/main/webapp&quot;&lt;/span&gt;)
-  outputs.dir(&lt;span class=&quot;hljs-string&quot;&gt;&quot;$buildDir/resources/main/webroot&quot;&lt;/span&gt;)
-  commandLine &lt;span class=&quot;hljs-string&quot;&gt;&quot;$projectDir/node_modules/.bin/webpack&quot;&lt;/span&gt;
-}&lt;/code&gt;&lt;/pre&gt;
-
-&lt;p&gt;This custom build exposes a &lt;code&gt;webpack&lt;/code&gt; task that invokes WebPack, with proper file tracking so that Gradle knows when the task is up-to-date or not.&lt;/p&gt;
-&lt;p&gt;The Node plugin adds many tasks, and integrates fine with &lt;code&gt;npm&lt;/code&gt; or &lt;code&gt;yarn&lt;/code&gt;, so fetching all NPM dependencies is done by calling &lt;code&gt;./gradlew yarn&lt;/code&gt;.&lt;/p&gt;
-&lt;p&gt;The &lt;code&gt;vertxRun&lt;/code&gt; task now redeploys on modifications to files in &lt;code&gt;src/&lt;/code&gt; (and sub-folders), &lt;code&gt;build.gradle&lt;/code&gt; and &lt;code&gt;yarn.lock&lt;/code&gt;, calling both the &lt;code&gt;classes&lt;/code&gt; and &lt;code&gt;webpack&lt;/code&gt; tasks:&lt;/p&gt;
-
-
-&lt;h2 id=&quot;summary&quot;&gt;Summary&lt;/h2&gt;
-&lt;p&gt;The Vert.x Gradle plugin provides lots of defaults to configure a Gradle project for Vert.x applications, producing &lt;em&gt;fat Jars&lt;/em&gt; and offering a running task with automatic redeployment.
-The plugin also integrates well with other plugins and external tools for which a Gradle task is available.&lt;/p&gt;
-&lt;p&gt;The project is still in its early stages and we are looking forward to hearing from you!&lt;/p&gt;
-&lt;h3 id=&quot;links&quot;&gt;Links&lt;/h3&gt;
-&lt;ul&gt;
-&lt;li&gt;&lt;a href=&quot;https://github.com/jponge/vertx-gradle-plugin&quot;&gt;The project on GitHub&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;&lt;a href=&quot;https://plugins.gradle.org/plugin/io.vertx.vertx-plugin&quot;&gt;The plugin on the Gradle plugins portal&lt;/a&gt;&lt;/li&gt;
-&lt;/ul&gt;
-&lt;/article&gt;</description>
-	<pubDate>Thu, 28 Sep 2017 00:00:00 +0000</pubDate>
-</item>
-<item>
-	<title>EclipseCon Europe 2017: The OSGi IoT Demo updated and extended for 2017</title>
-	<guid isPermaLink="false">https://www.eclipsecon.org/europe2017/news/3139 at https://www.eclipsecon.org/europe2017</guid>
-	<link>https://www.eclipsecon.org/europe2017/news/osgi-iot-demo-updated-and-extended-2017</link>
-	<description>&lt;div class=&quot;field field-name-body field-type-text-with-summary field-label-hidden&quot;&gt;&lt;div class=&quot;field-items&quot;&gt;&lt;div class=&quot;field-item even&quot;&gt;&lt;h4&gt;
-	by Mike Francis&lt;/h4&gt;
-&lt;p&gt;The OSGi IoT Demo for the OSGi Community Event and EclipseCon 2017 has been updated and extended to deliver another interesting and informative showcase of OSGi in action in IoT. Taking the foundations from the last three years of demos we will be using products from multiple vendors, open source projects and Raspberry PI computers to operate and control LEGO® trains running around a track. For 2017, we add a new and exciting dimension: a robot that will interact with the trains.&lt;/p&gt;
-&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;&lt;div class=&quot;field field-name-field-news-image field-type-image field-label-hidden&quot;&gt;&lt;div class=&quot;field-items&quot;&gt;&lt;div class=&quot;field-item even&quot;&gt;&lt;a href=&quot;https://www.eclipsecon.org/europe2017/news/osgi-iot-demo-updated-and-extended-2017&quot;&gt;&lt;img alt=&quot;&quot; class=&quot;img-responsive block-center&quot; height=&quot;250&quot; src=&quot;https://www.eclipsecon.org/europe2017/sites/default/files/styles/solstice_news_-_default_-_thumbnail/public/news/OSGiDemo2017RobotSq.png?itok=m_0Bru_P&quot; width=&quot;250&quot; /&gt;&lt;/a&gt;&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;</description>
-	<pubDate>Wed, 27 Sep 2017 11:19:11 +0000</pubDate>
 </item>
 
 </channel>
