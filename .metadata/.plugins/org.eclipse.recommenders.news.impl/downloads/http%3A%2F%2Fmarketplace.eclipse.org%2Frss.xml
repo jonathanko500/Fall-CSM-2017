@@ -6,6 +6,110 @@
     <language>en</language>
      <atom:link href="http://marketplace.eclipse.org/rss.xml" rel="self" type="application/rss+xml" />
       <item>
+    <title>Teamscale Eclipse Plugin</title>
+    <link>http://marketplace.eclipse.org/content/teamscale-eclipse-plugin</link>
+    <description>&lt;div class=&quot;field field-name-field-resource-image field-type-image field-label-hidden&quot;&gt;&lt;div class=&quot;field-items&quot;&gt;&lt;div class=&quot;field-item even&quot;&gt;&lt;img class=&quot;img-responsive&quot; src=&quot;http://marketplace.eclipse.org/sites/default/files/logo_114.png&quot; width=&quot;110&quot; height=&quot;25&quot; alt=&quot;&quot; /&gt;&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;&lt;div class=&quot;field field-name-shared-date-created field-type-text field-label-inline clearfix&quot;&gt;&lt;div class=&quot;field-label&quot;&gt;Date Created:&amp;nbsp;&lt;/div&gt;&lt;div class=&quot;field-items&quot;&gt;&lt;div class=&quot;field-item even&quot;&gt;Thu, 2015-02-12 10:16&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;&lt;div class=&quot;field field-name-shared-date-updated field-type-text field-label-inline clearfix&quot;&gt;&lt;div class=&quot;field-label&quot;&gt;Date Updated:&amp;nbsp;&lt;/div&gt;&lt;div class=&quot;field-items&quot;&gt;&lt;div class=&quot;field-item even&quot;&gt;Tue, 2017-10-10 09:35&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;&lt;a href=&quot;/search/content/%22CQSE%20GmbH%22&quot;&gt;CQSE GmbH&lt;/a&gt;&lt;div class=&quot;field field-name-shared-submitted-by field-type-text field-label-inline clearfix&quot;&gt;&lt;div class=&quot;field-label&quot;&gt;Submitted by:&amp;nbsp;&lt;/div&gt;&lt;div class=&quot;field-items&quot;&gt;&lt;div class=&quot;field-item even&quot;&gt;&lt;a href=&quot;/user/tkinnen/listings&quot; title=&quot;Thomas Kinnen&quot;&gt;Thomas Kinnen&lt;/a&gt;&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;&lt;!-- google_ad_section_start --&gt;&lt;div class=&quot;field field-name-body field-type-text-with-summary field-label-hidden&quot;&gt;&lt;div class=&quot;field-items&quot;&gt;&lt;div class=&quot;field-item even&quot;&gt;&lt;p&gt;The Teamscale Eclipse Plugin allows for seamless integration of quality defects found by the Teamscale software quality analysis server. &lt;strong&gt;&lt;em&gt;Note: An existing Teamscale Server is necessary to use this plugin!&lt;/em&gt;&lt;/strong&gt; Teamscale analyzes your source code incrementally with every commit, providing feedback on the quality of your code in near real-time. This plugin has the following features:&lt;/p&gt;
+&lt;ul&gt;&lt;li&gt;
+		Auto-detect which branch is being used (git &amp;amp; svn) and display all data accordingly&lt;/li&gt;
+&lt;li&gt;
+		Display defects in the Findings view&lt;/li&gt;
+&lt;li&gt;
+		Allow comparison of clones using the clone compare editor&lt;/li&gt;
+&lt;li&gt;
+		Display findings next to your code&lt;/li&gt;
+&lt;li&gt;
+		Blacklist findings&lt;/li&gt;
+&lt;li&gt;
+		Use baselines to only display defects that are new&lt;/li&gt;
+&lt;li&gt;
+		Show test coverage from Teamscale server&lt;/li&gt;
+&lt;/ul&gt;&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;&lt;!-- google_ad_section_end --&gt;</description>
+     <pubDate>Thu, 12 Feb 2015 15:16:07 +0000</pubDate>
+ <dc:creator>tkinnen</dc:creator>
+ <guid isPermaLink="false">2188950 at http://marketplace.eclipse.org</guid>
+ <comments>http://marketplace.eclipse.org/content/teamscale-eclipse-plugin#comments</comments>
+  </item>
+  <item>
+    <title>jSparrow - Automatical Java Code Improvement</title>
+    <link>http://marketplace.eclipse.org/content/jsparrow-automatical-java-code-improvement</link>
+    <description>&lt;div class=&quot;field field-name-field-resource-image field-type-image field-label-hidden&quot;&gt;&lt;div class=&quot;field-items&quot;&gt;&lt;div class=&quot;field-item even&quot;&gt;&lt;img class=&quot;img-responsive&quot; src=&quot;http://marketplace.eclipse.org/sites/default/files/jSparrow_Fluegel_110x80.jpg&quot; width=&quot;110&quot; height=&quot;77&quot; alt=&quot;&quot; /&gt;&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;&lt;div class=&quot;field field-name-shared-date-created field-type-text field-label-inline clearfix&quot;&gt;&lt;div class=&quot;field-label&quot;&gt;Date Created:&amp;nbsp;&lt;/div&gt;&lt;div class=&quot;field-items&quot;&gt;&lt;div class=&quot;field-item even&quot;&gt;Tue, 2017-06-20 11:34&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;&lt;div class=&quot;field field-name-shared-date-updated field-type-text field-label-inline clearfix&quot;&gt;&lt;div class=&quot;field-label&quot;&gt;Date Updated:&amp;nbsp;&lt;/div&gt;&lt;div class=&quot;field-items&quot;&gt;&lt;div class=&quot;field-item even&quot;&gt;Tue, 2017-10-10 08:52&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;&lt;a href=&quot;/search/content/%22Splendit%20IT-Consulting%20GmbH%22&quot;&gt;Splendit IT-Consulting GmbH&lt;/a&gt;&lt;div class=&quot;field field-name-shared-submitted-by field-type-text field-label-inline clearfix&quot;&gt;&lt;div class=&quot;field-label&quot;&gt;Submitted by:&amp;nbsp;&lt;/div&gt;&lt;div class=&quot;field-items&quot;&gt;&lt;div class=&quot;field-item even&quot;&gt;&lt;a href=&quot;/user/mprehofer/listings&quot; title=&quot;Michaela Prehofer&quot;&gt;Michaela Prehofer&lt;/a&gt;&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;&lt;!-- google_ad_section_start --&gt;&lt;div class=&quot;field field-name-body field-type-text-with-summary field-label-hidden&quot;&gt;&lt;div class=&quot;field-items&quot;&gt;&lt;div class=&quot;field-item even&quot;&gt;&lt;p&gt;jSparrow is an automated Eclipse PlugIn, which finds and replaces different kinds of threats in Java software systems with a rule based approach.&lt;br /&gt;
+	It applies coding conventions, removes code smells, improves readability and helps the upgrade process to newer Java versions.&lt;/p&gt;
+&lt;p&gt;	The usage of  jSparrow´s full version allows you to save a lot of valuable time, while offering the option of automatically upgrading to the latest version of Java within minutes in a safe way.&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;set standards&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;jSparrow redefines the way companies can set programming standards and improve the legacy code.  jSparrow has a big range of rules to support standards.&lt;/p&gt;
+&lt;p&gt;	&lt;em&gt;ArithmeticAssignment – BracketsToControl – &lt;strong&gt;CodeFormatter&lt;/strong&gt; – FieldNameConvention – MultiVariableDeclarationLine – &lt;strong&gt;OrganiseImports &lt;/strong&gt;– RearrangeClassMembers – StringConcatToPlus – StringLiteralEqualityCheck – StringUtils – &lt;strong&gt;SystemOutToLogging&lt;/strong&gt;&lt;/em&gt;&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;code smells&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;Removal of potential bugs and code smells is one of the main purposes of jSparrow. jSparrow is very efficient in disposing of these threats with its rules.  &lt;/p&gt;
+&lt;p&gt;	&lt;em&gt;&lt;strong&gt;InefficientConstructor &lt;/strong&gt;– MultiVariableDeclarationLine – &lt;strong&gt;OverrideAnnotation &lt;/strong&gt;– PrimitiveBoxedForString – RemoveNewStringConstructor – RemoveToStringOnString – SerialVersionUid – StringFormatLineSeparator – StringLiteralEqualityCheck – SystemOutToLogging&lt;/em&gt;&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;modernization &lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;Being up to date with the latest Java standards is requiring a lot of software maintenance work. jSparrow upgrades old code-artifacts to new state-of-the-art programming practices.&lt;/p&gt;
+&lt;p&gt;	&lt;em&gt;CollectionRemoveAll – DiamondRule – &lt;strong&gt;ForEachToLambda &lt;/strong&gt;– &lt;strong&gt;ForToForEach &lt;/strong&gt;– FunctionalInterface – LambdaToMethodReference – MultiCatch – StatementLambdaToExpression – SystemOutToLogging – &lt;strong&gt;TryWithResource &lt;/strong&gt;– WhileToForEach&lt;/em&gt;&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;OUR RELEASE POLICY IS AS FOLLOWS:&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Two major releases&lt;/strong&gt; per year&lt;/p&gt;
+&lt;p&gt;    21st June – Midsummer Release&lt;br /&gt;
+	    21st December – Release of the longest night&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Monthly Rule releases&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;If we developed new rules, they will be released on the 21st of each month - (if the 21st isn’t an Austrian working day- the release will be postponed one month)&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Weekly Bugfix &lt;/strong&gt;releases&lt;/p&gt;
+&lt;p&gt;Bugfixes will be released each Tuesday&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Hotfix Releases &lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;Hotfix Releases can be deployed any time (hopefully not necessary)&lt;/p&gt;&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;&lt;!-- google_ad_section_end --&gt;</description>
+     <pubDate>Tue, 20 Jun 2017 15:34:11 +0000</pubDate>
+ <dc:creator>mprehofer</dc:creator>
+ <guid isPermaLink="false">3503691 at http://marketplace.eclipse.org</guid>
+ <comments>http://marketplace.eclipse.org/content/jsparrow-automatical-java-code-improvement#comments</comments>
+  </item>
+  <item>
+    <title>MetaModelAgent for Papyrus and IBM RSA</title>
+    <link>http://marketplace.eclipse.org/content/metamodelagent-papyrus-and-ibm-rsa</link>
+    <description>&lt;div class=&quot;field field-name-field-resource-image field-type-image field-label-hidden&quot;&gt;&lt;div class=&quot;field-items&quot;&gt;&lt;div class=&quot;field-item even&quot;&gt;&lt;img class=&quot;img-responsive&quot; src=&quot;http://marketplace.eclipse.org/sites/default/files/MMA_Eclipse_MarketPlace_Icon.png&quot; width=&quot;110&quot; height=&quot;80&quot; alt=&quot;&quot; /&gt;&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;&lt;div class=&quot;field field-name-shared-date-created field-type-text field-label-inline clearfix&quot;&gt;&lt;div class=&quot;field-label&quot;&gt;Date Created:&amp;nbsp;&lt;/div&gt;&lt;div class=&quot;field-items&quot;&gt;&lt;div class=&quot;field-item even&quot;&gt;Mon, 2011-05-16 08:36&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;&lt;div class=&quot;field field-name-shared-date-updated field-type-text field-label-inline clearfix&quot;&gt;&lt;div class=&quot;field-label&quot;&gt;Date Updated:&amp;nbsp;&lt;/div&gt;&lt;div class=&quot;field-items&quot;&gt;&lt;div class=&quot;field-item even&quot;&gt;Tue, 2017-10-10 03:18&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;&lt;a href=&quot;/search/content/%22Adocus%20AB%22&quot;&gt;Adocus AB&lt;/a&gt;&lt;div class=&quot;field field-name-shared-submitted-by field-type-text field-label-inline clearfix&quot;&gt;&lt;div class=&quot;field-label&quot;&gt;Submitted by:&amp;nbsp;&lt;/div&gt;&lt;div class=&quot;field-items&quot;&gt;&lt;div class=&quot;field-item even&quot;&gt;&lt;a href=&quot;/user/twiman/listings&quot; title=&quot;Thomas Wiman&quot;&gt;Thomas Wiman&lt;/a&gt;&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;&lt;!-- google_ad_section_start --&gt;&lt;div class=&quot;field field-name-body field-type-text-with-summary field-label-hidden&quot;&gt;&lt;div class=&quot;field-items&quot;&gt;&lt;div class=&quot;field-item even&quot;&gt;&lt;p&gt;&lt;em&gt;&lt;strong&gt;[IMPORTANT: Install button is for Papyrus 3.x users. Please use update site &lt;a href=&quot;http://www.metamodelagent.com/update&quot; rel=&quot;nofollow&quot;&gt;http://www.metamodelagent.com/update&lt;/a&gt; for Papyrus 2.0.x and IBM RSA]&lt;/strong&gt;&lt;/em&gt;&lt;/p&gt;
+&lt;p&gt;A &lt;em&gt;Domain-specific Modeling Language (DSML)&lt;/em&gt; is a modeling language tailored for a very specific and limited domain. A DSML is a combination of visual presentation of entities from the domain as well as a set of rules that defines their behavior. A well-defined DSML should help you to express whatever needed in the specific domain in a correct manner without disturbance from concepts irrelevant for the domain. A &lt;em&gt;UML-based DSML&lt;/em&gt; is a combination of extension and limitation of the Unified Modeling Language (UML) for a specific modeling domain. A UML-based DSML does often, but not always, include UML-profile(s) with stereotypes and additional properties, as well as new graphics (icons and symbols). A UML-based DSML should also contains a set of constraints on how UML and the extensions should be applied in terms of model structure, element and relationship usage, valid property values, diagram placement and diagram content etc. &lt;strong&gt;MetaModelAgent&lt;/strong&gt; is a modeling tool extension that makes it very simple to define your own DSML and make it available for the modelers through powerful UI additions to open source &lt;em&gt;Papyrus&lt;/em&gt; or &lt;em&gt;IBM Rational Software Architect (RSA)&lt;/em&gt;. Key features:&lt;/p&gt;
+&lt;ul&gt;&lt;li type=&quot;disc&quot;&gt;
+&lt;dl&gt;&lt;dt&gt;
+				&lt;strong&gt;Agile DSML Configuration&lt;/strong&gt;&lt;/dt&gt;
+&lt;dd&gt;
+				MetaModelAgent makes it very easy to setup your own DSML-specific modeling tool using a UML-based metamodels as a single source of information. There is no need at all for any API-based programmatic extensions.&lt;/dd&gt;
+&lt;/dl&gt;&lt;/li&gt;
+&lt;li type=&quot;disc&quot;&gt;
+&lt;dl&gt;&lt;dt&gt;
+				&lt;strong&gt;Accelerated DSML-modeling&lt;/strong&gt;&lt;/dt&gt;
+&lt;dd&gt;
+				MetaModelAgent uses your own metamodel to provide a DSML-specific modeling tool with user-friendly context-sensitive wizards, views, menus and palettes. This makes it possible to develop and validate high-quality DSML-models rapidly without the risk of introducing violations to the DSML.&lt;/dd&gt;
+&lt;/dl&gt;&lt;/li&gt;
+&lt;li type=&quot;disc&quot;&gt;
+&lt;dl&gt;&lt;dt&gt;
+				&lt;strong&gt;Makes you models available for anyone&lt;/strong&gt;&lt;/dt&gt;
+&lt;dd&gt;
+				MetaModelAgent generates easy-navigable model reports of your DSML-models and DSML-guidelines in HTML-format. This makes your models accessible by anyone through a standard web browser.&lt;/dd&gt;
+&lt;/dl&gt;&lt;/li&gt;
+&lt;li type=&quot;disc&quot;&gt;
+&lt;dl&gt;&lt;dt&gt;
+				&lt;strong&gt;Flexible and Scalable&lt;/strong&gt;&lt;/dt&gt;
+&lt;dd&gt;
+				MetaModelAgent supports any kind of UML-based DSML of any size, independent of any development process. MetaModelAgent supports any number of different DSML-guidelines and models simultaneously in the same environment.&lt;/dd&gt;
+&lt;/dl&gt;&lt;/li&gt;
+&lt;li type=&quot;disc&quot;&gt;
+&lt;dl&gt;&lt;dt&gt;
+				&lt;strong&gt;Support for standard UML&lt;/strong&gt;&lt;/dt&gt;
+&lt;dd&gt;
+				MetaModelAgent has embedded guidelines for standard UML that make its possible to use MetaModelAgent´s unique UI extensions without the need of any DSML-definition.&lt;/dd&gt;
+&lt;/dl&gt;&lt;/li&gt;
+&lt;/ul&gt;&lt;p&gt;Powerful and easy to use, MetaModelAgent allows your organization to create high-quality DSML-models faster than ever before. MetaModelAgent requires and supports:&lt;/p&gt;
+&lt;ul&gt;&lt;li type=&quot;disc&quot;&gt;
+		Papyrus 3.x (Oxygen)&lt;/li&gt;
+&lt;li type=&quot;disc&quot;&gt;
+		Papyrus 2.0.x (Neon)&lt;/li&gt;
+&lt;li type=&quot;disc&quot;&gt;
+		Papyrus RT 1.0 (Oxygen)&lt;/li&gt;
+&lt;li type=&quot;disc&quot;&gt;
+		IBM Rational Software Architect (RSA) 8.0 and later, all editions including RSA RTE (MetaModelAgent is certified as &lt;em&gt;Ready for IBM Rational Software&lt;/em&gt;)&lt;/li&gt;
+&lt;/ul&gt;&lt;p&gt;MetaModelAgent is available for installation from the update site: &lt;a href=&quot;http://www.metamodelagent.com/update&quot; rel=&quot;nofollow&quot;&gt;http://www.metamodelagent.com/update&lt;/a&gt; To use the MetaModelAgent functionality after installation you will have to order a limited FREE license, request a 30-day trial license or purchase an unlimited license. For more information see &lt;a href=&quot;http://www.adocus.com/en/products/metamodelagent&quot; rel=&quot;nofollow&quot;&gt;Adocus company website&lt;/a&gt; and &lt;a href=&quot;http://www.metamodelagent.com&quot; rel=&quot;nofollow&quot;&gt;MetaModelAgent product website&lt;/a&gt;.&lt;/p&gt;&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;&lt;!-- google_ad_section_end --&gt;</description>
+     <pubDate>Mon, 16 May 2011 12:36:00 +0000</pubDate>
+ <dc:creator>twiman</dc:creator>
+ <guid isPermaLink="false">53864 at http://marketplace.eclipse.org</guid>
+ <comments>http://marketplace.eclipse.org/content/metamodelagent-papyrus-and-ibm-rsa#comments</comments>
+  </item>
+  <item>
     <title>Eclipse Java EE Developer Tools</title>
     <link>http://marketplace.eclipse.org/content/eclipse-java-ee-developer-tools-0</link>
     <description>&lt;div class=&quot;field field-name-field-resource-image field-type-image field-label-hidden&quot;&gt;&lt;div class=&quot;field-items&quot;&gt;&lt;div class=&quot;field-item even&quot;&gt;&lt;img class=&quot;img-responsive&quot; src=&quot;http://marketplace.eclipse.org/sites/default/files/wtp_logo_2010-80x80_1.png&quot; width=&quot;80&quot; height=&quot;80&quot; alt=&quot;&quot; /&gt;&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;&lt;div class=&quot;field field-name-shared-date-created field-type-text field-label-inline clearfix&quot;&gt;&lt;div class=&quot;field-label&quot;&gt;Date Created:&amp;nbsp;&lt;/div&gt;&lt;div class=&quot;field-items&quot;&gt;&lt;div class=&quot;field-item even&quot;&gt;Wed, 2016-07-06 21:31&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;&lt;div class=&quot;field field-name-shared-date-updated field-type-text field-label-inline clearfix&quot;&gt;&lt;div class=&quot;field-label&quot;&gt;Date Updated:&amp;nbsp;&lt;/div&gt;&lt;div class=&quot;field-items&quot;&gt;&lt;div class=&quot;field-item even&quot;&gt;Mon, 2017-10-09 17:58&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;&lt;a href=&quot;/search/content/%22The%20Eclipse%20Foundation%22&quot;&gt;The Eclipse Foundation&lt;/a&gt;&lt;div class=&quot;field field-name-shared-submitted-by field-type-text field-label-inline clearfix&quot;&gt;&lt;div class=&quot;field-label&quot;&gt;Submitted by:&amp;nbsp;&lt;/div&gt;&lt;div class=&quot;field-items&quot;&gt;&lt;div class=&quot;field-item even&quot;&gt;&lt;a href=&quot;/user/nitind/listings&quot; title=&quot;Nitin Dahyabhai&quot;&gt;Nitin Dahyabhai&lt;/a&gt;&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;&lt;!-- google_ad_section_start --&gt;&lt;div class=&quot;field field-name-body field-type-text-with-summary field-label-hidden&quot;&gt;&lt;div class=&quot;field-items&quot;&gt;&lt;div class=&quot;field-item even&quot;&gt;&lt;p&gt;Enables Enterprise Java Bean, Java Enterprise Application, Fragments, and Connector, Java Web Application, JavaServer Faces (JSF), Java Server Pages (JSP), Java Servlet, Java Web Services, and Tag Library development and debugging, plus Java Enterprise server and Java Servlet Container launching and debugging. Includes the JSP, HTML, CSS, and JSON Editors, JavaScript Developer Tools, the XML, XML Schema, and DTD Editors from the Eclipse Web Tools Platform project. If you&#039;re developing web applications with a Java-based back-end, this one&#039;s for you.&lt;/p&gt;&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;&lt;!-- google_ad_section_end --&gt;</description>
@@ -282,75 +386,6 @@
  <dc:creator>thaberm7n</dc:creator>
  <guid isPermaLink="false">3681355 at http://marketplace.eclipse.org</guid>
  <comments>http://marketplace.eclipse.org/content/impulse-canbus-extension#comments</comments>
-  </item>
-  <item>
-    <title>Pkg-config support for Eclipse CDT</title>
-    <link>http://marketplace.eclipse.org/content/pkg-config-support-eclipse-cdt</link>
-    <description>&lt;div class=&quot;field field-name-field-resource-image field-type-image field-label-hidden&quot;&gt;&lt;div class=&quot;field-items&quot;&gt;&lt;div class=&quot;field-item even&quot;&gt;&lt;img class=&quot;img-responsive&quot; src=&quot;http://marketplace.eclipse.org/sites/default/files/logo_2.jpg&quot; width=&quot;68&quot; height=&quot;55&quot; alt=&quot;&quot; /&gt;&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;&lt;div class=&quot;field field-name-shared-date-created field-type-text field-label-inline clearfix&quot;&gt;&lt;div class=&quot;field-label&quot;&gt;Date Created:&amp;nbsp;&lt;/div&gt;&lt;div class=&quot;field-items&quot;&gt;&lt;div class=&quot;field-item even&quot;&gt;Fri, 2011-06-10 07:53&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;&lt;div class=&quot;field field-name-shared-date-updated field-type-text field-label-inline clearfix&quot;&gt;&lt;div class=&quot;field-label&quot;&gt;Date Updated:&amp;nbsp;&lt;/div&gt;&lt;div class=&quot;field-items&quot;&gt;&lt;div class=&quot;field-item even&quot;&gt;Fri, 2017-10-06 08:07&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;&lt;a href=&quot;/search/content/%22Petri%20Tuononen%22&quot;&gt;Petri Tuononen&lt;/a&gt;&lt;div class=&quot;field field-name-shared-submitted-by field-type-text field-label-inline clearfix&quot;&gt;&lt;div class=&quot;field-label&quot;&gt;Submitted by:&amp;nbsp;&lt;/div&gt;&lt;div class=&quot;field-items&quot;&gt;&lt;div class=&quot;field-item even&quot;&gt;&lt;a href=&quot;/user/ptuononen/listings&quot; title=&quot;Petri Tuononen&quot;&gt;Petri Tuononen&lt;/a&gt;&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;&lt;!-- google_ad_section_start --&gt;&lt;div class=&quot;field field-name-body field-type-text-with-summary field-label-hidden&quot;&gt;&lt;div class=&quot;field-items&quot;&gt;&lt;div class=&quot;field-item even&quot;&gt;&lt;p&gt;Provides automation of configuration needed for projects using pkg-config, such as GTK+ and gtkmm. Pkg-config utility outputs the necessary options needed to build a given package(s) that can be passed as compiler options.&lt;/p&gt;
-&lt;p&gt;Pkg-config support will set compiler and linker flags automatically that GCC needs to build selected packages - specifically includes, libraries, and some other GCC flags.&lt;/p&gt;
-&lt;h4&gt;
-	Cross platform support&lt;/h4&gt;
-&lt;p&gt;Project can be held in a version control system and even if the packages have been selected in Linux, pulling the project in Windows will automatically update the flags (file-system paths etc).&lt;/p&gt;
-&lt;h4&gt;
-	Cross compilation environment support&lt;/h4&gt;
-&lt;p&gt;Pkg-config plugin configuration is now per-project configuration rather than a global configuration. Path to the pkg-config binary can be set per-project.&lt;/p&gt;
-&lt;h2&gt;
-	UI Features&lt;/h2&gt;
-&lt;h4&gt;
-	Property page&lt;/h4&gt;
-&lt;p&gt;Used to select packages and set pkg-config configurations.&lt;/p&gt;
-&lt;h2&gt;
-	How to use&lt;/h2&gt;
-&lt;p&gt;Find Pkg-config settings in project properties -&amp;gt; C/C++ Build -&amp;gt; Settings -&amp;gt; Pkg-config tab&lt;br /&gt;
-	Select packages that your project needs to build correctly. Under Advanced dialog you can set path to pkg-config utility and adjust the path with your custom parameters if you wish.&lt;/p&gt;
-&lt;h2&gt;
-	Requirements&lt;/h2&gt;
-&lt;p&gt;* Pkg-config utility installed * Libraries you need (e.g. gtk+, gtkmm) * For Windows: MinGW or Cygwin * CDT 8.0 and Eclipse 3.7.x (Indigo) or newer&lt;/p&gt;
-&lt;h4&gt;
-	Update site&lt;/h4&gt;
-&lt;p&gt;&lt;a href=&quot;https://raw.githubusercontent.com/TuononenP/pkg-config.p2/master/site.xml&quot; rel=&quot;nofollow&quot;&gt;https://raw.githubusercontent.com/TuononenP/pkg-config.p2/master/site.xml&lt;/a&gt;&lt;/p&gt;
-&lt;h4&gt;
-	Development site&lt;/h4&gt;
-&lt;p&gt;&lt;a href=&quot;https://github.com/TuononenP/pkg-config-support-for-eclipse-cdt&quot; rel=&quot;nofollow&quot;&gt;https://github.com/TuononenP/pkg-config-support-for-eclipse-cdt&lt;/a&gt;&lt;/p&gt;
-&lt;h4&gt;
-	Mailing list&lt;/h4&gt;
-&lt;p&gt;&lt;a href=&quot;http://groups.google.com/group/pkg-config-support-for-eclipse-cdt&quot; rel=&quot;nofollow&quot;&gt;http://groups.google.com/group/pkg-config-support-for-eclipse-cdt&lt;/a&gt;&lt;br /&gt;&lt;a href=&quot;mailto:pkg-config-support-for-eclipse-cdt@googlegroups.com&quot; rel=&quot;nofollow&quot;&gt;pkg-config-support-for-eclipse-cdt@googlegroups.com&lt;/a&gt;&lt;/p&gt;
-&lt;h4&gt;
-	Note:&lt;/h4&gt;
-&lt;p&gt;If you are having problems installing it is most probably because of not having CDT 8.0 or above.&lt;/p&gt;
-&lt;p&gt;Windows users: Do not install Gtk+ or Gtkmm in a path containing spaces, because pkg-config does not support spaces in paths.&lt;/p&gt;&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;&lt;!-- google_ad_section_end --&gt;</description>
-     <pubDate>Fri, 10 Jun 2011 11:53:29 +0000</pubDate>
- <dc:creator>ptuononen</dc:creator>
- <guid isPermaLink="false">62482 at http://marketplace.eclipse.org</guid>
- <comments>http://marketplace.eclipse.org/content/pkg-config-support-eclipse-cdt#comments</comments>
-  </item>
-  <item>
-    <title>WindowBuilder</title>
-    <link>http://marketplace.eclipse.org/content/windowbuilder</link>
-    <description>&lt;div class=&quot;field field-name-field-resource-image field-type-image field-label-hidden&quot;&gt;&lt;div class=&quot;field-items&quot;&gt;&lt;div class=&quot;field-item even&quot;&gt;&lt;img class=&quot;img-responsive&quot; src=&quot;http://marketplace.eclipse.org/sites/default/files/default_images/default_2.png&quot; width=&quot;110&quot; height=&quot;80&quot; alt=&quot;&quot; /&gt;&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;&lt;div class=&quot;field field-name-shared-date-created field-type-text field-label-inline clearfix&quot;&gt;&lt;div class=&quot;field-label&quot;&gt;Date Created:&amp;nbsp;&lt;/div&gt;&lt;div class=&quot;field-items&quot;&gt;&lt;div class=&quot;field-item even&quot;&gt;Thu, 2016-09-22 09:02&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;&lt;div class=&quot;field field-name-shared-date-updated field-type-text field-label-inline clearfix&quot;&gt;&lt;div class=&quot;field-label&quot;&gt;Date Updated:&amp;nbsp;&lt;/div&gt;&lt;div class=&quot;field-items&quot;&gt;&lt;div class=&quot;field-item even&quot;&gt;Thu, 2017-10-05 10:59&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;&lt;a href=&quot;/search/content/%22Eclipse%20Foundation%22&quot;&gt;Eclipse Foundation&lt;/a&gt;&lt;div class=&quot;field field-name-shared-submitted-by field-type-text field-label-inline clearfix&quot;&gt;&lt;div class=&quot;field-label&quot;&gt;Submitted by:&amp;nbsp;&lt;/div&gt;&lt;div class=&quot;field-items&quot;&gt;&lt;div class=&quot;field-item even&quot;&gt;&lt;a href=&quot;/user/hvoormann/listings&quot; title=&quot;Holger Voormann&quot;&gt;Holger Voormann&lt;/a&gt;&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;&lt;!-- google_ad_section_start --&gt;&lt;div class=&quot;field field-name-body field-type-text-with-summary field-label-hidden&quot;&gt;&lt;div class=&quot;field-items&quot;&gt;&lt;div class=&quot;field-item even&quot;&gt;&lt;p&gt;&lt;strong&gt;WindowBuilder&lt;/strong&gt; is composed of &lt;strong&gt;SWT Designer&lt;/strong&gt; and &lt;strong&gt;Swing Designer&lt;/strong&gt; and makes it very easy to create Java GUI applications without spending a lot of time writing code. Use the &lt;strong&gt;WYSIWYG visual designer&lt;/strong&gt; and layout tools to create simple forms to complex windows; the Java code will be generated for you. Easily add controls using drag-and-drop, add event handlers to your controls, change various properties of controls using a property editor, internationalize your app and much more.&lt;/p&gt;&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;&lt;!-- google_ad_section_end --&gt;</description>
-     <pubDate>Thu, 22 Sep 2016 13:02:40 +0000</pubDate>
- <dc:creator>hvoormann</dc:creator>
- <guid isPermaLink="false">3085446 at http://marketplace.eclipse.org</guid>
- <comments>http://marketplace.eclipse.org/content/windowbuilder#comments</comments>
-  </item>
-  <item>
-    <title>Palladio 4.1 for Eclipse 4.6/.4.7 (Neon/Oxygen) </title>
-    <link>http://marketplace.eclipse.org/content/palladio-41-eclipse-4647-neonoxygen</link>
-    <description>&lt;div class=&quot;field field-name-field-resource-image field-type-image field-label-hidden&quot;&gt;&lt;div class=&quot;field-items&quot;&gt;&lt;div class=&quot;field-item even&quot;&gt;&lt;img class=&quot;img-responsive&quot; src=&quot;http://marketplace.eclipse.org/sites/default/files/palladio-logo-eclipse-marketplace-2010.png&quot; width=&quot;110&quot; height=&quot;80&quot; alt=&quot;&quot; /&gt;&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;&lt;div class=&quot;field field-name-shared-date-created field-type-text field-label-inline clearfix&quot;&gt;&lt;div class=&quot;field-label&quot;&gt;Date Created:&amp;nbsp;&lt;/div&gt;&lt;div class=&quot;field-items&quot;&gt;&lt;div class=&quot;field-item even&quot;&gt;Wed, 2017-10-04 07:51&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;&lt;div class=&quot;field field-name-shared-date-updated field-type-text field-label-inline clearfix&quot;&gt;&lt;div class=&quot;field-label&quot;&gt;Date Updated:&amp;nbsp;&lt;/div&gt;&lt;div class=&quot;field-items&quot;&gt;&lt;div class=&quot;field-item even&quot;&gt;Thu, 2017-10-05 08:17&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;&lt;a href=&quot;/search/content/%22The%20Palladio%20Team%22&quot;&gt;The Palladio Team&lt;/a&gt;&lt;div class=&quot;field field-name-shared-submitted-by field-type-text field-label-inline clearfix&quot;&gt;&lt;div class=&quot;field-label&quot;&gt;Submitted by:&amp;nbsp;&lt;/div&gt;&lt;div class=&quot;field-items&quot;&gt;&lt;div class=&quot;field-item even&quot;&gt;&lt;a href=&quot;/user/sseifermannnuk/listings&quot; title=&quot;Stephan Seifermann&quot;&gt;Stephan Seifermann&lt;/a&gt;&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;&lt;!-- google_ad_section_start --&gt;&lt;div class=&quot;field field-name-body field-type-text-with-summary field-label-hidden&quot;&gt;&lt;div class=&quot;field-items&quot;&gt;&lt;div class=&quot;field-item even&quot;&gt;&lt;p&gt;Palladio is a software architecture simulation approach which analyses your software at the model level for performance bottlenecks, scalability issues, reliability threats, and allows for a subsequent optimisation. Palladio requires neither buying expensive execution environments (servers, networks, or storage) nor fully implementing a software product. Construction rules are automatically checked by Palladio and thus allow optimal software architectures without costly trial-and-error-cycles. Like in other engineering disciplines, Palladio enables software engineers to construct software straight and in the right way.&lt;/p&gt;
-&lt;p&gt;Use Palladio to&lt;/p&gt;
-&lt;ul&gt;&lt;li&gt;
-		Forecast the impact of your design decisions&lt;/li&gt;
-&lt;li&gt;
-		Lower the costs for trial-and-error-cycles&lt;/li&gt;
-&lt;li&gt;
-		Build highly reliable, scalable, and resource-efficient software architectures&lt;/li&gt;
-&lt;/ul&gt;&lt;p&gt;The Palladio Component Model is implemented using the Eclipse Modeling Framework (EMF). We have implemented an integrated modelling environment (called Palladio-Bench) based on the Eclipse IDE. It enables developers to create PCM model instances with graphical editors and derive performance metrics from the models using analytical techniques and simulation.&lt;/p&gt;
-&lt;p&gt;The best way for getting started with the Palladio-Bench is looking through the &lt;a href=&quot;http://www.palladio-simulator.com/tools/screencasts/&quot; rel=&quot;nofollow&quot;&gt;screencasts&lt;/a&gt; and &lt;a href=&quot;http://www.palladio-simulator.com/tools/tutorials/&quot; rel=&quot;nofollow&quot;&gt;tutorials&lt;/a&gt; provided on the &lt;a href=&quot;http://www.palladio-simulator.com/&quot; rel=&quot;nofollow&quot;&gt;webpage&lt;/a&gt;.&lt;/p&gt;
-&lt;p&gt;The project community is managed by project leads of: the Karlsruhe Institute of Technology (&lt;a href=&quot;http://www.kit.edu&quot; rel=&quot;nofollow&quot;&gt;www.kit.edu&lt;/a&gt;), the FZI - Research Center for Information Technology (&lt;a href=&quot;http://www.fzi.de&quot; rel=&quot;nofollow&quot;&gt;www.fzi.de&lt;/a&gt;), Chemnitz University of Technology (&lt;a href=&quot;https://www.tu-chemnitz.de&quot; rel=&quot;nofollow&quot;&gt;www.tu-chemnitz.de&lt;/a&gt;), and University of Stuttgart (&lt;a href=&quot;https://www.uni-stuttgart.de&quot; rel=&quot;nofollow&quot;&gt;www.uni-stuttgart.de&lt;/a&gt;).&lt;/p&gt;&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;&lt;!-- google_ad_section_end --&gt;</description>
-     <pubDate>Wed, 04 Oct 2017 11:51:13 +0000</pubDate>
- <dc:creator>sseifermannnuk</dc:creator>
- <guid isPermaLink="false">3688958 at http://marketplace.eclipse.org</guid>
- <comments>http://marketplace.eclipse.org/content/palladio-41-eclipse-4647-neonoxygen#comments</comments>
   </item>
   </channel>
 </rss>

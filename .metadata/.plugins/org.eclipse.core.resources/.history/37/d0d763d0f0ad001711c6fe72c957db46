@@ -1,0 +1,22 @@
+import java.util.Scanner;
+
+public class company
+{//start class
+
+	public static void main(String[] args)
+	{//start main
+		 int i; 
+		 Scanner input= new Scanner(System.in);
+		 System.out.print("enter numb: ");
+		 i=Integer.parseInt(input.nextLine());
+		    do{  
+		        System.out.println(i);  
+		    i++;  
+		    }while(i<=10);  
+		//avg=(double)totalPrice/(double)totalPpl;
+		//System.out.println(totalCompanies);
+		//System.out.println(totalPpl);
+		//System.out.println(totalPrice);
+		//System.out.println("Programmed by Jonathan Ko");
+	}//end main
+}//end class

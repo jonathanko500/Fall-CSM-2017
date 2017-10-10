@@ -1,5 +1,6 @@
 import java.util.Scanner;
-
+//Jonathan Ko
+//assignment 6 problem 1
 public class genderGPA 
 {//start class
 	public static void main(String[] args)
