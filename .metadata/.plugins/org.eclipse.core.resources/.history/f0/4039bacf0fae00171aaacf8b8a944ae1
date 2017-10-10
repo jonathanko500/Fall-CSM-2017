@@ -1,6 +1,5 @@
 import java.util.Scanner;
-//Jonathan Ko
-//assignment 6 problem 2
+
 public class companies
 {//start class
 	public static void main(String[] args)
@@ -97,50 +96,6 @@ Average charge per person: $116.67
 Programmed by Jonathan Ko
 
 test 2
-Enter company name: akljsdhfa
-How many registrants? 10
 
-INVOICE
-Company name: akljsdhfa
-Cost per registrant: 90.00
-Total for 10 people is $900.00
 
-Another registration? (Y/N) y
-
-Enter company name: jashdfjasdf
-How many registrants? 3
-
-INVOICE
-Company name: jashdfjasdf
-Cost per registrant: 150.00
-Total for 3 people is $450.00
-
-Another registration? (Y/N) y
-
-Enter company name: kajshdfajsdhf
-How many registrants? 5
-
-INVOICE
-Company name: kajshdfajsdhf
-Cost per registrant: 100.00
-Total for 5 people is $500.00
-
-Another registration? (Y/N) y
-
-Enter company name: kjsdfaskjfdsdfh
-How many registrants? 9
-
-INVOICE
-Company name: kjsdfaskjfdsdfh
-Cost per registrant: 100.00
-Total for 9 people is $900.00
-
-Another registration? (Y/N) n
-
-REGISTRATION SUMMARY
-Number of compaines registered: 4
-Total number of people registered 27
-Total charge $2750.00
-Average charge per person: $101.85
-Programmed by Jonathan Ko
 */
