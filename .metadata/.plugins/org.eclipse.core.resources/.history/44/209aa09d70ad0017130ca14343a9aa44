@@ -21,15 +21,15 @@ public class genderGPA
 				System.out.print("Enter GPA: ");
 				gpaF=Double.parseDouble(input.nextLine());
 				avgGpaF=gpaF+avgGpaF;
-				counterF++;
 				totalGpaF=avgGpaF/counterF;
+				counterF++;
 				break;
 			case "M":
 				System.out.print("Enter GPA: ");
 				gpaM=Double.parseDouble(input.nextLine());
 				avgGpaM=gpaM+avgGpaM;
-				counterM++;
-				totalGpaM=avgGpaM/counterM;
+				totalGpaF=avgGpaM/counterM;
+				counterF++;
 				break;
 			case "X":
 				valid=1;
@@ -42,9 +42,7 @@ public class genderGPA
 				gender=gender.toUpperCase();
 			}
 		}
-		
-		System.out.println("");
-		System.out.println("Average Male GPA: "+totalGpaF);
+		System.out.println("Average Male GPA: "+totalGpaM);
 		System.out.println("Average Male GPA: "+totalGpaM);
 	}//end main
 }//end class

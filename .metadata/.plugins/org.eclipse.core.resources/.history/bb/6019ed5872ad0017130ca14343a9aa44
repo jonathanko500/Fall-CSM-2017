@@ -42,10 +42,15 @@ public class genderGPA
 				gender=gender.toUpperCase();
 			}
 		}
-		
-		System.out.println("");
-		System.out.println("Average Male GPA: "+totalGpaF);
-		System.out.println("Average Male GPA: "+totalGpaM);
+		System.out.println(avgGpaF);
+		System.out.println(avgGpaM);
+		System.out.println(counterF);
+		System.out.println(counterM);
+		System.out.println(totalGpaF);
+		System.out.println(totalGpaM);
+		//System.out.println("");
+		//System.out.println("Average Male GPA: "+totalGpaF);
+		//System.out.println("Average Male GPA: "+totalGpaM);
 	}//end main
 }//end class
 /*

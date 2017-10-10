@@ -6,46 +6,45 @@ public class genderGPA
 	{//start main
 		// declare input
 		String gender;
-		double avgGpaM=0,avgGpaF=0,gpaF,gpaM,totalGpaF=0,totalGpaM=0;
+		double avgGpaM,avgGpaF,gpaF,gpaM,totalGpaF=0,totalGpaM=0;
 		int valid=0,counterM=0,counterF=0;
 		//read input
 		Scanner input = new Scanner(System.in);
 		System.out.print("Enter gender or x to quit: ");
 		gender=input.nextLine();
-		gender=gender.toUpperCase();
 		while(valid==0)
 		{
+			//figures out what to do for gender
 			switch(gender)
 			{
+			case "f":
 			case "F":
 				System.out.print("Enter GPA: ");
 				gpaF=Double.parseDouble(input.nextLine());
-				avgGpaF=gpaF+avgGpaF;
+				totalGpaF=gpaF+totalGpaF;
 				counterF++;
-				totalGpaF=avgGpaF/counterF;
 				break;
-			case "M":
+			case "M" :
+			case "m":
 				System.out.print("Enter GPA: ");
 				gpaM=Double.parseDouble(input.nextLine());
-				avgGpaM=gpaM+avgGpaM;
+				totalGpaM=gpaM+totalGpaM;
 				counterM++;
-				totalGpaM=avgGpaM/counterM;
 				break;
 			case "X":
+			case "x":
+				System.out.println("");
 				valid=1;
 				break;
 			}
-			if(valid==0)
-			{
-				System.out.print("Enter gender or x to quit: ");
-				gender=input.nextLine();
-				gender=gender.toUpperCase();
-			}
 		}
-		
-		System.out.println("");
-		System.out.println("Average Male GPA: "+totalGpaF);
-		System.out.println("Average Male GPA: "+totalGpaM);
+		//calculate avg GPA for both genders
+		avgGpaF=totalGpaF/(double)counterF;
+		avgGpaM=totalGpaM/(double)counterM;
+		//display output
+		System.out.println("Average Male GPA: "+avgGpaM);
+		System.out.println("Average Female GPA: "+avgGpaF);
+		System.out.println("Programmed by Jonathan Ko");
 	}//end main
 }//end class
 /*
