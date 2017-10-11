@@ -1,0 +1,22 @@
+import java.util.Scanner;
+
+public class salesRep
+{//start class
+
+	public static void main(String[] args) 
+	{//start main
+		//declare input
+		int numbRep;
+		String name;
+		double sales,totalSales=0,avg;
+		//read input
+		Scanner input = new Scanner(System.in);
+		System.out.print("How many sales rep? ");
+		numbRep=Integer.parseInt(input.nextLine());
+		while(numbRep<0)
+		{
+			System.out.print("Must be at least one sales rep, reenter:");
+			numbRep=Integer.parseInt(input.nextLine();
+		}
+	}//end main
+}//end class
