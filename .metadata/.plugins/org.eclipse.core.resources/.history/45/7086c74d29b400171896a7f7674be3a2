@@ -1,0 +1,53 @@
+import java.security.SecureRandom;
+import java.util.Scanner;
+
+public class mathTutor
+{//start class
+
+	public static void main(String[] args)
+	{//start main
+		//declare variables
+		int numb1=0,numb2=0,ans,correctAns,numerator;
+		int correct=0,problems=0,pass=0;
+		double score;
+		String operator,again;
+		//read variables
+		Scanner input= new Scanner(System.in);
+		//makes num random
+		SecureRandom rand = new SecureRandom();
+		numb1=1+rand.nextInt(12);
+		numb2=1+rand.nextInt(12);
+		System.out.println("Welcome to the Math Tutor!");
+		System.out.print("Select an operation ( + - / *) : ");
+		operator=input.nextLine();
+		//math for certain operator
+		switch(operator)
+		{
+		case "+":
+			correctAns=numb1+numb2;
+			System.out.print(numb1+" + "+numb2+" = ");
+			break;
+		case "*":
+			correctAns=numb1*numb2;
+			System.out.print(numb1+" * "+numb2+" = ");
+			break;
+		case "-":
+			if(numb1>numb2)
+			{
+				System.out.print(numb1+" - "+numb2+" = ");
+			}
+			else
+			{
+				System.out.print(numb2+" - "+numb1+" = ");
+			}
+			break;
+		case "/":
+			numerator=numb1*numb2;
+			correctAns=numerator/numb2;
+			System.out.print(numerator+" / "+numb2+" = ");
+			break;
+		}
+		ans=Integer.parseInt(input.nextLine());
+		//System.out.println("Programmed by Jonathan Ko");
+	}//end main
+}//end class
