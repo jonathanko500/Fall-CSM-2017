@@ -1,9 +1,9 @@
 import java.security.SecureRandom;
 import java.util.Scanner;
-//Jonathan Ko
-//assignment 7 problem 1
+
 public class mathTutor
 {//start class
+
 	public static void main(String[] args)
 	{//start main
 		//declare variables
@@ -86,46 +86,7 @@ public class mathTutor
 		System.out.println("Number of problems: "+(int)problem);
 		System.out.println("Number of correct:  "+(int)correct);
 		score=(correct/problem)*100;
-		System.out.printf("Your score is %.2f",score);
-		System.out.println("%");
+		System.out.printf("Your score is %.2f%n"+"%",score);
 		System.out.println("Programmed by Jonathan Ko");
 	}//end main
 }//end class
-/*
-Welcome to the Math Tutor!
-Select an operation ( + - / *) : +
-3 + 2 = 5
-That's right
-
-Another problem? y
-Select an operation ( + - / *) : -
-8 - 2 = 6
-That's right
-
-Another problem? y
-Select an operation ( + - / *) : *
-10 * 3 = 30
-That's right
-
-Another problem? y
-Select an operation ( + - / *) : /
-90 / 10 = 9
-That's right
-
-Another problem? y
-Select an operation ( + - / *) : -
-9 - 4 = 1
-The answer is 5
-
-Another problem? y
-Select an operation ( + - / *) : -
-7 - 3 = 4
-That's right
-
-Another problem? n
-GAME STATISTICS
-Number of problems: 6
-Number of correct:  5
-Your score is 83.33%
-Programmed by Jonathan Ko
-*/
