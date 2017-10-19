@@ -6,6 +6,152 @@
     <language>en</language>
      <atom:link href="http://marketplace.eclipse.org/rss.xml" rel="self" type="application/rss+xml" />
       <item>
+    <title>IBM Liberty Developer Tools</title>
+    <link>http://marketplace.eclipse.org/content/ibm-liberty-developer-tools</link>
+    <description>&lt;div class=&quot;field field-name-field-resource-image field-type-image field-label-hidden&quot;&gt;&lt;div class=&quot;field-items&quot;&gt;&lt;div class=&quot;field-item even&quot;&gt;&lt;img class=&quot;img-responsive&quot; src=&quot;http://marketplace.eclipse.org/sites/default/files/wdt-was-lp-500_4_0_1.png&quot; width=&quot;80&quot; height=&quot;80&quot; alt=&quot;&quot; /&gt;&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;&lt;div class=&quot;field field-name-shared-date-created field-type-text field-label-inline clearfix&quot;&gt;&lt;div class=&quot;field-label&quot;&gt;Date Created:&amp;nbsp;&lt;/div&gt;&lt;div class=&quot;field-items&quot;&gt;&lt;div class=&quot;field-item even&quot;&gt;Wed, 2014-07-02 08:24&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;&lt;div class=&quot;field field-name-shared-date-updated field-type-text field-label-inline clearfix&quot;&gt;&lt;div class=&quot;field-label&quot;&gt;Date Updated:&amp;nbsp;&lt;/div&gt;&lt;div class=&quot;field-items&quot;&gt;&lt;div class=&quot;field-item even&quot;&gt;Wed, 2017-10-18 14:58&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;&lt;a href=&quot;/search/content/%22IBM%22&quot;&gt;IBM&lt;/a&gt;&lt;div class=&quot;field field-name-shared-submitted-by field-type-text field-label-inline clearfix&quot;&gt;&lt;div class=&quot;field-label&quot;&gt;Submitted by:&amp;nbsp;&lt;/div&gt;&lt;div class=&quot;field-items&quot;&gt;&lt;div class=&quot;field-item even&quot;&gt;&lt;a href=&quot;/user/canderson/listings&quot; title=&quot;Carl Anderson&quot;&gt;Carl Anderson&lt;/a&gt;&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;&lt;!-- google_ad_section_start --&gt;&lt;div class=&quot;field field-name-body field-type-text-with-summary field-label-hidden&quot;&gt;&lt;div class=&quot;field-items&quot;&gt;&lt;div class=&quot;field-item even&quot;&gt;&lt;p&gt;An eclipse IDE for building and deploying Java EE, OSGi and Web 2.0 applications to Open Liberty and WebSphere Application Server Liberty. For more information about installing and downloading the tools, including archived versions of the tools for older versions of eclipse, see &lt;a href=&quot;https://developer.ibm.com/wasdev/docs/websphere-developer-tools-releases/&quot; rel=&quot;nofollow&quot;&gt;WebSphere Application Server Developer Tools Releases&lt;/a&gt;&lt;/p&gt;&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;&lt;!-- google_ad_section_end --&gt;</description>
+     <pubDate>Wed, 02 Jul 2014 12:24:46 +0000</pubDate>
+ <dc:creator>canderson</dc:creator>
+ <guid isPermaLink="false">1778478 at http://marketplace.eclipse.org</guid>
+ <comments>http://marketplace.eclipse.org/content/ibm-liberty-developer-tools#comments</comments>
+  </item>
+  <item>
+    <title>Spark Builder Generator</title>
+    <link>http://marketplace.eclipse.org/content/spark-builder-generator</link>
+    <description>&lt;div class=&quot;field field-name-field-resource-image field-type-image field-label-hidden&quot;&gt;&lt;div class=&quot;field-items&quot;&gt;&lt;div class=&quot;field-item even&quot;&gt;&lt;img class=&quot;img-responsive&quot; src=&quot;http://marketplace.eclipse.org/sites/default/files/sparkbuildergeneratoricon.png&quot; width=&quot;110&quot; height=&quot;80&quot; alt=&quot;&quot; /&gt;&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;&lt;div class=&quot;field field-name-shared-date-created field-type-text field-label-inline clearfix&quot;&gt;&lt;div class=&quot;field-label&quot;&gt;Date Created:&amp;nbsp;&lt;/div&gt;&lt;div class=&quot;field-items&quot;&gt;&lt;div class=&quot;field-item even&quot;&gt;Sun, 2016-10-23 07:09&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;&lt;div class=&quot;field field-name-shared-date-updated field-type-text field-label-inline clearfix&quot;&gt;&lt;div class=&quot;field-label&quot;&gt;Date Updated:&amp;nbsp;&lt;/div&gt;&lt;div class=&quot;field-items&quot;&gt;&lt;div class=&quot;field-item even&quot;&gt;Wed, 2017-10-18 13:49&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;&lt;div class=&quot;field field-name-shared-submitted-by field-type-text field-label-inline clearfix&quot;&gt;&lt;div class=&quot;field-label&quot;&gt;Submitted by:&amp;nbsp;&lt;/div&gt;&lt;div class=&quot;field-items&quot;&gt;&lt;div class=&quot;field-item even&quot;&gt;&lt;a href=&quot;/user/hsparkwpb/listings&quot; title=&quot;Helo Spark&quot;&gt;Helo Spark&lt;/a&gt;&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;&lt;!-- google_ad_section_start --&gt;&lt;div class=&quot;field field-name-body field-type-text-with-summary field-label-hidden&quot;&gt;&lt;div class=&quot;field-items&quot;&gt;&lt;div class=&quot;field-item even&quot;&gt;&lt;p&gt;Generates a builder according to the GoF pattern for Java domain objects.&lt;/p&gt;
+&lt;h2&gt;
+	&lt;strong&gt;Features&lt;/strong&gt;&lt;/h2&gt;
+&lt;ul&gt;&lt;li&gt;
+		Generates a builder with custom name patterns&lt;/li&gt;
+&lt;li&gt;
+		Can generate &lt;a href=&quot;http://blog.crisp.se/2013/10/09/perlundholm/another-builder-pattern-for-java&quot; rel=&quot;nofollow&quot;&gt;staged builder&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;
+		Capable of regenerating the builder&lt;/li&gt;
+&lt;li&gt;
+		Compatible with most version of Eclipse&lt;/li&gt;
+&lt;li&gt;
+		Highly configurable, check the plugin&#039;s preferences page&lt;/li&gt;
+&lt;li&gt;
+		Capable of generate builder methods for visible fields in superclass&lt;/li&gt;
+&lt;li&gt;
+		Encourages and supports null-safe programming practices&lt;/li&gt;
+&lt;li&gt;
+		Open source (with very permissible MIT license)&lt;/li&gt;
+&lt;/ul&gt;&lt;h2&gt;
+	&lt;strong&gt;Usage&lt;/strong&gt;&lt;/h2&gt;
+&lt;p&gt;To invoke the generation have a Java file active and press either the icon on the toolbar (the hammer) or Ctrl+Shift+B.&lt;br /&gt;
+	You can click the small arrow next to the main icon to generate a different builder type (like staged builder), if you usually generate a certain kind of builder, set the default builder in the preferences page.&lt;br /&gt;
+	You can set the preferences under: &lt;strong&gt;&lt;em&gt;Window-&amp;gt;Preferences-&amp;gt;Java-&amp;gt;Spark Builder Generator&lt;/em&gt;&lt;/strong&gt;&lt;/p&gt;
+&lt;h2&gt;
+	&lt;strong&gt;Example result:&lt;/strong&gt;&lt;/h2&gt;
+&lt;pre&gt;
+  public class Clazz {
+        private Integer firstField;
+        private Long secondField;
+        @Generated(&quot;SparkTools&quot;)
+        private Clazz(Builder builder) {
+            this.firstField = builder.firstField;
+            this.secondField = builder.secondField;
+        }
+        /**
+         * Creates builder to build {@link Clazz}.
+         * @return created builder
+         */
+        @Generated(&quot;SparkTools&quot;)
+        public static Builder builder() {
+            return new Builder();
+        }
+        /**
+         * Builder to build {@link Clazz}.
+         */
+        @Generated(&quot;SparkTools&quot;)
+        public static class Builder {
+            private Integer firstField;
+            private Long secondField;
+
+            private Builder() {
+            }
+
+            /**
+            * Builder method for firstField parameter.
+            * @return builder
+            */
+            @Nonnull
+            public Builder withFirstField(@Nonnull Integer firstField) {
+                this.firstField = firstField;
+                return this;
+            }
+
+            /**
+            * Builder method for secondField parameter.
+            * @return builder
+            */
+            @Nonnull
+            public Builder withSecondField(@Nonnull Long secondField) {
+                this.secondField = secondField;
+                return this;
+            }
+
+            /**
+            * Builder method of the builder.
+            * @return built class
+            */
+            @Nonnull
+            public Clazz build() {
+                return new Clazz(this);
+            }
+        }
+    }
+&lt;/pre&gt;&lt;h2&gt;
+	&lt;strong&gt;Release notes&lt;/strong&gt;&lt;/h2&gt;
+&lt;p&gt;&lt;strong&gt;0.0.5&lt;/strong&gt; Added handling for code style prefix and suffix, see &lt;a href=&quot;https://github.com/helospark/SparkBuilderGenerator/issues/5&quot; rel=&quot;nofollow&quot;&gt;Github issue 5&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;0.0.6&lt;/strong&gt; Added staged builder support., see &lt;a href=&quot;https://github.com/helospark/SparkBuilderGenerator/issues/4&quot; rel=&quot;nofollow&quot;&gt;Github issue 4&lt;/a&gt; Staged builder allows you to verify that all of the mandatory fields are set at compile time.&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;0.0.7&lt;/strong&gt; Option to add visible fields from superclasses to the builder, see &lt;a href=&quot;https://github.com/helospark/SparkBuilderGenerator/issues/7&quot; rel=&quot;nofollow&quot;&gt;Github issue 7&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;0.0.8&lt;/strong&gt; Fixed regression bug that was introduced in 0.0.7. While collection visible fields from superclasses, under some Eclipse configurations IllegalArgumentException occurred during java.lang.Object parsing.&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;0.0.9&lt;/strong&gt; Added option to generate builder to selected class (in case of nested classes, or multiple classes in a single file), see &lt;a href=&quot;https://github.com/helospark/SparkBuilderGenerator/issues/10&quot; rel=&quot;nofollow&quot;&gt;Github issue 10&lt;/a&gt; Improvements to previous Builder class removing logic&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;0.0.10&lt;/strong&gt; Added the option to select which fields are generated in the builder, see &lt;a href=&quot;https://github.com/helospark/SparkBuilderGenerator/issues/8&quot; rel=&quot;nofollow&quot;&gt;Github issue 8&lt;/a&gt;&lt;br /&gt;
+	Fixed a small bug that deleted the previous builder when pressing the cancel button on the staging builder generator dialog Added MIT license file to plugin&#039;s site.xml, so it will show up on installation&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;0.0.11 &lt;/strong&gt;Initialize Optional value to Optional.empty() to follow nullsafe programming practices&lt;br /&gt;
+	Initialize Collections with empty collections via java.util.Collections class&lt;br /&gt;
+	Various bugfixes related to overriding previous builder&lt;br /&gt;
+	Logging improvement&lt;/p&gt;
+&lt;p&gt;	&lt;strong&gt;0.0.12&lt;/strong&gt; Generate @param tag to the builder&#039;s &quot;with&quot; methods&lt;/p&gt;
+&lt;h2&gt;
+	&lt;strong&gt;Troubleshooting installation failure&lt;/strong&gt;&lt;/h2&gt;
+&lt;p&gt;Here are some common reasons installation fails, and steps to resolve&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;sun.security.validator.ValidatorException: PKIX path building failed&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;This happens, because your Java is unable to verify the certificate used by the update site. The update site uses valid certificate from &lt;strong&gt;Let&#039;s Encrypt&lt;/strong&gt;, older Java (before 1.8.101) does not contain this root certificate. This together with some firewall settings can cause this error.&lt;br /&gt;
+	See this article: &lt;a href=&quot;https://dzone.com/articles/eclipse-plug-ins-via-https-amp-lets-encrypt&quot; rel=&quot;nofollow&quot;&gt;https://dzone.com/articles/eclipse-plug-ins-via-https-amp-lets-encrypt&lt;/a&gt;&lt;br /&gt;
+	Possible way to fix:&lt;/p&gt;
+&lt;ul&gt;&lt;li&gt;
+		Update Java version to at lest 1.8.101&lt;/li&gt;
+&lt;li&gt;
+		Import Let&#039;s Encrypt root certificate manually (refer to above article)&lt;/li&gt;
+&lt;li&gt;
+		Use my FTP download site (See below)&lt;/li&gt;
+&lt;/ul&gt;&lt;p&gt;&lt;strong&gt;Connection timeout&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;This is a temporary problem, while accessing the update site. The server most of the times will be available again in a couple of minutes.&lt;/p&gt;
+&lt;ul&gt;&lt;li&gt;
+		You may try the FTP download site (see below)&lt;/li&gt;
+&lt;/ul&gt;&lt;p&gt;&lt;em&gt;For any other failure please contact me in the comments or Github.&lt;/em&gt;&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Installing via FTP update site&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;In your Eclipse go to:&lt;/p&gt;
+&lt;p&gt;Help-&amp;gt;Install new software-&amp;gt;Copy and paste the following URI:&lt;/p&gt;
+&lt;p&gt;&lt;a href=&quot;ftp://helospark.com:21/eclipse_plugin/SparkBuilderGeneratorPlugin/&quot; rel=&quot;nofollow&quot;&gt;ftp://helospark.com:21/eclipse_plugin/SparkBuilderGeneratorPlugin/&lt;/a&gt;&lt;br /&gt;
+	(alternatively if port 21 is blocked, use port 799)&lt;br /&gt;
+	Select the latest version (should be under SparkTools category) and install.&lt;/p&gt;
+&lt;p&gt;	&lt;strong&gt;Installing from backup&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;In case both FTP and HTTPS update sites are unavailable, you can install jar file from Mediafire backup:&lt;br /&gt;
+	Latest: &lt;a href=&quot;http://www.mediafire.com/file/kkudgx6w4oxan3p&quot; rel=&quot;nofollow&quot;&gt;http://www.mediafire.com/file/kkudgx6w4oxan3p&lt;/a&gt; (entire update site: &lt;a href=&quot;http://www.mediafire.com/folder/ya4g0y69b24vu/plugins&quot; rel=&quot;nofollow&quot;&gt;www.mediafire.com/folder/ya4g0y69b24vu/plugins&lt;/a&gt;)&lt;br /&gt;
+	Locate the jar file, you wish to install (probably the latest), and copy it to your Eclipse&#039;s dropin folder.&lt;/p&gt;
+&lt;h3&gt;
+	&lt;strong&gt;Additional information:&lt;/strong&gt;&lt;/h3&gt;
+&lt;p&gt;On the GitHub page: &lt;a href=&quot;https://github.com/helospark/SparkBuilderGenerator&quot; rel=&quot;nofollow&quot;&gt;https://github.com/helospark/SparkBuilderGenerator&lt;/a&gt;&lt;/p&gt;&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;&lt;!-- google_ad_section_end --&gt;</description>
+     <pubDate>Sun, 23 Oct 2016 11:09:34 +0000</pubDate>
+ <dc:creator>hsparkwpb</dc:creator>
+ <guid isPermaLink="false">3130970 at http://marketplace.eclipse.org</guid>
+ <comments>http://marketplace.eclipse.org/content/spark-builder-generator#comments</comments>
+  </item>
+  <item>
     <title>Bash Editor</title>
     <link>http://marketplace.eclipse.org/content/bash-editor</link>
     <description>&lt;div class=&quot;field field-name-field-resource-image field-type-image field-label-hidden&quot;&gt;&lt;div class=&quot;field-items&quot;&gt;&lt;div class=&quot;field-item even&quot;&gt;&lt;img class=&quot;img-responsive&quot; src=&quot;http://marketplace.eclipse.org/sites/default/files/bash-editor-logo.png&quot; width=&quot;110&quot; height=&quot;80&quot; alt=&quot;&quot; /&gt;&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;&lt;div class=&quot;field field-name-shared-date-created field-type-text field-label-inline clearfix&quot;&gt;&lt;div class=&quot;field-label&quot;&gt;Date Created:&amp;nbsp;&lt;/div&gt;&lt;div class=&quot;field-items&quot;&gt;&lt;div class=&quot;field-item even&quot;&gt;Mon, 2017-07-10 06:27&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;&lt;div class=&quot;field field-name-shared-date-updated field-type-text field-label-inline clearfix&quot;&gt;&lt;div class=&quot;field-label&quot;&gt;Date Updated:&amp;nbsp;&lt;/div&gt;&lt;div class=&quot;field-items&quot;&gt;&lt;div class=&quot;field-item even&quot;&gt;Wed, 2017-10-18 11:03&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;&lt;a href=&quot;/search/content/%22Albert%20Tregnaghi%22&quot;&gt;Albert Tregnaghi&lt;/a&gt;&lt;div class=&quot;field field-name-shared-submitted-by field-type-text field-label-inline clearfix&quot;&gt;&lt;div class=&quot;field-label&quot;&gt;Submitted by:&amp;nbsp;&lt;/div&gt;&lt;div class=&quot;field-items&quot;&gt;&lt;div class=&quot;field-item even&quot;&gt;&lt;a href=&quot;/user/atregnaghi/listings&quot; title=&quot;Albert Tregnaghi&quot;&gt;Albert Tregnaghi&lt;/a&gt;&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;&lt;!-- google_ad_section_start --&gt;&lt;div class=&quot;field field-name-body field-type-text-with-summary field-label-hidden&quot;&gt;&lt;div class=&quot;field-items&quot;&gt;&lt;div class=&quot;field-item even&quot;&gt;&lt;p&gt;This plugin is just a bash script editor. &lt;/p&gt;
@@ -198,122 +344,6 @@ Preferences -&amp;gt;
  <dc:creator>sriderdp1</dc:creator>
  <guid isPermaLink="false">507775 at http://marketplace.eclipse.org</guid>
  <comments>http://marketplace.eclipse.org/content/dbeaver#comments</comments>
-  </item>
-  <item>
-    <title>Ethernet POWERLINK openCONFIGURATOR</title>
-    <link>http://marketplace.eclipse.org/content/ethernet-powerlink-openconfigurator</link>
-    <description>&lt;div class=&quot;field field-name-field-resource-image field-type-image field-label-hidden&quot;&gt;&lt;div class=&quot;field-items&quot;&gt;&lt;div class=&quot;field-item even&quot;&gt;&lt;img class=&quot;img-responsive&quot; src=&quot;http://marketplace.eclipse.org/sites/default/files/epl_logo_2.jpg&quot; width=&quot;110&quot; height=&quot;80&quot; alt=&quot;&quot; /&gt;&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;&lt;div class=&quot;field field-name-shared-date-created field-type-text field-label-inline clearfix&quot;&gt;&lt;div class=&quot;field-label&quot;&gt;Date Created:&amp;nbsp;&lt;/div&gt;&lt;div class=&quot;field-items&quot;&gt;&lt;div class=&quot;field-item even&quot;&gt;Thu, 2015-11-12 03:06&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;&lt;div class=&quot;field field-name-shared-date-updated field-type-text field-label-inline clearfix&quot;&gt;&lt;div class=&quot;field-label&quot;&gt;Date Updated:&amp;nbsp;&lt;/div&gt;&lt;div class=&quot;field-items&quot;&gt;&lt;div class=&quot;field-item even&quot;&gt;Tue, 2017-10-17 02:59&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;&lt;a href=&quot;/search/content/%22Kalycito%20Infotech%20Pvt%20Ltd.%20%26%20B%26R%20Industrial%20Automation%20GmbH%22&quot;&gt;Kalycito Infotech Pvt Ltd. &amp;amp; B&amp;amp;R Industrial Automation GmbH&lt;/a&gt;&lt;div class=&quot;field field-name-shared-submitted-by field-type-text field-label-inline clearfix&quot;&gt;&lt;div class=&quot;field-label&quot;&gt;Submitted by:&amp;nbsp;&lt;/div&gt;&lt;div class=&quot;field-items&quot;&gt;&lt;div class=&quot;field-item even&quot;&gt;&lt;a href=&quot;/user/cruecker/listings&quot; title=&quot;Christoph Ruecker&quot;&gt;Christoph Ruecker&lt;/a&gt;&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;&lt;!-- google_ad_section_start --&gt;&lt;div class=&quot;field field-name-body field-type-text-with-summary field-label-hidden&quot;&gt;&lt;div class=&quot;field-items&quot;&gt;&lt;div class=&quot;field-item even&quot;&gt;&lt;p&gt;Ethernet POWERLINK &lt;a href=&quot;https://sourceforge.net/projects/openconf/&quot; rel=&quot;nofollow&quot;&gt;openCONFIGURATOR&lt;/a&gt; is an open-source configuration framework for easy setup, configuration and maintenance of any &lt;a href=&quot;http://www.ethernet-powerlink.org/&quot; rel=&quot;nofollow&quot;&gt;Ethernet POWERLINK&lt;/a&gt; network. It ideally complements &lt;a href=&quot;http://openpowerlink.sourceforge.net/&quot; rel=&quot;nofollow&quot;&gt;openPOWERLINK&lt;/a&gt;, the open source POWERLINK protocol stack for master and slave.&lt;/p&gt;
-&lt;p&gt;For more information please take a look at the &lt;a href=&quot;https://sourceforge.net/projects/openconf/files/openCONFIGURATOR%20eclipse%20plugin/2.2.1/openconfigurator-plugin-user-manual_V2.2.1.pdf&quot; rel=&quot;nofollow&quot;&gt;user manual&lt;/a&gt;.&lt;/p&gt;
-&lt;p&gt;Step-by-step video tutorials:&lt;/p&gt;
-&lt;ul&gt;&lt;li&gt;
-		&lt;a href=&quot;https://goo.gl/l7eTrC&quot; rel=&quot;nofollow&quot;&gt;Part 1 - Setup&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;
-		&lt;a href=&quot;https://goo.gl/hHY12A&quot; rel=&quot;nofollow&quot;&gt;Part 2 - RMN configuration&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;
-		&lt;a href=&quot;https://goo.gl/8gsRPq&quot; rel=&quot;nofollow&quot;&gt;Part 3 - PDO mapping&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;
-		&lt;a href=&quot;https://goo.gl/Xjuqjz&quot; rel=&quot;nofollow&quot;&gt;Part 4 - Parameter configuration&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;
-		&lt;a href=&quot;https://goo.gl/PGCgCk&quot; rel=&quot;nofollow&quot;&gt;Part 5 - Modular CN&lt;/a&gt;&lt;/li&gt;
-&lt;/ul&gt;&lt;p&gt;It supports the parameter configuration concepts developed within the EPSG DS 311 V1.1.0 and for the modular device concepts developed within the EPSG DS 311 V.1.2.0.&lt;/p&gt;&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;&lt;!-- google_ad_section_end --&gt;</description>
-     <pubDate>Thu, 12 Nov 2015 08:06:41 +0000</pubDate>
- <dc:creator>cruecker</dc:creator>
- <guid isPermaLink="false">2604730 at http://marketplace.eclipse.org</guid>
- <comments>http://marketplace.eclipse.org/content/ethernet-powerlink-openconfigurator#comments</comments>
-  </item>
-  <item>
-    <title>Jigloo SWT/Swing GUI Builder</title>
-    <link>http://marketplace.eclipse.org/content/jigloo-swtswing-gui-builder</link>
-    <description>&lt;div class=&quot;field field-name-field-resource-image field-type-image field-label-hidden&quot;&gt;&lt;div class=&quot;field-items&quot;&gt;&lt;div class=&quot;field-item even&quot;&gt;&lt;img class=&quot;img-responsive&quot; src=&quot;http://marketplace.eclipse.org/sites/default/files/default_images/default_2.png&quot; alt=&quot;&quot; /&gt;&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;&lt;div class=&quot;field field-name-shared-date-created field-type-text field-label-inline clearfix&quot;&gt;&lt;div class=&quot;field-label&quot;&gt;Date Created:&amp;nbsp;&lt;/div&gt;&lt;div class=&quot;field-items&quot;&gt;&lt;div class=&quot;field-item even&quot;&gt;Thu, 2004-02-26 15:42&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;&lt;div class=&quot;field field-name-shared-date-updated field-type-text field-label-inline clearfix&quot;&gt;&lt;div class=&quot;field-label&quot;&gt;Date Updated:&amp;nbsp;&lt;/div&gt;&lt;div class=&quot;field-items&quot;&gt;&lt;div class=&quot;field-item even&quot;&gt;Mon, 2017-10-16 20:28&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;&lt;a href=&quot;/search/content/%22CloudGarden%22&quot;&gt;CloudGarden&lt;/a&gt;&lt;div class=&quot;field field-name-shared-submitted-by field-type-text field-label-inline clearfix&quot;&gt;&lt;div class=&quot;field-label&quot;&gt;Submitted by:&amp;nbsp;&lt;/div&gt;&lt;div class=&quot;field-items&quot;&gt;&lt;div class=&quot;field-item even&quot;&gt;&lt;a href=&quot;/user/jmisingname7cn/listings&quot; title=&quot;Jonathan Kinnersley&quot;&gt;Jonathan Kinnersley&lt;/a&gt;&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;&lt;!-- google_ad_section_start --&gt;&lt;div class=&quot;field field-name-body field-type-text-with-summary field-label-hidden&quot;&gt;&lt;div class=&quot;field-items&quot;&gt;&lt;div class=&quot;field-item even&quot;&gt;&lt;p&gt;Jigloo Version: 4.6.9 Eclipse versions supported: 3.0 to 4.7 Cloudgarden&#039;s Jigloo GUI Builder creates and manages code for all the parts of Swing or SWT GUIs as well as code to handle events, and shows you the GUIs as they are being built. Jigloo parses java class files to construct the form that you use when designing your GUI (round-tripping), so it can work on classes that were generated by other GUI builders or IDEs, or hand-coded classes. It can also convert from a Swing GUI to a SWT GUI and vice-versa. Also, the SWT_AWT class is supported so that SWT controls can be embedded inside Swing components, and vice-versa. Jigloo is straightforward, fast, powerful, easy to use and fully integrated with Eclipse. It can lead to substantial time-savings for GUI development and maintainance tasks.&lt;br /&gt;
-	Jigloo is very fast at parsing the java code and constructing the GUI form. It&#039;s advanced parsing capabilities enable it to render even complex hand-generated code correctly, and it allows quick and intuitive navigation between GUI elements in the form and their associated code, allowing quick manual modifications to specific parts of the code.&lt;br /&gt;
-	Jigloo is highly-customizable: the parts of your code which Jigloo will parse can be restricted, and the classes which are instantiated when Jigloo parses your code and constructs the Form editor can be specified using patterns. The code generated by Jigloo can also be customized, and existing code can be re-arranged to follow the preferred style (eg, using getters for GUI elements, or separating elements by blank lines, braces or tagged comments).&lt;br /&gt;
-	Custom classes can be added to forms, and JavaBeans with Customizers and custom properties are supported. In addition, Jigloo supports visual inheritance - it can design classes which extend other custom classes, which may be public, abstract or non-public. Navigation between code and form editors is very easy - with Jigloo highlighting the relevant section of code when the form editor has focus, or the relevant form element when the code editor has focus. Components are added, layouts changed etc, by selecting from a palette, or by options in the right-click context menus. They can be resized and dragged about in the form editor and in the outline view, and their properties, layout constraints and event handlers can be changed easily in a properties editor. Multi-selection of components makes widespread changes easy to perform. Class-changing (eg, from a Composite to a Group, a combo-box to a text field, or to any custom class) can also save design time. The GUI can be &quot;previewed&quot; or run using editor actions. Jigloo version 4 has many new features, including support for the Swing Application Framework (JSR 296), improved support for the Swing GroupLayout (as used by Netbeans Matisse), multiple root elements and &quot;Surround by&quot; actions. Platforms: Windows, Linux (gtk) and Mac OSX. JDK: 1.3, 1.4, 5 or 6 Basic Features:&lt;/p&gt;
-&lt;ul&gt;&lt;li&gt;
-		Builds complete Java classes for GUIs in SWT or Swing with an easy-to-use WYSIWYG editor.&lt;/li&gt;
-&lt;li&gt;
-		Two-way (or round-trip) java code editing - changes made in the Form Editor are reflected in the code, and changes made to the code are also reflected in the Form Editor.&lt;/li&gt;
-&lt;li&gt;
-		Can recognize and manipulate code generated by hand or by IDE (eg, Netbeans, JBuilder, VEP etc).&lt;/li&gt;
-&lt;li&gt;
-		Excellent parsing capabilities allow complex hand-generated code to be rendered correctly.&lt;/li&gt;
-&lt;li&gt;
-		Supports visual inheritance - can be used to edit classes which extend other custom visual classes.&lt;/li&gt;
-&lt;li&gt;
-		Converts between Swing and SWT GUIs (both ways).&lt;/li&gt;
-&lt;li&gt;
-		Palette for adding components and setting layouts.&lt;/li&gt;
-&lt;li&gt;
-		Easy navigation between source and form editors, with the selection in the form editor following the location of the cursor in the source editor, and the source editor scrolling to the code relevant to the selected element in the form editor.&lt;/li&gt;
-&lt;li&gt;
-		Multi-selection of components - for setting of properties, layout parameters, and copy/cut/paste/delete.&lt;/li&gt;
-&lt;li&gt;
-		Context-menu options for adding components and setting layouts (use of palette and/or context menu controlled by preferences page).&lt;/li&gt;
-&lt;li&gt;
-		Manipulates most properties of the GUI components, such as colors, fonts, images, sizes, borders etc,&lt;/li&gt;
-&lt;li&gt;
-		Creates event handlers for any and all of the component&#039;s events.&lt;/li&gt;
-&lt;li&gt;
-		When creating components, initial text, image and layout properties can be quickly set using a single creation dialog.&lt;/li&gt;
-&lt;li&gt;
-		Basic editing commands, copy/cut/paste/delete, as well as &quot;Move up/down&quot;, to rearrange components.&lt;/li&gt;
-&lt;li&gt;
-		Infinite Undo/Redo capability for all actions (setting of properties, layouts, layout constraints, cut, paste, add, delete and move).&lt;/li&gt;
-&lt;li&gt;
-		The GUI editor and Outline view can be used to drag/copy-and-drop components inside and between containers.&lt;/li&gt;
-&lt;li&gt;
-		Java code and GUI form viewed in single editor - either a split-pane (horizontal or vertical) or tabbed-pane layout is selectable.&lt;/li&gt;
-&lt;li&gt;
-		Generates stub models for certain elements (eg, JTable, JSpinner, JList etc), and can parse models from code.&lt;/li&gt;
-&lt;/ul&gt;&lt;p&gt;Code Handling:&lt;/p&gt;
-&lt;ul&gt;&lt;li&gt;
-		There are many ways to customize the parsing of the Java code.
-&lt;ul&gt;&lt;li&gt;
-				Blocks of code which are not directly involved in building the GUI can be hidden from Jigloo by user-customizable comment tags.&lt;/li&gt;
-&lt;li&gt;
-				The classes which Jigloo will instantiate while parsing the code can be controlled oï¿½n a fine-grain level.&lt;/li&gt;
-&lt;/ul&gt;&lt;/li&gt;
-&lt;li&gt;
-		The code generated by Jigloo can also be customized:
-&lt;ul&gt;&lt;li&gt;
-				It can follow the convention of the existing code (eg, JBuilder code uses getter methods to initialize it&#039;s components, and Jigloo can detect and use this format) or force it&#039;s own convention.&lt;/li&gt;
-&lt;li&gt;
-				It can separate elements with braces, blank lines, or user-defined comments.&lt;/li&gt;
-&lt;li&gt;
-				It can apply the current convention to an existing java class (eg, if the class uses getters you can convert it to using blocks)&lt;/li&gt;
-&lt;/ul&gt;&lt;/li&gt;
-&lt;/ul&gt;&lt;p&gt;Layout:&lt;/p&gt;
-&lt;ul&gt;&lt;li&gt;
-		Handles all Swing and SWT layouts (including GridBagLayout, JGoodies FormLayout, Clearthought&#039;s TableLayout, SWT FormLayout and absolute layouts).&lt;/li&gt;
-&lt;li&gt;
-		Delphi/Visual Studio layout-manager mode for SWT FormLayout (and Swing AnchorLayout).&lt;/li&gt;
-&lt;li&gt;
-		Intuitive methods for changing the grid properties of GridBagLayouts, JGoodies FormLayout, TableLayout (eg, adding, moving, deleting columns/rows etc) and components inside those layouts.&lt;/li&gt;
-&lt;li&gt;
-		Snap grid allows components to be located and resized to a uniform 5 to 20 pixel grid.&lt;/li&gt;
-&lt;li&gt;
-		Components can be drag-and-dropped (and copy-and-dropped) between containers, re-ordered and resized by mouse-dragging.&lt;/li&gt;
-&lt;/ul&gt;&lt;p&gt;Advanced:&lt;/p&gt;
-&lt;ul&gt;&lt;li&gt;
-		Visual Inheritance is supported - Jigloo can be used to build classes which are extensions of other visual classes.&lt;/li&gt;
-&lt;li&gt;
-		Custom classes extending Component (Swing) or Control (SWT) can be added to the GUI.&lt;/li&gt;
-&lt;li&gt;
-		SWT_AWT methods supported, so that SWT controls can be inserted into Swing components, Swing components can be inserted into SWT controls.&lt;/li&gt;
-&lt;li&gt;
-		Non-visual classes can also be added to the GUI, and their properties edited with the property editor.&lt;/li&gt;
-&lt;li&gt;
-		The class of a GUI element can be changed (eg, changing a Composite to a Group, or to a custom class) with a context-menu option.&lt;/li&gt;
-&lt;li&gt;
-		Parts of a GUI class can be extracted and saved as a new class.&lt;/li&gt;
-&lt;li&gt;
-		Easy access to the Javadoc for Swing and SWT components and layouts&lt;/li&gt;
-&lt;li&gt;
-		Ability to preview or run the generated java code from a toolbar button.&lt;/li&gt;
-&lt;/ul&gt;&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;&lt;!-- google_ad_section_end --&gt;</description>
-     <pubDate>Thu, 26 Feb 2004 20:42:16 +0000</pubDate>
- <dc:creator>jmisingname7cn</dc:creator>
- <guid isPermaLink="false">74 at http://marketplace.eclipse.org</guid>
- <comments>http://marketplace.eclipse.org/content/jigloo-swtswing-gui-builder#comments</comments>
   </item>
   </channel>
 </rss>

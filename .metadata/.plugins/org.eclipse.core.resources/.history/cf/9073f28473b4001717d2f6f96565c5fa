@@ -1,0 +1,45 @@
+import java.util.Scanner;
+
+public class exponential
+{//start class
+
+	public static void main(String[] args)
+	{//start main
+		//declare variables
+		String operation;
+		int num,pass=0;
+		//read variables
+		Scanner input = new Scanner(System.in);
+		System.out.print("Enter S for sum, P for prod:");
+		operation=input.nextLine();
+		operation=operation.toUpperCase();
+		while(pass==0)
+		{
+			switch(operation)
+			{
+			case "S":
+				break;
+			case "P":
+				break;
+			default:
+				System.out.println("Invalid choice");
+			}
+			System.out.print("Enter an integer greater than 1: ");
+			num=Integer.parseInt(input.nextLine());
+			getNum(num);
+		}
+	}//end main
+	public static void getNum(int choice)
+	{//start method
+		Scanner input = new Scanner(System.in);
+		//declare variables
+		int pass=0;
+		//read input
+		
+		while(choice<=1)
+		{
+			System.out.print("Must be greater than 1, re-enter: ");
+			choice=Integer.parseInt(input.nextLine());
+		}	
+	}//end method
+}//end class
