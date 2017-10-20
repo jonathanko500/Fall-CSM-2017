@@ -1,0 +1,43 @@
+import java.util.Scanner;
+
+public class avgScore 
+{//start class
+
+	public static void main(String[] args)
+	{//start main
+		//declare variables
+		int total;
+		double avg;
+		//get scores
+		total=getScore();
+		//calculates avg
+		avg=calcAverage(total);
+		System.out.printf("Your average is %.1f%n", avg);
+	}//end main
+	public static int getScore()
+	{//start method
+		//declare variables
+		int score,counter=0,total=0;
+		//read input
+		Scanner input= new Scanner(System.in);
+		while(counter<3)
+		{
+			System.out.print("Enter test score: ");
+			score=Integer.parseInt(input.nextLine());
+			while(score>=100)
+			{
+				System.out.print("Invalid, please re-enter: ");
+				score=Integer.parseInt(input.nextLine());
+			}
+			counter++;	
+			total+=score;
+		}
+		return total;
+	}//end method
+	public static double calcAverage(int score)
+	{//start method
+		double avg;
+		avg=(double)score/3;
+		return avg;
+	}//end method
+}//end class

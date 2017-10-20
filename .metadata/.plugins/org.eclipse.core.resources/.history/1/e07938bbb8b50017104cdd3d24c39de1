@@ -1,0 +1,36 @@
+import java.util.Scanner;
+
+public class avgScore 
+{//start class
+
+	public static void main(String[] args)
+	{//start main
+		//declare variables
+		getScore();
+	}//end main
+	public static int getScore()
+	{//start method
+		//declare variables
+		int score,total=0,counter=0;
+		//read variables
+		Scanner input= new Scanner(System.in);
+		System.out.print("Enter test score: ");
+		score=Integer.parseInt(input.nextLine());
+		while(score<=100)
+		{
+			if(score<=100)
+			{
+				total+=score;
+				System.out.print("Enter test score: ");
+				score=Integer.parseInt(input.nextLine());
+				counter++;
+			}
+			else
+			{
+				System.out.print("Invalid, please re-enter: ");
+				score=Integer.parseInt(input.nextLine());
+			}
+		}
+		return 0;
+	}//end method
+}//end class

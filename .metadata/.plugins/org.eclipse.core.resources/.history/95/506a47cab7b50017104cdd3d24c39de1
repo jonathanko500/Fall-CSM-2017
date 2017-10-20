@@ -1,6 +1,5 @@
 import java.util.Scanner;
-//jonathan ko
-//assignment 7 problem 2
+
 public class exponential
 {//start class
 	public static void main(String[] args)
