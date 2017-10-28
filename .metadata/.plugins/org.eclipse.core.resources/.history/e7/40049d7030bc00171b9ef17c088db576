@@ -21,16 +21,13 @@ public class ratings
 			case 2:
 			case 3:
 			case 4:
-				//count number of rating occurs
 				list[rate]+=1;
 				System.out.print("Enter rating (0 to 4) or -1 to quit: ");
 				rate=Integer.parseInt(input.nextLine());
 				break;
-			//quit
 			case -1:
 				pass=1;
 				break;
-			//invalid data
 			default:
 				System.out.print("Invalid, must be 0 to 4.  Re-enter: ");
 				rate=Integer.parseInt(input.nextLine());

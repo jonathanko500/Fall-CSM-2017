@@ -1,0 +1,36 @@
+import java.util.Scanner;
+
+//Jonathan Ko
+//assignment 8 problem 2
+public class payrollV2
+{//start class
+
+	public static void main(String[] args)
+	{//start main
+		//declare variables
+		String [] name=new String[1];
+		int [] pay=new int[1];
+		//input data
+		getData(name,pay);
+		
+	}//end main
+	public static void getData(String[] list,int[] group)
+	{//start method
+		//declare variables
+		int pass=0,numb,hours;
+		double rate;
+		//read input
+		Scanner input = new Scanner(System.in);
+		System.out.print("How many employees? ");
+		numb=Integer.parseInt(input.nextLine());
+		while(pass==0)
+		{
+			if(numb<1)
+			{
+				System.out.print("Invalid, must be at least 1, re-enter: ");
+				numb=Integer.parseInt(input.nextLine());
+			}
+			
+		}
+	}//end method
+}//end class
