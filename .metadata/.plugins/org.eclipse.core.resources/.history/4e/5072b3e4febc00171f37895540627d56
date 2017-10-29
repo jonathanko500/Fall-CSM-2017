@@ -1,0 +1,154 @@
+import java.util.Random;
+//jonathan ko
+//assignment 8 problem 3
+public class reverseArray
+{//start class
+	public static void main(String[] args)
+	{//start main
+		final int maxnums = 50;
+		int max,min;
+		double avg;
+		//declare two 1D array
+		int[] origin = new int[maxnums];
+		int[] oppisote = new int[maxnums];
+		//call initArray to store numbers in array
+		initArray(origin);
+		System.out.println("The numbers are:");
+		//call printArray to print with 5 numbers per row
+		printArray(origin,5);
+		//call findMax to determine max
+		max=findMax(origin);
+		//call findMin to determine min
+		min=findMin(origin);
+		//call findAvg to determine average
+		avg=findAvg(origin);
+		//print minimum, maximum, average
+		System.out.println("");
+		System.out.println("The largest number is "+max);
+		System.out.println("The smallest number is "+min);
+		System.out.printf("The average is %.1f%n", avg);
+		System.out.println("");
+		System.out.println("The reversed numbers are:");
+		//call reverseArray to store numbers in second array
+		//in reverse order
+		oppisote=reverseArraY(origin,oppisote);
+		//call printArray to print the reversed array with 7 numbers per
+		printArray(oppisote,7);
+		System.out.println("");
+		System.out.println("Programmed by Jonathan Ko");
+	}//end main
+	public static void initArray(int[] list)
+	{//stat method
+		Random rand = new Random();
+		for(int i=0;i<list.length;i++)
+		{
+			list[i]=1+rand.nextInt(999);;
+		}
+	}//end method
+	public static void printArray (int[] list, int numb)
+	{//start method
+		//declare counter
+		int counter=0;
+		for(int i=0;i<list.length;i++)
+		{
+			System.out.print(" "+ list[i]+" ");
+			counter++;
+			if((counter%numb)==0)
+			{
+				//makes new line
+				System.out.println();
+			}
+		}
+	}//end method
+	public static int findMax (int[] list)
+	{//start method
+		int max=0;
+		for(int i=0;i<list.length;i++)
+		{
+			if(max<list[i])
+			{
+				max=list[i];
+			}
+		}
+		return max;
+	}//end method
+	public static int findMin (int [] list)
+	{
+		int min=1000;
+		for(int i=0;i<list.length;i++)
+		{
+			if(min>list[i])
+			{
+				min=list[i];
+			}
+		}
+		return min;
+	}
+	public static double findAvg (int[] list)
+	{//start method
+		double avg,top=0;
+		//denominator
+		double bottom=list.length;
+		for(int i=0;i<list.length;i++)
+		{
+			//numerator
+			top+=list[i];
+		}
+		avg=top/bottom;
+		return avg;
+	}//end method
+	public static int[] reverseArraY(int [] list, int[] oppisote)
+	{
+		int start=29;
+		for(int i=0;i<list.length;i++)
+		{
+			oppisote[i]=list[start-i];
+		}
+		return oppisote;
+	}
+}//end class
+/*
+test 1
+The numbers are:
+ 431  155  919  531  193 
+ 100  745  132  683  475 
+ 626  659  887  997  579 
+ 534  7  437  143  997 
+ 229  568  792  281  159 
+ 495  586  213  412  322 
+
+The largest number is 997
+The smallest number is 7
+The average is 476.2
+
+The reversed numbers are:
+ 322  412  213  586  495  159  281 
+ 792  568  229  997  143  437  7 
+ 534  579  997  887  659  626  475 
+ 683  132  745  100  193  531  919 
+ 155  431 
+Programmed by Jonathan Ko
+
+test 2
+The numbers are:
+ 710  115  978  239  816 
+ 569  68  935  638  484 
+ 489  678  143  24  485 
+ 432  52  880  921  776 
+ 106  490  771  550  405 
+ 400  455  166  781  381 
+
+The largest number is 978
+The smallest number is 24
+The average is 497.9
+
+The reversed numbers are:
+ 381  781  166  455  400  405  550 
+ 771  490  106  776  921  880  52 
+ 432  485  24  143  678  489  484 
+ 638  935  68  569  816  239  978 
+ 115  710 
+Programmed by Jonathan Ko
+ test 3
+ 
+*/

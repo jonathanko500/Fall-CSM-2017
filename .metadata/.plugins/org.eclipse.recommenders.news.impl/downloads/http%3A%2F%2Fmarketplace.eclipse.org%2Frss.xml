@@ -6,6 +6,116 @@
     <language>en</language>
      <atom:link href="http://marketplace.eclipse.org/rss.xml" rel="self" type="application/rss+xml" />
       <item>
+    <title>anqu method</title>
+    <link>http://marketplace.eclipse.org/content/anqu-method</link>
+    <description>&lt;div class=&quot;field field-name-field-resource-image field-type-image field-label-hidden&quot;&gt;&lt;div class=&quot;field-items&quot;&gt;&lt;div class=&quot;field-item even&quot;&gt;&lt;img class=&quot;img-responsive&quot; src=&quot;http://marketplace.eclipse.org/sites/default/files/anqu_method_market_place_0.png&quot; width=&quot;110&quot; height=&quot;74&quot; alt=&quot;&quot; /&gt;&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;&lt;div class=&quot;field field-name-shared-date-created field-type-text field-label-inline clearfix&quot;&gt;&lt;div class=&quot;field-label&quot;&gt;Date Created:&amp;nbsp;&lt;/div&gt;&lt;div class=&quot;field-items&quot;&gt;&lt;div class=&quot;field-item even&quot;&gt;Tue, 2015-02-10 03:41&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;&lt;div class=&quot;field field-name-shared-date-updated field-type-text field-label-inline clearfix&quot;&gt;&lt;div class=&quot;field-label&quot;&gt;Date Updated:&amp;nbsp;&lt;/div&gt;&lt;div class=&quot;field-items&quot;&gt;&lt;div class=&quot;field-item even&quot;&gt;Sun, 2017-10-29 07:46&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;&lt;a href=&quot;/search/content/%22Mario%20V%C3%B6hl%22&quot;&gt;Mario Vöhl&lt;/a&gt;&lt;div class=&quot;field field-name-shared-submitted-by field-type-text field-label-inline clearfix&quot;&gt;&lt;div class=&quot;field-label&quot;&gt;Submitted by:&amp;nbsp;&lt;/div&gt;&lt;div class=&quot;field-items&quot;&gt;&lt;div class=&quot;field-item even&quot;&gt;&lt;a href=&quot;/user/mvoehl/listings&quot; title=&quot;Mario Voehl&quot;&gt;Mario Voehl&lt;/a&gt;&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;&lt;!-- google_ad_section_start --&gt;&lt;div class=&quot;field field-name-body field-type-text-with-summary field-label-hidden&quot;&gt;&lt;div class=&quot;field-items&quot;&gt;&lt;div class=&quot;field-item even&quot;&gt;&lt;p&gt;&lt;strong&gt;New with anqu 1.6.1: JPA 2.2 support&lt;/strong&gt;&lt;/p&gt;
+&lt;ul&gt;&lt;li&gt;
+		&lt;strong&gt;Generation of getResultStream() code&lt;/strong&gt;&lt;/li&gt;
+&lt;li&gt;
+		&lt;strong&gt;Repeatable annotation generation&lt;/strong&gt;&lt;/li&gt;
+&lt;/ul&gt;&lt;p&gt;New with anqu 1.6: Enhanced productivity with auto completion in Eclipse&lt;/p&gt;
+&lt;p&gt;Never write glue code for @NamedQueries or @NamedNativeQueries yourself again. The &lt;a href=&quot;http://www.anqu-method.de/&quot; rel=&quot;nofollow&quot;&gt;anqu method&lt;/a&gt; plug-in generates Java code to access @NamedQueries providing a compiler checked, typed, and implemented API for every @NamedQuery or @NamedNativeQuery in a few mouse clicks. JUnit tests can be generated as well to make sure the generated methods still fit the query.&lt;/p&gt;
+&lt;p&gt; &lt;/p&gt;
+&lt;p&gt;Other features:&lt;/p&gt;
+&lt;ul&gt;&lt;li&gt;
+		Creating the required annotation(s)&lt;/li&gt;
+&lt;li&gt;
+		Derive statements from query names - no need to write the query yourself in many cases!&lt;/li&gt;
+&lt;li&gt;
+		Generate methods with additional pagination parameters&lt;/li&gt;
+&lt;li&gt;
+		Creating Mock Utility classes for mockito unit testing&lt;/li&gt;
+&lt;li&gt;
+		Removing a query and the code generated from it&lt;/li&gt;
+&lt;li&gt;
+		Code generation for Spring Data JPA and Apache DeltaSpike Data&lt;/li&gt;
+&lt;/ul&gt;&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;&lt;!-- google_ad_section_end --&gt;</description>
+     <pubDate>Tue, 10 Feb 2015 08:41:08 +0000</pubDate>
+ <dc:creator>mvoehl</dc:creator>
+ <guid isPermaLink="false">2184088 at http://marketplace.eclipse.org</guid>
+ <comments>http://marketplace.eclipse.org/content/anqu-method#comments</comments>
+  </item>
+  <item>
+    <title>Codealike</title>
+    <link>http://marketplace.eclipse.org/content/codealike</link>
+    <description>&lt;div class=&quot;field field-name-field-resource-image field-type-image field-label-hidden&quot;&gt;&lt;div class=&quot;field-items&quot;&gt;&lt;div class=&quot;field-item even&quot;&gt;&lt;img class=&quot;img-responsive&quot; src=&quot;http://marketplace.eclipse.org/sites/default/files/ca-loading.gif&quot; width=&quot;103&quot; height=&quot;51&quot; alt=&quot;&quot; /&gt;&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;&lt;div class=&quot;field field-name-shared-date-created field-type-text field-label-inline clearfix&quot;&gt;&lt;div class=&quot;field-label&quot;&gt;Date Created:&amp;nbsp;&lt;/div&gt;&lt;div class=&quot;field-items&quot;&gt;&lt;div class=&quot;field-item even&quot;&gt;Thu, 2014-03-20 13:38&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;&lt;div class=&quot;field field-name-shared-date-updated field-type-text field-label-inline clearfix&quot;&gt;&lt;div class=&quot;field-label&quot;&gt;Date Updated:&amp;nbsp;&lt;/div&gt;&lt;div class=&quot;field-items&quot;&gt;&lt;div class=&quot;field-item even&quot;&gt;Sat, 2017-10-28 18:07&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;&lt;a href=&quot;/search/content/%22Codealike%22&quot;&gt;Codealike&lt;/a&gt;&lt;div class=&quot;field field-name-shared-submitted-by field-type-text field-label-inline clearfix&quot;&gt;&lt;div class=&quot;field-label&quot;&gt;Submitted by:&amp;nbsp;&lt;/div&gt;&lt;div class=&quot;field-items&quot;&gt;&lt;div class=&quot;field-item even&quot;&gt;&lt;a href=&quot;/user/jfera/listings&quot; title=&quot;Codealike Codealike&quot;&gt;Codealike Codealike&lt;/a&gt;&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;&lt;!-- google_ad_section_start --&gt;&lt;div class=&quot;field field-name-body field-type-text-with-summary field-label-hidden&quot;&gt;&lt;div class=&quot;field-items&quot;&gt;&lt;div class=&quot;field-item even&quot;&gt;&lt;p&gt; &lt;/p&gt;
+&lt;p&gt;&lt;/p&gt;
+&lt;p&gt;&lt;a href=&quot;http://www.codealike.com&quot; target=&quot;_blank&quot; rel=&quot;nofollow&quot;&gt;&lt;/a&gt;&lt;/p&gt;
+
+						TRACK YOUR CODING.
+
+						REAL-TIME.&lt;br /&gt;
+						AUTOMATIC.
+&lt;p&gt;Codealike remembers everything you do on the code, so you don&#039;t have to.&lt;/p&gt;
+&lt;p&gt;It integrates to your IDE and browser while automatically tracks and analyzes your activity.&lt;/p&gt;
+&lt;p&gt; &lt;br /&gt;&lt;strong&gt;You and your team get the benefits.&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt; &lt;/p&gt;
+
+
+
+
+&lt;h2 class=&quot;black&quot;&gt;
+						Here are some of&lt;br /&gt;
+						+15 (jaw-dropping) features.&lt;/h2&gt;
+&lt;p&gt; &lt;/p&gt;
+
+
+
+
+&lt;h4&gt;
+						Focus &amp;amp; Interruptions&lt;/h4&gt;
+&lt;p class=&quot;text-left x_x_x_x_x_x_x_v-margin-10&quot;&gt;Do you want to understand how your concentration grows and how interruptions affect it? This is the feature for you. Codealike shows you your &quot;Focus Curve&quot; but it also shows you how many interruptions you had during different periods of time. This is handy to show clearly how much effort it takes to recover from undesired interruptions.&lt;/p&gt;
+&lt;h4&gt;
+						&lt;a href=&quot;http://www.codealike.com&quot; target=&quot;_blank&quot; rel=&quot;nofollow&quot;&gt;&lt;/a&gt;&lt;/h4&gt;
+
+
+
+
+&lt;h4&gt;
+						Timeline&lt;/h4&gt;
+&lt;p class=&quot;text-left x_x_x_x_x_x_x_v-margin-10&quot;&gt;This feature shows you the ADN of your work. It rebuilds your day by showing you the precise sequence of activity that you did so you can drilldown and explore every segment of time to understand what you did.&lt;/p&gt;
+&lt;p class=&quot;text-left x_x_x_x_x_x_x_v-margin-10&quot;&gt;&lt;a href=&quot;http://www.codealike.com&quot; target=&quot;_blank&quot; rel=&quot;nofollow&quot;&gt;&lt;/a&gt;&lt;/p&gt;
+
+
+
+
+&lt;h4&gt;
+						Code Tree&lt;/h4&gt;
+&lt;p class=&quot;text-left x_x_x_x_x_x_x_v-margin-10&quot;&gt;Shows you the amount of time you spend Editing, Reading, Debugging and Building on different code solutions and projects. But why should we stop there? You&#039;ll be able to drilldown all the way through Namespaces, Files, Classes, Methods and Members. Use this report to see code&#039;s contributors and technical debt.&lt;/p&gt;
+
+
+
+
+&lt;p&gt;&lt;a href=&quot;http://www.codealike.com&quot; target=&quot;_blank&quot; rel=&quot;nofollow&quot;&gt;&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;&lt;a href=&quot;http://www.codealike.com&quot; target=&quot;_blank&quot; rel=&quot;nofollow&quot;&gt;&lt;/a&gt;&lt;/p&gt;
+
+
+
+
+&lt;h4&gt;
+						Code report&lt;/h4&gt;
+&lt;p class=&quot;text-left x_x_x_x_x_x_x_v-margin-10&quot;&gt;It helps you understand how much time you spend using different technologies. Have you ever wondered what are the 5 files that your attention the most? Well, wonder no more...&lt;/p&gt;
+&lt;p&gt;					&lt;a href=&quot;http://www.codealike.com&quot; target=&quot;_blank&quot; rel=&quot;nofollow&quot;&gt;&lt;/a&gt;
+
+
+
+&lt;/p&gt;&lt;p class=&quot;lead margin-40&quot;&gt;&lt;em class=&quot;white&quot;&gt;Powerful Metrics for High Performance Software Developers.&lt;/em&gt;&lt;/p&gt;
+&lt;p&gt;					&lt;a class=&quot;btn-main x_x_x_x_x_x_x_track-link&quot; href=&quot;https://codealike.com/Account/Register&quot; type=&quot;button&quot; rel=&quot;nofollow&quot;&gt;SIGN UP TO BEGIN&lt;/a&gt;
+
+
+
+					&lt;a href=&quot;http://www.codealike.com&quot; target=&quot;_blank&quot; rel=&quot;nofollow&quot;&gt;www.codealike.com&lt;/a&gt;
+
+
+
+
+&lt;/p&gt;&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;&lt;!-- google_ad_section_end --&gt;</description>
+     <pubDate>Thu, 20 Mar 2014 17:38:29 +0000</pubDate>
+ <dc:creator>jfera</dc:creator>
+ <guid isPermaLink="false">1567141 at http://marketplace.eclipse.org</guid>
+ <comments>http://marketplace.eclipse.org/content/codealike#comments</comments>
+  </item>
+  <item>
     <title>Notepad4e</title>
     <link>http://marketplace.eclipse.org/content/notepad4e</link>
     <description>&lt;div class=&quot;field field-name-field-resource-image field-type-image field-label-hidden&quot;&gt;&lt;div class=&quot;field-items&quot;&gt;&lt;div class=&quot;field-item even&quot;&gt;&lt;img class=&quot;img-responsive&quot; src=&quot;http://marketplace.eclipse.org/sites/default/files/note.png&quot; width=&quot;80&quot; height=&quot;80&quot; alt=&quot;&quot; /&gt;&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;&lt;div class=&quot;field field-name-shared-date-created field-type-text field-label-inline clearfix&quot;&gt;&lt;div class=&quot;field-label&quot;&gt;Date Created:&amp;nbsp;&lt;/div&gt;&lt;div class=&quot;field-items&quot;&gt;&lt;div class=&quot;field-item even&quot;&gt;Sat, 2016-10-08 08:14&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;&lt;div class=&quot;field field-name-shared-date-updated field-type-text field-label-inline clearfix&quot;&gt;&lt;div class=&quot;field-label&quot;&gt;Date Updated:&amp;nbsp;&lt;/div&gt;&lt;div class=&quot;field-items&quot;&gt;&lt;div class=&quot;field-item even&quot;&gt;Fri, 2017-10-27 16:31&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;&lt;div class=&quot;field field-name-shared-submitted-by field-type-text field-label-inline clearfix&quot;&gt;&lt;div class=&quot;field-label&quot;&gt;Submitted by:&amp;nbsp;&lt;/div&gt;&lt;div class=&quot;field-items&quot;&gt;&lt;div class=&quot;field-item even&quot;&gt;&lt;a href=&quot;/user/pybigourdan/listings&quot; title=&quot;Pierre-Yves B.&quot;&gt;Pierre-Yves B.&lt;/a&gt;&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;&lt;!-- google_ad_section_start --&gt;&lt;div class=&quot;field field-name-body field-type-text-with-summary field-label-hidden&quot;&gt;&lt;div class=&quot;field-items&quot;&gt;&lt;div class=&quot;field-item even&quot;&gt;&lt;p&gt;&lt;strong&gt;Create highly customisable notes in Eclipse, and never lose track of your thoughts, ideas or code snippets!&lt;/strong&gt;&lt;/p&gt;
@@ -162,100 +272,6 @@
  <dc:creator>mriser6li</dc:creator>
  <guid isPermaLink="false">1177 at http://marketplace.eclipse.org</guid>
  <comments>http://marketplace.eclipse.org/content/actifsource-model-driven-code-generator#comments</comments>
-  </item>
-  <item>
-    <title>Ferret</title>
-    <link>http://marketplace.eclipse.org/content/ferret</link>
-    <description>&lt;div class=&quot;field field-name-field-resource-image field-type-image field-label-hidden&quot;&gt;&lt;div class=&quot;field-items&quot;&gt;&lt;div class=&quot;field-item even&quot;&gt;&lt;img class=&quot;img-responsive&quot; src=&quot;http://marketplace.eclipse.org/sites/default/files/ferret.jpg&quot; width=&quot;80&quot; height=&quot;80&quot; alt=&quot;&quot; /&gt;&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;&lt;div class=&quot;field field-name-shared-date-created field-type-text field-label-inline clearfix&quot;&gt;&lt;div class=&quot;field-label&quot;&gt;Date Created:&amp;nbsp;&lt;/div&gt;&lt;div class=&quot;field-items&quot;&gt;&lt;div class=&quot;field-item even&quot;&gt;Tue, 2017-10-10 15:10&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;&lt;div class=&quot;field field-name-shared-date-updated field-type-text field-label-inline clearfix&quot;&gt;&lt;div class=&quot;field-label&quot;&gt;Date Updated:&amp;nbsp;&lt;/div&gt;&lt;div class=&quot;field-items&quot;&gt;&lt;div class=&quot;field-item even&quot;&gt;Thu, 2017-10-26 05:16&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;&lt;div class=&quot;field field-name-shared-submitted-by field-type-text field-label-inline clearfix&quot;&gt;&lt;div class=&quot;field-label&quot;&gt;Submitted by:&amp;nbsp;&lt;/div&gt;&lt;div class=&quot;field-items&quot;&gt;&lt;div class=&quot;field-item even&quot;&gt;&lt;a href=&quot;/user/bdealwis/listings&quot; title=&quot;Brian de Alwis&quot;&gt;Brian de Alwis&lt;/a&gt;&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;&lt;!-- google_ad_section_start --&gt;&lt;div class=&quot;field field-name-body field-type-text-with-summary field-label-hidden&quot;&gt;&lt;div class=&quot;field-items&quot;&gt;&lt;div class=&quot;field-item even&quot;&gt;&lt;p&gt;Ferret is a conceptually simple &lt;em&gt;software exploration tool&lt;/em&gt; that seeks to answer dozens of questions about a source code element to summarize how that element relates to the rest of the software system.  Ferret&#039;s questions build-on the standard queries supported by Eclipse, and include queries such as:&lt;/p&gt;
-&lt;ul&gt;&lt;li&gt;
-		Where is this method called?&lt;/li&gt;
-&lt;li&gt;
-		What methods return objects of this type?&lt;/li&gt;
-&lt;li&gt;
-		Where are objects of this type instantiated?&lt;/li&gt;
-&lt;li&gt;
-		What interfaces define (or specify) this method?&lt;/li&gt;
-&lt;li&gt;
-		What implementations are there of this interface method?&lt;/li&gt;
-&lt;li&gt;
-		What are the other alternative implementations of this method in the hierarchy?&lt;/li&gt;
-&lt;/ul&gt;&lt;p&gt;These questions are categorized by whether they involve declarations, are about inter-class or intra-class relations, or are hierarchical in nature. Answers can be further queried in-place, preserving the context of how you may have arrived to some location.&lt;/p&gt;
-&lt;p&gt;The results of queries may be clustered by their different attributes, as selected by the programmer. For example: the references to a method, which are generally themselves methods, may be clustered into different groups identified by attributes such as their access protection (public, private, package, or default), their containing type, their package, or boolean attributes such as static vs non-static.&lt;/p&gt;&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;&lt;!-- google_ad_section_end --&gt;</description>
-     <pubDate>Tue, 10 Oct 2017 19:10:46 +0000</pubDate>
- <dc:creator>bdealwis</dc:creator>
- <guid isPermaLink="false">3699420 at http://marketplace.eclipse.org</guid>
- <comments>http://marketplace.eclipse.org/content/ferret#comments</comments>
-  </item>
-  <item>
-    <title>Design and Verification Tools (DVT) IDE for e, SystemVerilog, and VHDL</title>
-    <link>http://marketplace.eclipse.org/content/design-and-verification-tools-dvt-ide-e-systemverilog-and-vhdl</link>
-    <description>&lt;div class=&quot;field field-name-field-resource-image field-type-image field-label-hidden&quot;&gt;&lt;div class=&quot;field-items&quot;&gt;&lt;div class=&quot;field-item even&quot;&gt;&lt;img class=&quot;img-responsive&quot; src=&quot;http://marketplace.eclipse.org/sites/default/files/AMIQ_logo_web_110x63.jpg&quot; width=&quot;110&quot; height=&quot;63&quot; alt=&quot;&quot; /&gt;&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;&lt;div class=&quot;field field-name-shared-date-created field-type-text field-label-inline clearfix&quot;&gt;&lt;div class=&quot;field-label&quot;&gt;Date Created:&amp;nbsp;&lt;/div&gt;&lt;div class=&quot;field-items&quot;&gt;&lt;div class=&quot;field-item even&quot;&gt;Wed, 2006-04-19 08:00&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;&lt;div class=&quot;field field-name-shared-date-updated field-type-text field-label-inline clearfix&quot;&gt;&lt;div class=&quot;field-label&quot;&gt;Date Updated:&amp;nbsp;&lt;/div&gt;&lt;div class=&quot;field-items&quot;&gt;&lt;div class=&quot;field-item even&quot;&gt;Wed, 2017-10-25 17:48&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;&lt;a href=&quot;/search/content/%22AMIQ%20EDA%22&quot;&gt;AMIQ EDA&lt;/a&gt;&lt;div class=&quot;field field-name-shared-submitted-by field-type-text field-label-inline clearfix&quot;&gt;&lt;div class=&quot;field-label&quot;&gt;Submitted by:&amp;nbsp;&lt;/div&gt;&lt;div class=&quot;field-items&quot;&gt;&lt;div class=&quot;field-item even&quot;&gt;&lt;a href=&quot;/user/emisingname6ia/listings&quot; title=&quot;AMIQ Support&quot;&gt;AMIQ Support&lt;/a&gt;&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;&lt;!-- google_ad_section_start --&gt;&lt;div class=&quot;field field-name-body field-type-text-with-summary field-label-hidden&quot;&gt;&lt;div class=&quot;field-items&quot;&gt;&lt;div class=&quot;field-item even&quot;&gt;&lt;p&gt;Design and Verification Tools (DVT) is an integrated development environment (IDE) for the &lt;strong&gt;&lt;em&gt;e&lt;/em&gt; language, SystemVerilog, Verilog, VHDL, and mixed language projects&lt;/strong&gt; that also provides &lt;strong&gt;Universal Verification Methodology (UVM) support&lt;/strong&gt;. It is similar to well-known programming tools like Visual Studio®, NetBeans®, and IntelliJ®. DVT comprises a proprietary IEEE standard-compliant parser, a smart code editor, an intuitive GUI, a comprehensive set of features that help with code inspection, navigation, documentation, and debugging, and an innovative linting framework. DVT allows design and verification engineers to overcome the limitations of plain text editors and use a modern and powerful tool that enables them to:&lt;/p&gt;
-&lt;ul&gt;&lt;li&gt;
-		Increase the speed and quality of new code development&lt;/li&gt;
-&lt;li&gt;
-		Easily understand complex or poorly documented source code&lt;/li&gt;
-&lt;li&gt;
-		Simplify the maintenance of legacy code and reusable libraries&lt;/li&gt;
-&lt;li&gt;
-		Accelerate language and methodology learning&lt;/li&gt;
-&lt;li&gt;
-		Automatically generate well-organized source code documentation&lt;/li&gt;
-&lt;/ul&gt;&lt;p&gt;&lt;/p&gt;
-&lt;p&gt;&lt;/p&gt;
-&lt;p&gt;
-	FEATURES  Some of the features that DVT offers include:&lt;/p&gt;
-&lt;ul&gt;&lt;li&gt;
-		Autocomplete&lt;/li&gt;
-&lt;li&gt;
-		Compilation errors signaled on the fly&lt;/li&gt;
-&lt;li&gt;
-		In-line reminders for task tracking (TO DOs)&lt;/li&gt;
-&lt;li&gt;
-		Customizable code and project templates&lt;/li&gt;
-&lt;li&gt;
-		Dedicated wizards to generate getters and setters, override functions, or help with UVM factory registration&lt;/li&gt;
-&lt;li&gt;
-		Hyperlinks that help navigate faster in the source code&lt;/li&gt;
-&lt;li&gt;
-		Semantic search&lt;/li&gt;
-&lt;li&gt;
-		Refactoring&lt;/li&gt;
-&lt;li&gt;
-		Macro expansion&lt;/li&gt;
-&lt;li&gt;
-		Class and structural browsing&lt;/li&gt;
-&lt;li&gt;
-		Trace port connections&lt;/li&gt;
-&lt;li&gt;
-		UML diagrams for inspecting and documenting the architecture&lt;/li&gt;
-&lt;li&gt;
-		Module flow diagrams for inspecting and documenting a module structure&lt;/li&gt;
-&lt;li&gt;
-		Automated documentation extraction&lt;/li&gt;
-&lt;li&gt;
-		UVM support and compliance checking&lt;/li&gt;
-&lt;li&gt;
-		Cross-language capabilities for mixed-language projects&lt;/li&gt;
-&lt;li&gt;
-		Vi and emacs emulation&lt;/li&gt;
-&lt;/ul&gt;&lt;p&gt;&lt;/p&gt;
-&lt;p&gt;INTEGRATION WITH OTHER TOOLS Since it is built on the Eclipse Platform, the DVT IDE can be easily integrated within a large plug-in ecosystem. It also integrates seamlessly with all major hardware simulators such as NCSim , Specman , VCS , and Questa, to enable simplified simulation analysis and debugging. In addition, it works with revision control systems like CVS, Git, Subversion, ClearCase and bug tracking systems such as Bugzilla and ClearQuest.&lt;br /&gt;
-	RESOURCES &lt;/p&gt;
-&lt;ul&gt;&lt;li&gt;
-		&lt;a href=&quot;http://www.dvteclipse.com/Design_and_Verification_Tools_Eclipse_IDE.html&quot; target=&quot;_blank&quot; rel=&quot;nofollow&quot;&gt;DVT web page&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;
-		&lt;a href=&quot;http://www.dvteclipse.com/datasheet/AMIQ_DVT_Datasheet.pdf&quot; target=&quot;_blank&quot; rel=&quot;nofollow&quot;&gt;DVT datasheet&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;
-		&lt;a href=&quot;https://www.youtube.com/user/dvteclipse&quot; target=&quot;_blank&quot; rel=&quot;nofollow&quot;&gt;Demo movies&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;
-		&lt;a href=&quot;http://www.dvteclipse.com/UVM_Support_in_DVT_Eclipse.html&quot; rel=&quot;nofollow&quot;&gt;UVM Support in DVT&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;
-		&lt;a href=&quot;http://www.dvteclipse.com/DVT_Debugger_Add-On_Module.html&quot; rel=&quot;nofollow&quot;&gt;DVT Debugger Module&lt;/a&gt;&lt;/li&gt;
-&lt;/ul&gt;&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;&lt;!-- google_ad_section_end --&gt;</description>
-     <pubDate>Wed, 19 Apr 2006 12:00:18 +0000</pubDate>
- <dc:creator>emisingname6ia</dc:creator>
- <guid isPermaLink="false">192 at http://marketplace.eclipse.org</guid>
- <comments>http://marketplace.eclipse.org/content/design-and-verification-tools-dvt-ide-e-systemverilog-and-vhdl#comments</comments>
   </item>
   </channel>
 </rss>

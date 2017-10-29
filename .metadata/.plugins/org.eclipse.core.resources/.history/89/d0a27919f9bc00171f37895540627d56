@@ -1,0 +1,65 @@
+import java.util.Random;
+
+//jonathan ko
+//assignment 8 problem 3
+public class reverseArray
+{//start class
+
+	public static void main(String[] args)
+	{//start main
+		final int maxnums = 30;
+		int max;
+		//declare two 1D array
+		int[] origin = new int[maxnums];
+		int[] reverse = new int[maxnums];
+		//call initArray to store numbers in array
+		initArray(origin);
+		//call printArray to print with 5 numbers per row
+		printArray(origin,maxnums);
+		//call findMax to determine max
+		max=findMax(origin);
+		System.out.println("The largest number is "+max);
+		//call findMin to determine min
+		//call findAvg to determine average
+		//print minimum, maximum, average
+		//call reverseArray to store numbers in second array
+		//in reverse order
+		//call printArray to print the reversed array with 7 numbers per
+	}//end main
+	public static void initArray(int[] list)
+	{//stat method
+		Random rand = new Random();
+		for(int i=0;i<list.length;i++)
+		{
+			list[i]=1+rand.nextInt(999);;
+		}
+	}//end method
+	public static void printArray (int[] list, int numb)
+	{//start method
+		//declare variable
+		int counter=0;
+		System.out.println("The numbers are:");
+		for(int i=0;i<numb;i++)
+		{
+			System.out.print(" "+ list[i]+" ");
+			counter++;
+			if((counter%5)==0)
+			{
+				//makes new line
+				System.out.println();
+			}
+		}
+	}//end method
+	public static int findMax (int[] list)
+	{
+		int max=0;
+		for(int i=0;i<list.length;i++)
+		{
+			if(max<list[i])
+			{
+				max=list[i];
+			}
+		}
+		return max;
+	}
+}//end class
