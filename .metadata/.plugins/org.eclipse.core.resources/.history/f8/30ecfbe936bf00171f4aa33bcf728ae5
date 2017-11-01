@@ -6,7 +6,7 @@ public class ratings
 	public static void main(String[] args)
 	{//start main
 		//declare variables
-		int[] list=new int[5];
+		int[] list={0,0,0,0,0};
 		int rate,pass=0;
 		//read input
 		Scanner input = new Scanner(System.in);

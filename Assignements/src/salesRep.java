@@ -15,7 +15,7 @@ public class salesRep
 		numbRep=Integer.parseInt(input.nextLine());
 		while(numbRep<=0)
 		{
-			System.out.print("Must be at least one sales rep, reenter: ");
+			System.out.print("Must be at least one sales rep, re-enter: ");
 			numbRep=Integer.parseInt(input.nextLine());
 		}
 		for(int i=1;i<=numbRep;i++)
