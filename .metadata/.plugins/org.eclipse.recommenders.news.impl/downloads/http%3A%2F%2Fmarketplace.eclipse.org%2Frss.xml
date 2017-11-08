@@ -6,222 +6,336 @@
     <language>en</language>
      <atom:link href="http://marketplace.eclipse.org/rss.xml" rel="self" type="application/rss+xml" />
       <item>
-    <title>IBM Liberty Developer Tools</title>
-    <link>http://marketplace.eclipse.org/content/ibm-liberty-developer-tools</link>
-    <description>&lt;div class=&quot;field field-name-field-resource-image field-type-image field-label-hidden&quot;&gt;&lt;div class=&quot;field-items&quot;&gt;&lt;div class=&quot;field-item even&quot;&gt;&lt;img class=&quot;img-responsive&quot; src=&quot;http://marketplace.eclipse.org/sites/default/files/wdt-was-emp-darkblue-500.png&quot; width=&quot;80&quot; height=&quot;80&quot; alt=&quot;&quot; /&gt;&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;&lt;div class=&quot;field field-name-shared-date-created field-type-text field-label-inline clearfix&quot;&gt;&lt;div class=&quot;field-label&quot;&gt;Date Created:&amp;nbsp;&lt;/div&gt;&lt;div class=&quot;field-items&quot;&gt;&lt;div class=&quot;field-item even&quot;&gt;Wed, 2014-07-02 08:24&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;&lt;div class=&quot;field field-name-shared-date-updated field-type-text field-label-inline clearfix&quot;&gt;&lt;div class=&quot;field-label&quot;&gt;Date Updated:&amp;nbsp;&lt;/div&gt;&lt;div class=&quot;field-items&quot;&gt;&lt;div class=&quot;field-item even&quot;&gt;Wed, 2017-11-01 11:25&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;&lt;a href=&quot;/search/content/%22IBM%22&quot;&gt;IBM&lt;/a&gt;&lt;div class=&quot;field field-name-shared-submitted-by field-type-text field-label-inline clearfix&quot;&gt;&lt;div class=&quot;field-label&quot;&gt;Submitted by:&amp;nbsp;&lt;/div&gt;&lt;div class=&quot;field-items&quot;&gt;&lt;div class=&quot;field-item even&quot;&gt;&lt;a href=&quot;/user/canderson/listings&quot; title=&quot;Carl Anderson&quot;&gt;Carl Anderson&lt;/a&gt;&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;&lt;!-- google_ad_section_start --&gt;&lt;div class=&quot;field field-name-body field-type-text-with-summary field-label-hidden&quot;&gt;&lt;div class=&quot;field-items&quot;&gt;&lt;div class=&quot;field-item even&quot;&gt;&lt;p&gt;An eclipse IDE for building and deploying Java EE, OSGi and Web 2.0 applications to Open Liberty and WebSphere Application Server Liberty. For more information about installing and downloading the tools, including archived versions of the tools for older versions of eclipse, see &lt;a href=&quot;https://developer.ibm.com/wasdev/docs/websphere-developer-tools-releases/&quot; rel=&quot;nofollow&quot;&gt;WebSphere Application Server Developer Tools Releases&lt;/a&gt;&lt;/p&gt;&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;&lt;!-- google_ad_section_end --&gt;</description>
-     <pubDate>Wed, 02 Jul 2014 12:24:46 +0000</pubDate>
- <dc:creator>canderson</dc:creator>
- <guid isPermaLink="false">1778478 at http://marketplace.eclipse.org</guid>
- <comments>http://marketplace.eclipse.org/content/ibm-liberty-developer-tools#comments</comments>
+    <title>Jmr - Development Automation Tools</title>
+    <link>http://marketplace.eclipse.org/content/jmr-development-automation-tools</link>
+    <description>&lt;div class=&quot;field field-name-field-resource-image field-type-image field-label-hidden&quot;&gt;&lt;div class=&quot;field-items&quot;&gt;&lt;div class=&quot;field-item even&quot;&gt;&lt;img class=&quot;img-responsive&quot; src=&quot;http://marketplace.eclipse.org/sites/default/files/jmr_logo.png&quot; width=&quot;110&quot; height=&quot;80&quot; alt=&quot;&quot; /&gt;&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;&lt;div class=&quot;field field-name-shared-date-created field-type-text field-label-inline clearfix&quot;&gt;&lt;div class=&quot;field-label&quot;&gt;Date Created:&amp;nbsp;&lt;/div&gt;&lt;div class=&quot;field-items&quot;&gt;&lt;div class=&quot;field-item even&quot;&gt;Wed, 2017-08-02 23:41&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;&lt;div class=&quot;field field-name-shared-date-updated field-type-text field-label-inline clearfix&quot;&gt;&lt;div class=&quot;field-label&quot;&gt;Date Updated:&amp;nbsp;&lt;/div&gt;&lt;div class=&quot;field-items&quot;&gt;&lt;div class=&quot;field-item even&quot;&gt;Tue, 2017-11-07 12:23&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;&lt;a href=&quot;/search/content/%22JmrTeam%22&quot;&gt;JmrTeam&lt;/a&gt;&lt;div class=&quot;field field-name-shared-submitted-by field-type-text field-label-inline clearfix&quot;&gt;&lt;div class=&quot;field-label&quot;&gt;Submitted by:&amp;nbsp;&lt;/div&gt;&lt;div class=&quot;field-items&quot;&gt;&lt;div class=&quot;field-item even&quot;&gt;&lt;a href=&quot;/user/yuxinwork/listings&quot; title=&quot;Xin Yu&quot;&gt;Xin Yu&lt;/a&gt;&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;&lt;!-- google_ad_section_start --&gt;&lt;div class=&quot;field field-name-body field-type-text-with-summary field-label-hidden&quot;&gt;&lt;div class=&quot;field-items&quot;&gt;&lt;div class=&quot;field-item even&quot;&gt;&lt;p&gt;More than just an &lt;strong&gt;entirely free&lt;/strong&gt; Java code generator, It&#039;s also a &lt;strong&gt;development&lt;/strong&gt; &lt;strong&gt;automation tools &lt;/strong&gt;will improve development productivity by&lt;strong&gt; 1.5 to 5 times&lt;/strong&gt;&lt;strong&gt;.&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;Maybe it can become your &quot;&lt;strong&gt;black technology&lt;/strong&gt;&quot;, zero coupling to your project and without changing anything.&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Documenation Page:&lt;/strong&gt; &lt;a href=&quot;http://www.jmr-source.com/doc/en/index.html&quot; target=&quot;_blank&quot; rel=&quot;nofollow&quot;&gt;http://www.jmr-source.com/doc/en/index.html&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;中文文档:&lt;/strong&gt; &lt;a href=&quot;http://www.jmr-source.com/doc/zh/index.html&quot; target=&quot;_blank&quot; rel=&quot;nofollow&quot;&gt;http://www.jmr-source.com/doc/zh/index.html&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;Normal code generator flow:&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Template → Source Code&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;Jmr development automation flow:   &lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Template&lt;/strong&gt;&lt;strong&gt;/&lt;/strong&gt;&lt;strong&gt;Model&lt;/strong&gt;&lt;strong&gt;/Action → Task → Source Code/Test Case/Document&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Template:&lt;/strong&gt; Support Java Script(&amp;lt;%%&amp;gt; JSP-like) and Jmr Tag(set/get/for...)&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Model:&lt;/strong&gt; Database Model(like Table/View), Java POJO Model, Xml File Model and includes&lt;strong&gt; &lt;/strong&gt;Transform/Mapping/Convert Tool&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Action: &lt;/strong&gt;A Java Class can set Java variables to template.&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Support any kind of project&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;Maven, Gradle, Web, Java, Android, PHP, Python etc.&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Support any kind of framework&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;spring/springMVC, hibernate, ibatis/mybatis, struts/struts2, JPA etc.&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Support any kind of language&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;Java the best.&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Theme&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;Support Dark Theme and other Light Themes&lt;/p&gt;&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;&lt;!-- google_ad_section_end --&gt;</description>
+     <pubDate>Thu, 03 Aug 2017 03:41:16 +0000</pubDate>
+ <dc:creator>yuxinwork</dc:creator>
+ <guid isPermaLink="false">3581018 at http://marketplace.eclipse.org</guid>
+ <comments>http://marketplace.eclipse.org/content/jmr-development-automation-tools#comments</comments>
   </item>
   <item>
-    <title>CSV Edit Resurrector</title>
-    <link>http://marketplace.eclipse.org/content/csv-edit-resurrector</link>
-    <description>&lt;div class=&quot;field field-name-field-resource-image field-type-image field-label-hidden&quot;&gt;&lt;div class=&quot;field-items&quot;&gt;&lt;div class=&quot;field-item even&quot;&gt;&lt;img class=&quot;img-responsive&quot; src=&quot;http://marketplace.eclipse.org/sites/default/files/resurrector-CSV.png&quot; width=&quot;85&quot; height=&quot;80&quot; alt=&quot;&quot; /&gt;&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;&lt;div class=&quot;field field-name-shared-date-created field-type-text field-label-inline clearfix&quot;&gt;&lt;div class=&quot;field-label&quot;&gt;Date Created:&amp;nbsp;&lt;/div&gt;&lt;div class=&quot;field-items&quot;&gt;&lt;div class=&quot;field-item even&quot;&gt;Tue, 2017-10-31 11:37&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;&lt;div class=&quot;field field-name-shared-date-updated field-type-text field-label-inline clearfix&quot;&gt;&lt;div class=&quot;field-label&quot;&gt;Date Updated:&amp;nbsp;&lt;/div&gt;&lt;div class=&quot;field-items&quot;&gt;&lt;div class=&quot;field-item even&quot;&gt;Wed, 2017-11-01 08:30&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;&lt;a href=&quot;/search/content/%22No%22&quot;&gt;No&lt;/a&gt;&lt;div class=&quot;field field-name-shared-submitted-by field-type-text field-label-inline clearfix&quot;&gt;&lt;div class=&quot;field-label&quot;&gt;Submitted by:&amp;nbsp;&lt;/div&gt;&lt;div class=&quot;field-items&quot;&gt;&lt;div class=&quot;field-item even&quot;&gt;&lt;a href=&quot;/user/pverest/listings&quot; title=&quot;Paul Verest&quot;&gt;Paul Verest&lt;/a&gt;&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;&lt;!-- google_ad_section_start --&gt;&lt;div class=&quot;field field-name-body field-type-text-with-summary field-label-hidden&quot;&gt;&lt;div class=&quot;field-items&quot;&gt;&lt;div class=&quot;field-item even&quot;&gt;&lt;p&gt;This is refresh build of CSV Edit v1.2 fork by Mathieu Savy at &lt;a href=&quot;https://github.com/Mathieuu/CsvEdit&quot; rel=&quot;nofollow&quot;&gt;https://github.com/Mathieuu/CsvEdit&lt;/a&gt;&lt;/p&gt;
-&lt;p&gt;CSV Edit v1.1 was available before at &lt;a href=&quot;https://marketplace.eclipse.org/content/csv-edit&quot; rel=&quot;nofollow&quot;&gt;https://marketplace.eclipse.org/content/csv-edit&lt;/a&gt;&lt;/p&gt;
-&lt;p&gt;&lt;strong&gt;New features of 1.2.x&lt;/strong&gt;&lt;/p&gt;
-&lt;p&gt;In the new CSVEdit version, it is now possible to edit a row in a form. That is very convinient, when columns are very wide. Just right-click a row, then Edit.&lt;/p&gt;
-&lt;p&gt;And even specify columns containing multiple values and their delimiter.&lt;/p&gt;
+    <title>Guava Eclipse Plugin</title>
+    <link>http://marketplace.eclipse.org/content/guava-eclipse-plugin</link>
+    <description>&lt;div class=&quot;field field-name-field-resource-image field-type-image field-label-hidden&quot;&gt;&lt;div class=&quot;field-items&quot;&gt;&lt;div class=&quot;field-item even&quot;&gt;&lt;img class=&quot;img-responsive&quot; src=&quot;http://marketplace.eclipse.org/sites/default/files/GuavaEclipsePluginBrandingIcon.png&quot; width=&quot;32&quot; height=&quot;32&quot; alt=&quot;&quot; /&gt;&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;&lt;div class=&quot;field field-name-shared-date-created field-type-text field-label-inline clearfix&quot;&gt;&lt;div class=&quot;field-label&quot;&gt;Date Created:&amp;nbsp;&lt;/div&gt;&lt;div class=&quot;field-items&quot;&gt;&lt;div class=&quot;field-item even&quot;&gt;Thu, 2011-01-06 08:39&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;&lt;div class=&quot;field field-name-shared-date-updated field-type-text field-label-inline clearfix&quot;&gt;&lt;div class=&quot;field-label&quot;&gt;Date Updated:&amp;nbsp;&lt;/div&gt;&lt;div class=&quot;field-items&quot;&gt;&lt;div class=&quot;field-item even&quot;&gt;Tue, 2017-11-07 10:38&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;&lt;a href=&quot;/search/content/%22N/A%22&quot;&gt;N/A&lt;/a&gt;&lt;div class=&quot;field field-name-shared-submitted-by field-type-text field-label-inline clearfix&quot;&gt;&lt;div class=&quot;field-label&quot;&gt;Submitted by:&amp;nbsp;&lt;/div&gt;&lt;div class=&quot;field-items&quot;&gt;&lt;div class=&quot;field-item even&quot;&gt;&lt;a href=&quot;/user/vmisingname16k/listings&quot; title=&quot;Vinay Mising name&quot;&gt;Vinay Mising name&lt;/a&gt;&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;&lt;!-- google_ad_section_start --&gt;&lt;div class=&quot;field field-name-body field-type-text-with-summary field-label-hidden&quot;&gt;&lt;div class=&quot;field-items&quot;&gt;&lt;div class=&quot;field-item even&quot;&gt;&lt;p&gt;&quot;Guava Eclipse plugin&quot; is an eclipse plugin which will generate following methods using Google guava utilty classes toString() equals(Object object) hashCode() compareTo(....) --------------------------------------------------------------------------------------------------- #Guava Eclipse Plugin 1.4.0 RELEASE NOTES We are pleased to announce the Guava Eclipse Plugin 1.4.0 release! ###New features: - moved to github - [#20](&lt;a href=&quot;https://github.com/GuavaEclipsePlugin/GuavaEclipsePluginParent/issues/20&quot; rel=&quot;nofollow&quot;&gt;https://github.com/GuavaEclipsePlugin/GuavaEclipsePluginParent/issues/20&lt;/a&gt;) Using MoreObjects.toStringHelper ###Fixed Bugs: - [#15](&lt;a href=&quot;https://github.com/GuavaEclipsePlugin/GuavaEclipsePluginParent/issues/15&quot; rel=&quot;nofollow&quot;&gt;https://github.com/GuavaEclipsePlugin/GuavaEclipsePluginParent/issues/15&lt;/a&gt;) CompareTo Method generation includes variables which are not comparable ###Known Issues: - [#17](&lt;a href=&quot;https://github.com/GuavaEclipsePlugin/GuavaEclipsePluginParent/issues/17&quot; rel=&quot;nofollow&quot;&gt;https://github.com/GuavaEclipsePlugin/GuavaEclipsePluginParent/issues/17&lt;/a&gt;) Maven Release Mechanism does not work - [#16](&lt;a href=&quot;https://github.com/GuavaEclipsePlugin/GuavaEclipsePluginParent/issues/16&quot; rel=&quot;nofollow&quot;&gt;https://github.com/GuavaEclipsePlugin/GuavaEclipsePluginParent/issues/16&lt;/a&gt;) MenuEntries does not appear when pressing ShortCut Alt+Shift+S Every Help is welcome. --- #Guava Eclipse Plugin 1.3.0 RELEASE NOTES We are pleased to announce the Guava Eclipse Plugin 1.3.0 release! ###New features: - [#7](&lt;a href=&quot;https://github.com/GuavaEclipsePlugin/GuavaEclipsePluginParent/issues/7&quot; rel=&quot;nofollow&quot;&gt;https://github.com/GuavaEclipsePlugin/GuavaEclipsePluginParent/issues/7&lt;/a&gt;) possibility to disable the compareTo menu entry - [#8](&lt;a href=&quot;https://github.com/GuavaEclipsePlugin/GuavaEclipsePluginParent/issues/8&quot; rel=&quot;nofollow&quot;&gt;https://github.com/GuavaEclipsePlugin/GuavaEclipsePluginParent/issues/8&lt;/a&gt;) Preselect all Fields in SelectionDialog - [#9](&lt;a href=&quot;https://github.com/GuavaEclipsePlugin/GuavaEclipsePluginParent/issues/9&quot; rel=&quot;nofollow&quot;&gt;https://github.com/GuavaEclipsePlugin/GuavaEclipsePluginParent/issues/9&lt;/a&gt;) Possibility to define ShortCut Keys for the MenuActions ###Fixed Bugs: - [#13](&lt;a href=&quot;https://github.com/GuavaEclipsePlugin/GuavaEclipsePluginParent/issues/13&quot; rel=&quot;nofollow&quot;&gt;https://github.com/GuavaEclipsePlugin/GuavaEclipsePluginParent/issues/13&lt;/a&gt;) toString generation for Arrays with primitiv types doesn&#039;t work properly - [#14](&lt;a href=&quot;https://github.com/GuavaEclipsePlugin/GuavaEclipsePluginParent/issues/14&quot; rel=&quot;nofollow&quot;&gt;https://github.com/GuavaEclipsePlugin/GuavaEclipsePluginParent/issues/14&lt;/a&gt;) generated equals method for Object Arrays is to much ###Known Issues: - [#17](&lt;a href=&quot;https://github.com/GuavaEclipsePlugin/GuavaEclipsePluginParent/issues/17&quot; rel=&quot;nofollow&quot;&gt;https://github.com/GuavaEclipsePlugin/GuavaEclipsePluginParent/issues/17&lt;/a&gt;) Maven Release Mechanism does not work - [#15](&lt;a href=&quot;https://github.com/GuavaEclipsePlugin/GuavaEclipsePluginParent/issues/15&quot; rel=&quot;nofollow&quot;&gt;https://github.com/GuavaEclipsePlugin/GuavaEclipsePluginParent/issues/15&lt;/a&gt;) CompareTo Method generation includes variables which are not comparable - [#16](&lt;a href=&quot;https://github.com/GuavaEclipsePlugin/GuavaEclipsePluginParent/issues/16&quot; rel=&quot;nofollow&quot;&gt;https://github.com/GuavaEclipsePlugin/GuavaEclipsePluginParent/issues/16&lt;/a&gt;) MenuEntries does not appear when pressing ShortCut Alt+Shift+S Every Help is welcome. # Older Releases look here &lt;a href=&quot;http://GuavaEclipsePlugin.github.io/allReleases.html&quot; rel=&quot;nofollow&quot;&gt;http://GuavaEclipsePlugin.github.io/allReleases.html&lt;/a&gt;&lt;/p&gt;&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;&lt;!-- google_ad_section_end --&gt;</description>
+     <pubDate>Thu, 06 Jan 2011 13:39:46 +0000</pubDate>
+ <dc:creator>vmisingname16k</dc:creator>
+ <guid isPermaLink="false">26788 at http://marketplace.eclipse.org</guid>
+ <comments>http://marketplace.eclipse.org/content/guava-eclipse-plugin#comments</comments>
+  </item>
+  <item>
+    <title>BlueSky - web development in Eclipse IDE (Experimental)</title>
+    <link>http://marketplace.eclipse.org/content/bluesky-web-development-eclipse-ide-experimental</link>
+    <description>&lt;div class=&quot;field field-name-field-resource-image field-type-image field-label-hidden&quot;&gt;&lt;div class=&quot;field-items&quot;&gt;&lt;div class=&quot;field-item even&quot;&gt;&lt;img class=&quot;img-responsive&quot; src=&quot;http://marketplace.eclipse.org/sites/default/files/bluesky-lojo.png&quot; width=&quot;80&quot; height=&quot;80&quot; alt=&quot;&quot; /&gt;&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;&lt;div class=&quot;field field-name-shared-date-created field-type-text field-label-inline clearfix&quot;&gt;&lt;div class=&quot;field-label&quot;&gt;Date Created:&amp;nbsp;&lt;/div&gt;&lt;div class=&quot;field-items&quot;&gt;&lt;div class=&quot;field-item even&quot;&gt;Thu, 2017-04-13 10:52&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;&lt;div class=&quot;field field-name-shared-date-updated field-type-text field-label-inline clearfix&quot;&gt;&lt;div class=&quot;field-label&quot;&gt;Date Updated:&amp;nbsp;&lt;/div&gt;&lt;div class=&quot;field-items&quot;&gt;&lt;div class=&quot;field-item even&quot;&gt;Tue, 2017-11-07 06:29&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;&lt;a href=&quot;/search/content/%22Red%20Hat%20Developers%22&quot;&gt;Red Hat Developers&lt;/a&gt;&lt;div class=&quot;field field-name-shared-submitted-by field-type-text field-label-inline clearfix&quot;&gt;&lt;div class=&quot;field-label&quot;&gt;Submitted by:&amp;nbsp;&lt;/div&gt;&lt;div class=&quot;field-items&quot;&gt;&lt;div class=&quot;field-item even&quot;&gt;&lt;a href=&quot;/user/mistria/listings&quot; title=&quot;Mickael Istria&quot;&gt;Mickael Istria&lt;/a&gt;&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;&lt;!-- google_ad_section_start --&gt;&lt;div class=&quot;field field-name-body field-type-text-with-summary field-label-hidden&quot;&gt;&lt;div class=&quot;field-items&quot;&gt;&lt;div class=&quot;field-item even&quot;&gt;&lt;p&gt;BlueSky enables rich edition of typical web files (HTML, CSS, JS, TS, JSon) in the Eclipse IDE.&lt;/p&gt;
+&lt;p&gt; &lt;/p&gt;
 &lt;p&gt; &lt;/p&gt;&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;&lt;!-- google_ad_section_end --&gt;</description>
-     <pubDate>Tue, 31 Oct 2017 15:37:05 +0000</pubDate>
- <dc:creator>pverest</dc:creator>
- <guid isPermaLink="false">3739198 at http://marketplace.eclipse.org</guid>
- <comments>http://marketplace.eclipse.org/content/csv-edit-resurrector#comments</comments>
+     <pubDate>Thu, 13 Apr 2017 14:52:25 +0000</pubDate>
+ <dc:creator>mistria</dc:creator>
+ <guid isPermaLink="false">3394048 at http://marketplace.eclipse.org</guid>
+ <comments>http://marketplace.eclipse.org/content/bluesky-web-development-eclipse-ide-experimental#comments</comments>
   </item>
   <item>
-    <title>impulse SPICE Extension</title>
-    <link>http://marketplace.eclipse.org/content/impulse-spice-extension</link>
-    <description>&lt;div class=&quot;field field-name-field-resource-image field-type-image field-label-hidden&quot;&gt;&lt;div class=&quot;field-items&quot;&gt;&lt;div class=&quot;field-item even&quot;&gt;&lt;img class=&quot;img-responsive&quot; src=&quot;http://marketplace.eclipse.org/sites/default/files/impulse110_80_3.png&quot; width=&quot;110&quot; height=&quot;80&quot; alt=&quot;&quot; /&gt;&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;&lt;div class=&quot;field field-name-shared-date-created field-type-text field-label-inline clearfix&quot;&gt;&lt;div class=&quot;field-label&quot;&gt;Date Created:&amp;nbsp;&lt;/div&gt;&lt;div class=&quot;field-items&quot;&gt;&lt;div class=&quot;field-item even&quot;&gt;Sat, 2017-05-27 06:10&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;&lt;div class=&quot;field field-name-shared-date-updated field-type-text field-label-inline clearfix&quot;&gt;&lt;div class=&quot;field-label&quot;&gt;Date Updated:&amp;nbsp;&lt;/div&gt;&lt;div class=&quot;field-items&quot;&gt;&lt;div class=&quot;field-item even&quot;&gt;Wed, 2017-11-01 06:08&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;&lt;a href=&quot;/search/content/%22toem%20GmbH%22&quot;&gt;toem GmbH&lt;/a&gt;&lt;div class=&quot;field field-name-shared-submitted-by field-type-text field-label-inline clearfix&quot;&gt;&lt;div class=&quot;field-label&quot;&gt;Submitted by:&amp;nbsp;&lt;/div&gt;&lt;div class=&quot;field-items&quot;&gt;&lt;div class=&quot;field-item even&quot;&gt;&lt;a href=&quot;/user/thaberm7n/listings&quot; title=&quot;Thomas Haber&quot;&gt;Thomas Haber&lt;/a&gt;&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;&lt;!-- google_ad_section_start --&gt;&lt;div class=&quot;field field-name-body field-type-text-with-summary field-label-hidden&quot;&gt;&lt;div class=&quot;field-items&quot;&gt;&lt;div class=&quot;field-item even&quot;&gt;&lt;p&gt;SPICE (Simulation Program with Integrated Circuit Emphasis) characterizes a group of electronic circuit simulator software packags. Originally the name comes from Berkeley SPICE:&quot;SPICE is a general-purpose circuit simulation program for nonlinear dc, nonlinear transient, and linear ac analyses. Circuits may contain resistors, capacitors, inductors, mutual inductors, independent voltage and current sources, four types of dependent sources, lossless and lossy transmission lines (two separate implementations), switches, uniform distributed RC lines, and the five most common semiconductor devices: diodes, BJTs, JFETs, MESFETs, and MOSFETs. SPICE originates from the EECS Department of the University of California at Berkeley.&quot;&lt;/p&gt;
-&lt;p&gt;&lt;a href=&quot;http://toem.de/index.php/projects/impulse&quot; rel=&quot;nofollow&quot;&gt;impulse&lt;/a&gt; is a powerful waveform viewer and analyser tool, helping engineers to comfortably understand and debug complex semiconductor and multi-core software systems.&lt;/p&gt;
-&lt;p&gt;There are a number of SPICE related file formats supported with this extension &lt;a href=&quot;http://toem.de/index.php/projects/impulse-spice&quot; rel=&quot;nofollow&quot;&gt;this extension&lt;/a&gt; to read, display and analyze the simulation output. HSpice and Spice3 are supported natively, wheras NanoSim needs an external conversion tool&lt;/p&gt;&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;&lt;!-- google_ad_section_end --&gt;</description>
-     <pubDate>Sat, 27 May 2017 10:10:28 +0000</pubDate>
- <dc:creator>thaberm7n</dc:creator>
- <guid isPermaLink="false">3464678 at http://marketplace.eclipse.org</guid>
- <comments>http://marketplace.eclipse.org/content/impulse-spice-extension#comments</comments>
-  </item>
-  <item>
-    <title>impulse</title>
-    <link>http://marketplace.eclipse.org/content/impulse</link>
-    <description>&lt;div class=&quot;field field-name-field-resource-image field-type-image field-label-hidden&quot;&gt;&lt;div class=&quot;field-items&quot;&gt;&lt;div class=&quot;field-item even&quot;&gt;&lt;img class=&quot;img-responsive&quot; src=&quot;http://marketplace.eclipse.org/sites/default/files/impulse110_80_0.png&quot; width=&quot;110&quot; height=&quot;80&quot; alt=&quot;&quot; /&gt;&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;&lt;div class=&quot;field field-name-shared-date-created field-type-text field-label-inline clearfix&quot;&gt;&lt;div class=&quot;field-label&quot;&gt;Date Created:&amp;nbsp;&lt;/div&gt;&lt;div class=&quot;field-items&quot;&gt;&lt;div class=&quot;field-item even&quot;&gt;Tue, 2013-04-16 04:22&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;&lt;div class=&quot;field field-name-shared-date-updated field-type-text field-label-inline clearfix&quot;&gt;&lt;div class=&quot;field-label&quot;&gt;Date Updated:&amp;nbsp;&lt;/div&gt;&lt;div class=&quot;field-items&quot;&gt;&lt;div class=&quot;field-item even&quot;&gt;Wed, 2017-11-01 06:07&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;&lt;a href=&quot;/search/content/%22toem%20GmbH%22&quot;&gt;toem GmbH&lt;/a&gt;&lt;div class=&quot;field field-name-shared-submitted-by field-type-text field-label-inline clearfix&quot;&gt;&lt;div class=&quot;field-label&quot;&gt;Submitted by:&amp;nbsp;&lt;/div&gt;&lt;div class=&quot;field-items&quot;&gt;&lt;div class=&quot;field-item even&quot;&gt;&lt;a href=&quot;/user/thaberm7n/listings&quot; title=&quot;Thomas Haber&quot;&gt;Thomas Haber&lt;/a&gt;&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;&lt;!-- google_ad_section_start --&gt;&lt;div class=&quot;field field-name-body field-type-text-with-summary field-label-hidden&quot;&gt;&lt;div class=&quot;field-items&quot;&gt;&lt;div class=&quot;field-item even&quot;&gt;&lt;p&gt;&lt;strong&gt;impulse&lt;/strong&gt; is a powerful waveform viewer and analyser tool, helping engineers to comfortably understand and debug complex semiconductor and multi-core software systems.&lt;/p&gt;
-&lt;p&gt;It allows the representation of a wide range of signals, and is not limited to digital and analogue signals only. Beside these two types, impulse offers transaction, event, text, log, structured, binary, image and multi-dimensional signals, supporting impressive visualization options.&lt;/p&gt;
-&lt;p&gt;All impulse components are fully integrated into the eclipse framework (Windows, Linux and OSX/Mac) and can be combined with a growing set of emerging eclipse technologies and extensions (IoT, language IDEs, reports, CM... ).&lt;/p&gt;
-&lt;p&gt;Developed to be user-friendly, impulse offers an intuitive, enjoyable and efficient path into your design domain.&lt;/p&gt;
-&lt;p&gt;impulse is not just a dedicated solution for a specific environment; it is an enabler for a wide range of domains, helping you to visualize and analyse your target in your very specific environment, open to everything and adaptable to different environments.&lt;/p&gt;
-&lt;p&gt;&lt;a href=&quot;http://toem.de/index.php/projects/impulse/manual/25-a1-installation&quot; rel=&quot;nofollow&quot;&gt;Install Impulse Version 1.8&lt;/a&gt;&lt;/p&gt;
-&lt;p&gt;&lt;a href=&quot;http://toem.de/index.php/projects/impulse/licensing/&quot; rel=&quot;nofollow&quot;&gt;Licensing: Questions and Answers&lt;/a&gt;&lt;/p&gt;
-&lt;h2&gt;
-	Open to everything&lt;/h2&gt;
-&lt;p&gt;Signals can be read from a local resource using a growing set of data formats, or fetched from multiple external interfaces (like networks, serial interfaces, data acquisition and debug adapters).&lt;/p&gt;
+    <title>LiClipseText</title>
+    <link>http://marketplace.eclipse.org/content/liclipsetext</link>
+    <description>&lt;div class=&quot;field field-name-field-resource-image field-type-image field-label-hidden&quot;&gt;&lt;div class=&quot;field-items&quot;&gt;&lt;div class=&quot;field-item even&quot;&gt;&lt;img class=&quot;img-responsive&quot; src=&quot;http://marketplace.eclipse.org/sites/default/files/liclipsetext_banner.png&quot; width=&quot;110&quot; height=&quot;80&quot; alt=&quot;&quot; /&gt;&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;&lt;div class=&quot;field field-name-shared-date-created field-type-text field-label-inline clearfix&quot;&gt;&lt;div class=&quot;field-label&quot;&gt;Date Created:&amp;nbsp;&lt;/div&gt;&lt;div class=&quot;field-items&quot;&gt;&lt;div class=&quot;field-item even&quot;&gt;Fri, 2016-05-20 06:56&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;&lt;div class=&quot;field field-name-shared-date-updated field-type-text field-label-inline clearfix&quot;&gt;&lt;div class=&quot;field-label&quot;&gt;Date Updated:&amp;nbsp;&lt;/div&gt;&lt;div class=&quot;field-items&quot;&gt;&lt;div class=&quot;field-item even&quot;&gt;Tue, 2017-11-07 06:23&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;&lt;a href=&quot;/search/content/%22Brainwy%20Software%20Ltda%22&quot;&gt;Brainwy Software Ltda&lt;/a&gt;&lt;div class=&quot;field field-name-shared-submitted-by field-type-text field-label-inline clearfix&quot;&gt;&lt;div class=&quot;field-label&quot;&gt;Submitted by:&amp;nbsp;&lt;/div&gt;&lt;div class=&quot;field-items&quot;&gt;&lt;div class=&quot;field-item even&quot;&gt;&lt;a href=&quot;/user/fzadroznyr0g/listings&quot; title=&quot;Fabio Zadrozny&quot;&gt;Fabio Zadrozny&lt;/a&gt;&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;&lt;!-- google_ad_section_start --&gt;&lt;div class=&quot;field field-name-body field-type-text-with-summary field-label-hidden&quot;&gt;&lt;div class=&quot;field-items&quot;&gt;&lt;div class=&quot;field-item even&quot;&gt;&lt;p&gt;LiClipseText is an editor which enables Eclipse to be used as a general-purpose text editor, providing support for multiple languages out of the box.&lt;/p&gt;
+&lt;p&gt;It&#039;s the Open Source (EPL-based) counterpart of &lt;a href=&quot;http://www.liclipse.com/&quot; rel=&quot;nofollow&quot;&gt;LiClipse&lt;/a&gt;.&lt;/p&gt;
+&lt;p&gt;It comes with goodies such as:&lt;/p&gt;
 &lt;ul&gt;&lt;li&gt;
-		Project resources and external files&lt;/li&gt;
+		Syntax Highlighting (LiClipse, TextMate or SublimeText based).&lt;/li&gt;
 &lt;li&gt;
-		Selected version from configuration management&lt;/li&gt;
+		Code completion.&lt;/li&gt;
 &lt;li&gt;
-		TCP and Pipe streams&lt;/li&gt;
+		Outline view and Quick Outline.&lt;/li&gt;
 &lt;li&gt;
-		Read data from executables&lt;/li&gt;
+		Text-based mark occurrences.&lt;/li&gt;
 &lt;li&gt;
-		Data acquisition devices&lt;/li&gt;
-&lt;/ul&gt;&lt;p&gt;Implementing your own reader for a specific format is not a difficult job. What you need is some basic java knowledge and the following &lt;a href=&quot;http://toem.de/index.php/projects/impulse/extending&quot; rel=&quot;nofollow&quot;&gt;articles about extending impulse&lt;/a&gt;.&lt;/p&gt;
-&lt;h2&gt;
-	Highly extensible&lt;/h2&gt;
-&lt;p&gt;Define your own data formats, implement acquisition interfaces, script your own specific charts, develop a dedicated data analysis or integrate a 3-D chart engine.&lt;/p&gt;
-&lt;p&gt;&lt;strong&gt;impulse&lt;/strong&gt; uses the eclipse extension mechanism consistently. It is designed to be extensible in an easy way, composed to be adaptable to different environments and use cases.&lt;/p&gt;
-&lt;p&gt;If you need further support or development services, just contact us. We are looking forward to supporting you in all technical areas.&lt;/p&gt;
-&lt;p&gt;&lt;a class=&quot;uk-button uk-button-primary&quot; href=&quot;http://toem.de//index.php/about/about-toem&quot; rel=&quot;nofollow&quot;&gt;Contact us&lt;/a&gt;&lt;/p&gt;
+		LiClipse Languages view:
 &lt;ul&gt;&lt;li&gt;
-		Implement reader and writer&lt;/li&gt;
+				Enables exploring installed languages.&lt;/li&gt;
+&lt;/ul&gt;&lt;/li&gt;
 &lt;li&gt;
-		Selected version from configuration management&lt;/li&gt;
+		LiClipse Partitions view:
+&lt;ul&gt;&lt;li&gt;
+				Enables inspecting the partitioning of the editor.&lt;/li&gt;
 &lt;li&gt;
-		Signal scripts&lt;/li&gt;
+				Useful to debug how LiClipseText is parsing a language.&lt;/li&gt;
+&lt;/ul&gt;&lt;/li&gt;
 &lt;li&gt;
-		Port extensions&lt;/li&gt;
+		Use LiClipseText as a base for other editors:
+&lt;ul&gt;&lt;li&gt;
+				Languages may be created and experimented with on-the-fly, without restarting Eclipse.&lt;/li&gt;
+&lt;/ul&gt;&lt;/li&gt;
+&lt;/ul&gt;&lt;p&gt;&lt;/p&gt;
+&lt;p&gt;The recommended way of using LiClipseText is bundled in &lt;a href=&quot;http://www.liclipse.com/&quot; rel=&quot;nofollow&quot;&gt;LiClipse&lt;/a&gt;.&lt;/p&gt;
+&lt;p&gt;	&lt;a href=&quot;http://www.liclipse.com/&quot; rel=&quot;nofollow&quot;&gt;LiClipse&lt;/a&gt; bundles LiClipseText in an easy to use package with extended features (also, by licensing LiClipse you directly support the development of LiClipseText).&lt;/p&gt;
+&lt;h3&gt;
+	Languages supported out of the box:&lt;/h3&gt;
+&lt;ul&gt;&lt;li&gt;
+		C/C++&lt;/li&gt;
 &lt;li&gt;
-		Chart extensions and scripts&lt;/li&gt;
-&lt;/ul&gt;&lt;h2&gt;
-	Easy integration into your product&lt;/h2&gt;
-&lt;p&gt;&lt;strong&gt;impulse&lt;/strong&gt; can be easily integrated into your own product. If you plan to deploy impulse with your IDE or plug-ins, just contact us. We will help you to get the best out of your product.&lt;/p&gt;
-&lt;p&gt;We are actively seeking partners for joint integration, interfaces and collaborated development.&lt;/p&gt;
-&lt;p&gt;&lt;a class=&quot;uk-button uk-button-primary&quot; href=&quot;http://toem.de/index.php/projects/impulse/integrate&quot; rel=&quot;nofollow&quot;&gt;Get more information about integrating impulse&lt;/a&gt;&lt;/p&gt;&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;&lt;!-- google_ad_section_end --&gt;</description>
-     <pubDate>Tue, 16 Apr 2013 08:22:00 +0000</pubDate>
- <dc:creator>thaberm7n</dc:creator>
- <guid isPermaLink="false">802368 at http://marketplace.eclipse.org</guid>
- <comments>http://marketplace.eclipse.org/content/impulse#comments</comments>
+		CSS&lt;/li&gt;
+&lt;li&gt;
+		CoffeScript&lt;/li&gt;
+&lt;li&gt;
+		CMake&lt;/li&gt;
+&lt;li&gt;
+		Dart&lt;/li&gt;
+&lt;li&gt;
+		Django Templates&lt;/li&gt;
+&lt;li&gt;
+		Go&lt;/li&gt;
+&lt;li&gt;
+		HTML&lt;/li&gt;
+&lt;li&gt;
+		Java&lt;/li&gt;
+&lt;li&gt;
+		JavaScript&lt;/li&gt;
+&lt;li&gt;
+		Jinja2&lt;/li&gt;
+&lt;li&gt;
+		Julia&lt;/li&gt;
+&lt;li&gt;
+		Kivy Language&lt;/li&gt;
+&lt;li&gt;
+		Linux Shell files&lt;/li&gt;
+&lt;li&gt;
+		Mako Templates&lt;/li&gt;
+&lt;li&gt;
+		Markdown&lt;/li&gt;
+&lt;li&gt;
+		Nim&lt;/li&gt;
+&lt;li&gt;
+		PERL&lt;/li&gt;
+&lt;li&gt;
+		PHP&lt;/li&gt;
+&lt;li&gt;
+		Python&lt;/li&gt;
+&lt;li&gt;
+		RAML&lt;/li&gt;
+&lt;li&gt;
+		RST (ReStructured Text)&lt;/li&gt;
+&lt;li&gt;
+		Ruby&lt;/li&gt;
+&lt;li&gt;
+		SCSS&lt;/li&gt;
+&lt;li&gt;
+		StringTemplate&lt;/li&gt;
+&lt;li&gt;
+		Swift&lt;/li&gt;
+&lt;li&gt;
+		Windows bat files&lt;/li&gt;
+&lt;li&gt;
+		XML&lt;/li&gt;
+&lt;li&gt;
+		YAML&lt;/li&gt;
+&lt;/ul&gt;&lt;p&gt;&lt;/p&gt;
+&lt;p&gt;As a note, it&#039;s possible to include TextMate bundles for languages not available in the default list by following the steps from: &lt;a href=&quot;http://www.liclipse.com/text/textmate_bundles.html&quot; rel=&quot;nofollow&quot;&gt;http://www.liclipse.com/text/textmate_bundles.html&lt;/a&gt;.&lt;/p&gt;
+&lt;p&gt;See: &lt;a href=&quot;http://www.liclipse.com/text/&quot; rel=&quot;nofollow&quot;&gt;LiClipseText&lt;/a&gt; for more details.&lt;/p&gt;
+&lt;p&gt;Update site: &lt;a href=&quot;http://www.liclipse.com/text/updates&quot; rel=&quot;nofollow&quot;&gt;http://www.liclipse.com/text/updates&lt;/a&gt;&lt;/p&gt;&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;&lt;!-- google_ad_section_end --&gt;</description>
+     <pubDate>Fri, 20 May 2016 10:56:39 +0000</pubDate>
+ <dc:creator>fzadroznyr0g</dc:creator>
+ <guid isPermaLink="false">2894763 at http://marketplace.eclipse.org</guid>
+ <comments>http://marketplace.eclipse.org/content/liclipsetext#comments</comments>
   </item>
   <item>
-    <title>impulse HDL Extension</title>
-    <link>http://marketplace.eclipse.org/content/impulse-hdl-extension</link>
-    <description>&lt;div class=&quot;field field-name-field-resource-image field-type-image field-label-hidden&quot;&gt;&lt;div class=&quot;field-items&quot;&gt;&lt;div class=&quot;field-item even&quot;&gt;&lt;img class=&quot;img-responsive&quot; src=&quot;http://marketplace.eclipse.org/sites/default/files/impulse110_80_1.png&quot; width=&quot;110&quot; height=&quot;80&quot; alt=&quot;&quot; /&gt;&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;&lt;div class=&quot;field field-name-shared-date-created field-type-text field-label-inline clearfix&quot;&gt;&lt;div class=&quot;field-label&quot;&gt;Date Created:&amp;nbsp;&lt;/div&gt;&lt;div class=&quot;field-items&quot;&gt;&lt;div class=&quot;field-item even&quot;&gt;Fri, 2015-02-20 04:44&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;&lt;div class=&quot;field field-name-shared-date-updated field-type-text field-label-inline clearfix&quot;&gt;&lt;div class=&quot;field-label&quot;&gt;Date Updated:&amp;nbsp;&lt;/div&gt;&lt;div class=&quot;field-items&quot;&gt;&lt;div class=&quot;field-item even&quot;&gt;Wed, 2017-11-01 06:06&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;&lt;a href=&quot;/search/content/%22toem%20GmbH%22&quot;&gt;toem GmbH&lt;/a&gt;&lt;div class=&quot;field field-name-shared-submitted-by field-type-text field-label-inline clearfix&quot;&gt;&lt;div class=&quot;field-label&quot;&gt;Submitted by:&amp;nbsp;&lt;/div&gt;&lt;div class=&quot;field-items&quot;&gt;&lt;div class=&quot;field-item even&quot;&gt;&lt;a href=&quot;/user/thaberm7n/listings&quot; title=&quot;Thomas Haber&quot;&gt;Thomas Haber&lt;/a&gt;&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;&lt;!-- google_ad_section_start --&gt;&lt;div class=&quot;field field-name-body field-type-text-with-summary field-label-hidden&quot;&gt;&lt;div class=&quot;field-items&quot;&gt;&lt;div class=&quot;field-item even&quot;&gt;&lt;p&gt;A hardware description language (HDL) is a specialized computer language used to describe the structure and behavior of electronic circuits, and most commonly, digital logic circuits. Probably the best known digital simulators are those based on Verilog and VHDL.&lt;/p&gt;
-&lt;p&gt;&lt;a href=&quot;http://toem.de/index.php/projects/impulse&quot; rel=&quot;nofollow&quot;&gt;impulse&lt;/a&gt; is a powerful waveform viewer and analyser tool, helping engineers to comfortably understand and debug complex semiconductor and multi-core software systems.&lt;/p&gt;
-&lt;p&gt;There are a number of HDL related file formats supported with&lt;a href=&quot;http://toem.de/index.php/projects/impulse-hdl&quot; rel=&quot;nofollow&quot;&gt; this extension&lt;/a&gt; to read, display and analyze the simulation output. FSDB, FST and WLF are supported using native extensions (FSDB and WLF require 3rd party libraries), wheras eVCD, VZT and LXT2 require an external vcd conversion tool. VCD and analouge tabular files are supported by the core features of impulse.&lt;/p&gt;&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;&lt;!-- google_ad_section_end --&gt;</description>
-     <pubDate>Fri, 20 Feb 2015 09:44:36 +0000</pubDate>
- <dc:creator>thaberm7n</dc:creator>
- <guid isPermaLink="false">2200290 at http://marketplace.eclipse.org</guid>
- <comments>http://marketplace.eclipse.org/content/impulse-hdl-extension#comments</comments>
+    <title>LiClipse</title>
+    <link>http://marketplace.eclipse.org/content/liclipse</link>
+    <description>&lt;div class=&quot;field field-name-field-resource-image field-type-image field-label-hidden&quot;&gt;&lt;div class=&quot;field-items&quot;&gt;&lt;div class=&quot;field-item even&quot;&gt;&lt;img class=&quot;img-responsive&quot; src=&quot;http://marketplace.eclipse.org/sites/default/files/logo_110_80.png&quot; width=&quot;110&quot; height=&quot;80&quot; alt=&quot;&quot; /&gt;&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;&lt;div class=&quot;field field-name-shared-date-created field-type-text field-label-inline clearfix&quot;&gt;&lt;div class=&quot;field-label&quot;&gt;Date Created:&amp;nbsp;&lt;/div&gt;&lt;div class=&quot;field-items&quot;&gt;&lt;div class=&quot;field-item even&quot;&gt;Tue, 2013-10-22 07:26&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;&lt;div class=&quot;field field-name-shared-date-updated field-type-text field-label-inline clearfix&quot;&gt;&lt;div class=&quot;field-label&quot;&gt;Date Updated:&amp;nbsp;&lt;/div&gt;&lt;div class=&quot;field-items&quot;&gt;&lt;div class=&quot;field-item even&quot;&gt;Tue, 2017-11-07 06:22&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;&lt;a href=&quot;/search/content/%22Brainwy%20Software%20Ltda%22&quot;&gt;Brainwy Software Ltda&lt;/a&gt;&lt;div class=&quot;field field-name-shared-submitted-by field-type-text field-label-inline clearfix&quot;&gt;&lt;div class=&quot;field-label&quot;&gt;Submitted by:&amp;nbsp;&lt;/div&gt;&lt;div class=&quot;field-items&quot;&gt;&lt;div class=&quot;field-item even&quot;&gt;&lt;a href=&quot;/user/fzadroznyr0g/listings&quot; title=&quot;Fabio Zadrozny&quot;&gt;Fabio Zadrozny&lt;/a&gt;&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;&lt;!-- google_ad_section_start --&gt;&lt;div class=&quot;field field-name-body field-type-text-with-summary field-label-hidden&quot;&gt;&lt;div class=&quot;field-items&quot;&gt;&lt;div class=&quot;field-item even&quot;&gt;&lt;p&gt;LiClipse: Lightweight editors, theming and usability improvements for Eclipse LiClipse provides a number of enhancements to the Eclipse platform:&lt;/p&gt;
+&lt;p&gt;* Improved theming support based on Eclipse 4 improvements (and scrollbar theming). &lt;/p&gt;
+&lt;p&gt;* Improved text search capabilities (see: &lt;a href=&quot;http://www.liclipse.com/search.html&quot; rel=&quot;nofollow&quot;&gt;http://www.liclipse.com/search.html&lt;/a&gt;).&lt;/p&gt;
+&lt;p&gt;* A fast editor supporting many languages builtin (i.e.: currently it supports out of the box CoffeScript, C/C++, CSS, Dart, Django Templates, HTML, Mako Templates, Java, JavaScript, Python, RST, SCSS, StringTemplate, XML, YAML, Nim, Go, Jinja2, Linux shell files, Windows bat files, PERL, Markdown, PHP, RAML, Ruby, Swift).&lt;/p&gt;
+&lt;p&gt;* Support for TextMate bundles (see: &lt;a href=&quot;http://www.liclipse.com/textmate_bundles.html&quot; rel=&quot;nofollow&quot;&gt;http://www.liclipse.com/textmate_bundles.html&lt;/a&gt;).&lt;/p&gt;
+&lt;p&gt;* It&#039;s easy to add support for a new language (mainly create a .liclipse file -- see: &lt;a href=&quot;http://www.liclipse.com/supported_languages.html&quot; rel=&quot;nofollow&quot;&gt;http://www.liclipse.com/supported_languages.html&lt;/a&gt; for details)&lt;/p&gt;
+&lt;p&gt;* Usability improvements for all Eclipse editors (currently multi-cursors: specifying and editing multiple locations and vertical indent guides in any editor).&lt;/p&gt;
+&lt;p&gt;* Bundling of many useful plugins in a single package (currently it also bundles Eclipse Color Theme, StartExplorer, AnyEdit, EGit and PyDev).&lt;/p&gt;
+&lt;p&gt;* Native installers (with a provided JRE) are available for Linux, Mac and Windows.&lt;/p&gt;&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;&lt;!-- google_ad_section_end --&gt;</description>
+     <pubDate>Tue, 22 Oct 2013 11:26:19 +0000</pubDate>
+ <dc:creator>fzadroznyr0g</dc:creator>
+ <guid isPermaLink="false">1261140 at http://marketplace.eclipse.org</guid>
+ <comments>http://marketplace.eclipse.org/content/liclipse#comments</comments>
   </item>
   <item>
-    <title>impulse SCOPE Extension</title>
-    <link>http://marketplace.eclipse.org/content/impulse-scope-extension</link>
-    <description>&lt;div class=&quot;field field-name-field-resource-image field-type-image field-label-hidden&quot;&gt;&lt;div class=&quot;field-items&quot;&gt;&lt;div class=&quot;field-item even&quot;&gt;&lt;img class=&quot;img-responsive&quot; src=&quot;http://marketplace.eclipse.org/sites/default/files/impulse110_80_2.png&quot; width=&quot;110&quot; height=&quot;80&quot; alt=&quot;&quot; /&gt;&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;&lt;div class=&quot;field field-name-shared-date-created field-type-text field-label-inline clearfix&quot;&gt;&lt;div class=&quot;field-label&quot;&gt;Date Created:&amp;nbsp;&lt;/div&gt;&lt;div class=&quot;field-items&quot;&gt;&lt;div class=&quot;field-item even&quot;&gt;Sat, 2015-04-18 08:45&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;&lt;div class=&quot;field field-name-shared-date-updated field-type-text field-label-inline clearfix&quot;&gt;&lt;div class=&quot;field-label&quot;&gt;Date Updated:&amp;nbsp;&lt;/div&gt;&lt;div class=&quot;field-items&quot;&gt;&lt;div class=&quot;field-item even&quot;&gt;Wed, 2017-11-01 06:04&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;&lt;a href=&quot;/search/content/%22toem%20GmbH%22&quot;&gt;toem GmbH&lt;/a&gt;&lt;div class=&quot;field field-name-shared-submitted-by field-type-text field-label-inline clearfix&quot;&gt;&lt;div class=&quot;field-label&quot;&gt;Submitted by:&amp;nbsp;&lt;/div&gt;&lt;div class=&quot;field-items&quot;&gt;&lt;div class=&quot;field-item even&quot;&gt;&lt;a href=&quot;/user/thaberm7n/listings&quot; title=&quot;Thomas Haber&quot;&gt;Thomas Haber&lt;/a&gt;&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;&lt;!-- google_ad_section_start --&gt;&lt;div class=&quot;field field-name-body field-type-text-with-summary field-label-hidden&quot;&gt;&lt;div class=&quot;field-items&quot;&gt;&lt;div class=&quot;field-item even&quot;&gt;&lt;p&gt;The sigrok project provides a software set that enables various aquisition device types, such as logic analyzers, MSOs, oscilloscopes, multimeters, LCR meters, sound level meters, thermometers, hygrometers, anemometers, light meters, Energy meters, DAQs, dataloggers, function generators, RF receivers, spectrum analyzers, power supplies and GPIB interfaces. The sigrok adapter uses an external sigrok installation (sigrok-cli) to read the signal data of a connected device.&lt;/p&gt;
-&lt;p&gt;&lt;a href=&quot;http://toem.de/index.php/projects/impulse&quot; rel=&quot;nofollow&quot;&gt;impulse&lt;/a&gt; is a powerful waveform viewer and analyser tool, helping engineers to comfortably understand and debug complex semiconductor and multi-core software systems.&lt;/p&gt;
-&lt;p&gt;Native adapters for scopes are in preparation.&lt;/p&gt;
-&lt;p&gt;This feature is licensed under the EPL. It is build on impulse that is deployed under a different license.&lt;/p&gt;&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;&lt;!-- google_ad_section_end --&gt;</description>
-     <pubDate>Sat, 18 Apr 2015 12:45:43 +0000</pubDate>
- <dc:creator>thaberm7n</dc:creator>
- <guid isPermaLink="false">2297683 at http://marketplace.eclipse.org</guid>
- <comments>http://marketplace.eclipse.org/content/impulse-scope-extension#comments</comments>
-  </item>
-  <item>
-    <title>impulse LOG Extension</title>
-    <link>http://marketplace.eclipse.org/content/impulse-log-extension</link>
-    <description>&lt;div class=&quot;field field-name-field-resource-image field-type-image field-label-hidden&quot;&gt;&lt;div class=&quot;field-items&quot;&gt;&lt;div class=&quot;field-item even&quot;&gt;&lt;img class=&quot;img-responsive&quot; src=&quot;http://marketplace.eclipse.org/sites/default/files/impulse110_80.png&quot; width=&quot;110&quot; height=&quot;80&quot; alt=&quot;&quot; /&gt;&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;&lt;div class=&quot;field field-name-shared-date-created field-type-text field-label-inline clearfix&quot;&gt;&lt;div class=&quot;field-label&quot;&gt;Date Created:&amp;nbsp;&lt;/div&gt;&lt;div class=&quot;field-items&quot;&gt;&lt;div class=&quot;field-item even&quot;&gt;Thu, 2014-03-13 08:15&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;&lt;div class=&quot;field field-name-shared-date-updated field-type-text field-label-inline clearfix&quot;&gt;&lt;div class=&quot;field-label&quot;&gt;Date Updated:&amp;nbsp;&lt;/div&gt;&lt;div class=&quot;field-items&quot;&gt;&lt;div class=&quot;field-item even&quot;&gt;Wed, 2017-11-01 06:03&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;&lt;a href=&quot;/search/content/%22toem%20GmbH%22&quot;&gt;toem GmbH&lt;/a&gt;&lt;div class=&quot;field field-name-shared-submitted-by field-type-text field-label-inline clearfix&quot;&gt;&lt;div class=&quot;field-label&quot;&gt;Submitted by:&amp;nbsp;&lt;/div&gt;&lt;div class=&quot;field-items&quot;&gt;&lt;div class=&quot;field-item even&quot;&gt;&lt;a href=&quot;/user/thaberm7n/listings&quot; title=&quot;Thomas Haber&quot;&gt;Thomas Haber&lt;/a&gt;&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;&lt;!-- google_ad_section_start --&gt;&lt;div class=&quot;field field-name-body field-type-text-with-summary field-label-hidden&quot;&gt;&lt;div class=&quot;field-items&quot;&gt;&lt;div class=&quot;field-item even&quot;&gt;&lt;p&gt;&lt;a href=&quot;http://toem.de/index.php/projects/impulse-log&quot; rel=&quot;nofollow&quot;&gt;This extension&lt;/a&gt; combines a set of readers for logging formats. You find readers for the standardised Log4j xml 1.2 format, a pattern reader were users can define their own pattern definitions using regular expressions, a configurable CSV reader (Excel,..), and a binary log format reader from the ukos project.&lt;/p&gt;
-&lt;p&gt;You may read and analyse single log files or combine them with other trace outputs of the device under test.&lt;/p&gt;
-&lt;p&gt;&lt;a href=&quot;http://toem.de/index.php/projects/impulse&quot; rel=&quot;nofollow&quot;&gt;impulse&lt;/a&gt; is a powerful waveform viewer and analyser tool, helping engineers to comfortably understand and debug complex semiconductor and multi-core software systems.&lt;/p&gt;
-&lt;p&gt;Find further informations in these &lt;a href=&quot;http://toem.de/index.php/projects/impulse/articles/about-logging&quot; rel=&quot;nofollow&quot;&gt;articles about logging and tracing with impulse.&lt;/a&gt;&lt;/p&gt;&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;&lt;!-- google_ad_section_end --&gt;</description>
-     <pubDate>Thu, 13 Mar 2014 12:15:01 +0000</pubDate>
- <dc:creator>thaberm7n</dc:creator>
- <guid isPermaLink="false">1550059 at http://marketplace.eclipse.org</guid>
- <comments>http://marketplace.eclipse.org/content/impulse-log-extension#comments</comments>
-  </item>
-  <item>
-    <title>Codealike</title>
-    <link>http://marketplace.eclipse.org/content/codealike</link>
-    <description>&lt;div class=&quot;field field-name-field-resource-image field-type-image field-label-hidden&quot;&gt;&lt;div class=&quot;field-items&quot;&gt;&lt;div class=&quot;field-item even&quot;&gt;&lt;img class=&quot;img-responsive&quot; src=&quot;http://marketplace.eclipse.org/sites/default/files/ca-loading.gif&quot; width=&quot;103&quot; height=&quot;51&quot; alt=&quot;&quot; /&gt;&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;&lt;div class=&quot;field field-name-shared-date-created field-type-text field-label-inline clearfix&quot;&gt;&lt;div class=&quot;field-label&quot;&gt;Date Created:&amp;nbsp;&lt;/div&gt;&lt;div class=&quot;field-items&quot;&gt;&lt;div class=&quot;field-item even&quot;&gt;Thu, 2014-03-20 13:38&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;&lt;div class=&quot;field field-name-shared-date-updated field-type-text field-label-inline clearfix&quot;&gt;&lt;div class=&quot;field-label&quot;&gt;Date Updated:&amp;nbsp;&lt;/div&gt;&lt;div class=&quot;field-items&quot;&gt;&lt;div class=&quot;field-item even&quot;&gt;Tue, 2017-10-31 17:00&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;&lt;a href=&quot;/search/content/%22Codealike%22&quot;&gt;Codealike&lt;/a&gt;&lt;div class=&quot;field field-name-shared-submitted-by field-type-text field-label-inline clearfix&quot;&gt;&lt;div class=&quot;field-label&quot;&gt;Submitted by:&amp;nbsp;&lt;/div&gt;&lt;div class=&quot;field-items&quot;&gt;&lt;div class=&quot;field-item even&quot;&gt;&lt;a href=&quot;/user/jfera/listings&quot; title=&quot;Codealike Codealike&quot;&gt;Codealike Codealike&lt;/a&gt;&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;&lt;!-- google_ad_section_start --&gt;&lt;div class=&quot;field field-name-body field-type-text-with-summary field-label-hidden&quot;&gt;&lt;div class=&quot;field-items&quot;&gt;&lt;div class=&quot;field-item even&quot;&gt;&lt;p&gt; &lt;/p&gt;
+    <title>PyDev - Python IDE for Eclipse</title>
+    <link>http://marketplace.eclipse.org/content/pydev-python-ide-eclipse</link>
+    <description>&lt;div class=&quot;field field-name-field-resource-image field-type-image field-label-hidden&quot;&gt;&lt;div class=&quot;field-items&quot;&gt;&lt;div class=&quot;field-item even&quot;&gt;&lt;img class=&quot;img-responsive&quot; src=&quot;http://marketplace.eclipse.org/sites/default/files/pydev_banner_110_80.png&quot; width=&quot;110&quot; height=&quot;80&quot; alt=&quot;&quot; /&gt;&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;&lt;div class=&quot;field field-name-shared-date-created field-type-text field-label-inline clearfix&quot;&gt;&lt;div class=&quot;field-label&quot;&gt;Date Created:&amp;nbsp;&lt;/div&gt;&lt;div class=&quot;field-items&quot;&gt;&lt;div class=&quot;field-item even&quot;&gt;Wed, 2004-07-07 08:06&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;&lt;div class=&quot;field field-name-shared-date-updated field-type-text field-label-inline clearfix&quot;&gt;&lt;div class=&quot;field-label&quot;&gt;Date Updated:&amp;nbsp;&lt;/div&gt;&lt;div class=&quot;field-items&quot;&gt;&lt;div class=&quot;field-item even&quot;&gt;Tue, 2017-11-07 05:56&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;&lt;a href=&quot;/search/content/%22Brainwy%20Software%22&quot;&gt;Brainwy Software&lt;/a&gt;&lt;div class=&quot;field field-name-shared-submitted-by field-type-text field-label-inline clearfix&quot;&gt;&lt;div class=&quot;field-label&quot;&gt;Submitted by:&amp;nbsp;&lt;/div&gt;&lt;div class=&quot;field-items&quot;&gt;&lt;div class=&quot;field-item even&quot;&gt;&lt;a href=&quot;/user/fzadroznyr0g/listings&quot; title=&quot;Fabio Zadrozny&quot;&gt;Fabio Zadrozny&lt;/a&gt;&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;&lt;!-- google_ad_section_start --&gt;&lt;div class=&quot;field field-name-body field-type-text-with-summary field-label-hidden&quot;&gt;&lt;div class=&quot;field-items&quot;&gt;&lt;div class=&quot;field-item even&quot;&gt;&lt;p&gt;PyDev is a plugin that enables Eclipse to be used as a Python IDE (supporting also Jython and IronPython). It uses advanced type inference techniques which allow it to provide things such as code completion and code analysis, besides providing a debugger, interactive console, refactoring, tokens browser, django integration, etc.&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Homepage:&lt;/strong&gt;&lt;br /&gt;
+	    &lt;a href=&quot;http://www.pydev.org&quot; rel=&quot;nofollow&quot;&gt;pydev.org&lt;/a&gt;&lt;/p&gt;
 &lt;p&gt;&lt;/p&gt;
-&lt;p&gt;&lt;a href=&quot;http://www.codealike.com&quot; target=&quot;_blank&quot; rel=&quot;nofollow&quot;&gt;&lt;/a&gt;&lt;/p&gt;
-
-						TRACK YOUR CODING.
-
-						REAL-TIME.&lt;br /&gt;
-						AUTOMATIC.
-&lt;p&gt;Codealike remembers everything you do on the code, so you don&#039;t have to.&lt;/p&gt;
-&lt;p&gt;It integrates to your IDE and browser while automatically tracks and analyzes your activity.&lt;/p&gt;
-&lt;p&gt; &lt;br /&gt;&lt;strong&gt;You and your team get the benefits.&lt;/strong&gt;&lt;/p&gt;
-&lt;p&gt; &lt;/p&gt;
-
-
-
-
-&lt;h2 class=&quot;black&quot;&gt;
-						Here are some of&lt;br /&gt;
-						+15 (jaw-dropping) features.&lt;/h2&gt;
-&lt;p&gt; &lt;/p&gt;
-
-
-
-
-&lt;h4&gt;
-						Focus &amp;amp; Interruptions&lt;/h4&gt;
-&lt;p class=&quot;text-left x_x_x_x_x_x_x_v-margin-10&quot;&gt;Do you want to understand how your concentration grows and how interruptions affect it? This is the feature for you. Codealike shows you your &quot;Focus Curve&quot; but it also shows you how many interruptions you had during different periods of time. This is handy to show clearly how much effort it takes to recover from undesired interruptions.&lt;/p&gt;
-&lt;h4&gt;
-						&lt;a href=&quot;http://www.codealike.com&quot; target=&quot;_blank&quot; rel=&quot;nofollow&quot;&gt;&lt;/a&gt;&lt;/h4&gt;
-
-
-
-
-&lt;h4&gt;
-						Timeline&lt;/h4&gt;
-&lt;p class=&quot;text-left x_x_x_x_x_x_x_v-margin-10&quot;&gt;This feature shows you the ADN of your work. It rebuilds your day by showing you the precise sequence of activity that you did so you can drilldown and explore every segment of time to understand what you did.&lt;/p&gt;
-&lt;p class=&quot;text-left x_x_x_x_x_x_x_v-margin-10&quot;&gt;&lt;a href=&quot;http://www.codealike.com&quot; target=&quot;_blank&quot; rel=&quot;nofollow&quot;&gt;&lt;/a&gt;&lt;/p&gt;
-
-
-
-
-&lt;h4&gt;
-						Code Tree&lt;/h4&gt;
-&lt;p class=&quot;text-left x_x_x_x_x_x_x_v-margin-10&quot;&gt;Shows you the amount of time you spend Editing, Reading, Debugging and Building on different code solutions and projects. But why should we stop there? You&#039;ll be able to drilldown all the way through Namespaces, Files, Classes, Methods and Members. Use this report to see code&#039;s contributors and technical debt.&lt;/p&gt;
-
-
-
-
-&lt;p&gt;&lt;a href=&quot;http://www.codealike.com&quot; target=&quot;_blank&quot; rel=&quot;nofollow&quot;&gt;&lt;/a&gt;&lt;/p&gt;
-&lt;p&gt;&lt;a href=&quot;http://www.codealike.com&quot; target=&quot;_blank&quot; rel=&quot;nofollow&quot;&gt;&lt;/a&gt;&lt;/p&gt;
-
-
-
-
-&lt;h4&gt;
-						Code report&lt;/h4&gt;
-&lt;p class=&quot;text-left x_x_x_x_x_x_x_v-margin-10&quot;&gt;It helps you understand how much time you spend using different technologies. Have you ever wondered what are the 5 files that your attention the most? Well, wonder no more...&lt;/p&gt;
-&lt;p&gt;					&lt;a href=&quot;http://www.codealike.com&quot; target=&quot;_blank&quot; rel=&quot;nofollow&quot;&gt;&lt;/a&gt;
-
-
-
-&lt;/p&gt;&lt;p class=&quot;lead margin-40&quot;&gt;&lt;em class=&quot;white&quot;&gt;Powerful Metrics for High Performance Software Developers.&lt;/em&gt;&lt;/p&gt;
-&lt;p&gt;					&lt;a class=&quot;btn-main x_x_x_x_x_x_x_track-link&quot; href=&quot;https://codealike.com/Account/Register&quot; type=&quot;button&quot; rel=&quot;nofollow&quot;&gt;SIGN UP TO BEGIN&lt;/a&gt;
-
-
-
-					&lt;a href=&quot;http://www.codealike.com&quot; target=&quot;_blank&quot; rel=&quot;nofollow&quot;&gt;www.codealike.com&lt;/a&gt;
-
-
-
-
-&lt;/p&gt;&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;&lt;!-- google_ad_section_end --&gt;</description>
-     <pubDate>Thu, 20 Mar 2014 17:38:29 +0000</pubDate>
- <dc:creator>jfera</dc:creator>
- <guid isPermaLink="false">1567141 at http://marketplace.eclipse.org</guid>
- <comments>http://marketplace.eclipse.org/content/codealike#comments</comments>
+&lt;p&gt;&lt;strong&gt;Getting Started:&lt;/strong&gt;&lt;br /&gt;
+	    &lt;a href=&quot;http://www.pydev.org/manual_101_root.html&quot; rel=&quot;nofollow&quot;&gt;Getting Started (read to make sure you can get most out of PyDev)&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Feature Matrix:&lt;/strong&gt;&lt;br /&gt;
+	    &lt;a href=&quot;http://www.pydev.org/manual_adv_features.html&quot; rel=&quot;nofollow&quot;&gt;pydev.org/manual_adv_features.html&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;General questions:&lt;/strong&gt;&lt;br /&gt;
+	    &lt;a href=&quot;http://stackoverflow.com/questions/tagged/pydev&quot; rel=&quot;nofollow&quot;&gt;StackOverflow (with the PyDev tag)&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Report issues/features: &lt;/strong&gt;&lt;br /&gt;
+	    &lt;a href=&quot;https://sw-brainwy.rhcloud.com&quot; rel=&quot;nofollow&quot;&gt;Brainwy Tracker&lt;/a&gt;&lt;br /&gt;
+	 &lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Code questions:&lt;/strong&gt;&lt;br /&gt;
+	    &lt;a href=&quot;http://lists.sourceforge.net/lists/listinfo/pydev-code&quot; rel=&quot;nofollow&quot;&gt;pydev-code list&lt;/a&gt;&lt;br /&gt;
+	 &lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Source Code:&lt;/strong&gt;&lt;br /&gt;
+	    &lt;a href=&quot;https://github.com/fabioz/Pydev&quot; rel=&quot;nofollow&quot;&gt;github.com/fabioz/Pydev&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Blog:&lt;/strong&gt;&lt;br /&gt;
+	    &lt;a href=&quot;http://pydev.blogspot.com&quot; rel=&quot;nofollow&quot;&gt;pydev.blogspot.com&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;&lt;/p&gt;
+&lt;p&gt;Below are some of its highlighted features.&lt;/p&gt;
+&lt;ul&gt;&lt;li&gt;
+		&lt;strong&gt;Python&lt;/strong&gt;, &lt;strong&gt;Jython&lt;/strong&gt; and &lt;strong&gt;IronPython&lt;/strong&gt; support&lt;/li&gt;
+&lt;li&gt;
+		&lt;strong&gt;Django integration&lt;/strong&gt;&lt;/li&gt;
+&lt;li&gt;
+		&lt;strong&gt;Django templates editor&lt;/strong&gt; (requires LiClipse)&lt;/li&gt;
+&lt;li&gt;
+		&lt;strong&gt;Code completion&lt;/strong&gt;&lt;/li&gt;
+&lt;li&gt;
+		&lt;strong&gt;Debugger&lt;/strong&gt;&lt;/li&gt;
+&lt;li&gt;
+		&lt;strong&gt;Unittest integration&lt;/strong&gt;&lt;/li&gt;
+&lt;li&gt;
+		&lt;strong&gt;Interactive Console&lt;/strong&gt;&lt;/li&gt;
+&lt;li&gt;
+		&lt;strong&gt;Code analysis&lt;/strong&gt;&lt;/li&gt;
+&lt;li&gt;
+		Go to definition (F3)&lt;/li&gt;
+&lt;li&gt;
+		Find References (Ctrl+Shift+G)&lt;/li&gt;
+&lt;li&gt;
+		Refactoring&lt;/li&gt;
+&lt;li&gt;
+		Google App Engine integration&lt;/li&gt;
+&lt;li&gt;
+		Syntax highlighting&lt;/li&gt;
+&lt;li&gt;
+		Parser errors&lt;/li&gt;
+&lt;li&gt;
+		Outline view&lt;/li&gt;
+&lt;li&gt;
+		Tabs or spaces preferences&lt;/li&gt;
+&lt;li&gt;
+		Smart indent / dedent&lt;/li&gt;
+&lt;li&gt;
+		Comment / uncomment / comment blocks&lt;/li&gt;
+&lt;li&gt;
+		Code folding&lt;/li&gt;
+&lt;li&gt;
+		TODO tasks&lt;/li&gt;
+&lt;li&gt;
+		Content Assistants (Ctrl+1)&lt;/li&gt;
+&lt;li&gt;
+		Scripting with Jython&lt;/li&gt;
+&lt;li&gt;
+		Mark Occurrences&lt;/li&gt;
+&lt;/ul&gt;&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;&lt;!-- google_ad_section_end --&gt;</description>
+     <pubDate>Wed, 07 Jul 2004 12:06:36 +0000</pubDate>
+ <dc:creator>fzadroznyr0g</dc:creator>
+ <guid isPermaLink="false">114 at http://marketplace.eclipse.org</guid>
+ <comments>http://marketplace.eclipse.org/content/pydev-python-ide-eclipse#comments</comments>
   </item>
   <item>
-    <title>Oracle ADF Tools</title>
-    <link>http://marketplace.eclipse.org/content/oracle-adf-tools</link>
-    <description>&lt;div class=&quot;field field-name-field-resource-image field-type-image field-label-hidden&quot;&gt;&lt;div class=&quot;field-items&quot;&gt;&lt;div class=&quot;field-item even&quot;&gt;&lt;img class=&quot;img-responsive&quot; src=&quot;http://marketplace.eclipse.org/sites/default/files/OracleMarketplaceLogo_22.png&quot; width=&quot;110&quot; height=&quot;80&quot; alt=&quot;&quot; /&gt;&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;&lt;div class=&quot;field field-name-shared-date-created field-type-text field-label-inline clearfix&quot;&gt;&lt;div class=&quot;field-label&quot;&gt;Date Created:&amp;nbsp;&lt;/div&gt;&lt;div class=&quot;field-items&quot;&gt;&lt;div class=&quot;field-item even&quot;&gt;Mon, 2014-06-30 14:09&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;&lt;div class=&quot;field field-name-shared-date-updated field-type-text field-label-inline clearfix&quot;&gt;&lt;div class=&quot;field-label&quot;&gt;Date Updated:&amp;nbsp;&lt;/div&gt;&lt;div class=&quot;field-items&quot;&gt;&lt;div class=&quot;field-item even&quot;&gt;Tue, 2017-10-31 16:03&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;&lt;a href=&quot;/search/content/%22Oracle%22&quot;&gt;Oracle&lt;/a&gt;&lt;div class=&quot;field field-name-shared-submitted-by field-type-text field-label-inline clearfix&quot;&gt;&lt;div class=&quot;field-label&quot;&gt;Submitted by:&amp;nbsp;&lt;/div&gt;&lt;div class=&quot;field-items&quot;&gt;&lt;div class=&quot;field-item even&quot;&gt;&lt;a href=&quot;/user/kkomissarchik/listings&quot; title=&quot;Konstantin Komissarchik&quot;&gt;Konstantin Komissarchik&lt;/a&gt;&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;&lt;!-- google_ad_section_start --&gt;&lt;div class=&quot;field field-name-body field-type-text-with-summary field-label-hidden&quot;&gt;&lt;div class=&quot;field-items&quot;&gt;&lt;div class=&quot;field-item even&quot;&gt;&lt;p&gt;Tools for developing applications with Oracle Application Development Framework (ADF).&lt;/p&gt;
-&lt;p&gt;These features are also part of &lt;a href=&quot;http://www.oracle.com/technetwork/developer-tools/eclipse/overview/index.html&quot; rel=&quot;nofollow&quot;&gt;Oracle Enterprise Pack for Eclipse (OEPE)&lt;/a&gt;.&lt;/p&gt;&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;&lt;!-- google_ad_section_end --&gt;</description>
-     <pubDate>Mon, 30 Jun 2014 18:09:00 +0000</pubDate>
- <dc:creator>kkomissarchik</dc:creator>
- <guid isPermaLink="false">1775056 at http://marketplace.eclipse.org</guid>
- <comments>http://marketplace.eclipse.org/content/oracle-adf-tools#comments</comments>
+    <title>SonarLint</title>
+    <link>http://marketplace.eclipse.org/content/sonarlint</link>
+    <description>&lt;div class=&quot;field field-name-field-resource-image field-type-image field-label-hidden&quot;&gt;&lt;div class=&quot;field-items&quot;&gt;&lt;div class=&quot;field-item even&quot;&gt;&lt;img class=&quot;img-responsive&quot; src=&quot;http://marketplace.eclipse.org/sites/default/files/sonarlint-110x80_0.png&quot; width=&quot;110&quot; height=&quot;80&quot; alt=&quot;&quot; /&gt;&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;&lt;div class=&quot;field field-name-shared-date-created field-type-text field-label-inline clearfix&quot;&gt;&lt;div class=&quot;field-label&quot;&gt;Date Created:&amp;nbsp;&lt;/div&gt;&lt;div class=&quot;field-items&quot;&gt;&lt;div class=&quot;field-item even&quot;&gt;Thu, 2015-10-15 14:54&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;&lt;div class=&quot;field field-name-shared-date-updated field-type-text field-label-inline clearfix&quot;&gt;&lt;div class=&quot;field-label&quot;&gt;Date Updated:&amp;nbsp;&lt;/div&gt;&lt;div class=&quot;field-items&quot;&gt;&lt;div class=&quot;field-item even&quot;&gt;Tue, 2017-11-07 03:27&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;&lt;a href=&quot;/search/content/%22SonarSource%20S.A%22&quot;&gt;SonarSource S.A&lt;/a&gt;&lt;div class=&quot;field field-name-shared-submitted-by field-type-text field-label-inline clearfix&quot;&gt;&lt;div class=&quot;field-label&quot;&gt;Submitted by:&amp;nbsp;&lt;/div&gt;&lt;div class=&quot;field-items&quot;&gt;&lt;div class=&quot;field-item even&quot;&gt;&lt;a href=&quot;/user/jhenrym6y/listings&quot; title=&quot;Julien HENRY&quot;&gt;Julien HENRY&lt;/a&gt;&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;&lt;!-- google_ad_section_start --&gt;&lt;div class=&quot;field field-name-body field-type-text-with-summary field-label-hidden&quot;&gt;&lt;div class=&quot;field-items&quot;&gt;&lt;div class=&quot;field-item even&quot;&gt;&lt;p&gt;SonarLint is an Eclipse plugin that provides on-the-fly feedback to developers on new bugs and quality issues injected into Java, JavaScript, Python and PHP code. If your project is analysed on SonarQube (formerly known as &quot;Sonar&quot;), SonarLint can connect to the server to retrieve the appropriate quality profiles and settings for that project. Documentation: &lt;a href=&quot;http://eclipse.sonarlint.org/&quot; rel=&quot;nofollow&quot;&gt;http://eclipse.sonarlint.org/&lt;/a&gt; For any question or feedback please join the &lt;a href=&quot;https://groups.google.com/forum/#!forum/sonarlint&quot; rel=&quot;nofollow&quot;&gt;SonarLint User group&lt;/a&gt; Running Eclipse Kepler SR1+ with a JDK 8+ is required since version 2.2.0.&lt;/p&gt;&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;&lt;!-- google_ad_section_end --&gt;</description>
+     <pubDate>Thu, 15 Oct 2015 18:54:47 +0000</pubDate>
+ <dc:creator>jhenrym6y</dc:creator>
+ <guid isPermaLink="false">2568658 at http://marketplace.eclipse.org</guid>
+ <comments>http://marketplace.eclipse.org/content/sonarlint#comments</comments>
   </item>
   <item>
-    <title>DBeaver</title>
-    <link>http://marketplace.eclipse.org/content/dbeaver</link>
-    <description>&lt;div class=&quot;field field-name-field-resource-image field-type-image field-label-hidden&quot;&gt;&lt;div class=&quot;field-items&quot;&gt;&lt;div class=&quot;field-item even&quot;&gt;&lt;img class=&quot;img-responsive&quot; src=&quot;http://marketplace.eclipse.org/sites/default/files/dbeaver_head_new.png&quot; width=&quot;73&quot; height=&quot;80&quot; alt=&quot;&quot; /&gt;&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;&lt;div class=&quot;field field-name-shared-date-created field-type-text field-label-inline clearfix&quot;&gt;&lt;div class=&quot;field-label&quot;&gt;Date Created:&amp;nbsp;&lt;/div&gt;&lt;div class=&quot;field-items&quot;&gt;&lt;div class=&quot;field-item even&quot;&gt;Sun, 2012-11-04 11:30&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;&lt;div class=&quot;field field-name-shared-date-updated field-type-text field-label-inline clearfix&quot;&gt;&lt;div class=&quot;field-label&quot;&gt;Date Updated:&amp;nbsp;&lt;/div&gt;&lt;div class=&quot;field-items&quot;&gt;&lt;div class=&quot;field-item even&quot;&gt;Tue, 2017-10-31 14:53&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;&lt;a href=&quot;/search/content/%22Jkiss%22&quot;&gt;Jkiss&lt;/a&gt;&lt;div class=&quot;field field-name-shared-submitted-by field-type-text field-label-inline clearfix&quot;&gt;&lt;div class=&quot;field-label&quot;&gt;Submitted by:&amp;nbsp;&lt;/div&gt;&lt;div class=&quot;field-items&quot;&gt;&lt;div class=&quot;field-item even&quot;&gt;&lt;a href=&quot;/user/sriderdp1/listings&quot; title=&quot;Serge Rider&quot;&gt;Serge Rider&lt;/a&gt;&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;&lt;!-- google_ad_section_start --&gt;&lt;div class=&quot;field field-name-body field-type-text-with-summary field-label-hidden&quot;&gt;&lt;div class=&quot;field-items&quot;&gt;&lt;div class=&quot;field-item even&quot;&gt;&lt;p&gt;DBeaver is free universal SQL client/database tool for developers and database administrators. It can work with any database server which has JDBC driver. It supports pluggable extensions. Version 3.x has special extensions for: MySQL, Oracle, DB2, PostgreSQL, SQL Server, Sybase, Exasol, Informix, Teradata, Vertica, Netezza, Phoenix, Firebird, Derby, H2, WMI, Cassandra, MongoDB, Redis. Features: Database metadata browser, metadata editor (tables, columns, keys, indexes), SQL statements/scripts execution, SQL highlighting, autocompletion, hyperlinks in SQL editor, Result set/table view/edit/search, BLOB/CLOB view/edit support, scrollable resultsets, data (tables, query results) export and import, transactions management, database search, ER diagrams, automatic drivers download, etc. Standalone version download available on &lt;a href=&quot;http://dbeaver.jkiss.org/download/&quot; rel=&quot;nofollow&quot;&gt;http://dbeaver.jkiss.org/download/&lt;/a&gt; Source code: &lt;a href=&quot;https://github.com/serge-rider/dbeaver&quot; rel=&quot;nofollow&quot;&gt;https://github.com/serge-rider/dbeaver&lt;/a&gt;&lt;/p&gt;&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;&lt;!-- google_ad_section_end --&gt;</description>
-     <pubDate>Sun, 04 Nov 2012 16:30:36 +0000</pubDate>
- <dc:creator>sriderdp1</dc:creator>
- <guid isPermaLink="false">507775 at http://marketplace.eclipse.org</guid>
- <comments>http://marketplace.eclipse.org/content/dbeaver#comments</comments>
+    <title>iSphere for RDi 9.5+</title>
+    <link>http://marketplace.eclipse.org/content/isphere-rdi-95</link>
+    <description>&lt;div class=&quot;field field-name-field-resource-image field-type-image field-label-hidden&quot;&gt;&lt;div class=&quot;field-items&quot;&gt;&lt;div class=&quot;field-item even&quot;&gt;&lt;img class=&quot;img-responsive&quot; src=&quot;http://marketplace.eclipse.org/sites/default/files/isphere_marketplace.jpg&quot; width=&quot;110&quot; height=&quot;80&quot; alt=&quot;&quot; /&gt;&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;&lt;div class=&quot;field field-name-shared-date-created field-type-text field-label-inline clearfix&quot;&gt;&lt;div class=&quot;field-label&quot;&gt;Date Created:&amp;nbsp;&lt;/div&gt;&lt;div class=&quot;field-items&quot;&gt;&lt;div class=&quot;field-item even&quot;&gt;Tue, 2017-01-10 16:11&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;&lt;div class=&quot;field field-name-shared-date-updated field-type-text field-label-inline clearfix&quot;&gt;&lt;div class=&quot;field-label&quot;&gt;Date Updated:&amp;nbsp;&lt;/div&gt;&lt;div class=&quot;field-items&quot;&gt;&lt;div class=&quot;field-item even&quot;&gt;Mon, 2017-11-06 12:31&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;&lt;a href=&quot;/search/content/%22iSphere%20Project%20Team%22&quot;&gt;iSphere Project Team&lt;/a&gt;&lt;div class=&quot;field field-name-shared-submitted-by field-type-text field-label-inline clearfix&quot;&gt;&lt;div class=&quot;field-label&quot;&gt;Submitted by:&amp;nbsp;&lt;/div&gt;&lt;div class=&quot;field-items&quot;&gt;&lt;div class=&quot;field-item even&quot;&gt;&lt;a href=&quot;/user/traddatz/listings&quot; title=&quot;Thomas Raddatz&quot;&gt;Thomas Raddatz&lt;/a&gt;&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;&lt;!-- google_ad_section_start --&gt;&lt;div class=&quot;field field-name-body field-type-text-with-summary field-label-hidden&quot;&gt;&lt;div class=&quot;field-items&quot;&gt;&lt;div class=&quot;field-item even&quot;&gt;&lt;p&gt;iSphere is an open source plug-in for WDSCi 7.0 and RDi 8.0+. It delivers high quality extensions for WDSC, RDP and RDi to further improve developer productivity.&lt;/p&gt;
+&lt;p&gt;IBM&#039;s current Eclipse based Integrated Development Environment (IDE) is a huge step beyond SEU, but it still lacks features available only on the green screen. That is where the iSphere Project comes into play, filling in those gaps.&lt;/p&gt;
+&lt;p&gt;Feature list:&lt;/p&gt;
+&lt;ul&gt;&lt;li&gt;
+		Binding Directory Editor&lt;/li&gt;
+&lt;li&gt;
+		Data Area Editor&lt;/li&gt;
+&lt;li&gt;
+		User Space Editor&lt;/li&gt;
+&lt;li&gt;
+		Data Queue Viewer&lt;/li&gt;
+&lt;li&gt;
+		Message File Editor&lt;/li&gt;
+&lt;li&gt;
+		Message File Compare Editor&lt;/li&gt;
+&lt;li&gt;
+		Message File Search&lt;/li&gt;
+&lt;li&gt;
+		Source File Search&lt;/li&gt;
+&lt;li&gt;
+		Source Compare/Merge Editor&lt;/li&gt;
+&lt;li&gt;
+		Spooled Files Subsystem&lt;/li&gt;
+&lt;li&gt;
+		Lpex Task Tags&lt;/li&gt;
+&lt;li&gt;
+		Host Object Decorator&lt;/li&gt;
+&lt;li&gt;
+		RSE Filter Manager&lt;/li&gt;
+&lt;li&gt;
+		Message Subsystem and Monitor&lt;/li&gt;
+&lt;li&gt;
+		Job Log Explorer&lt;/li&gt;
+&lt;li&gt;
+		Journal Explorer&lt;/li&gt;
+&lt;/ul&gt;&lt;p&gt;iSphere is an Open Source project that is hosted on &lt;a href=&quot;https://sourceforge.net/projects/isphere/&quot; rel=&quot;nofollow&quot;&gt;Source Forge&lt;/a&gt;.&lt;/p&gt;&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;&lt;!-- google_ad_section_end --&gt;</description>
+     <pubDate>Tue, 10 Jan 2017 21:11:59 +0000</pubDate>
+ <dc:creator>traddatz</dc:creator>
+ <guid isPermaLink="false">3248963 at http://marketplace.eclipse.org</guid>
+ <comments>http://marketplace.eclipse.org/content/isphere-rdi-95#comments</comments>
+  </item>
+  <item>
+    <title>Darkest Dark Theme</title>
+    <link>http://marketplace.eclipse.org/content/darkest-dark-theme</link>
+    <description>&lt;div class=&quot;field field-name-field-resource-image field-type-image field-label-hidden&quot;&gt;&lt;div class=&quot;field-items&quot;&gt;&lt;div class=&quot;field-item even&quot;&gt;&lt;img class=&quot;img-responsive&quot; src=&quot;http://marketplace.eclipse.org/sites/default/files/DARKESTdark-theme.png&quot; width=&quot;110&quot; height=&quot;80&quot; alt=&quot;&quot; /&gt;&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;&lt;div class=&quot;field field-name-shared-date-created field-type-text field-label-inline clearfix&quot;&gt;&lt;div class=&quot;field-label&quot;&gt;Date Created:&amp;nbsp;&lt;/div&gt;&lt;div class=&quot;field-items&quot;&gt;&lt;div class=&quot;field-item even&quot;&gt;Tue, 2017-01-31 12:51&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;&lt;div class=&quot;field field-name-shared-date-updated field-type-text field-label-inline clearfix&quot;&gt;&lt;div class=&quot;field-label&quot;&gt;Date Updated:&amp;nbsp;&lt;/div&gt;&lt;div class=&quot;field-items&quot;&gt;&lt;div class=&quot;field-item even&quot;&gt;Mon, 2017-11-06 11:11&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;&lt;a href=&quot;/search/content/%22Genuitec%2C%20LLC%22&quot;&gt;Genuitec, LLC&lt;/a&gt;&lt;div class=&quot;field field-name-shared-submitted-by field-type-text field-label-inline clearfix&quot;&gt;&lt;div class=&quot;field-label&quot;&gt;Submitted by:&amp;nbsp;&lt;/div&gt;&lt;div class=&quot;field-items&quot;&gt;&lt;div class=&quot;field-item even&quot;&gt;&lt;a href=&quot;/user/twebbcke/listings&quot; title=&quot;Tim Webb&quot;&gt;Tim Webb&lt;/a&gt;&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;&lt;!-- google_ad_section_start --&gt;&lt;div class=&quot;field field-name-body field-type-text-with-summary field-label-hidden&quot;&gt;&lt;div class=&quot;field-items&quot;&gt;&lt;div class=&quot;field-item even&quot;&gt;&lt;p&gt;&lt;a href=&quot;https://www.genuitec.com/tech/darkest-dark/&quot; rel=&quot;nofollow&quot;&gt;Darkest Dark theme&lt;/a&gt; is a free plug-in and theme that provides a clean flat look to Eclipse Neon and Oxygen.&lt;/p&gt;
+&lt;ul&gt;&lt;li&gt;
+		&lt;strong&gt;Included for all Eclipse users:&lt;/strong&gt;&lt;br /&gt;
+		#1 Eclipse dark theme&lt;br /&gt;
+		Flat replacement icons&lt;br /&gt;
+		A great experience over Windows, Mac and Linux&lt;br /&gt;
+		 &lt;/li&gt;
+&lt;li&gt;
+		&lt;strong&gt;With the optional &lt;a href=&quot;https://www.genuitec.com/products/devstyle/&quot; rel=&quot;nofollow&quot;&gt;DevStyle preview&lt;/a&gt;:&lt;/strong&gt;&lt;br /&gt;
+		An array of light and dark themes&lt;br /&gt;
+		Inline search for text editors&lt;br /&gt;
+		Breadcrumb navigation&lt;/li&gt;
+&lt;/ul&gt;&lt;p&gt;&lt;strong&gt;​&lt;/strong&gt;&lt;strong&gt;Entirely free to use!&lt;/strong&gt;&lt;/p&gt;&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;&lt;!-- google_ad_section_end --&gt;</description>
+     <pubDate>Tue, 31 Jan 2017 17:51:53 +0000</pubDate>
+ <dc:creator>twebbcke</dc:creator>
+ <guid isPermaLink="false">3274405 at http://marketplace.eclipse.org</guid>
+ <comments>http://marketplace.eclipse.org/content/darkest-dark-theme#comments</comments>
+  </item>
+  <item>
+    <title>Migrate Skeletal Implementation to Interface Refactoring</title>
+    <link>http://marketplace.eclipse.org/content/migrate-skeletal-implementation-interface-refactoring</link>
+    <description>&lt;div class=&quot;field field-name-field-resource-image field-type-image field-label-hidden&quot;&gt;&lt;div class=&quot;field-items&quot;&gt;&lt;div class=&quot;field-item even&quot;&gt;&lt;img class=&quot;img-responsive&quot; src=&quot;http://marketplace.eclipse.org/sites/default/files/29d8c84f56c2d9475dde1c913ee8ee3b-bpfull-e1483414807512.jpg&quot; width=&quot;80&quot; height=&quot;80&quot; alt=&quot;&quot; /&gt;&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;&lt;div class=&quot;field field-name-shared-date-created field-type-text field-label-inline clearfix&quot;&gt;&lt;div class=&quot;field-label&quot;&gt;Date Created:&amp;nbsp;&lt;/div&gt;&lt;div class=&quot;field-items&quot;&gt;&lt;div class=&quot;field-item even&quot;&gt;Sat, 2017-11-04 09:45&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;&lt;div class=&quot;field field-name-shared-date-updated field-type-text field-label-inline clearfix&quot;&gt;&lt;div class=&quot;field-label&quot;&gt;Date Updated:&amp;nbsp;&lt;/div&gt;&lt;div class=&quot;field-items&quot;&gt;&lt;div class=&quot;field-item even&quot;&gt;Mon, 2017-11-06 08:36&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;&lt;a href=&quot;/search/content/%22Hunter%20College%2C%20City%20University%20of%20New%20York%22&quot;&gt;Hunter College, City University of New York&lt;/a&gt;&lt;div class=&quot;field field-name-shared-submitted-by field-type-text field-label-inline clearfix&quot;&gt;&lt;div class=&quot;field-label&quot;&gt;Submitted by:&amp;nbsp;&lt;/div&gt;&lt;div class=&quot;field-items&quot;&gt;&lt;div class=&quot;field-item even&quot;&gt;&lt;a href=&quot;/user/rkhatchadourian/listings&quot; title=&quot;Raffi Khatchadourian&quot;&gt;Raffi Khatchadourian&lt;/a&gt;&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;&lt;!-- google_ad_section_start --&gt;&lt;div class=&quot;field field-name-body field-type-text-with-summary field-label-hidden&quot;&gt;&lt;div class=&quot;field-items&quot;&gt;&lt;div class=&quot;field-item even&quot;&gt;&lt;p&gt;The skeletal implementation pattern is a software design pattern consisting of defining an abstract class that provides a partial interface implementation. However, since Java allows only single class inheritance, if implementers decide to extend a skeletal implementation, they will not be allowed to extend any other class. Also, discovering the skeletal implementation may require a global analysis. Java 8 enhanced interfaces alleviate these problems by allowing interfaces to contain (default) method implementations, which implementers inherit. Java classes are then free to extend a different class, and a separate abstract class is no longer needed; developers considering implementing an interface need only examine the interface itself. Both of these benefits improve software modularity.&lt;/p&gt;
+&lt;p&gt;This prototype refactoring plug-in for Eclipse represents ongoing work in developing an automated refactoring tool that would assist developers in taking advantage of the enhanced interface feature for their legacy Java software.&lt;/p&gt;&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;&lt;!-- google_ad_section_end --&gt;</description>
+     <pubDate>Sat, 04 Nov 2017 13:45:51 +0000</pubDate>
+ <dc:creator>rkhatchadourian</dc:creator>
+ <guid isPermaLink="false">3746776 at http://marketplace.eclipse.org</guid>
+ <comments>http://marketplace.eclipse.org/content/migrate-skeletal-implementation-interface-refactoring#comments</comments>
   </item>
   </channel>
 </rss>

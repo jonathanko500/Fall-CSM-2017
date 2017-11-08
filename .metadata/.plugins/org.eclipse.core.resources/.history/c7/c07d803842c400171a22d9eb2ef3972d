@@ -1,0 +1,26 @@
+import java.util.Scanner;
+//jonathan ko
+//assignment 9 problem 1
+public class letter
+{//start class
+
+	public static void main(String[] args)
+	{//start main
+		//declare variable
+		String letter;
+		Scanner input = new Scanner (System.in);
+		System.out.print("Enter a SINGLE character to act as key: ");
+		letter=input.nextLine();
+		getKeyLetter(letter);
+	}//end main
+	public static String getKeyLetter (String letter)
+	{
+		Scanner input = new Scanner (System.in);
+		while(letter.length()!=1)
+		{
+			System.out.print("Only a SINGLE character, re-enter: ");
+			letter=input.nextLine();
+		}
+		return letter;
+	}
+}//end class
