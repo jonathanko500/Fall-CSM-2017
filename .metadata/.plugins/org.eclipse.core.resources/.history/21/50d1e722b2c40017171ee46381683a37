@@ -16,7 +16,7 @@ public class letter
 		phrase=input.nextLine();
 		phrase=getString(phrase);
 		System.out.println("");
-		phrase=maskLetter(letter,phrase);
+		maskLetter(letter,phrase);
 		System.out.println(phrase);
 	}//end main
 	public static String getKeyLetter (String letter)
@@ -41,16 +41,8 @@ public class letter
 	}//end method
 	public static String maskLetter(String letter,String phrase)
 	{//start method
-		phrase.toLowerCase();
-		letter.toLowerCase();
 		System.out.println("String with '"+letter+"' masked:");
-		for(int i=0;i<phrase.length();i++)
-		{//start loop
-			if(phrase.charAt(i)==letter.charAt(0))//compares if letter is the same
-			{
-				
-			}
-		}//end loop
+		
 		return phrase;
 	}//end method
 	

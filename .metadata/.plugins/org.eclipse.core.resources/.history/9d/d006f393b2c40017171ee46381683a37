@@ -41,14 +41,12 @@ public class letter
 	}//end method
 	public static String maskLetter(String letter,String phrase)
 	{//start method
-		phrase.toLowerCase();
-		letter.toLowerCase();
 		System.out.println("String with '"+letter+"' masked:");
 		for(int i=0;i<phrase.length();i++)
 		{//start loop
-			if(phrase.charAt(i)==letter.charAt(0))//compares if letter is the same
+			if(phrase.charAt(i)==letter.charAt(0))
 			{
-				
+				phrase.replace(phrase.charAt(i), '-');
 			}
 		}//end loop
 		return phrase;
