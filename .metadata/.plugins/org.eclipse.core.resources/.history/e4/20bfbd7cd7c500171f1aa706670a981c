@@ -138,18 +138,5 @@ Violi is fu
 Programmed by Jonathan Ko
 
 test 3
-Enter a SINGLE character to act as key: j
-
-Enter a phrase or sentence >= 4 characters: 
-jonathan is lzy
-
-String with 'j' masked:
--onathan is lzy
-
-Count of 'j': 1
-
-String with 'j' removed:
-onathan is lzy
-Programmed by Jonathan Ko
 
 */

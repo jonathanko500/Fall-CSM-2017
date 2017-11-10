@@ -103,7 +103,7 @@ public class letter
 	}//end method
 }// class
 /*
-test 1
+test
 Enter a SINGLE character to act as key: ic
 Only a SINGLE character, re-enter: 
 Only a SINGLE character, re-enter: c
@@ -121,35 +121,4 @@ Count of 'c': 4
 String with 'c' removed:
 I sream, you sream, we all SCREAM for ie ream!
 Programmed by Jonathan Ko
-
-test 2
-Enter a SINGLE character to act as key: n
-
-Enter a phrase or sentence >= 4 characters: 
-Violin is fun
-
-String with 'n' masked:
-Violi- is fu-
-
-Count of 'n': 2
-
-String with 'n' removed:
-Violi is fu
-Programmed by Jonathan Ko
-
-test 3
-Enter a SINGLE character to act as key: j
-
-Enter a phrase or sentence >= 4 characters: 
-jonathan is lzy
-
-String with 'j' masked:
--onathan is lzy
-
-Count of 'j': 1
-
-String with 'j' removed:
-onathan is lzy
-Programmed by Jonathan Ko
-
 */
