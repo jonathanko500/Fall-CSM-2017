@@ -8,11 +8,14 @@ public class letter
 		//declare variable
 		String letter,phrase;
 		int counter;
-		//figure out letter
+		Scanner input = new Scanner (System.in);
+		//System.out.print("Enter a SINGLE character to act as key: ");
+		//letter=input.nextLine();
 		letter=getKeyLetter();
 		System.out.println("");
-		//figure out phrase
-		phrase=getString();
+		System.out.println("Enter a phrase or sentence >= 4 characters: ");
+		phrase=input.nextLine();
+		phrase=getString(phrase);
 		System.out.println("");
 		//counts number of letter occurs
 		counter=countKey(letter,phrase);
@@ -23,17 +26,11 @@ public class letter
 		System.out.println("");
 		//prints number of letter occurs
 		System.out.println("Count of '"+letter+"': "+counter);
-		System.out.println("");
-		//prints phrase wo letter
-		phrase=removeKey(letter,phrase);
-		System.out.println(phrase);
-		System.out.println("Programmed by Jonathan Ko");
 	}//end main
 	public static String getKeyLetter ()
 	{//start main
 		//declare variables
 		String letter;
-		//read input
 		Scanner input = new Scanner (System.in);
 		System.out.print("Enter a SINGLE character to act as key: ");
 		letter=input.nextLine();
@@ -44,14 +41,9 @@ public class letter
 		}
 		return letter;
 	}//end main
-	public static String getString ()
+	public static String getString (String phrase)
 	{//start method
-		//declare variable
-		String phrase;
-		//read input
 		Scanner input = new Scanner (System.in);
-		System.out.println("Enter a phrase or sentence >= 4 characters: ");
-		phrase=input.nextLine();
 		while(phrase.length()<4)
 		{
 			System.out.println("Must be at least 4 characters, re-enter: ");
@@ -88,37 +80,5 @@ public class letter
 		}//end loop
 		return counter;
 	}//end method
-	public static String removeKey (String letter,String phrase)
-	{//start method
-		System.out.println("String with '"+letter+"' removed:");
-		String newPhrase="";
-		for(int i=0;i<phrase.length();i++)
-		{//start loop
-			if(phrase.charAt(i)!='-')//compares if letter is not the same
-			{
-				newPhrase+=phrase.charAt(i);
-			}
-		}//end loop
-		return newPhrase;
-	}//end method
+	
 }// class
-/*
-test
-Enter a SINGLE character to act as key: ic
-Only a SINGLE character, re-enter: 
-Only a SINGLE character, re-enter: c
-
-Enter a phrase or sentence >= 4 characters: 
-Ice
-Must be at least 4 characters, re-enter: 
-I scream, you scream, we all SCREAM for ice cream!
-
-String with 'c' masked:
-I s-ream, you s-ream, we all SCREAM for i-e -ream!
-
-Count of 'c': 4
-
-String with 'c' removed:
-I sream, you sream, we all SCREAM for ie ream!
-Programmed by Jonathan Ko
-*/

@@ -6,7 +6,7 @@ public class letter
 	public static void main(String[] args)
 	{//start main
 		//declare variable
-		String letter,phrase;
+		String letter,phrase,phrase2;
 		int counter;
 		//figure out letter
 		letter=getKeyLetter();
@@ -25,9 +25,8 @@ public class letter
 		System.out.println("Count of '"+letter+"': "+counter);
 		System.out.println("");
 		//prints phrase wo letter
-		phrase=removeKey(letter,phrase);
-		System.out.println(phrase);
-		System.out.println("Programmed by Jonathan Ko");
+		phrase2=removeKey(letter,phrase);
+		System.out.println(phrase2);
 	}//end main
 	public static String getKeyLetter ()
 	{//start main
@@ -94,7 +93,7 @@ public class letter
 		String newPhrase="";
 		for(int i=0;i<phrase.length();i++)
 		{//start loop
-			if(phrase.charAt(i)!='-')//compares if letter is not the same
+			if(phrase.charAt(i)!=letter.charAt(0))//compares if letter is not the same
 			{
 				newPhrase+=phrase.charAt(i);
 			}
@@ -102,23 +101,3 @@ public class letter
 		return newPhrase;
 	}//end method
 }// class
-/*
-test
-Enter a SINGLE character to act as key: ic
-Only a SINGLE character, re-enter: 
-Only a SINGLE character, re-enter: c
-
-Enter a phrase or sentence >= 4 characters: 
-Ice
-Must be at least 4 characters, re-enter: 
-I scream, you scream, we all SCREAM for ice cream!
-
-String with 'c' masked:
-I s-ream, you s-ream, we all SCREAM for i-e -ream!
-
-Count of 'c': 4
-
-String with 'c' removed:
-I sream, you sream, we all SCREAM for ie ream!
-Programmed by Jonathan Ko
-*/

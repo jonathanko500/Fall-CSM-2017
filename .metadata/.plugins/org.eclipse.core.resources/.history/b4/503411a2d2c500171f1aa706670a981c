@@ -27,7 +27,6 @@ public class letter
 		//prints phrase wo letter
 		phrase=removeKey(letter,phrase);
 		System.out.println(phrase);
-		System.out.println("Programmed by Jonathan Ko");
 	}//end main
 	public static String getKeyLetter ()
 	{//start main
@@ -102,23 +101,3 @@ public class letter
 		return newPhrase;
 	}//end method
 }// class
-/*
-test
-Enter a SINGLE character to act as key: ic
-Only a SINGLE character, re-enter: 
-Only a SINGLE character, re-enter: c
-
-Enter a phrase or sentence >= 4 characters: 
-Ice
-Must be at least 4 characters, re-enter: 
-I scream, you scream, we all SCREAM for ice cream!
-
-String with 'c' masked:
-I s-ream, you s-ream, we all SCREAM for i-e -ream!
-
-Count of 'c': 4
-
-String with 'c' removed:
-I sream, you sream, we all SCREAM for ie ream!
-Programmed by Jonathan Ko
-*/
