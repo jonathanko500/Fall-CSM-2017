@@ -6,7 +6,7 @@ public class hangman
 	public static void main(String[] args)
 	{//start main
 		//declare variables
-		String word,letter,cover;
+		String word,letter,cover,guess;
 		int counter;
 		//gets word
 		word=pickWord();
@@ -16,23 +16,17 @@ public class hangman
 		System.out.println("");
 		cover=coverWord(word);
 		System.out.println(cover);
-		System.out.println(word);
 		Scanner input = new Scanner (System.in);
-		while(cover!=word)
-		{
-			System.out.print("Guess a letter: ");
-			letter=input.nextLine();
-			cover=maskWord(word,letter);
-			System.out.println(cover);
-		}
-		System.out.println(word);
-		
+		System.out.print("Guess a letter: ");
+		letter=input.nextLine();
+		guess=maskWord(word,letter);
+		System.out.println(guess)
 	}//end main
 	public static String pickWord()
 	{//start method
 		SecureRandom rand = new SecureRandom();
 		//declare variable
-		String[] box = {"a", "be", "can", "dish", "lied", "comp", "destiny", "two", "ten", "four"};
+		String[] box = {"legend", "violin", "villian", "paranthesis", "die", "competitive", "destiny", "two", "nine", "finish"};
 		int wordNumb;
 		//gets random numb
 		wordNumb=rand.nextInt(9);
@@ -60,15 +54,27 @@ public class hangman
 	}
 	public static String maskWord(String word,String letter)
 	{//start method
+		//declare variable
 		String newWord="";
-		int place=0;
-		for(int i=0;i<word.length();i++)
-		{
-			if(word.charAt(i)==letter.charAt(0))
+		int pass=0;
+		//loops until word is guessed
+		while(pass==word.length())
+		{//start loop
+			for(int i=0;i<word.length();i++)
 			{
-				place=word.indexOf(i);
+				if(word.charAt(i)==letter.charAt(0))
+				{
+					newWord+=letter;
+					pass++;
+				}
+				else
+				{
+					newWord+="-";
+					System.out.println("Bad Guess");
+				}
+				System.out.println("");
 			}
-		}
+		}//end loop
 		return newWord;
 	}//end method
 }//end class

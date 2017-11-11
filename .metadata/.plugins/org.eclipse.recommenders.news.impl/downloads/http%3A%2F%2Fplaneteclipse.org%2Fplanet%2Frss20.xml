@@ -8,6 +8,13 @@
 	<description>Planet Eclipse - http://planeteclipse.org/planet/</description>
 
 <item>
+	<title>EclipseCon Europe 2017: Replay EclipseCon Europe 2017</title>
+	<guid isPermaLink="false">https://www.eclipsecon.org/europe2017/news/4248 at https://www.eclipsecon.org/europe2017</guid>
+	<link>https://www.eclipsecon.org/europe2017/news/replay-eclipsecon-europe-2017</link>
+	<description>&lt;div class=&quot;field field-name-body field-type-text-with-summary field-label-hidden&quot;&gt;&lt;div class=&quot;field-items&quot;&gt;&lt;div class=&quot;field-item even&quot;&gt;If you missed a talk at this year's conference, there's a good chance that you'll be able to replay it. You'll find most of the talks from this year are online.&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;&lt;div class=&quot;field field-name-field-news-image field-type-image field-label-hidden&quot;&gt;&lt;div class=&quot;field-items&quot;&gt;&lt;div class=&quot;field-item even&quot;&gt;&lt;a href=&quot;https://www.eclipsecon.org/europe2017/news/replay-eclipsecon-europe-2017&quot;&gt;&lt;img alt=&quot;&quot; class=&quot;img-responsive block-center&quot; height=&quot;250&quot; src=&quot;https://www.eclipsecon.org/europe2017/sites/default/files/styles/solstice_news_-_default_-_thumbnail/public/news/Screen%20Shot%202017-11-10%20at%202.05.25%20PM.png?itok=wpfHn44i&quot; width=&quot;250&quot; /&gt;&lt;/a&gt;&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;</description>
+	<pubDate>Fri, 10 Nov 2017 13:04:51 +0000</pubDate>
+</item>
+<item>
 	<title>Kichwa Coders: Debug Protocol vs Language Server Protocol</title>
 	<guid isPermaLink="false">http://kichwacoders.com/?p=3103</guid>
 	<link>https://kichwacoders.com/2017/11/08/debug-protocol-vs-language-server-protocol/</link>
@@ -28,7 +35,7 @@
 	<pubDate>Wed, 08 Nov 2017 13:09:47 +0000</pubDate>
 </item>
 <item>
-	<title>InfoQ Eclipse feed: Accelerating the adoption of Java Microservices with Eclipse MicroProfile</title>
+	<title>InfoQ Eclipse feed: Accelerating the Adoption of Java Microservices with Eclipse MicroProfile</title>
 	<guid isPermaLink="true">http://www.infoq.com/news/2017/11/jax-london-microprofile?utm_campaign=infoq_content&amp;utm_source=infoq&amp;utm_medium=feed&amp;utm_term=Eclipse</guid>
 	<link>http://www.infoq.com/news/2017/11/jax-london-microprofile?utm_campaign=infoq_content&amp;utm_source=infoq&amp;utm_medium=feed&amp;utm_term=Eclipse</link>
 	<description>&lt;img src=&quot;http://www.infoq.com/styles/i/logo_bigger.jpg&quot; /&gt;&lt;p&gt;InfoQ caught up with Emily Jiang from IBM to hear about the new Eclipse MicroProfile project and the new release, with extended fault tolerance and other new features. &lt;/p&gt; &lt;i&gt;By Monica Beckwith&lt;/i&gt;</description>
@@ -967,36 +974,6 @@ Categories=Utility;Application;Development;&lt;/pre&gt;&lt;p&gt;This is relative
 &lt;p&gt; &lt;/p&gt;
 &lt;p&gt; &lt;/p&gt;&lt;br /&gt;  &lt;a href=&quot;http://feeds.wordpress.com/1.0/gocomments/kthoms.wordpress.com/902/&quot; rel=&quot;nofollow&quot;&gt;&lt;img alt=&quot;&quot; border=&quot;0&quot; src=&quot;http://feeds.wordpress.com/1.0/comments/kthoms.wordpress.com/902/&quot; /&gt;&lt;/a&gt; &lt;img alt=&quot;&quot; border=&quot;0&quot; height=&quot;1&quot; src=&quot;https://pixel.wp.com/b.gif?host=kthoms.wordpress.com&amp;amp;blog=6829080&amp;amp;post=902&amp;amp;subd=kthoms&amp;amp;ref=&amp;amp;feed=1&quot; width=&quot;1&quot; /&gt;</description>
 	<pubDate>Fri, 27 Oct 2017 19:59:25 +0000</pubDate>
-</item>
-<item>
-	<title>Karsten Thoms: EclipseCon Europe 2017 – Part 1</title>
-	<guid isPermaLink="false">http://kthoms.wordpress.com/?p=866</guid>
-	<link>https://kthoms.wordpress.com/2017/10/26/eclipsecon-europe-2017-part-1/</link>
-	<description>&lt;p&gt;Without any doubt this year &lt;a href=&quot;https://www.eclipsecon.org/europe2017&quot;&gt;EclipseCon Europe&lt;/a&gt; was the most intense one for me. So intense that I have to split my look back into several parts. I met lots of community members again, and gained more new connections than in past events. The work in advance to this EclipseCon Europe were exhausting. I had as always work for customers to do, prepare my talks and then we also had the &lt;a href=&quot;https://blogs.itemis.com/en/eclipse-xtext-2.13-is-released&quot;&gt;release of Xtext 2.13&lt;/a&gt; right before EclipseCon. Of course this ment much work, but we from the Xtext team were able to ship the release right on time on October 20th. I was doubting that I could stay long in the evenings at Nestor bar for talking with those great people. I was proofed to be wrong.&lt;/p&gt;
-&lt;p&gt;&lt;img alt=&quot;DM4hMLXX0AAJEuT.jpg_large.jpg&quot; class=&quot;alignnone size-full wp-image-891&quot; src=&quot;https://kthoms.files.wordpress.com/2017/10/dm4hmlxx0aajeut_large.jpg?w=584&quot; /&gt;&lt;/p&gt;
-&lt;p&gt;I gave a preview to EclipseCon Europe in &lt;a href=&quot;https://kthoms.wordpress.com/2017/10/18/next-stop-eclipsecon-europe-2017/&quot;&gt;my previous post,&lt;/a&gt; and actually it quite matched what I experienced. But let’s start at the beginning.&lt;/p&gt;
-&lt;p&gt;My travel started on sunday noon, since I wanted to meet with the Eclipse Scout community for a pre-conference dinner at the Rossknecht restaurant &amp;amp; brewery. I was traveling by train to use the time for working on my talks. I had 2 talks at the main conference, 1 for the unconference and 2 ignite talks for our booth. More on that later.&lt;/p&gt;
-&lt;p&gt;I enjoyed meeting the Scout community members as always, especially with the project leads Matthias Zimmermann and Andreas Hoegger from BSI AG. Later that evening also the members from the Eclipse Foundation joined, and I was warmly welcomed by them.&lt;/p&gt;
-&lt;p&gt;On Monday I was there for the Unconference and joined the track &lt;a href=&quot;https://www.eclipsecon.org/europe2017/schedule_item/guided-tour-eclipse-modeling&quot;&gt;Guided Tour on Eclipse Modeling&lt;/a&gt;, where a broad variation of overview talks were held on the various subprojects of the Eclipse Modeling Project. I especially enjoyed Ed Merk’s talk on the Eclipse Modeling Framework. Of course, everyone in the audience knew EMF, so Ed decided not to give a normal talk about it, but a Presentation Zen talk. For example, he explained us bug replication in EMF with a photo like this:&lt;/p&gt;
-&lt;p&gt;&lt;img alt=&quot;ID-1003021.jpg&quot; class=&quot;alignnone  wp-image-869&quot; height=&quot;510&quot; src=&quot;https://kthoms.files.wordpress.com/2017/10/id-1003021.jpg?w=680&amp;amp;h=510&quot; width=&quot;680&quot; /&gt;&lt;br /&gt;
-&lt;i&gt;Image courtesy of Christian Meyn at &lt;/i&gt;&lt;a href=&quot;http://freedigitalphotos.net/&quot;&gt;&lt;i&gt;FreeDigitalPhotos.net&lt;/i&gt;&lt;/a&gt;&lt;/p&gt;
-&lt;p&gt;In the afternoon I gave my first talk: An overview on the &lt;a href=&quot;http://xtend-lang.org/&quot;&gt;Xtend language&lt;/a&gt;, which I am maintaining and heavily use. Xtend is a full fledged programming language for the JVM, and makes Java development much sweeter.&lt;/p&gt;
-&lt;p&gt;&lt;img alt=&quot;screenshot 90.png&quot; class=&quot;alignnone size-full wp-image-882&quot; src=&quot;https://kthoms.files.wordpress.com/2017/10/screenshot-90.png?w=584&quot; /&gt;&lt;/p&gt;
-&lt;p&gt;Every programming language has its strengths, and to explain where Xtend has its strengths I took a look back on where Xtend came from: It goes back to the openArchitectureWare project and its successor Eclipse Xpand and the languages it provided. The Eclipse project Xpand is a template language and thus used for code generation. In Xtend this resulted in the famous &lt;a href=&quot;https://www.eclipse.org/xtend/documentation/203_xtend_expressions.html#templates&quot;&gt;Template Expressions&lt;/a&gt;. Another less known feature are Create Extensions, which are essential to write Model-to-Model Transformations. In his great talk “&lt;a href=&quot;https://www.eclipsecon.org/europe2017/session/large-scale-model-transformations-xtend&quot;&gt;Using the Xtend language for M2M transformation&lt;/a&gt;” Andreas Graf showed this application of Xtend for large scale transformations of models from the automotive sector.&lt;/p&gt;
-&lt;p&gt;After the Unconference I met the first colleagues at the Nestor bar for a beer. This was followed by a reception at the conference venue. More itemis colleagues joined and it was time to chat with some friends from the community. Especially I talked a bit more with Michael Keppler from ETAS, with whom I was also talking much during the conference.&lt;/p&gt;
-&lt;p&gt;Of course the evening was not over after the reception. This was the time to meet again at the Nestor bar, the place to be after long conference days. First we had dinner with all itemis colleagues that were there then.&lt;/p&gt;
-&lt;p&gt;&lt;img alt=&quot;DM4hdbBXcAAgPOb.jpg_large.jpg&quot; class=&quot;alignnone size-full wp-image-878&quot; src=&quot;https://kthoms.files.wordpress.com/2017/10/dm4hdbbxcaagpob_large.jpg?w=584&quot; /&gt;&lt;/p&gt;
-&lt;ul&gt;
-&lt;li&gt;1st line: Prajwal Gowda, Arshad Adavani, Bettina Zarnekow, me, Holger Schill&lt;/li&gt;
-&lt;li&gt;2nd line: Hendrik Bünder, Alexander Nyßen, Darius Jockel, Olaf Gunkel, Christian Dietrich&lt;/li&gt;
-&lt;li&gt;3rd line: Matthias Wienand, Marek Derdzinski, Michael Langhammer, Sebastian Zarnekow, Torsten Görk&lt;/li&gt;
-&lt;/ul&gt;
-&lt;p&gt;A bit later also Patrik Suzzi, Platform UI committer and our new colleague at itemis Switzerland, arrived. I met Patrik at EclipseCon Toulouse this year and not long after he joined itemis. It was nice to see him again and talk about his current project at a well-known swiss bank.&lt;/p&gt;
-&lt;p&gt;At the bar later I spoke with many, many people. I especially enjoiyed to talk with Mickael Istria, who acknowledged my contributions to Eclipse Platform and encouraged me to continue. What I certainly will do. It was also the time to thank Dani Megert and Stephan Herrmann, who helped us to avoid a desaster for Xtext with our JDT integration for Eclipse Oxygen.1a. Instead of a problem it turned to be a &lt;a href=&quot;https://blogs.itemis.com/en/about-the-power-of-open-source-development-at-eclipse&quot;&gt;success story about what it means to work together on professional open source projects at Eclipse&lt;/a&gt;.&lt;/p&gt;
-&lt;p&gt;There were so many other people I spoke to at this evening: Mike Milinkovich, Ralph Müller, Angelika Wittek, Mickael Barbero, Torkild Resheim, Tom Schindl and many more. It was just awesome.&lt;/p&gt;
-&lt;p&gt;And this was just until Monday, before the EclipseCon really started. On Monday I left the Nestor bar at 0:30 AM, we had to wake up early and I had to give my next talks on Tuesday. Time to get some sleep now.&lt;/p&gt;
-&lt;p&gt;Tomorrow I hope to write the second part of my look back and will upload my presentations. You can get all slides from me and the numerous from my other collegues here: &lt;span class=&quot;js-display-url&quot;&gt;&lt;a href=&quot;http://bit.ly/2yNnIs9&quot;&gt;bit.ly/2yNnIs9&lt;/a&gt;&lt;/span&gt;&lt;/p&gt;&lt;br /&gt;  &lt;a href=&quot;http://feeds.wordpress.com/1.0/gocomments/kthoms.wordpress.com/866/&quot; rel=&quot;nofollow&quot;&gt;&lt;img alt=&quot;&quot; border=&quot;0&quot; src=&quot;http://feeds.wordpress.com/1.0/comments/kthoms.wordpress.com/866/&quot; /&gt;&lt;/a&gt; &lt;img alt=&quot;&quot; border=&quot;0&quot; height=&quot;1&quot; src=&quot;https://pixel.wp.com/b.gif?host=kthoms.wordpress.com&amp;amp;blog=6829080&amp;amp;post=866&amp;amp;subd=kthoms&amp;amp;ref=&amp;amp;feed=1&quot; width=&quot;1&quot; /&gt;</description>
-	<pubDate>Thu, 26 Oct 2017 21:49:36 +0000</pubDate>
 </item>
 
 </channel>
