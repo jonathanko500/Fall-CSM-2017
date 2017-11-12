@@ -6,6 +6,33 @@
     <language>en</language>
      <atom:link href="http://marketplace.eclipse.org/rss.xml" rel="self" type="application/rss+xml" />
       <item>
+    <title>Cucumber-Eclipse Plugin</title>
+    <link>http://marketplace.eclipse.org/content/cucumber-eclipse-plugin</link>
+    <description>&lt;div class=&quot;field field-name-field-resource-image field-type-image field-label-hidden&quot;&gt;&lt;div class=&quot;field-items&quot;&gt;&lt;div class=&quot;field-item even&quot;&gt;&lt;img class=&quot;img-responsive&quot; src=&quot;http://marketplace.eclipse.org/sites/default/files/cucumber_0.png&quot; width=&quot;110&quot; height=&quot;55&quot; alt=&quot;&quot; /&gt;&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;&lt;div class=&quot;field field-name-shared-date-created field-type-text field-label-inline clearfix&quot;&gt;&lt;div class=&quot;field-label&quot;&gt;Date Created:&amp;nbsp;&lt;/div&gt;&lt;div class=&quot;field-items&quot;&gt;&lt;div class=&quot;field-item even&quot;&gt;Fri, 2017-11-10 06:08&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;&lt;div class=&quot;field field-name-shared-date-updated field-type-text field-label-inline clearfix&quot;&gt;&lt;div class=&quot;field-label&quot;&gt;Date Updated:&amp;nbsp;&lt;/div&gt;&lt;div class=&quot;field-items&quot;&gt;&lt;div class=&quot;field-item even&quot;&gt;Sat, 2017-11-11 03:33&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;&lt;a href=&quot;/search/content/%22Cucumber%22&quot;&gt;Cucumber&lt;/a&gt;&lt;div class=&quot;field field-name-shared-submitted-by field-type-text field-label-inline clearfix&quot;&gt;&lt;div class=&quot;field-label&quot;&gt;Submitted by:&amp;nbsp;&lt;/div&gt;&lt;div class=&quot;field-items&quot;&gt;&lt;div class=&quot;field-item even&quot;&gt;&lt;a href=&quot;/user/gpandam3m/listings&quot; title=&quot;Girija Prasad Panda&quot;&gt;Girija Prasad Panda&lt;/a&gt;&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;&lt;!-- google_ad_section_start --&gt;&lt;div class=&quot;field field-name-body field-type-text-with-summary field-label-hidden&quot;&gt;&lt;div class=&quot;field-items&quot;&gt;&lt;div class=&quot;field-item even&quot;&gt;&lt;p&gt;An eclipse plugin for &lt;a href=&quot;https://cucumber.io/&quot; rel=&quot;nofollow&quot;&gt; Cucumber &lt;/a&gt;.&lt;/p&gt;
+&lt;p&gt;Please head over to our &lt;a href=&quot;https://github.com/cucumber/cucumber-eclipse&quot; rel=&quot;nofollow&quot;&gt; Github Repository &lt;/a&gt; for more information.&lt;/p&gt;
+&lt;p&gt;Please consult our &lt;a href=&quot;https://github.com/cucumber/cucumber-eclipse/wiki&quot; rel=&quot;nofollow&quot;&gt; Plugin-Wiki &lt;/a&gt; for a full list for currently available features and screenshots.&lt;/p&gt;
+&lt;p&gt;New Feature list in the version available from the update site:&lt;/p&gt;
+&lt;ul&gt;&lt;li&gt;
+		&lt;a href=&quot;https://github.com/cucumber/cucumber-eclipse/wiki/Content-Assistance-for-feature-file&quot; rel=&quot;nofollow&quot;&gt;Content Assistance for feature file &lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;
+		&lt;a href=&quot;https://github.com/cucumber/cucumber-eclipse/wiki/New-Step-Definition-File-Wizard&quot; rel=&quot;nofollow&quot;&gt;New Step Definition File Wizard&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;
+		&lt;a href=&quot;https://github.com/cucumber/cucumber-eclipse/wiki/Auto-Generation-of-Sample-Feature-Definition-Template&quot; rel=&quot;nofollow&quot;&gt;Auto Generation of Feature Definition&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;
+		&lt;a href=&quot;https://github.com/cucumber/cucumber-eclipse/wiki/I18n-Syntax-highlighting&quot; rel=&quot;nofollow&quot;&gt;I18n Syntax highlighting&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;
+		&lt;a href=&quot;https://github.com/cucumber/cucumber-eclipse/wiki/Pretty-Formatting&quot; rel=&quot;nofollow&quot;&gt;Pretty Formatting&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;
+		&lt;a href=&quot;https://github.com/cucumber/cucumber-eclipse/wiki/Feature-Runner&quot; rel=&quot;nofollow&quot;&gt;Feature runner with formatters&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;
+		&lt;strong&gt;Click through from Step to Step Definition&lt;/strong&gt;. (Currently only works in English, and from pop up menu)&lt;/li&gt;
+&lt;/ul&gt;&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;&lt;!-- google_ad_section_end --&gt;</description>
+     <pubDate>Fri, 10 Nov 2017 11:08:15 +0000</pubDate>
+ <dc:creator>gpandam3m</dc:creator>
+ <guid isPermaLink="false">3759385 at http://marketplace.eclipse.org</guid>
+ <comments>http://marketplace.eclipse.org/content/cucumber-eclipse-plugin#comments</comments>
+  </item>
+  <item>
     <title>ABAP Continuous Integration</title>
     <link>http://marketplace.eclipse.org/content/abap-continuous-integration</link>
     <description>&lt;div class=&quot;field field-name-field-resource-image field-type-image field-label-hidden&quot;&gt;&lt;div class=&quot;field-items&quot;&gt;&lt;div class=&quot;field-item even&quot;&gt;&lt;img class=&quot;img-responsive&quot; src=&quot;http://marketplace.eclipse.org/sites/default/files/abapCI_logo.jpg&quot; width=&quot;110&quot; height=&quot;77&quot; alt=&quot;&quot; /&gt;&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;&lt;div class=&quot;field field-name-shared-date-created field-type-text field-label-inline clearfix&quot;&gt;&lt;div class=&quot;field-label&quot;&gt;Date Created:&amp;nbsp;&lt;/div&gt;&lt;div class=&quot;field-items&quot;&gt;&lt;div class=&quot;field-item even&quot;&gt;Thu, 2017-08-31 17:35&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;&lt;div class=&quot;field field-name-shared-date-updated field-type-text field-label-inline clearfix&quot;&gt;&lt;div class=&quot;field-label&quot;&gt;Date Updated:&amp;nbsp;&lt;/div&gt;&lt;div class=&quot;field-items&quot;&gt;&lt;div class=&quot;field-item even&quot;&gt;Fri, 2017-11-10 16:53&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;&lt;a href=&quot;/search/content/%22Andreas%20Gautsch%22&quot;&gt;Andreas Gautsch&lt;/a&gt;&lt;div class=&quot;field field-name-shared-submitted-by field-type-text field-label-inline clearfix&quot;&gt;&lt;div class=&quot;field-label&quot;&gt;Submitted by:&amp;nbsp;&lt;/div&gt;&lt;div class=&quot;field-items&quot;&gt;&lt;div class=&quot;field-item even&quot;&gt;&lt;a href=&quot;/user/agautsch/listings&quot; title=&quot;Andreas Gautsch&quot;&gt;Andreas Gautsch&lt;/a&gt;&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;&lt;!-- google_ad_section_start --&gt;&lt;div class=&quot;field field-name-body field-type-text-with-summary field-label-hidden&quot;&gt;&lt;div class=&quot;field-items&quot;&gt;&lt;div class=&quot;field-item even&quot;&gt;&lt;p&gt;abapCI is an additional free plugin for ABAP in Eclipse which supports you with Continuous Integration features.&lt;/p&gt;
@@ -54,33 +81,6 @@
  <dc:creator>mweber0xe</dc:creator>
  <guid isPermaLink="false">2318334 at http://marketplace.eclipse.org</guid>
  <comments>http://marketplace.eclipse.org/content/cmake4eclipse#comments</comments>
-  </item>
-  <item>
-    <title>Cucumber-Eclipse Plugin</title>
-    <link>http://marketplace.eclipse.org/content/cucumber-eclipse-plugin</link>
-    <description>&lt;div class=&quot;field field-name-field-resource-image field-type-image field-label-hidden&quot;&gt;&lt;div class=&quot;field-items&quot;&gt;&lt;div class=&quot;field-item even&quot;&gt;&lt;img class=&quot;img-responsive&quot; src=&quot;http://marketplace.eclipse.org/sites/default/files/cucumber_0.png&quot; width=&quot;110&quot; height=&quot;55&quot; alt=&quot;&quot; /&gt;&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;&lt;div class=&quot;field field-name-shared-date-created field-type-text field-label-inline clearfix&quot;&gt;&lt;div class=&quot;field-label&quot;&gt;Date Created:&amp;nbsp;&lt;/div&gt;&lt;div class=&quot;field-items&quot;&gt;&lt;div class=&quot;field-item even&quot;&gt;Fri, 2017-11-10 06:08&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;&lt;div class=&quot;field field-name-shared-date-updated field-type-text field-label-inline clearfix&quot;&gt;&lt;div class=&quot;field-label&quot;&gt;Date Updated:&amp;nbsp;&lt;/div&gt;&lt;div class=&quot;field-items&quot;&gt;&lt;div class=&quot;field-item even&quot;&gt;Fri, 2017-11-10 08:13&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;&lt;a href=&quot;/search/content/%22Cucumber%22&quot;&gt;Cucumber&lt;/a&gt;&lt;div class=&quot;field field-name-shared-submitted-by field-type-text field-label-inline clearfix&quot;&gt;&lt;div class=&quot;field-label&quot;&gt;Submitted by:&amp;nbsp;&lt;/div&gt;&lt;div class=&quot;field-items&quot;&gt;&lt;div class=&quot;field-item even&quot;&gt;&lt;a href=&quot;/user/gpandam3m/listings&quot; title=&quot;Girija Prasad Panda&quot;&gt;Girija Prasad Panda&lt;/a&gt;&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;&lt;!-- google_ad_section_start --&gt;&lt;div class=&quot;field field-name-body field-type-text-with-summary field-label-hidden&quot;&gt;&lt;div class=&quot;field-items&quot;&gt;&lt;div class=&quot;field-item even&quot;&gt;&lt;p&gt;An eclipse plugin for &lt;a href=&quot;https://cucumber.io/&quot; rel=&quot;nofollow&quot;&gt; Cucumber &lt;/a&gt;.&lt;/p&gt;
-&lt;p&gt;Please head over to our &lt;a href=&quot;https://github.com/cucumber/cucumber-eclipse&quot; rel=&quot;nofollow&quot;&gt; Github Repository &lt;/a&gt; for more information.&lt;/p&gt;
-&lt;p&gt;Please consult our &lt;a href=&quot;https://github.com/cucumber/cucumber-eclipse/wiki&quot; rel=&quot;nofollow&quot;&gt; Plugin-Wiki &lt;/a&gt; for a full list for currently available features and screenshots.&lt;/p&gt;
-&lt;p&gt;New Feature list in the version available from the update site:&lt;/p&gt;
-&lt;ul&gt;&lt;li&gt;
-		&lt;a href=&quot;https://github.com/cucumber/cucumber-eclipse/wiki/Content-Assistance-for-feature-file&quot; rel=&quot;nofollow&quot;&gt;Content Assistance for feature file &lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;
-		&lt;a href=&quot;https://github.com/cucumber/cucumber-eclipse/wiki/New-Step-Definition-File-Wizard&quot; rel=&quot;nofollow&quot;&gt;New Step Definition File Wizard&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;
-		&lt;a href=&quot;https://github.com/cucumber/cucumber-eclipse/wiki/Auto-Generation-of-Sample-Feature-Definition-Template&quot; rel=&quot;nofollow&quot;&gt;Auto Generation of Feature Definition&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;
-		&lt;a href=&quot;https://github.com/cucumber/cucumber-eclipse/wiki/I18n-Syntax-highlighting&quot; rel=&quot;nofollow&quot;&gt;I18n Syntax highlighting&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;
-		&lt;a href=&quot;https://github.com/cucumber/cucumber-eclipse/wiki/Pretty-Formatting&quot; rel=&quot;nofollow&quot;&gt;Pretty Formatting&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;
-		&lt;a href=&quot;https://github.com/cucumber/cucumber-eclipse/wiki/Feature-Runner&quot; rel=&quot;nofollow&quot;&gt;Feature runner with formatters&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;
-		Click through from Step to Step Definition. (Currently only works in English, and from pop up menu)&lt;/li&gt;
-&lt;/ul&gt;&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;&lt;!-- google_ad_section_end --&gt;</description>
-     <pubDate>Fri, 10 Nov 2017 11:08:15 +0000</pubDate>
- <dc:creator>gpandam3m</dc:creator>
- <guid isPermaLink="false">3759385 at http://marketplace.eclipse.org</guid>
- <comments>http://marketplace.eclipse.org/content/cucumber-eclipse-plugin#comments</comments>
   </item>
   <item>
     <title>Live Coding in Python</title>

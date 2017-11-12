@@ -18,11 +18,14 @@ public class hangman
 		System.out.println(cover);
 		System.out.println(word);
 		Scanner input = new Scanner (System.in);
-		System.out.print("Guess a letter: ");
-		letter=input.nextLine();
-		cover=maskWord(word,letter);
-		System.out.println(cover);
-		
+		while(cover!=word)
+		{
+			System.out.print("Guess a letter: ");
+			letter=input.nextLine();
+			cover=maskWord(word,letter);
+			System.out.println(cover);
+		}
+		System.out.println(word);
 		
 	}//end main
 	public static String pickWord()
@@ -58,17 +61,12 @@ public class hangman
 	public static String maskWord(String word,String letter)
 	{//start method
 		String newWord="";
+		int place=0;
 		for(int i=0;i<word.length();i++)
 		{
-			word.toLowerCase();
-			letter.toLowerCase();
 			if(word.charAt(i)==letter.charAt(0))
 			{
-				newWord+=letter.charAt(0);
-			}
-			else
-			{
-				newWord+="-";
+				place=word.indexOf(i);
 			}
 		}
 		return newWord;
