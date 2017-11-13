@@ -60,7 +60,7 @@ public class hangman
 			if(word.charAt(i)==letter.charAt(j))
 			{
 				newWord+=letter.charAt(j);
-				j++;
+				
 			}
 			else
 			{

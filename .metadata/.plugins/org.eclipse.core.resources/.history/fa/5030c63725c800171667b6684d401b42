@@ -7,10 +7,12 @@ public class hangman
 	{//start main
 		//declare variables
 		String word,letter,cover;
+		int counter;
 		//gets word
 		word=pickWord();
 		//read variable
-		System.out.println("I am thinking of a word with "+word.length()+" letters");
+		counter=numbLetters(word);
+		System.out.println("I am thinking of a word with "+counter+" letters");
 		System.out.println("");
 		cover=coverWord(word);
 		System.out.println(cover);
@@ -18,16 +20,10 @@ public class hangman
 		Scanner input = new Scanner (System.in);
 		System.out.print("Guess a letter: ");
 		letter=input.nextLine();
-		while(cover!=word)
-		{
-			cover=maskWord(word,letter);
-			if(cover!=word)
-			{
-				System.out.print("Guess a letter: ");
-				letter=input.nextLine();
-			}
-			
-		}
+		cover=maskWord(word,letter);
+		System.out.println(cover);
+		
+		
 	}//end main
 	public static String pickWord()
 	{//start method
@@ -39,6 +35,15 @@ public class hangman
 		wordNumb=rand.nextInt(9);
 		//returns random word
 		return box[wordNumb];
+	}//end method
+	public static int numbLetters(String word)
+	{//start method
+		int counter=0;
+		for(int i=0;i<word.length();i++)
+		{
+			counter++;
+		}
+		return counter;
 	}//end method
 	public static String coverWord(String word)
 	{
@@ -53,24 +58,22 @@ public class hangman
 	public static String maskWord(String word,String letter)
 	{//start method
 		String newWord="";
-		String totalWord="";	
 		for(int i=0;i<word.length();i++)
-		{//start loop
+		{
 			int j=0;
-			if(word.charAt(i)==letter.charAt(j))
+			word.toLowerCase();
+			letter.toLowerCase();
+			if(word.charAt(i)==letter.charAt(letter.indexOf(0)))
 			{
-				newWord+=letter.charAt(j);
+				newWord+=letter.charAt(0);
 				j++;
 			}
 			else
 			{
 				newWord+="-";
-				System.out.println("Bad Guess");
-				System.out.println("");
+				System.out.println("Bad guess");
 			}
-			totalWord=newWord;
-		}//end loop
-		System.out.println(newWord);
-		return totalWord;
+		}
+		return newWord;
 	}//end method
 }//end class

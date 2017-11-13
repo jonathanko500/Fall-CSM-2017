@@ -6,9 +6,62 @@
     <language>en</language>
      <atom:link href="http://marketplace.eclipse.org/rss.xml" rel="self" type="application/rss+xml" />
       <item>
-    <title>Cucumber-Eclipse Plugin</title>
+    <title>Project Usus</title>
+    <link>http://marketplace.eclipse.org/content/project-usus</link>
+    <description>&lt;div class=&quot;field field-name-field-resource-image field-type-image field-label-hidden&quot;&gt;&lt;div class=&quot;field-items&quot;&gt;&lt;div class=&quot;field-item even&quot;&gt;&lt;img class=&quot;img-responsive&quot; src=&quot;http://marketplace.eclipse.org/sites/default/files/usus-marketplace.png&quot; width=&quot;110&quot; height=&quot;80&quot; alt=&quot;&quot; /&gt;&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;&lt;div class=&quot;field field-name-shared-date-created field-type-text field-label-inline clearfix&quot;&gt;&lt;div class=&quot;field-label&quot;&gt;Date Created:&amp;nbsp;&lt;/div&gt;&lt;div class=&quot;field-items&quot;&gt;&lt;div class=&quot;field-item even&quot;&gt;Tue, 2009-12-15 02:26&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;&lt;div class=&quot;field field-name-shared-date-updated field-type-text field-label-inline clearfix&quot;&gt;&lt;div class=&quot;field-label&quot;&gt;Date Updated:&amp;nbsp;&lt;/div&gt;&lt;div class=&quot;field-items&quot;&gt;&lt;div class=&quot;field-item even&quot;&gt;Sun, 2017-11-12 13:40&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;&lt;a href=&quot;/search/content/%22Project%20Usus%20Committers%22&quot;&gt;Project Usus Committers&lt;/a&gt;&lt;div class=&quot;field field-name-shared-submitted-by field-type-text field-label-inline clearfix&quot;&gt;&lt;div class=&quot;field-label&quot;&gt;Submitted by:&amp;nbsp;&lt;/div&gt;&lt;div class=&quot;field-items&quot;&gt;&lt;div class=&quot;field-item even&quot;&gt;&lt;a href=&quot;/user/sschuerle/listings&quot; title=&quot;Stefan Schuerle&quot;&gt;Stefan Schuerle&lt;/a&gt;&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;&lt;!-- google_ad_section_start --&gt;&lt;div class=&quot;field field-name-body field-type-text-with-summary field-label-hidden&quot;&gt;&lt;div class=&quot;field-items&quot;&gt;&lt;div class=&quot;field-item even&quot;&gt;&lt;p&gt;Common coding and design practices in software projects are a good thing. To support them, there is a number of helpful tools around, such as static code analyzers, test coverage tools, code formatters and so on. The goal of this project is to provide Eclipse Plug-Ins that help to integrate common compiler and formatter settings in the Eclipse workspace and apply some object-oriented design metrics to find and possibly eliminate weak spots in the code. These settings and metrics reflect the &quot;usus&quot; (common practice) in projects we&#039;ve worked in and have proven useful; we want to integrate them in order to have them handy at all times.&lt;/p&gt;&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;&lt;!-- google_ad_section_end --&gt;</description>
+     <pubDate>Tue, 15 Dec 2009 07:26:35 +0000</pubDate>
+ <dc:creator>sschuerle</dc:creator>
+ <guid isPermaLink="false">1089 at http://marketplace.eclipse.org</guid>
+ <comments>http://marketplace.eclipse.org/content/project-usus#comments</comments>
+  </item>
+  <item>
+    <title>Bash Editor</title>
+    <link>http://marketplace.eclipse.org/content/bash-editor</link>
+    <description>&lt;div class=&quot;field field-name-field-resource-image field-type-image field-label-hidden&quot;&gt;&lt;div class=&quot;field-items&quot;&gt;&lt;div class=&quot;field-item even&quot;&gt;&lt;img class=&quot;img-responsive&quot; src=&quot;http://marketplace.eclipse.org/sites/default/files/bash-editor-logo.png&quot; width=&quot;110&quot; height=&quot;80&quot; alt=&quot;&quot; /&gt;&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;&lt;div class=&quot;field field-name-shared-date-created field-type-text field-label-inline clearfix&quot;&gt;&lt;div class=&quot;field-label&quot;&gt;Date Created:&amp;nbsp;&lt;/div&gt;&lt;div class=&quot;field-items&quot;&gt;&lt;div class=&quot;field-item even&quot;&gt;Mon, 2017-07-10 06:27&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;&lt;div class=&quot;field field-name-shared-date-updated field-type-text field-label-inline clearfix&quot;&gt;&lt;div class=&quot;field-label&quot;&gt;Date Updated:&amp;nbsp;&lt;/div&gt;&lt;div class=&quot;field-items&quot;&gt;&lt;div class=&quot;field-item even&quot;&gt;Sun, 2017-11-12 10:39&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;&lt;a href=&quot;/search/content/%22Albert%20Tregnaghi%22&quot;&gt;Albert Tregnaghi&lt;/a&gt;&lt;div class=&quot;field field-name-shared-submitted-by field-type-text field-label-inline clearfix&quot;&gt;&lt;div class=&quot;field-label&quot;&gt;Submitted by:&amp;nbsp;&lt;/div&gt;&lt;div class=&quot;field-items&quot;&gt;&lt;div class=&quot;field-item even&quot;&gt;&lt;a href=&quot;/user/atregnaghi/listings&quot; title=&quot;Albert Tregnaghi&quot;&gt;Albert Tregnaghi&lt;/a&gt;&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;&lt;!-- google_ad_section_start --&gt;&lt;div class=&quot;field field-name-body field-type-text-with-summary field-label-hidden&quot;&gt;&lt;div class=&quot;field-items&quot;&gt;&lt;div class=&quot;field-item even&quot;&gt;&lt;p&gt;This plugin is just a bash script editor. &lt;/p&gt;
+&lt;p&gt;Features:&lt;/p&gt;
+&lt;ul&gt;&lt;li&gt;
+		Syntax highlighting&lt;/li&gt;
+&lt;li&gt;
+		Outline&lt;/li&gt;
+&lt;li&gt;
+		Quick-Outline (CTRL + o )&lt;/li&gt;
+&lt;li&gt;
+		Open referenced functions by hyperlink&lt;/li&gt;
+&lt;li&gt;
+		Validation&lt;/li&gt;
+&lt;li&gt;
+		Simple code completion (keywords + existing words)&lt;/li&gt;
+&lt;li&gt;
+		Colors can be customized. Also additional defaults for dark theme exists.&lt;/li&gt;
+&lt;li&gt;
+		Bracket switching + highlighting&lt;/li&gt;
+&lt;li&gt;
+		Block commenting (CTRL+7)&lt;/li&gt;
+&lt;li&gt;
+		Auto bracket closing for []&lt;/li&gt;
+&lt;li&gt;
+		Small (&amp;lt;200 kb)&lt;/li&gt;
+&lt;li&gt;
+		Works on Linux, Windows and Mac out of the box.&lt;/li&gt;
+&lt;/ul&gt;&lt;p&gt;Additional links&lt;/p&gt;
+&lt;ul&gt;&lt;li&gt;
+		&lt;a href=&quot;https://github.com/de-jcup/eclipse-bash-editor/issues&quot; rel=&quot;nofollow&quot;&gt;Issue Tracker&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;
+		&lt;a href=&quot;https://www.youtube.com/playlist?list=PLaBYAz_I_8tF7sZVIcUv8zOVe2RMiWn-L&quot; rel=&quot;nofollow&quot;&gt;YouTube Videos&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;
+		&lt;a href=&quot;https://github.com/de-jcup/eclipse-bash-editor/releases&quot; rel=&quot;nofollow&quot;&gt;Release history&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;
+		&lt;a href=&quot;https://github.com/de-jcup/eclipse-bash-editor/wiki&quot; rel=&quot;nofollow&quot;&gt;Wiki&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;&lt;!-- google_ad_section_end --&gt;</description>
+     <pubDate>Mon, 10 Jul 2017 10:27:25 +0000</pubDate>
+ <dc:creator>atregnaghi</dc:creator>
+ <guid isPermaLink="false">3536358 at http://marketplace.eclipse.org</guid>
+ <comments>http://marketplace.eclipse.org/content/bash-editor#comments</comments>
+  </item>
+  <item>
+    <title>Cucumber Eclipse Plugin</title>
     <link>http://marketplace.eclipse.org/content/cucumber-eclipse-plugin</link>
-    <description>&lt;div class=&quot;field field-name-field-resource-image field-type-image field-label-hidden&quot;&gt;&lt;div class=&quot;field-items&quot;&gt;&lt;div class=&quot;field-item even&quot;&gt;&lt;img class=&quot;img-responsive&quot; src=&quot;http://marketplace.eclipse.org/sites/default/files/cucumber_0.png&quot; width=&quot;110&quot; height=&quot;55&quot; alt=&quot;&quot; /&gt;&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;&lt;div class=&quot;field field-name-shared-date-created field-type-text field-label-inline clearfix&quot;&gt;&lt;div class=&quot;field-label&quot;&gt;Date Created:&amp;nbsp;&lt;/div&gt;&lt;div class=&quot;field-items&quot;&gt;&lt;div class=&quot;field-item even&quot;&gt;Fri, 2017-11-10 06:08&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;&lt;div class=&quot;field field-name-shared-date-updated field-type-text field-label-inline clearfix&quot;&gt;&lt;div class=&quot;field-label&quot;&gt;Date Updated:&amp;nbsp;&lt;/div&gt;&lt;div class=&quot;field-items&quot;&gt;&lt;div class=&quot;field-item even&quot;&gt;Sat, 2017-11-11 03:33&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;&lt;a href=&quot;/search/content/%22Cucumber%22&quot;&gt;Cucumber&lt;/a&gt;&lt;div class=&quot;field field-name-shared-submitted-by field-type-text field-label-inline clearfix&quot;&gt;&lt;div class=&quot;field-label&quot;&gt;Submitted by:&amp;nbsp;&lt;/div&gt;&lt;div class=&quot;field-items&quot;&gt;&lt;div class=&quot;field-item even&quot;&gt;&lt;a href=&quot;/user/gpandam3m/listings&quot; title=&quot;Girija Prasad Panda&quot;&gt;Girija Prasad Panda&lt;/a&gt;&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;&lt;!-- google_ad_section_start --&gt;&lt;div class=&quot;field field-name-body field-type-text-with-summary field-label-hidden&quot;&gt;&lt;div class=&quot;field-items&quot;&gt;&lt;div class=&quot;field-item even&quot;&gt;&lt;p&gt;An eclipse plugin for &lt;a href=&quot;https://cucumber.io/&quot; rel=&quot;nofollow&quot;&gt; Cucumber &lt;/a&gt;.&lt;/p&gt;
+    <description>&lt;div class=&quot;field field-name-field-resource-image field-type-image field-label-hidden&quot;&gt;&lt;div class=&quot;field-items&quot;&gt;&lt;div class=&quot;field-item even&quot;&gt;&lt;img class=&quot;img-responsive&quot; src=&quot;http://marketplace.eclipse.org/sites/default/files/cucumber_0.png&quot; width=&quot;110&quot; height=&quot;55&quot; alt=&quot;&quot; /&gt;&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;&lt;div class=&quot;field field-name-shared-date-created field-type-text field-label-inline clearfix&quot;&gt;&lt;div class=&quot;field-label&quot;&gt;Date Created:&amp;nbsp;&lt;/div&gt;&lt;div class=&quot;field-items&quot;&gt;&lt;div class=&quot;field-item even&quot;&gt;Fri, 2017-11-10 06:08&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;&lt;div class=&quot;field field-name-shared-date-updated field-type-text field-label-inline clearfix&quot;&gt;&lt;div class=&quot;field-label&quot;&gt;Date Updated:&amp;nbsp;&lt;/div&gt;&lt;div class=&quot;field-items&quot;&gt;&lt;div class=&quot;field-item even&quot;&gt;Sun, 2017-11-12 04:23&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;&lt;a href=&quot;/search/content/%22Cucumber%22&quot;&gt;Cucumber&lt;/a&gt;&lt;div class=&quot;field field-name-shared-submitted-by field-type-text field-label-inline clearfix&quot;&gt;&lt;div class=&quot;field-label&quot;&gt;Submitted by:&amp;nbsp;&lt;/div&gt;&lt;div class=&quot;field-items&quot;&gt;&lt;div class=&quot;field-item even&quot;&gt;&lt;a href=&quot;/user/gpandam3m/listings&quot; title=&quot;Girija Prasad Panda&quot;&gt;Girija Prasad Panda&lt;/a&gt;&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;&lt;!-- google_ad_section_start --&gt;&lt;div class=&quot;field field-name-body field-type-text-with-summary field-label-hidden&quot;&gt;&lt;div class=&quot;field-items&quot;&gt;&lt;div class=&quot;field-item even&quot;&gt;&lt;p&gt;An eclipse plugin for &lt;a href=&quot;https://cucumber.io/&quot; rel=&quot;nofollow&quot;&gt; Cucumber &lt;/a&gt;.&lt;/p&gt;
 &lt;p&gt;Please head over to our &lt;a href=&quot;https://github.com/cucumber/cucumber-eclipse&quot; rel=&quot;nofollow&quot;&gt; Github Repository &lt;/a&gt; for more information.&lt;/p&gt;
 &lt;p&gt;Please consult our &lt;a href=&quot;https://github.com/cucumber/cucumber-eclipse/wiki&quot; rel=&quot;nofollow&quot;&gt; Plugin-Wiki &lt;/a&gt; for a full list for currently available features and screenshots.&lt;/p&gt;
 &lt;p&gt;New Feature list in the version available from the update site:&lt;/p&gt;
@@ -128,41 +181,6 @@ ${minishift_service:https://service-name.namespace}&lt;/pre&gt;&lt;p&gt;The serv
  <dc:creator>owhite</dc:creator>
  <guid isPermaLink="false">29591 at http://marketplace.eclipse.org</guid>
  <comments>http://marketplace.eclipse.org/content/jrebel-eclipse#comments</comments>
-  </item>
-  <item>
-    <title>JavaStudio</title>
-    <link>http://marketplace.eclipse.org/content/javastudio</link>
-    <description>&lt;div class=&quot;field field-name-field-resource-image field-type-image field-label-hidden&quot;&gt;&lt;div class=&quot;field-items&quot;&gt;&lt;div class=&quot;field-item even&quot;&gt;&lt;img class=&quot;img-responsive&quot; src=&quot;http://marketplace.eclipse.org/sites/default/files/logo_puzzle_eclipse_1.png&quot; width=&quot;110&quot; height=&quot;80&quot; alt=&quot;&quot; /&gt;&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;&lt;div class=&quot;field field-name-shared-date-created field-type-text field-label-inline clearfix&quot;&gt;&lt;div class=&quot;field-label&quot;&gt;Date Created:&amp;nbsp;&lt;/div&gt;&lt;div class=&quot;field-items&quot;&gt;&lt;div class=&quot;field-item even&quot;&gt;Thu, 2016-05-19 02:58&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;&lt;div class=&quot;field field-name-shared-date-updated field-type-text field-label-inline clearfix&quot;&gt;&lt;div class=&quot;field-label&quot;&gt;Date Updated:&amp;nbsp;&lt;/div&gt;&lt;div class=&quot;field-items&quot;&gt;&lt;div class=&quot;field-item even&quot;&gt;Thu, 2017-11-09 02:46&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;&lt;a href=&quot;/search/content/%22JavaStud%20Co.%22&quot;&gt;JavaStud Co.&lt;/a&gt;&lt;div class=&quot;field field-name-shared-submitted-by field-type-text field-label-inline clearfix&quot;&gt;&lt;div class=&quot;field-label&quot;&gt;Submitted by:&amp;nbsp;&lt;/div&gt;&lt;div class=&quot;field-items&quot;&gt;&lt;div class=&quot;field-item even&quot;&gt;&lt;a href=&quot;/user/hcunier/listings&quot; title=&quot;Java Studio&quot;&gt;Java Studio&lt;/a&gt;&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;&lt;!-- google_ad_section_start --&gt;&lt;div class=&quot;field field-name-body field-type-text-with-summary field-label-hidden&quot;&gt;&lt;div class=&quot;field-items&quot;&gt;&lt;div class=&quot;field-item even&quot;&gt;&lt;p&gt;Ready to go Enterprise WebApps! JavaStudio is a &quot;Modeling through Automized Tests&quot; visual Java development environment to build an Scalable Enterprise Web App with pleasant users. It helps you to Create your project from scratch and Visually Build your Application in the easiest way. If you were a .net developer or a Delphi developer and want to code with same paradigm, JavExpress Studio is Ready. No more copying dependencies, no more writing annoying annotations on JPA entities, no more editing html codes, no more duplicating same page layout, no more leaked connections, no more hardwritten handler attaching, no more untestable applications and there are more &quot;no mores&quot; to explore! You don&#039;t need to learn new things. You will use WorldWide Open and Improved technologies but with a powerful IDE witout pain. All of your code will be Spring, Jpa(Hibernate), GWT compatible and will work at unbelievable speed on production environment. Your application will work on any J2SE Container. JavExpress platform has been used on many biggest projects and got a few awards for now!&lt;/p&gt;&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;&lt;!-- google_ad_section_end --&gt;</description>
-     <pubDate>Thu, 19 May 2016 06:58:23 +0000</pubDate>
- <dc:creator>hcunier</dc:creator>
- <guid isPermaLink="false">2892308 at http://marketplace.eclipse.org</guid>
- <comments>http://marketplace.eclipse.org/content/javastudio#comments</comments>
-  </item>
-  <item>
-    <title>Azure Toolkit for Eclipse</title>
-    <link>http://marketplace.eclipse.org/content/azure-toolkit-eclipse</link>
-    <description>&lt;div class=&quot;field field-name-field-resource-image field-type-image field-label-hidden&quot;&gt;&lt;div class=&quot;field-items&quot;&gt;&lt;div class=&quot;field-item even&quot;&gt;&lt;img class=&quot;img-responsive&quot; src=&quot;http://marketplace.eclipse.org/sites/default/files/azure110x80.png&quot; width=&quot;110&quot; height=&quot;80&quot; alt=&quot;&quot; /&gt;&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;&lt;div class=&quot;field field-name-shared-date-created field-type-text field-label-inline clearfix&quot;&gt;&lt;div class=&quot;field-label&quot;&gt;Date Created:&amp;nbsp;&lt;/div&gt;&lt;div class=&quot;field-items&quot;&gt;&lt;div class=&quot;field-item even&quot;&gt;Tue, 2014-09-16 16:39&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;&lt;div class=&quot;field field-name-shared-date-updated field-type-text field-label-inline clearfix&quot;&gt;&lt;div class=&quot;field-label&quot;&gt;Date Updated:&amp;nbsp;&lt;/div&gt;&lt;div class=&quot;field-items&quot;&gt;&lt;div class=&quot;field-item even&quot;&gt;Thu, 2017-11-09 01:18&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;&lt;a href=&quot;/search/content/%22Microsoft%20Corp.%22&quot;&gt;Microsoft Corp.&lt;/a&gt;&lt;div class=&quot;field field-name-shared-submitted-by field-type-text field-label-inline clearfix&quot;&gt;&lt;div class=&quot;field-label&quot;&gt;Submitted by:&amp;nbsp;&lt;/div&gt;&lt;div class=&quot;field-items&quot;&gt;&lt;div class=&quot;field-item even&quot;&gt;&lt;a href=&quot;/user/msawicki/listings&quot; title=&quot;Martin Sawicki&quot;&gt;Martin Sawicki&lt;/a&gt;&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;&lt;!-- google_ad_section_start --&gt;&lt;div class=&quot;field field-name-body field-type-text-with-summary field-label-hidden&quot;&gt;&lt;div class=&quot;field-items&quot;&gt;&lt;div class=&quot;field-item even&quot;&gt;&lt;p&gt;The Azure Toolkit for Eclipse provides functionality that allow you to easily create, develop, configure, test, and deploy lightweight, highly available and scalable Java web apps to Microsoft Azure using the Eclipse development environment running on Mac OS, Linux and Windows. It also contains all the key Azure service API clients for Java, exposed as Eclipse libraries, including the Azure Management SDK, Storage SDK, Application Insights SDK and JDBC (for SQL Server and Azure SQL Database). Other key features of the Azure Toolkit for Eclipse include: &lt;/p&gt;
-&lt;ul&gt;&lt;li&gt;
-		quick deployment of a Java application to an Azure Web App container&lt;/li&gt;
-&lt;li&gt;
-		quick dev/test deployments of Java applications to Docker containers running within Azure Docker Host VMs, for which the plugin also provides basic management support&lt;/li&gt;
-&lt;li&gt;
-		create Spark applications for Azure HDInsight Spark Linux cluster using Java or Scala&lt;/li&gt;
-&lt;li&gt;
-		use any JVM with your cloud app, including the OpenJDK (e.g. Azul Zulu) or the Oracle JDK&lt;/li&gt;
-&lt;li&gt;
-		deploy any application server, including Tomcat, Jetty, JBoss or GlassFish; or rely on a version of Tomcat or Jetty made available in Azure by Microsoft&lt;/li&gt;
-&lt;li&gt;
-		use the Azure Explorer view to navigate and manage your Azure storage accounts (blobs, tables, queue), web apps, HDInsight (Spark) resources, Docker hosts and published Docker containers on Azure&lt;/li&gt;
-&lt;li&gt;
-		program against Azure&#039;s services such as Storage, Azure SQL Database and more, using the Azure SDK APIs for Java&lt;/li&gt;
-&lt;li&gt;
-		enable automated telemetry for your applications using Application Insights logging directly into the Azure cloud, regardless of where your application is running&lt;/li&gt;
-&lt;/ul&gt;&lt;p&gt;Learn more at the &lt;a href=&quot;http://go.microsoft.com/fwlink/?LinkID=699529&quot; rel=&quot;nofollow&quot;&gt;documentation site&lt;/a&gt;, and learn more about Java on Azure in general at the &lt;a href=&quot;https://azure.microsoft.com/develop/java/&quot; rel=&quot;nofollow&quot;&gt;Azure Developer Center for Java&lt;/a&gt;. &lt;/p&gt;&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;&lt;!-- google_ad_section_end --&gt;</description>
-     <pubDate>Tue, 16 Sep 2014 20:39:08 +0000</pubDate>
- <dc:creator>msawicki</dc:creator>
- <guid isPermaLink="false">1919278 at http://marketplace.eclipse.org</guid>
- <comments>http://marketplace.eclipse.org/content/azure-toolkit-eclipse#comments</comments>
   </item>
   </channel>
 </rss>

@@ -18,10 +18,10 @@ public class hangman
 		Scanner input = new Scanner (System.in);
 		System.out.print("Guess a letter: ");
 		letter=input.nextLine();
-		while(cover!=word)
+		while(cover==word)
 		{
 			cover=maskWord(word,letter);
-			if(cover!=word)
+			if(cover==word)
 			{
 				System.out.print("Guess a letter: ");
 				letter=input.nextLine();
@@ -60,7 +60,7 @@ public class hangman
 			if(word.charAt(i)==letter.charAt(j))
 			{
 				newWord+=letter.charAt(j);
-				j++;
+				
 			}
 			else
 			{
@@ -68,7 +68,7 @@ public class hangman
 				System.out.println("Bad Guess");
 				System.out.println("");
 			}
-			totalWord=newWord;
+			totalWord+=newWord;
 		}//end loop
 		System.out.println(newWord);
 		return totalWord;
