@@ -74,5 +74,4 @@ public class HealthProfileMods
 		HR=220-age;
 		return HR;
 	}
-
 }//end class
