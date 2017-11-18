@@ -1,0 +1,32 @@
+import java.util.Scanner;
+
+//Jomnathan Ko
+//assignment 10 problem 1
+//main
+public class HealthProfile
+{//start class
+	public static void main(String[] args)
+	{//start main
+		//declare variable
+		String name;
+		int age,heightFT,heightIN;
+		double weight;
+		boolean pass=true;
+		//declare object
+		HealthProfileMods stats = new HealthProfileMods();
+		Scanner input = new Scanner(System.in);
+		System.out.print("Enter name or X to quit: ");
+		name=input.nextLine();
+		while(pass==false)
+		{//start loop
+			System.out.println("I hate PRof P");
+			System.out.print("Enter name or X to quit: ");
+			name=input.nextLine();
+			if(name=="X")
+			{
+				pass=true;
+			}
+			
+		}//end loop
+	}//end main
+}//end class

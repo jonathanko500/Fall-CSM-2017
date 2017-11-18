@@ -1,0 +1,41 @@
+import java.util.Scanner;
+
+//Jomnathan Ko
+//assignment 10 problem 1
+//main
+public class HealthProfile
+{//start class
+	public static void main(String[] args)
+	{//start main
+		//declare variable
+		String name;
+		int age,heightFT,heightIN;
+		double weight;
+		int pass=0;
+		//declare object
+		HealthProfileMods stats = new HealthProfileMods();
+		Scanner input = new Scanner(System.in);
+		System.out.print("Enter name or X to quit: ");
+		name=input.nextLine();
+		stats.setName(name);
+		while(pass==0)
+		{//start loop
+			//set variables
+			System.out.print("Your age: ");
+			age=Integer.parseInt(input.nextLine());
+			System.out.print("Your weight: ");
+			weight=Integer.parseInt(input.nextLine());
+			System.out.print("Your height - feet: ");
+			heightFT=Integer.parseInt(input.nextLine());
+			System.out.print("Your height - inches: ");
+			heightIN=Integer.parseInt(input.nextLine());
+			stats.setAge(age);
+			stats.setHeight(heightFT, heightIN);
+			stats.setWeight(weight);
+			//print variables
+			System.out.println("");
+			System.out.println("Health Profile for "+stats.getName());
+			System.out.printf("BMI:  %.1f%n",stats.getBMI());
+		}//end loop
+	}//end main
+}//end class
