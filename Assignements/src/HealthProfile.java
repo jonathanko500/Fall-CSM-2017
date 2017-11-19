@@ -32,10 +32,7 @@ public class HealthProfile
 			stats.setWeight(weight);
 			//print variables
 			System.out.println("");
-			System.out.println("Health Profile for "+stats.getName());
-			System.out.printf("BMI:  %.1f%n",stats.getBMI());
-			System.out.println("BMI Category: "+stats.getCategory());
-			System.out.println("Max heart rate: "+stats.getMaxHR());
+			printProfile(stats.getName(),stats.getBMI(),stats.getCategory(),stats.getMaxHR());
 			System.out.println("");
 			//loop
 			System.out.print("Enter name or X to quit: ");
@@ -49,6 +46,15 @@ public class HealthProfile
 		System.out.println("GooodBye");
 		System.out.println("Programmed by Jonathan Ko");
 	}//end main
+	public static void printProfile(String aName, double body, String section, int HR)
+	{
+		HealthProfileMods stats = new HealthProfileMods();
+		stats.setName(aName);
+		System.out.println("Health Profile for "+stats.getName());
+		System.out.printf("BMI:  %.1f%n",body);
+		System.out.println("BMI Category: "+section);
+		System.out.println("Max heart rate: "+HR);
+	}
 }//end class
 /*
 test 1(without printProfile)
@@ -106,6 +112,31 @@ GooodBye
 Programmed by Jonathan Ko
 
 test 3(with printProfile)
+Enter name or X to quit: asdfasdf
+Your age: 35
+Your weight: 200
+Your height - feet: 6
+Your height - inches: 0
+
+Health Profile for asdfasdf
+BMI:  27.1
+BMI Category: OverWeight
+Max heart rate: 185
+
+Enter name or X to quit: sdfasdfs
+Your age: 50
+Your weight: 120
+Your height - feet: 5
+Your height - inches: 2
+
+Health Profile for sdfasdfs
+BMI:  21.9
+BMI Category: Normal
+Max heart rate: 170
+
+Enter name or X to quit: x
+GooodBye
+Programmed by Jonathan Ko
 
 
 */
