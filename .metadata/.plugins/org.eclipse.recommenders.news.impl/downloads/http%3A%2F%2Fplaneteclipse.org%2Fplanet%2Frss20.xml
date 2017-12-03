@@ -8,6 +8,46 @@
 	<description>Planet Eclipse - http://planeteclipse.org/planet/</description>
 
 <item>
+	<title>Kichwa Coders: Rethinking Developer Tools &amp; the Future of IDEs</title>
+	<guid isPermaLink="false">http://kichwacoders.com/?p=3277</guid>
+	<link>https://kichwacoders.com/2017/12/01/rethinking-developer-tools-ides/</link>
+	<description>&lt;p&gt;&lt;img alt=&quot;canihaz&quot; class=&quot; size-full wp-image-3278 aligncenter&quot; src=&quot;https://kichwacoders.files.wordpress.com/2017/12/canihaz.jpg?w=525&quot; /&gt;&lt;/p&gt;
+&lt;p&gt;I always want more time in my day. And that’s because I waste all my time trying to think of new ways that would save me time. Which brings me to Github pull requests. One thing I often wish for when reviewing a Github PR: why can’t I quickly jump to the definition of a method being used? Or see where else that piece of code is being called from? Some quick code navigation features would help me do reviews better and quicker. I’ve been spoilt on code completion features in Eclipse IDE and now I want them everywhere. Luckily I get to be in a position I can aim to make that happen.&lt;/p&gt;
+&lt;p&gt;In thinking about how we can make developer tools and features ubiquitous, I came up with my latest talk: the future of IDEs. I first did this talk within the Internet of Things domain at &lt;a href=&quot;http://thingmonk.com/&quot; rel=&quot;noopener&quot; target=&quot;_blank&quot;&gt;Thingmonk&lt;/a&gt; and &lt;a href=&quot;https://kichwacoders.com/2017/09/19/the-future-of-developer-tools-for-iot-thingmonk-2017/&quot; rel=&quot;noopener&quot; target=&quot;_blank&quot;&gt;had some great feedback&lt;/a&gt;.  James Governor of Redmonk had &lt;a href=&quot;https://redmonk.com/jgovernor/2017/09/25/thingmonk-2017-day-two-on-green-bananas-distributed-logs-and-trillion-euro-adequacy-decisions/&quot; rel=&quot;noopener&quot; target=&quot;_blank&quot;&gt;this to say about it&lt;/a&gt;:&lt;/p&gt;
+&lt;blockquote&gt;&lt;p&gt;Tracy Miranda, founder of Kichwa Coders, gave us a whistlestop tour of the future of dev tools for IoT. Miranda is a fixture in the Eclipse community, but did a great job of laying out the tools landscape. And of course Microsoft Visual Studio Code got a favourable mention (so much love out there for Code right now, it’s the modern goldilocks text editor). That said, for programming digital twins, she argued we’re going to need visual tools and models, beyond a text editor. Node-Red of course also got a mention.&lt;/p&gt;&lt;/blockquote&gt;
+&lt;p&gt;This talk covers everything from the massive fragmentation with languages and frameworks to making our developer tools more visual, smarter and really so they work everywhere. Even in Github PRs. If you work in developing tools or have strong opinions about how developer tools should work, then this talk is a must watch.&lt;/p&gt;
+&lt;p&gt;&lt;/p&gt;
+&lt;p&gt;After Thingmonk and the great feedback, I got to refine the talk and present it at Jax London as the ‘&lt;a href=&quot;https://jaxenter.com/jax-london-2017-interview-tracy-miranda-ides-139302.html&quot; rel=&quot;noopener&quot; target=&quot;_blank&quot;&gt;Future of IDEs&lt;/a&gt;‘. That talk wasn’t recorded but we did manage to have a quick chat about it afterwards, check out the short version (+ extras) here:&lt;/p&gt;
+&lt;p&gt;&lt;/p&gt;&lt;br /&gt;  &lt;a href=&quot;http://feeds.wordpress.com/1.0/gocomments/kichwacoders.wordpress.com/3277/&quot; rel=&quot;nofollow&quot;&gt;&lt;img alt=&quot;&quot; border=&quot;0&quot; src=&quot;http://feeds.wordpress.com/1.0/comments/kichwacoders.wordpress.com/3277/&quot; /&gt;&lt;/a&gt; &lt;img alt=&quot;&quot; border=&quot;0&quot; height=&quot;1&quot; src=&quot;https://pixel.wp.com/b.gif?host=kichwacoders.com&amp;amp;blog=68353182&amp;amp;post=3277&amp;amp;subd=kichwacoders&amp;amp;ref=&amp;amp;feed=1&quot; width=&quot;1&quot; /&gt;</description>
+	<pubDate>Fri, 01 Dec 2017 11:54:45 +0000</pubDate>
+</item>
+<item>
+	<title>Maximilian and Jonas: Eclipse DemoCamp Munich on  4th of December 2017 – Final Agenda</title>
+	<guid isPermaLink="false">https://eclipsesource.com/?p=36554</guid>
+	<link>https://eclipsesource.com/blogs/2017/12/01/eclipse-democamp-munich-4th-december-2017-final-agenda/</link>
+	<description>&lt;p&gt;&lt;span style=&quot;font-weight: 400;&quot;&gt;The Eclipse Democamp December in Munich will take place on upcoming monday and we are looking forward to meet you there!&lt;/span&gt;&lt;/p&gt;
+&lt;p&gt;We are happy to present the final agenda, too (see below). For all details, please see &lt;a href=&quot;https://www.eventbrite.de/e/eclipse-democamp-december-2017-tickets-38379630508&quot;&gt;here&lt;/a&gt;.&lt;/p&gt;
+&lt;p&gt;&lt;span style=&quot;font-weight: 400;&quot;&gt;Agenda:&lt;/span&gt;&lt;/p&gt;
+&lt;ul&gt;
+&lt;li style=&quot;font-weight: 400;&quot;&gt;&lt;span style=&quot;font-weight: 400;&quot;&gt;05:30pm – 06:00pm: Meet and Greet&lt;/span&gt;&lt;/li&gt;
+&lt;li style=&quot;font-weight: 400;&quot;&gt;&lt;span style=&quot;font-weight: 400;&quot;&gt; &lt;/span&gt;&lt;/li&gt;
+&lt;li style=&quot;font-weight: 400;&quot;&gt;&lt;span style=&quot;font-weight: 400;&quot;&gt;06:00pm – 06:05pm: Welcome / Intro&lt;/span&gt;&lt;/li&gt;
+&lt;li style=&quot;font-weight: 400;&quot;&gt;&lt;span style=&quot;font-weight: 400;&quot;&gt;06:05pm – 06:25pm: What is new @ Eclipse Foundation – Ralph Müller&lt;/span&gt;&lt;/li&gt;
+&lt;li style=&quot;font-weight: 400;&quot;&gt;&lt;span style=&quot;font-weight: 400;&quot;&gt;06:25pm – 06:55pm: Eclipse and Java 9 – Tom Schindl&lt;/span&gt;&lt;/li&gt;
+&lt;li style=&quot;font-weight: 400;&quot;&gt;&lt;span style=&quot;font-weight: 400;&quot;&gt;06:55pm – 07:25pm: Build Modeling Tools based on Papyrus – Philip Langer &lt;/span&gt;&lt;/li&gt;
+&lt;li style=&quot;font-weight: 400;&quot;&gt;&lt;span style=&quot;font-weight: 400;&quot;&gt;07:25pm – 07:35pm: Data flow oriented programming in Java with “Flow” – Jens Reimann&lt;br /&gt;
+&lt;/span&gt;&lt;/li&gt;
+&lt;li style=&quot;font-weight: 400;&quot;&gt;&lt;span style=&quot;font-weight: 400;&quot;&gt;07:35pm – 08:00pm: Break&lt;br /&gt;
+&lt;/span&gt;&lt;/li&gt;
+&lt;li style=&quot;font-weight: 400;&quot;&gt;&lt;span style=&quot;font-weight: 400;&quot;&gt;08:00pm – 08:30pm: Web-based Modeling Tools – Maximilian Kögel&lt;/span&gt;&lt;/li&gt;
+&lt;li style=&quot;font-weight: 400;&quot;&gt;&lt;span style=&quot;font-weight: 400;&quot;&gt;08:30pm – 09:00pm: Formatting for the Masses – Sebastian Zarnekow &amp;amp; Holger Schill&lt;/span&gt;&lt;/li&gt;
+&lt;li style=&quot;font-weight: 400;&quot;&gt;&lt;span style=&quot;font-weight: 400;&quot;&gt;09:00pm – 09:30pm: EMF Forms – advanced features – Jonas Helming&lt;/span&gt;&lt;/li&gt;
+&lt;li style=&quot;font-weight: 400;&quot;&gt;&lt;span style=&quot;font-weight: 400;&quot;&gt;09:30pm – 10:00pm: NETWORKING with beer, soft drinks &amp;amp; snacks&lt;/span&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;The post &lt;a href=&quot;https://eclipsesource.com/blogs/2017/12/01/eclipse-democamp-munich-4th-december-2017-final-agenda/&quot; rel=&quot;nofollow&quot;&gt;Eclipse DemoCamp Munich on  4th of December 2017 – Final Agenda&lt;/a&gt; appeared first on &lt;a href=&quot;https://eclipsesource.com&quot; rel=&quot;nofollow&quot;&gt;EclipseSource&lt;/a&gt;.&lt;/p&gt;</description>
+	<pubDate>Fri, 01 Dec 2017 07:56:26 +0000</pubDate>
+</item>
+<item>
 	<title>itemis: Machine Learning Formatting with Xtext</title>
 	<guid isPermaLink="true">https://blogs.itemis.com/en/machine-learning-formatting-with-xtext</guid>
 	<link>https://blogs.itemis.com/en/machine-learning-formatting-with-xtext</link>
@@ -1119,33 +1159,6 @@ I have not yet explored that part of GraphQL but I assume it might not be that h
 	<link>https://www.eclipsecon.org/europe2017/news/replay-eclipsecon-europe-2017</link>
 	<description>&lt;div class=&quot;field field-name-body field-type-text-with-summary field-label-hidden&quot;&gt;&lt;div class=&quot;field-items&quot;&gt;&lt;div class=&quot;field-item even&quot;&gt;If you missed a talk at this year's conference, there's a good chance that you'll be able to replay it. You'll find most of the talks from this year are online.&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;&lt;div class=&quot;field field-name-field-news-image field-type-image field-label-hidden&quot;&gt;&lt;div class=&quot;field-items&quot;&gt;&lt;div class=&quot;field-item even&quot;&gt;&lt;a href=&quot;https://www.eclipsecon.org/europe2017/news/replay-eclipsecon-europe-2017&quot;&gt;&lt;img alt=&quot;&quot; class=&quot;img-responsive block-center&quot; height=&quot;250&quot; src=&quot;https://www.eclipsecon.org/europe2017/sites/default/files/styles/solstice_news_-_default_-_thumbnail/public/news/Screen%20Shot%202017-11-10%20at%202.05.25%20PM.png?itok=wpfHn44i&quot; width=&quot;250&quot; /&gt;&lt;/a&gt;&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;</description>
 	<pubDate>Fri, 10 Nov 2017 13:04:51 +0000</pubDate>
-</item>
-<item>
-	<title>Kichwa Coders: Debug Protocol vs Language Server Protocol</title>
-	<guid isPermaLink="false">http://kichwacoders.com/?p=3103</guid>
-	<link>https://kichwacoders.com/2017/11/08/debug-protocol-vs-language-server-protocol/</link>
-	<description>&lt;p&gt;It is safe to say that the &lt;a href=&quot;https://kichwacoders.com/2017/11/03/the-language-server-protocol-will-revolutionize-how-you-code/&quot; rel=&quot;noopener&quot; target=&quot;_blank&quot;&gt;language server protocol (LSP) is the future of developer tools&lt;/a&gt;.  When it comes to the equivalent for debug, &lt;a href=&quot;https://kichwacoders.com/2017/07/28/what-about-a-common-debug-protocol/&quot;&gt;the debug protocol&lt;/a&gt; is ‘LSP for debuggers’. It is a useful tagline but here are three key differences to be aware of:&lt;/p&gt;
-&lt;ol&gt;
-&lt;li&gt;&lt;strong&gt;State – &lt;/strong&gt;the big mindshift with LSP is that servers are stateless. The clients store all the state e.g. the files themselves and settings (what language, classpath, etc). Any state kept on the serverside (e.g. the index) is usually purely for performance reasons. What this means is that, for instance, servers can be restarted and carry on seamlessly without having to know anything of what happened in the system beforehand. On the other hand, the debug protocol is not stateless, servers need to know all sorts of state and sequences of what has happened, so the design space is different for this protocol.&lt;/li&gt;
-&lt;li&gt;&lt;strong&gt;JSON RPC 2.0 Spec (and cancellable requests)&lt;/strong&gt; – The LSP defines JSON-RPC messages for requests, responses and notifications. The debug protocol was created before JSON RPC 2.0 spec was finalized, debug protocol uses a similar structure, but it is not cross compatible. For example, the JSON field name for the method to call is &lt;strong&gt;command&lt;/strong&gt; in debug protocol and &lt;strong&gt;method&lt;/strong&gt; in JSON RPC 2.0. The type of message (event, request, or response) is explicit in DSP in the &lt;strong&gt;type&lt;/strong&gt; field, but is implicit in JSON RPC 2.0 (based on presence of the combination of &lt;strong&gt;method&lt;/strong&gt;, &lt;strong&gt;id&lt;/strong&gt;, &lt;strong&gt;result&lt;/strong&gt; and &lt;strong&gt;error &lt;/strong&gt;fields). However using a library like &lt;a href=&quot;https://github.com/eclipse/lsp4j/blob/master/documentation/jsonrpc.md&quot; rel=&quot;noopener&quot; target=&quot;_blank&quot;&gt;org.eclipse.lsp4j.jsonrpc&lt;/a&gt; can hide such differences and provide equivalent higher level abstractions (like Java interfaces) and leave the library to handle the differences. The LSP has a nice feature, cancellable requests, that is an extension to JSON RPC2.0 that is also not available in the debug protocol: &lt;a href=&quot;https://github.com/Microsoft/language-server-protocol/blob/master/protocol.md#-cancellation-support&quot;&gt;https://github.com/Microsoft/language-server-protocol/blob/master/protocol.md#-cancellation-support&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;&lt;strong&gt;Ubiquity&lt;/strong&gt; – although the LSP was defined originally for use in VS Code do you know that the 2 flagship languages for VS Code are not based on LSP? Typescript and javascript language tooling is not done using LSP. On the other hand the debug protocol does underpin all the debugger implementations in VS Code, including the flagship node debuggers for V8 and Chrome.&lt;/li&gt;
-&lt;/ol&gt;
-&lt;p&gt;All that being said, it’s worth repeating the common benefits of both protocols which are:&lt;/p&gt;
-&lt;ul&gt;
-&lt;li&gt;good separation of client/server&lt;/li&gt;
-&lt;li&gt;building the tooling once and reusing it across IDEs and editors i.e. vs code, eclipse, atom, etc&lt;/li&gt;
-&lt;li&gt;better unit/isolated testing&lt;/li&gt;
-&lt;li&gt;write in language most suited to the job&lt;/li&gt;
-&lt;li&gt;more effective way for tool developers to keep pace with underlying tools&lt;/li&gt;
-&lt;/ul&gt;&lt;br /&gt;  &lt;a href=&quot;http://feeds.wordpress.com/1.0/gocomments/kichwacoders.wordpress.com/3103/&quot; rel=&quot;nofollow&quot;&gt;&lt;img alt=&quot;&quot; border=&quot;0&quot; src=&quot;http://feeds.wordpress.com/1.0/comments/kichwacoders.wordpress.com/3103/&quot; /&gt;&lt;/a&gt; &lt;img alt=&quot;&quot; border=&quot;0&quot; height=&quot;1&quot; src=&quot;https://pixel.wp.com/b.gif?host=kichwacoders.com&amp;amp;blog=68353182&amp;amp;post=3103&amp;amp;subd=kichwacoders&amp;amp;ref=&amp;amp;feed=1&quot; width=&quot;1&quot; /&gt;</description>
-	<pubDate>Wed, 08 Nov 2017 13:09:47 +0000</pubDate>
-</item>
-<item>
-	<title>InfoQ Eclipse feed: Accelerating the Adoption of Java Microservices with Eclipse MicroProfile</title>
-	<guid isPermaLink="true">http://www.infoq.com/news/2017/11/jax-london-microprofile?utm_campaign=infoq_content&amp;utm_source=infoq&amp;utm_medium=feed&amp;utm_term=Eclipse</guid>
-	<link>http://www.infoq.com/news/2017/11/jax-london-microprofile?utm_campaign=infoq_content&amp;utm_source=infoq&amp;utm_medium=feed&amp;utm_term=Eclipse</link>
-	<description>&lt;img src=&quot;https://res.infoq.com/news/2017/11/jax-london-microprofile/en/headerimage/java  -1510649612807.jpg&quot; /&gt;&lt;p&gt;InfoQ caught up with Emily Jiang from IBM to hear about the new Eclipse MicroProfile project and the new release, with extended fault tolerance and other new features. &lt;/p&gt; &lt;i&gt;By Monica Beckwith&lt;/i&gt;</description>
-	<pubDate>Wed, 08 Nov 2017 06:30:00 +0000</pubDate>
 </item>
 
 </channel>

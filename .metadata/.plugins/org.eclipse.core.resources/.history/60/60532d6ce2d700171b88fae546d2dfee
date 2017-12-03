@@ -1,0 +1,31 @@
+import java.util.Scanner;
+//Jonathan Ko
+//assignment 11
+public class Stock 
+{//start class
+	public static void main(String[] args)
+	{//start main
+		//declare variables
+		int[] company = new int[20];
+		int count=0;
+		
+	}//end main
+	public static Stock createStock ()
+	{//start method
+		
+		
+		return null;
+		
+	}//end method
+	public static void printPortfolio(Stock[] list, int count)
+	{//start method
+		int choice;
+		Scanner input = new Scanner(System.in);
+		System.out.println("Portfolio Calculator");
+		System.out.println("1 - Add stock");
+		System.out.println("2 - Show portfolio");
+		System.out.println("3 - Quit");
+		System.out.print("Enter your choice: ");
+		choice=Integer.parseInt(input.nextLine());
+	}//end method
+}//end class

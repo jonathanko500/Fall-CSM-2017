@@ -1,0 +1,37 @@
+import java.util.Scanner;
+//Jonathan Ko
+//assignment 11
+public class Stock 
+{//start class
+	public static void main(String[] args)
+	{//start main
+		//declare variables
+		int[] company = new int[20];
+		int count;
+		createStock();
+	}//end main
+	public static StockMod createStock ()
+	{//start method
+		//declare
+		int count=0;
+		StockMod[] data = new StockMod[count];
+		Scanner input = new Scanner(System.in);
+		String name;
+		int share;
+		double purch,curr;
+		System.out.print("Enter company: ");
+		name=input.nextLine();
+		System.out.print("Number of shares: ");
+		share=Integer.parseInt(input.nextLine());
+		System.out.print("Purchase Price: ");
+		purch=Double.parseDouble(input.nextLine());
+		System.out.print("Current Price: ");
+		curr=Double.parseDouble(input.nextLine());
+		data[count]=new StockMod(name,share,purch,curr);
+		return data[count];
+	}//end method
+	public static void printPortfolio(Stock[] list, int count)
+	{//start method
+		
+	}//end method
+}//end class

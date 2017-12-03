@@ -1,4 +1,4 @@
-
+//assignment 11
 public class StockMod
 {//start class
 	private String compName;
@@ -62,6 +62,6 @@ public class StockMod
 	}
 	public void ToString()
 	{
-		System.out.println(numShares+" shares of "+compName);
+		System.out.print(numShares+" shares of "+compName+"\t");
 	}
 }//end class
