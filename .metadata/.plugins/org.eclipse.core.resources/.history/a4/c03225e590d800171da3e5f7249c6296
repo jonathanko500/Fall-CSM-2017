@@ -36,6 +36,7 @@ public class Stock
 		double total=0;
 		int shares;
 		double price;
+		
 		Scanner input = new Scanner(System.in);
 		do
 		{
@@ -57,8 +58,7 @@ public class Stock
 				System.out.println("Stock               Value");
 				for(int i=0;i<list.length;i++)
 				{
-					price=list[i].getValue();
-					System.out.println(price);
+					list[i].ToString();
 				}
 			}//end switch
 		}while(choice!=3);

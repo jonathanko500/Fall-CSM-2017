@@ -34,8 +34,6 @@ public class Stock
 	{//start method
 		int choice;
 		double total=0;
-		int shares;
-		double price;
 		Scanner input = new Scanner(System.in);
 		do
 		{
@@ -57,10 +55,14 @@ public class Stock
 				System.out.println("Stock               Value");
 				for(int i=0;i<list.length;i++)
 				{
-					price=list[i].getValue();
-					System.out.println(price);
+					System.out.print(list[i].toString());
+					System.out.printf("%.2f%n", list[i].getValue());
+					System.out.println("");
+					total+=list[i].getValue();
+					System.out.printf("Total     $%8.2f%n",total);
 				}
 			}//end switch
+			
 		}while(choice!=3);
 		
 	}//end method

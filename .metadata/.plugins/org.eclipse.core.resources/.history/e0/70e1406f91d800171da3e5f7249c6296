@@ -8,6 +8,7 @@ public class Stock
 		//declare variables
 		StockMod[] company = new StockMod[20];
 		int count=0;
+		company[count]=createStock();
 		printPortfolio(company,count);
 		System.out.println("Programmed by Jonathan Ko");
 	}//end main
