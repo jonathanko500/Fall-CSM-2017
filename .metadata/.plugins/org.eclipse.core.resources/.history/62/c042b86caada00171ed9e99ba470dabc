@@ -148,6 +148,7 @@ public class weaponStore
 			case "r":
 			case "R":
 				//remove
+				
 				list.remove(choice-1);
 				System.out.println("");
 				System.out.println("Item Removed");
