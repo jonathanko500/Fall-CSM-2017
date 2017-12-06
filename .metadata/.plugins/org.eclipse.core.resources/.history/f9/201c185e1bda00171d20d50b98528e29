@@ -1,0 +1,35 @@
+import java.util.ArrayList;
+import java.util.Scanner;
+//Jonathan ko
+//assignment 12
+public class weaponStore
+{//start class
+	public static void main(String[] args)
+	{//start main
+		//declare variable/arraylist
+		ArrayList<InvoiceItem> cart= new ArrayList<InvoiceItem>();
+		addItems(cart);
+	}//end main
+	public static void addItems(ArrayList<InvoiceItem> list)
+	{
+		//menu
+		System.out.println("PRODUCT LIST");
+		System.out.println("Item\tDescription\tPrice");
+		System.out.println("1\tcommon sword\t50");
+		System.out.println("2\tjumping potion\t85");
+		System.out.println("3\tchain shirt\t115");
+		System.out.println("4\tbreastplate\t230");
+		System.out.println("5\tsteel shield\t100");
+		System.out.println("6\twooden shield\t250");
+		//user input/declare variables
+		Scanner input = new Scanner(System.in);
+		int choice,num;
+		System.out.print("Enter item to buy or 0 to quit: ");
+		choice=Integer.parseInt(input.nextLine());
+		while(choice<0)
+		{
+			System.out.print("Invalid, re-enter: ");
+			choice=Integer.parseInt(input.nextLine());
+		}
+	}
+}//end class

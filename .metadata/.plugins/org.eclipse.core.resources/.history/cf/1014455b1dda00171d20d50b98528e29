@@ -1,0 +1,28 @@
+import java.util.ArrayList;
+import java.util.Scanner;
+//Jonathan ko
+//assignment 12
+public class weaponStore
+{//start class
+	public static void main(String[] args)
+	{//start main
+		//declare variable/arraylist
+		ArrayList<InvoiceItem> cart= new ArrayList<InvoiceItem>();
+		addItems(cart);
+	}//end main
+	public static void addItems(ArrayList<InvoiceItem> list)
+	{
+		//declare variables
+		String[] weapons={"common sword","jumping potion","chain shirt","breastplate","steel shield","wooden shield"};
+		int[] price={50,85,115,230,100,250,};
+		//menu
+		System.out.println("PRODUCT LIST");
+		System.out.println("Item\tDescription\tPrice");
+		//print options
+		for(int i=0;i<price.length;i++)
+		{
+			System.out.println(i+"\t"+weapons[i]+"\t"+price[i]);
+		}
+
+	}
+}//end class

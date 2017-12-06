@@ -1,0 +1,58 @@
+import java.util.ArrayList;
+import java.util.Scanner;
+//Jonathan ko
+//assignment 12
+public class weaponStore
+{//start class
+	public static void main(String[] args)
+	{//start main
+		//declare variable/arraylist
+		ArrayList<InvoiceItem> cart= new ArrayList<InvoiceItem>();
+		addItems(cart);
+	}//end main
+	public static void addItems(ArrayList<InvoiceItem> list)
+	{//start method
+		//declare variables
+		Scanner input = new Scanner(System.in);
+		String[] weapons={"","common sword","jumping potion","chain shirt","breastplate","steel shield","wooden shield"};
+		int[] price={0,50,85,115,230,100,250,};
+		int choice,cost,num;
+		int j=1;
+		String tool;
+		//menu
+		System.out.println("PRODUCT LIST");
+		System.out.println("Item\tDescription\tPrice");
+		//print options
+		for(int i=1;i<price.length;i++)
+		{
+			System.out.println(j+"\t"+weapons[i]+"\t"+price[i]);
+			j++;
+		}
+		//ask user for choice of weapon
+		System.out.print("Enter item to buy or 0 to quit: ");
+		choice=Integer.parseInt(input.nextLine());
+		//checks for valid data
+		while(choice<0||choice>7)
+		{
+			System.out.print("Invalid, re-enter: ");
+			choice=Integer.parseInt(input.nextLine());
+		}
+		//print user choice of weapon and price
+		System.out.println("Ordering "+weapons[choice]+", price is "+price[choice]);
+		tool=weapons[choice];
+		cost=price[choice];
+		//asks for quantity
+		System.out.print("How Many? ");
+		num=Integer.parseInt(input.nextLine());
+		//checks for valid data
+		while(num<=0)
+		{
+			System.out.print("Invalid, re-enter: ");
+			num=Integer.parseInt(input.nextLine());
+		}
+		list.add(new InvoiceItem(tool,cost,num));
+		System.out.println(list.get(0).getDescription());
+		System.out.println(list.get(0).getPrice());
+		System.out.println(list.get(0).getQuantity());
+	}//end method
+}//end class

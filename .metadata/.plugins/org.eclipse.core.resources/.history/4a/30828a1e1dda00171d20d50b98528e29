@@ -1,0 +1,59 @@
+import java.util.ArrayList;
+import java.util.Scanner;
+//Jonathan ko
+//assignment 12
+public class weaponStore
+{//start class
+	public static void main(String[] args)
+	{//start main
+		//declare variable/arraylist
+		ArrayList<InvoiceItem> cart= new ArrayList<InvoiceItem>();
+		addItems(cart);
+	}//end main
+	public static void addItems(ArrayList<InvoiceItem> list)
+	{
+		//menu
+		System.out.println("PRODUCT LIST");
+		System.out.println("Item\tDescription\tPrice");
+		System.out.println("1\tcommon sword\t50");
+		System.out.println("2\tjumping potion\t85");
+		System.out.println("3\tchain shirt\t115");
+		System.out.println("4\tbreastplate\t230");
+		System.out.println("5\tsteel shield\t100");
+		System.out.println("6\twooden shield\t250");
+		//user input/declare variables
+		Scanner input = new Scanner(System.in);
+		int choice,num;
+		//asks for what user wants
+		System.out.print("Enter item to buy or 0 to quit: ");
+		choice=Integer.parseInt(input.nextLine());
+		//checks for valid data
+		while(choice<0||choice>6)
+		{
+			System.out.print("Invalid, re-enter: ");
+			choice=Integer.parseInt(input.nextLine());
+		}
+		//print user's option and price
+		switch(choice)
+		{
+		case 1:
+			System.out.println("Ordering common sword, price is 50");
+			break;
+		case 2:
+			System.out.println("Ordering jumping potion, price is 85");
+			break;
+		case 3:
+			System.out.println("Ordering chain shirt, price is 115");
+			break;
+		case 4:
+			System.out.println("Ordering breastplated, price is 230");
+			break;
+		case 5:
+			System.out.println("Ordering steel shield, price is 100");
+			break;
+		case 6:
+			System.out.println("Ordering wooden shield, price is 250");
+			break;	
+		}
+	}
+}//end class
