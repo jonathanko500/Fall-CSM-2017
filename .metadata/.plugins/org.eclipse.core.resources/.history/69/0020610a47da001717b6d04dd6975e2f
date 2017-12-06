@@ -17,7 +17,6 @@ public class weaponStore
 			editCart(cart);
 			checkout(cart);
 			System.out.println("");
-			//asks to do another "purchase"
 			System.out.print("Another order (y/n) ? ");
 			letter=input.nextLine();
 			if(letter.equalsIgnoreCase("y"))
@@ -25,8 +24,6 @@ public class weaponStore
 				cart.clear();
 			}
 		}while(letter.equalsIgnoreCase("y"));
-		System.out.println("Goodbye");
-		System.out.println("Programmed by Jonathan Ko");
 		
 	}//end main
 	public static void addItems(ArrayList<InvoiceItem> list)
@@ -159,7 +156,6 @@ public class weaponStore
 			for(int i=0;i<list.size();i++)
 			{
 				System.out.println((i+1)+"\t"+list.get(i).getDescription()+"\t"+list.get(i).getQuantity()+"\t"+list.get(i).getPrice());
-				
 			}
 			//ask to change or remove again
 			System.out.print("Select item to remove or change, or 0 if no change: ");
@@ -170,6 +166,7 @@ public class weaponStore
 				System.out.print("Invalid, re-enter: ");
 				choice=Integer.parseInt(input.nextLine());
 			}
-		}//end loop to change or remove	
+		}
+		
 	}//end method
 }//end class

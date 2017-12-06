@@ -8,26 +8,10 @@ public class weaponStore
 	{//start main
 		//declare variable/arraylist
 		ArrayList<InvoiceItem> cart= new ArrayList<InvoiceItem>();
-		String letter;
-		Scanner input = new Scanner(System.in);
-		do
-		{
-			addItems(cart);
-			showProducts(cart);
-			editCart(cart);
-			checkout(cart);
-			System.out.println("");
-			//asks to do another "purchase"
-			System.out.print("Another order (y/n) ? ");
-			letter=input.nextLine();
-			if(letter.equalsIgnoreCase("y"))
-			{//clear entire arrayList
-				cart.clear();
-			}
-		}while(letter.equalsIgnoreCase("y"));
-		System.out.println("Goodbye");
-		System.out.println("Programmed by Jonathan Ko");
-		
+		addItems(cart);
+		showProducts(cart);
+		editCart(cart);
+		checkout(cart);
 	}//end main
 	public static void addItems(ArrayList<InvoiceItem> list)
 	{//start method
@@ -128,7 +112,7 @@ public class weaponStore
 			choice=Integer.parseInt(input.nextLine());
 		}
 		while(choice!=0)
-		{//loop to change or remove
+		{
 			System.out.print("Enter r to remove item, c to change quantity: ");
 			letter=input.nextLine();
 			//to change or remove
@@ -150,7 +134,6 @@ public class weaponStore
 				//remove
 				choice-=1;
 				list.remove(choice);
-				System.out.println("");
 				System.out.println("Item Removed");
 				break;
 			}//end switch
@@ -159,9 +142,7 @@ public class weaponStore
 			for(int i=0;i<list.size();i++)
 			{
 				System.out.println((i+1)+"\t"+list.get(i).getDescription()+"\t"+list.get(i).getQuantity()+"\t"+list.get(i).getPrice());
-				
 			}
-			//ask to change or remove again
 			System.out.print("Select item to remove or change, or 0 if no change: ");
 			choice=Integer.parseInt(input.nextLine());
 			//check for valid data
@@ -170,6 +151,7 @@ public class weaponStore
 				System.out.print("Invalid, re-enter: ");
 				choice=Integer.parseInt(input.nextLine());
 			}
-		}//end loop to change or remove	
+		}
+		
 	}//end method
 }//end class
